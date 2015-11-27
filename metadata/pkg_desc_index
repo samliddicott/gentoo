@@ -11364,24 +11364,25 @@ lxde-base/lxshortcut 0.1.2: LXDE tool to edit desktop entry files
 lxde-base/lxtask 0.1.4 0.1.4-r1 0.1.5 0.1.6: LXDE Task manager
 lxde-base/lxterminal 0.1.11 0.2.0: Lightweight vte-based tabbed terminal emulator for LXDE
 lxde-base/menu-cache 0.3.3 0.4.1 0.5.1 1.0.0 1.0.0-r1: A library creating and utilizing caches to speed up freedesktop.org application menus
-lxqt-base/liblxqt 0.7.0 0.8.0 0.9.0: Common base library for the LXQt desktop environment
+lxqt-base/liblxqt 0.7.0 0.8.0 0.9.0 0.10.0: Common base library for the LXQt desktop environment
 lxqt-base/liblxqt-mount 0.7.0 0.8.0 0.9.0: LXQt library for removable media and devices
-lxqt-base/libsysstat 0.1.0 0.2.0 0.3.0: A Qt-based interface to system statistics
-lxqt-base/lxqt-about 0.7.0 0.8.0 0.9.0: LXQt about dialog
-lxqt-base/lxqt-admin 0.8.0 0.9.0: LXQt system administration tool
-lxqt-base/lxqt-common 0.7.0 0.8.0 0.9.0 0.9.1: LXQt common resources
-lxqt-base/lxqt-config 0.7.0-r1 0.8.0 0.9.0: LXQt system configuration control center
+lxqt-base/libsysstat 0.1.0 0.2.0 0.3.0 0.3.1: A Qt-based interface to system statistics
+lxqt-base/lxqt-about 0.7.0 0.8.0 0.9.0 0.10.0: LXQt about dialog
+lxqt-base/lxqt-admin 0.8.0 0.9.0 0.10.0: LXQt system administration tool
+lxqt-base/lxqt-common 0.7.0 0.8.0 0.9.0 0.9.1 0.10.0: LXQt common resources
+lxqt-base/lxqt-config 0.7.0-r1 0.8.0 0.9.0 0.10.0: LXQt system configuration control center
 lxqt-base/lxqt-config-randr 0.7.0: LXQt monitor configuration
-lxqt-base/lxqt-globalkeys 0.7.0 0.8.0 0.9.0: Daemon and library for global keyboard shortcuts registration
-lxqt-base/lxqt-meta 0.7.0-r1 0.8.0 0.9.0 0.9.0-r1 0.9.0-r2: Meta ebuild for LXQt, the Lightweight Desktop Environment
-lxqt-base/lxqt-notificationd 0.7.0 0.8.0 0.9.0 0.9.0-r1: LXQt notification daemon and library
-lxqt-base/lxqt-openssh-askpass 0.7.0 0.8.0 0.9.0: LXQt OpenSSH user password prompt tool
-lxqt-base/lxqt-panel 0.7.0-r1 0.8.0 0.9.0: LXQt desktop panel and plugins
-lxqt-base/lxqt-policykit 0.7.0-r1 0.8.0 0.9.0: LXQt PolKit authentication agent
-lxqt-base/lxqt-powermanagement 0.7.0 0.8.0 0.9.0: LXQt daemon for power management and auto-suspend
-lxqt-base/lxqt-qtplugin 0.7.0 0.8.0 0.9.0: LXQt system integration plugin for Qt
-lxqt-base/lxqt-runner 0.7.0-r1 0.8.0 0.9.0: LXQt quick launcher
-lxqt-base/lxqt-session 0.7.0-r1 0.8.0 0.9.0-r1: LXQT session manager
+lxqt-base/lxqt-globalkeys 0.7.0 0.8.0 0.9.0 0.10.0: Daemon and library for global keyboard shortcuts registration
+lxqt-base/lxqt-meta 0.7.0-r1 0.8.0 0.9.0 0.9.0-r1 0.9.0-r2 0.10.0: Meta ebuild for LXQt, the Lightweight Desktop Environment
+lxqt-base/lxqt-notificationd 0.7.0 0.8.0 0.9.0 0.9.0-r1 0.10.0: LXQt notification daemon and library
+lxqt-base/lxqt-openssh-askpass 0.7.0 0.8.0 0.9.0 0.10.0: LXQt OpenSSH user password prompt tool
+lxqt-base/lxqt-panel 0.7.0-r1 0.8.0 0.9.0 0.10.0: LXQt desktop panel and plugins
+lxqt-base/lxqt-policykit 0.7.0-r1 0.8.0 0.9.0 0.10.0: LXQt PolKit authentication agent
+lxqt-base/lxqt-powermanagement 0.7.0 0.8.0 0.9.0 0.10.0: LXQt daemon for power management and auto-suspend
+lxqt-base/lxqt-qtplugin 0.7.0 0.8.0 0.9.0 0.10.0: LXQt system integration plugin for Qt
+lxqt-base/lxqt-runner 0.7.0-r1 0.8.0 0.9.0 0.10.0: LXQt quick launcher
+lxqt-base/lxqt-session 0.7.0-r1 0.8.0 0.9.0-r1 0.10.0: LXQT session manager
+lxqt-base/lxqt-sudo 0.10.0: LXQt GUI frontend for sudo
 mail-client/alot 0.3.6: Experimental terminal UI for net-mail/notmuch written in Python
 mail-client/alpine 2.00-r5 2.00-r6: alpine is an easy to use text-based based mail and news client
 mail-client/balsa 2.4.14 2.5.2 2.5.2-r1: Email client for GNOME
@@ -18022,7 +18023,7 @@ x11-misc/outwiker 1.7.0 1.8.0: The tree notes organizer
 x11-misc/parcellite 1.1.9: A lightweight GTK+ based clipboard manager
 x11-misc/pathfinder 1.6.36 1.7.45 1.7.47 1.7.49: File manager based on the FOX Toolkit
 x11-misc/pcmanfm 0.9.10 1.1.2 1.2.2 1.2.3 9999: Fast lightweight tabbed filemanager
-x11-misc/pcmanfm-qt 0.7.0 0.8.0 0.9.0: Fast lightweight tabbed filemanager (Qt port)
+x11-misc/pcmanfm-qt 0.7.0 0.8.0 0.9.0 0.10.0: Fast lightweight tabbed filemanager (Qt port)
 x11-misc/peksystray 0.2.1 0.4.0: A system tray dockapp for window managers supporting docking
 x11-misc/piedock 1.6.6: A little bit like the famous OS X dock but in shape of a pie menu
 x11-misc/ptbatterysystemtray 1.0.0_rc2: A simple battery monitor in the system tray
