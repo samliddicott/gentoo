@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=>=app-mobilephone/gammu-1.25.0[python] >=dev-python/wxpython-2.8[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] bluetooth? ( dev-python/pybluez[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] gnome? ( net-wireless/gnome-bluetooth ) ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DESCRIPTION=Front-end for gammu to access mobile phones easily
+EAPI=5
+HOMEPAGE=http://www.wammu.eu/
+IUSE=bluetooth gnome linguas_af linguas_bg linguas_ca linguas_cs linguas_da linguas_de linguas_el linguas_es linguas_et linguas_fi linguas_fr linguas_gl linguas_he linguas_hu linguas_id linguas_it linguas_ko linguas_nl linguas_pl linguas_pt_BR linguas_ru linguas_sk linguas_sv linguas_zh_CN linguas_zh_TW python_targets_python2_7
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-mobilephone/gammu-1.25.0[python] >=dev-python/wxpython-2.8[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] bluetooth? ( dev-python/pybluez[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] gnome? ( net-wireless/gnome-bluetooth ) ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+REQUIRED_USE=|| ( python_targets_python2_7 )
+SLOT=0
+SRC_URI=http://dl.cihar.com/wammu/v0/wammu-0.36.tar.bz2
+_eclass_exported_funcs=src_prepare:- src_configure:distutils-r1 src_compile:- src_test:distutils-r1 src_install:-
+_eclasses_=distutils-r1	79bc5f4de403751e472e01fdfd98d587	eutils	f20548a2f7b0128068388cd2ec26708a	multibuild	706332a8d833c077e1aa37faa1ebf162	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	python-r1	ead0b4e7f0f35d7ae8b91da6e3822535	python-utils-r1	8ec5e254835cd148a8a87f4aaf53b17f	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=3d1a673913b02215aba18f7799886480
