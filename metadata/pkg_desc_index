@@ -374,7 +374,7 @@ app-backup/mirdir 2.1-r1: Mirdir allows to synchronize two directory trees in a 
 app-backup/mylvmbackup 0.11 0.13 0.14: mylvmbackup is a tool for quickly creating backups of MySQL server's data files using LVM snapshots
 app-backup/obnam 1.9 1.16 1.17: A backup program that supports encryption and deduplication
 app-backup/pdumpfs 1.3-r2: a daily backup system similar to Plan9's dumpfs
-app-backup/qt4-fsarchiver 0.6.19.6 0.6.19.7: Qt4 frontend for fsarchiver
+app-backup/qt4-fsarchiver 0.6.19.6 0.6.19.7 0.6.19.13 0.6.19.14 0.6.19.15: Qt4 frontend for fsarchiver
 app-backup/rdiff-backup 1.2.8-r1 1.3.3 1.3.3-r1: Local/remote mirroring+incremental backup
 app-backup/rdumpfs 0.1: a rsync-based dump file system backup tool
 app-backup/rear 1.15-r1 1.17.0 1.17.1: Fully automated disaster recovery, suppors broad variety of backup strategies and scenarios.
