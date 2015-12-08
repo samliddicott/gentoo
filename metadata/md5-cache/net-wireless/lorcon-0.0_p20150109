@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=ruby? ( ruby_targets_ruby19? ( dev-lang/ruby:1.9 ) ruby_targets_ruby20? ( dev-lang/ruby:2.0 ) ) python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) dev-libs/libnl:3= net-libs/libpcap
+DESCRIPTION=A generic library for injecting 802.11 frames
+EAPI=5
+HOMEPAGE=http://802.11ninja.net/lorcon
+IUSE=python ruby python_targets_python2_7 elibc_FreeBSD ruby_targets_ruby19 ruby_targets_ruby20
+KEYWORDS=amd64 arm ppc x86 ~x86-fbsd ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=ruby? ( ruby_targets_ruby19? ( dev-lang/ruby:1.9 ) ruby_targets_ruby20? ( dev-lang/ruby:2.0 ) ) python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) dev-libs/libnl:3= net-libs/libpcap
+REQUIRED_USE=python? ( || ( python_targets_python2_7 ) )
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~zerochaos/distfiles/lorcon-0.0_p20150109.tar.xz
+_eclass_exported_funcs=pkg_setup:- src_unpack:- src_prepare:- src_configure:- src_compile:- src_test:- src_install:-
+_eclasses_=distutils-r1	79bc5f4de403751e472e01fdfd98d587	eutils	d9bd2ddd85a58e470b49ca997e255a4c	java-utils-2	5f1bd1f8baff3ee957cb72c75c3949f2	multibuild	706332a8d833c077e1aa37faa1ebf162	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	python-r1	ead0b4e7f0f35d7ae8b91da6e3822535	python-utils-r1	f3baf35c6cae79e417b3f91e00bc075c	ruby-ng	79b6c8cabcf1e455baae2f2168e8e370	ruby-utils	97c910cb6b087c64260df641a9b3de0c	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=37335c28d02aa1f05c95877e2a354f8b
