@@ -11050,7 +11050,7 @@ kde-apps/marble 4.14.3: Generic geographical map widget
 kde-apps/mplayerthumbs 4.14.3 15.08.2 15.08.3: A Thumbnail Generator for Video Files on KDE filemanagers
 kde-apps/nsplugins 4.14.3 15.08.2 15.08.3: Netscape plugins support for Konqueror
 kde-apps/okteta 4.14.3 15.08.3: KDE hexeditor
-kde-apps/okular 4.14.3 15.08.3: Okular is a universal document viewer based on KPDF for KDE 4
+kde-apps/okular 4.14.3 15.08.3-r1: Okular is a universal document viewer based on KPDF for KDE 4
 kde-apps/pairs 4.14.3 15.04.3: KDE memory and pairs game
 kde-apps/palapeli 4.14.3 15.08.3: KDE jigsaw puzzle game
 kde-apps/parley 4.14.3: KDE Educational: vocabulary trainer
