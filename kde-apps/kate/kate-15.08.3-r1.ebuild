@@ -54,6 +54,8 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 
+PATCHES=( "${FILESDIR}/${PN}-15.08.3-fix-lingering-processes.patch" )
+
 src_prepare() {
 	kde5_src_prepare
 
