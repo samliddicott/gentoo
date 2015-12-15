@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install preinst prepare unpack
+DEPEND=app-arch/zip x11-libs/wxGTK:2.8[X] contrib? ( app-text/hunspell dev-libs/boost:= dev-libs/libgamin ) virtual/pkgconfig !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DESCRIPTION=The open source, cross platform, free C++ IDE
+EAPI=5
+HOMEPAGE=http://www.codeblocks.org/
+IUSE=contrib debug pch static-libs
+LICENSE=GPL-3
+RDEPEND=app-arch/zip x11-libs/wxGTK:2.8[X] contrib? ( app-text/hunspell dev-libs/boost:= dev-libs/libgamin )
+SLOT=0
+_eclass_exported_funcs=pkg_preinst:subversion src_unpack:- src_prepare:- src_configure:- src_compile:- src_install:-
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	eutils	95613dd6157fb4a3b225eafdc56bd441	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	subversion	4fee0a764150bb4dda27ed4d2c4ed7ce	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d	wxwidgets	e0c7fd61275cea7156be4143ba8c673a
+_md5_=a16bc01d7f9d16b5398ee758bd6ed811

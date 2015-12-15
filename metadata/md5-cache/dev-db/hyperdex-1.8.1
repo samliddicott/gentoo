@@ -1,0 +1,16 @@
+DEFINED_PHASES=configure install prepare setup test
+DEPEND=dev-cpp/glog dev-cpp/sparsehash dev-libs/cityhash >=dev-libs/hyperleveldb-1.2 >=dev-libs/libpo6-0.8 >=dev-libs/libe-0.11 >=dev-libs/busybee-0.7 dev-libs/popt >=dev-libs/replicant-0.8 >=dev-libs/libmacaroons-0.3 >=dev-libs/libtreadstone-0.2 dev-libs/json-c !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=A searchable distributed Key-Value Store
+EAPI=5
+HOMEPAGE=http://hyperdex.org
+IUSE=test +python python_targets_python2_7
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-cpp/glog dev-cpp/sparsehash dev-libs/cityhash >=dev-libs/hyperleveldb-1.2 >=dev-libs/libpo6-0.8 >=dev-libs/libe-0.11 >=dev-libs/busybee-0.7 dev-libs/popt >=dev-libs/replicant-0.8 >=dev-libs/libmacaroons-0.3 >=dev-libs/libtreadstone-0.2 dev-libs/json-c
+REQUIRED_USE=test? ( python )
+RESTRICT=test
+SLOT=0
+SRC_URI=http://hyperdex.org/src/hyperdex-1.8.1.tar.gz http://dev.gentooexperimental.org/~patrick/autotools-java.tar
+_eclass_exported_funcs=pkg_setup:python-single-r1 src_prepare:- src_configure:- src_test:- src_install:-
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	eutils	95613dd6157fb4a3b225eafdc56bd441	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	python-single-r1	612c783d1a1a182ad7ea4f2eb0b79e86	python-utils-r1	39c6b012a0512678e698e712b5b7ecc2	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=04396046be03e4fe8e6ba52c9f652aeb

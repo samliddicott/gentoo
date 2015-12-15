@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=Automated crystallographic structure solution for MIR, SAD, and MAD
+EAPI=5
+HOMEPAGE=http://www.solve.lanl.gov/index.html
+IUSE=examples
+KEYWORDS=-* x86 amd64
+LICENSE=solve
+RDEPEND=sci-libs/ccp4-libs
+RESTRICT=mirror
+SLOT=0
+SRC_URI=x86? ( https://solve.lanl.gov/pub/solve/2.13/solve-2.13-linux.tar.gz ) amd64? ( https://solve.lanl.gov/pub/solve/2.13/solve-2.13-linux-64.tar.gz )
+_eclass_exported_funcs=pkg_postinst:- src_install:-
+_eclasses_=eutils	95613dd6157fb4a3b225eafdc56bd441	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=ff7c6c5b74e8b21fbfc0127d004e5a36

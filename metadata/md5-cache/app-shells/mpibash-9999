@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=virtual/mpi >=app-shells/bash-4.2[plugins] sys-cluster/libcircle >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Parallel scripting right from the Bourne-Again Shell (Bash)
+EAPI=5
+HOMEPAGE=https://github.com/losalamos/MPI-Bash
+IUSE=examples
+LICENSE=GPL-3
+RDEPEND=virtual/mpi >=app-shells/bash-4.2[plugins] sys-cluster/libcircle
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_prepare:autotools-utils src_configure:- src_compile:autotools-utils src_test:autotools-utils src_install:-
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	eutils	95613dd6157fb4a3b225eafdc56bd441	git-r3	1502b9838d043db47700b8120083e637	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=ab3cf021951993ef5eb51fc7b7e8c94d

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=amd64? ( dev-libs/libx86emu ) x86? ( dev-libs/libx86emu ) sys-devel/flex >=sys-kernel/linux-headers-2.6.17 >=app-arch/rpm2targz-9.0.0.3g
+DESCRIPTION=hardware detection tool used in SuSE Linux
+EAPI=5
+HOMEPAGE=http://www.opensuse.org/
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~arm-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=amd64? ( dev-libs/libx86emu ) x86? ( dev-libs/libx86emu )
+SLOT=0
+SRC_URI=http://download.opensuse.org/source/factory/repo/oss/suse/src/hwinfo-21.4-1.1.src.rpm
+_eclass_exported_funcs=src_unpack:rpm src_prepare:- src_compile:- src_install:-
+_eclasses_=eutils	95613dd6157fb4a3b225eafdc56bd441	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	rpm	514a1840ee796656311a029ea952faa9	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=302f503d9ba44be4ae77843759609e84

@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=dev-libs/icu:= dev-libs/librevenge sys-libs/zlib virtual/pkgconfig dev-libs/boost sys-devel/libtool doc? ( app-doc/doxygen )
+DESCRIPTION=Library parsing Microsoft Publisher documents
+EAPI=5
+HOMEPAGE=https://wiki.documentfoundation.org/DLP/Libraries/libmspub
+IUSE=doc static-libs
+KEYWORDS=amd64 ~arm x86
+LICENSE=LGPL-2.1
+RDEPEND=dev-libs/icu:= dev-libs/librevenge sys-libs/zlib
+SLOT=0
+SRC_URI=http://dev-www.libreoffice.org/src/libmspub/libmspub-0.1.2.tar.xz
+_eclass_exported_funcs=src_unpack:base src_prepare:- src_configure:- src_compile:base src_install:-
+_eclasses_=base	84d9f879f57a8316ff02be0373a3d6f9	eutils	95613dd6157fb4a3b225eafdc56bd441	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=18038b101ada2e8a206aad016fcc4f68

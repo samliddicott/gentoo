@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=dev-libs/confuse dev-libs/libxml2 sys-libs/readline >=net-libs/libisds-0.7 virtual/pkgconfig doc? ( app-text/docbook-xsl-stylesheets dev-libs/libxslt ) nls? ( sys-devel/gettext )
+DESCRIPTION=Command line client for ISDS
+EAPI=5
+HOMEPAGE=http://xpisar.wz.cz/shigofumi/
+IUSE=debug doc nls xattr
+KEYWORDS=~amd64 ~mips ~x86
+LICENSE=GPL-3
+RDEPEND=dev-libs/confuse dev-libs/libxml2 sys-libs/readline >=net-libs/libisds-0.7
+SLOT=0
+SRC_URI=http://xpisar.wz.cz/shigofumi/dist/shigofumi-0.3.tar.bz2
+_eclass_exported_funcs=src_unpack:base src_prepare:- src_configure:- src_compile:base src_install:base
+_eclasses_=base	84d9f879f57a8316ff02be0373a3d6f9	eutils	95613dd6157fb4a3b225eafdc56bd441	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=1721e38d1c8093d4dbe091c5f19ee152

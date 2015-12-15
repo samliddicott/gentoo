@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-libs/gmp dev-lang/perl !sci-mathematics/ggnfs !sci-biology/shrimp sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Number Field Sieve (NFS) implementation for factoring integers
+EAPI=4
+HOMEPAGE=http://cado-nfs.gforge.inria.fr/
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=dev-libs/gmp dev-lang/perl !sci-mathematics/ggnfs !sci-biology/shrimp
+SLOT=0
+SRC_URI=https://gforge.inria.fr/frs/download.php/33131/cado-nfs-2.0.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_compile:- src_test:cmake-utils src_install:cmake-utils
+_eclasses_=cmake-utils	f474224ef49d530640a43a04ae94928e	eutils	95613dd6157fb4a3b225eafdc56bd441	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=6dcf349dfe3c82c4e42eb28a9ab7b70b

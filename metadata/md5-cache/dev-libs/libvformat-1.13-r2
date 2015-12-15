@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=!<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=Library to read and write vcard files
+EAPI=5
+HOMEPAGE=http://sourceforge.net/projects/vformat/
+IUSE=static-libs
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=mirror://debian/pool/main/libv/libvformat/libvformat_1.13.orig.tar.gz mirror://debian/pool/main/libv/libvformat/libvformat_1.13-10.debian.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	eutils	95613dd6157fb4a3b225eafdc56bd441	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=94e1e9c80f81e1416bf060e09bae5f0d

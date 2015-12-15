@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/latex-base >=sys-apps/texinfo-4.2-r5
+DESCRIPTION=Lists in TeX's mouth - lambda-calculus and list-handling macros
+EAPI=0
+HOMEPAGE=http://www.ctan.org/tex-archive/macros/latex/contrib/lazylist/
+KEYWORDS=amd64 ~ppc ppc64 sparc x86
+LICENSE=LPPL-1.2
+RDEPEND=virtual/latex-base
+SLOT=0
+SRC_URI=mirror://gentoo/lazylist-1.0a.tar.bz2
+_eclass_exported_funcs=pkg_postrm:latex-package pkg_postinst:latex-package src_unpack:base src_compile:latex-package src_install:latex-package
+_eclasses_=base	84d9f879f57a8316ff02be0373a3d6f9	eutils	95613dd6157fb4a3b225eafdc56bd441	latex-package	20f17759e8808b666e37d3b1bbe2fa4d	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=76de7f8eec196b43a87bb9d289ea84b7

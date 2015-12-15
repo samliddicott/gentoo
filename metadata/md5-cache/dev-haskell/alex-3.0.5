@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/cabal-1.8 >=dev-haskell/quickcheck-2 >=dev-lang/ghc-6.10.4 doc? ( ~app-text/docbook-xml-dtd-4.2 app-text/docbook-xsl-stylesheets >=dev-libs/libxslt-1.1.2 ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-haskell/cabal-1.1.4
+DESCRIPTION=Alex is a tool for generating lexical analysers in Haskell
+EAPI=5
+HOMEPAGE=http://www.haskell.org/alex/
+IUSE=doc test
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+LICENSE=BSD
+SLOT=0
+SRC_URI=mirror://hackage/packages/archive/alex/3.0.5/alex-3.0.5.tar.gz
+_eclass_exported_funcs=pkg_postrm:haskell-cabal pkg_postinst:haskell-cabal pkg_setup:haskell-cabal src_prepare:- src_configure:- src_compile:- src_test:haskell-cabal src_install:-
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	eutils	95613dd6157fb4a3b225eafdc56bd441	ghc-package	6165faf4ae46df43d5a9b0dd28ec8654	haskell-cabal	5a91bcb951851c3c401505c28526502f	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=31110d71c4854cbe59bbfeffa926a12c

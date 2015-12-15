@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=!<sys-apps/util-linux-2.20 !<sys-apps/util-linux-2.23[ddate] sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Perpetual date converter from gregorian to poee calendar
+EAPI=5
+HOMEPAGE=https://github.com/bo0ts/ddate
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=!<sys-apps/util-linux-2.20 !<sys-apps/util-linux-2.23[ddate]
+SLOT=0
+SRC_URI=https://github.com/bo0ts/ddate/archive/v0.2.1.tar.gz -> ddate-0.2.1.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:cmake-utils src_compile:cmake-utils src_test:cmake-utils src_install:-
+_eclasses_=cmake-utils	f474224ef49d530640a43a04ae94928e	eutils	95613dd6157fb4a3b225eafdc56bd441	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=8fe1d9c1b72aad3ce4c5c1d4c47e3865

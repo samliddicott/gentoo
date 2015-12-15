@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst prepare test
+DEPEND=player? ( alsa? ( media-libs/alsa-lib ) openal? ( media-libs/openal ) ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Midi processing library and a midi player using the gus patch set
+EAPI=5
+HOMEPAGE=http://www.mindwerks.net/projects/wildmidi/
+IUSE=+alsa openal oss +player
+KEYWORDS=~amd64 ~arm ~hppa ~ppc ~ppc64 ~x86
+LICENSE=GPL-3 LGPL-3
+RDEPEND=player? ( alsa? ( media-libs/alsa-lib ) openal? ( media-libs/openal ) ) media-sound/timidity-freepats
+REQUIRED_USE=player? ( ^^ ( alsa oss openal ) )
+SLOT=0
+SRC_URI=https://github.com/Mindwerks/wildmidi/archive/wildmidi-0.3.6.tar.gz
+_eclass_exported_funcs=pkg_postinst:- src_prepare:- src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:-
+_eclasses_=cmake-utils	f474224ef49d530640a43a04ae94928e	eutils	95613dd6157fb4a3b225eafdc56bd441	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	readme.gentoo	e37aea783a61ae55fab947df247eebea	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=a8f1f57074eb3eb12855a89875bb1188

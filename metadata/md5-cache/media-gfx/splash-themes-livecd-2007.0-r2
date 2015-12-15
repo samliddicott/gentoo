@@ -1,0 +1,14 @@
+DEFINED_PHASES=install setup
+DEPEND=>=media-gfx/splashutils-1.5.4[png]
+DESCRIPTION=Gentoo theme for gensplash consoles
+EAPI=2
+HOMEPAGE=https://www.gentoo.org/
+KEYWORDS=amd64 ~ppc x86
+LICENSE=Artistic GPL-2 BitstreamVera
+RDEPEND=>=media-gfx/splashutils-1.5.4[png]
+RESTRICT=binchecks strip
+SLOT=2007.0
+SRC_URI=mirror://gentoo/splash-themes-livecd/gentoo-livecd-2007.0-0.9.6.tar.bz2
+_eclass_exported_funcs=pkg_setup:- src_install:-
+_eclasses_=eutils	95613dd6157fb4a3b225eafdc56bd441	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=fc97926addcccd769860a241e10b70eb

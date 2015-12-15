@@ -1,0 +1,13 @@
+DEFINED_PHASES=prepare
+DEPEND=>=dev-cpp/gtkglextmm-1.2 dev-cpp/gtkmm:2.4 dev-cpp/libxmlpp dev-libs/libzip virtual/opengl !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=Host software for controlling the RepRap open source 3D printer
+EAPI=5
+HOMEPAGE=https://github.com/timschmidt/repsnapper
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-cpp/gtkglextmm-1.2 dev-cpp/gtkmm:2.4 dev-cpp/libxmlpp dev-libs/libzip virtual/opengl
+SLOT=0
+SRC_URI=https://github.com/timschmidt/repsnapper/archive/2.3.2a3.tar.gz -> repsnapper-2.3.2a3.tar.gz
+_eclass_exported_funcs=src_prepare:-
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	eutils	95613dd6157fb4a3b225eafdc56bd441	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=9e5f17a5d795fc5bb9c3208e7775af23

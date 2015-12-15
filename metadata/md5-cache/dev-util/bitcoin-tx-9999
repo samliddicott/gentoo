@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare test unpack
+DEPEND=!<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 dev-vcs/git dev-libs/openssl:0[-bindist] >dev-libs/libsecp256k1-0.0.0_pre20150422 >=dev-libs/boost-1.52.0[threads(+)] >=app-shells/bash-4.1 sys-apps/sed
+DESCRIPTION=Command-line Bitcoin transaction tool
+EAPI=5
+HOMEPAGE=https://github.com/bitcoin/bitcoin
+IUSE=
+LICENSE=MIT
+RDEPEND=dev-libs/openssl:0[-bindist] >dev-libs/libsecp256k1-0.0.0_pre20150422 >=dev-libs/boost-1.52.0[threads(+)]
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-2 src_prepare:bitcoincore src_configure:- src_test:bitcoincore src_install:bitcoincore
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	bitcoincore	6d3b7dc22f749873f447fd91c6a7e85d	db-use	a4966c7f4f7df444ead1212848c13cc9	eutils	95613dd6157fb4a3b225eafdc56bd441	git-2	1bb87192831f668cd20d93ffb1689c94	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=eea54c4a41ffa96c4229969944224a01

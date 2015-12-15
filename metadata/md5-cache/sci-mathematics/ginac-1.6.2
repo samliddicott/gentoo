@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=>=sci-libs/cln-1.2.2 virtual/pkgconfig doc? ( app-doc/doxygen media-gfx/transfig virtual/texi2dvi dev-texlive/texlive-fontsrecommended )
+DESCRIPTION=C++ library and tools for symbolic calculations
+EAPI=5
+HOMEPAGE=http://www.ginac.de/
+IUSE=doc static-libs
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=>=sci-libs/cln-1.2.2
+SLOT=0
+SRC_URI=ftp://ftpthep.physik.uni-mainz.de/pub/GiNaC/ginac-1.6.2.tar.bz2
+_eclass_exported_funcs=src_prepare:autotools-utils src_configure:- src_compile:- src_test:autotools-utils src_install:-
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	eutils	95613dd6157fb4a3b225eafdc56bd441	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=564174ac65a44a789866955a7d0d2db9

@@ -1,0 +1,12 @@
+DEFINED_PHASES=install test
+DESCRIPTION=High-level CPP Binding for ZeroMQ
+EAPI=5
+HOMEPAGE=https://github.com/zeromq/cppzmq
+KEYWORDS=~amd64 ~arm ~x86 ~amd64-linux ~x86-linux
+LICENSE=MIT
+RDEPEND=>=net-libs/zeromq-3
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~jlec/distfiles/cppzmq-0_pre130717.tar.xz
+_eclass_exported_funcs=src_test:- src_install:-
+_eclasses_=multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=495bd08ccb5cb944d902dc7cffce9b74

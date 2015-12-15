@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare setup
+DEPEND=app-arch/xz-utils =dev-lang/python-2*
+DESCRIPTION=Git subcommand providing a bidirectional bridge to Bazaar repositories
+EAPI=4
+HOMEPAGE=https://github.com/termie/git-bzr-ng
+KEYWORDS=amd64 x86
+LICENSE=BSD
+RDEPEND=>=dev-vcs/bzr-2.2 dev-vcs/git >=dev-vcs/bzr-fastimport-0.10 dev-python/python-fastimport =dev-lang/python-2*
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~tetromino/distfiles/git-bzr-ng/git-bzr-ng-0_pre20120130.tar.xz
+_eclass_exported_funcs=pkg_setup:- src_prepare:- src_install:-
+_eclasses_=multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	python	06d7be3e54573292f012e3cc433d8297	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=df51576fcb7aef93fe7712bfd4719449

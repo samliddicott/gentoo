@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=>=dev-libs/protobuf-c-0.15 sys-libs/zlib ssl? ( gnutls? ( net-libs/gnutls ) !gnutls? ( >=dev-libs/openssl-0.9.6m ) ) doc? ( app-doc/doxygen ) test? ( dev-libs/expat dev-libs/libxml2:2 net-misc/curl ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=This library implements the client side of the Gadu-Gadu protocol
+EAPI=5
+HOMEPAGE=http://toxygen.net/libgadu/
+IUSE=doc gnutls ssl static-libs test threads
+KEYWORDS=amd64 arm ~mips ppc ppc64 sparc x86 ~x86-fbsd ~x86-freebsd ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=LGPL-2.1
+RDEPEND=>=dev-libs/protobuf-c-0.15 sys-libs/zlib ssl? ( gnutls? ( net-libs/gnutls ) !gnutls? ( >=dev-libs/openssl-0.9.6m ) ) !=net-im/kadu-0.6.0.2 !=net-im/kadu-0.6.0.1
+REQUIRED_USE=gnutls? ( ssl )
+SLOT=0
+SRC_URI=https://github.com/wojtekka/libgadu/archive/1.12.1.tar.gz -> libgadu-1.12.1.tar.gz
+_eclass_exported_funcs=src_prepare:autotools-utils src_configure:- src_compile:autotools-utils src_test:autotools-utils src_install:-
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	eutils	95613dd6157fb4a3b225eafdc56bd441	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=6e52820d3f7d10354ef1d104c1f7c922

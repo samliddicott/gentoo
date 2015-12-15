@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=a powerful perl script that summarizes snort logs
+EAPI=5
+HOMEPAGE=http://jeremy.chartier.free.fr/snortalog/
+IUSE=tk
+KEYWORDS=~amd64 ~arm ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl[ithreads] dev-perl/HTML-HTMLDoc virtual/perl-DB_File virtual/perl-Getopt-Long tk? ( dev-perl/perl-tk dev-perl/GDGraph )
+SLOT=0
+SRC_URI=http://jeremy.chartier.free.fr/snortalog/downloads/snortalog/snortalog_v2.4.3.tar
+_eclass_exported_funcs=src_prepare:- src_install:-
+_eclasses_=eutils	95613dd6157fb4a3b225eafdc56bd441	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=c666e2fd77b37c2e8607145b2acfc4c9

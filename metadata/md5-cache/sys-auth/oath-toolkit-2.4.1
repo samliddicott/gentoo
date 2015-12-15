@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install prepare test
+DEPEND=pam? ( virtual/pam ) pskc? ( dev-libs/xmlsec ) test? ( dev-libs/libxml2 ) dev-util/gtk-doc-am !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=Toolkit for using one-time password authentication with HOTP/TOTP algorithms
+EAPI=5
+HOMEPAGE=http://www.nongnu.org/oath-toolkit/ http://gitorious.org/oath-toolkit/
+IUSE=pam pskc test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3 LGPL-2.1
+RDEPEND=pam? ( virtual/pam ) pskc? ( dev-libs/xmlsec )
+SLOT=0
+SRC_URI=http://download.savannah.gnu.org/releases/oath-toolkit/oath-toolkit-2.4.1.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_test:- src_install:-
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	eutils	95613dd6157fb4a3b225eafdc56bd441	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	pam	05f80e6013406d68612a7493314e3777	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=dc2aac9a04eaf40b92371743d24a82af

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DESCRIPTION=Command line based, SMTP email agent
+EAPI=5
+HOMEPAGE=http://caspian.dotconf.net/menu/Software/SendEmail/
+IUSE=ssl
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl ssl? ( dev-perl/IO-Socket-SSL )
+SLOT=0
+SRC_URI=http://caspian.dotconf.net/menu/Software/SendEmail/sendEmail-v1.56.tar.gz
+_eclass_exported_funcs=src_unpack:base src_prepare:base src_configure:base src_compile:base src_install:-
+_eclasses_=base	84d9f879f57a8316ff02be0373a3d6f9	eutils	95613dd6157fb4a3b225eafdc56bd441	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=93a2e823c96a46ff92c4b50548ce8f2f

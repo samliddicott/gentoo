@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst prepare test
+DEPEND=!<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 dev-libs/expat dev-libs/libpcre:3 sci-libs/plplot sys-libs/zlib mysql? ( virtual/mysql ) pdf? ( media-libs/libharu ) png? ( media-libs/gd[png] ) postgres? ( dev-db/postgresql:= ) X? ( x11-libs/libXt )
+DESCRIPTION=The European Molecular Biology Open Software Suite - A sequence analysis package
+EAPI=5
+HOMEPAGE=http://emboss.sourceforge.net/
+IUSE=minimal mysql pdf png postgres static-libs X
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=LGPL-2 GPL-2 Apache-2.0 GPL-3+ CC-BY-3.0
+PDEPEND=!minimal? ( sci-biology/aaindex sci-biology/cutg sci-biology/primer3 sci-biology/prints sci-biology/prosite sci-biology/rebase )
+RDEPEND=!sys-devel/cons dev-libs/expat dev-libs/libpcre:3 sci-libs/plplot sys-libs/zlib mysql? ( virtual/mysql ) pdf? ( media-libs/libharu ) png? ( media-libs/gd[png] ) postgres? ( dev-db/postgresql:= ) X? ( x11-libs/libXt )
+SLOT=0
+SRC_URI=ftp://emboss.open-bio.org/pub/EMBOSS/EMBOSS-6.6.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:readme.gentoo src_prepare:emboss-r1 src_configure:emboss-r1 src_compile:autotools-utils src_test:autotools-utils src_install:-
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	emboss-r1	3a35d39ed2170438e28672a85b806260	eutils	95613dd6157fb4a3b225eafdc56bd441	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	readme.gentoo	e37aea783a61ae55fab947df247eebea	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=3905696a6d1cafc9d095d9da24e8a7ad

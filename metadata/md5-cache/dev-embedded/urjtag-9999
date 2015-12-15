@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare unpack
+DEPEND=ftdi? ( dev-embedded/libftdi ) ftd2xx? ( dev-embedded/libftd2xx ) readline? ( sys-libs/readline ) usb? ( virtual/libusb:1 ) dev-vcs/git !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=tool for communicating over JTAG with flash chips, CPUs, and many more (fork of openwince jtag)
+EAPI=4
+HOMEPAGE=http://urjtag.sourceforge.net/
+IUSE=ftd2xx ftdi readline static-libs usb
+LICENSE=GPL-2
+RDEPEND=ftdi? ( dev-embedded/libftdi ) ftd2xx? ( dev-embedded/libftd2xx ) readline? ( sys-libs/readline ) usb? ( virtual/libusb:1 ) !dev-embedded/jtag
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-2 src_prepare:- src_configure:- src_install:-
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	eutils	95613dd6157fb4a3b225eafdc56bd441	git-2	1bb87192831f668cd20d93ffb1689c94	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=296bc6aab0437c84ec861f31d2ea2326

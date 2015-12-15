@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=~lxqt-base/liblxqt-0.7.0 dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 x11-libs/libX11 sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=LXQt system integration plugin for Qt
+EAPI=5
+HOMEPAGE=http://lxqt.org/
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=LGPL-2.1+
+RDEPEND=~lxqt-base/liblxqt-0.7.0 dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 x11-libs/libX11
+SLOT=0
+SRC_URI=http://downloads.lxqt.org/lxqt/0.7.0/lxqt-qtplugin-0.7.0.tar.xz
+_eclass_exported_funcs=src_prepare:cmake-utils src_configure:cmake-utils src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
+_eclasses_=cmake-utils	f474224ef49d530640a43a04ae94928e	eutils	95613dd6157fb4a3b225eafdc56bd441	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=5bd5dc044f1832bb15f1df3b77be3947

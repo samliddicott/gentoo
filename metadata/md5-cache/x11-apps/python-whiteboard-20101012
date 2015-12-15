@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm
+DEPEND=app-misc/cwiid[python] dev-python/numpy dev-python/pybluez dev-python/PyQt4 dev-python/python-xlib
+DESCRIPTION=Build and operate a electronic whiteboard Wiimote and IR Pen
+EAPI=3
+HOMEPAGE=https://github.com/pnegre/python-whiteboard
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-3
+RDEPEND=app-misc/cwiid[python] dev-python/numpy dev-python/pybluez dev-python/PyQt4 dev-python/python-xlib
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~lxnay/python-whiteboard/python-whiteboard-20101012.tar.bz2
+_eclass_exported_funcs=pkg_postrm:- pkg_postinst:- src_install:-
+_eclasses_=multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	python	06d7be3e54573292f012e3cc433d8297	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=a6eeeccfaa449071cb09e8976186ab1c

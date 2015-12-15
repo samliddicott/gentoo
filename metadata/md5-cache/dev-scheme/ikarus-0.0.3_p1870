@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare test
+DEPEND=>=dev-libs/gmp-4.2.2 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=A free optimizing incremental native-code compiler for R6RS Scheme
+EAPI=3
+HOMEPAGE=http://ikarus-scheme.org/
+IUSE=cpu_flags_x86_sse2 doc
+KEYWORDS=-* ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-libs/gmp-4.2.2
+SLOT=0
+SRC_URI=http://ikarus-scheme.org/ikarus.dev/ikarus-scheme-r1870.tgz
+_eclass_exported_funcs=src_prepare:- src_compile:- src_test:- src_install:-
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	eutils	95613dd6157fb4a3b225eafdc56bd441	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=aae9d9f02535a95c516f5eef30d90505

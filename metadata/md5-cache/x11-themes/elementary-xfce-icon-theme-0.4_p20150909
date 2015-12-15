@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm preinst
+DEPEND=>=sys-apps/sed-4
+DESCRIPTION=Elementary icons forked from upstream, extended and maintained for Xfce
+EAPI=5
+HOMEPAGE=https://github.com/shimmerproject/elementary-xfce
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain GPL-1 GPL-2 GPL-3
+SLOT=0
+SRC_URI=https://github.com/shimmerproject/elementary-xfce/archive/b16a2c58a631219d1c0849cfe42866aa6347bd1a.tar.gz -> elementary-xfce-icon-theme-0.4_p20150909.tar.gz
+_eclass_exported_funcs=pkg_preinst:- pkg_postrm:- pkg_postinst:- src_install:-
+_eclasses_=gnome2-utils	44555579e85afa5c035d2bd5428252da	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=bb0602ea7e19bc73c1a95077f884f179

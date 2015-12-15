@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst test unpack
+DEPEND=static? ( dev-libs/klibc ) dev-vcs/cvs
+DESCRIPTION=MirBSD Korn Shell
+EAPI=4
+HOMEPAGE=http://mirbsd.de/mksh
+IUSE=static
+LICENSE=BSD
+SLOT=0
+_eclass_exported_funcs=pkg_postinst:- src_unpack:cvs src_compile:- src_test:- src_install:-
+_eclasses_=cvs	cfd95af1a79753a520366f0aaa99809b	eutils	95613dd6157fb4a3b225eafdc56bd441	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=5ca9d0971924d9e6fcca273f779f024e

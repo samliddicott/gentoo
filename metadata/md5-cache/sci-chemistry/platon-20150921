@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install prepare setup unpack
+DEPEND=x11-libs/libX11 virtual/fortran
+DESCRIPTION=Versatile, SHELX-97 compatible, multipurpose crystallographic tool
+EAPI=5
+HOMEPAGE=http://www.cryst.chem.uu.nl/platon/
+IUSE=examples
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux
+LICENSE=free-noncomm
+RDEPEND=x11-libs/libX11 virtual/fortran
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://www.cryst.chem.uu.nl/xraysoft/unix/platon.tar.gz -> platon-20150921.tar.gz
+_eclass_exported_funcs=pkg_setup:fortran-2 src_unpack:- src_prepare:- src_compile:- src_install:-
+_eclasses_=eutils	95613dd6157fb4a3b225eafdc56bd441	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	fortran-2	eb14fa8f4c3b9977b8d26c2c653ca325	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=8259aec2f02ce176e056d120c14f0cbf

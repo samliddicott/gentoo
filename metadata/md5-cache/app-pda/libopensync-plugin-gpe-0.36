@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND==app-pda/libopensync-0.36* sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=OpenSync Gpe Plugin
+EAPI=2
+HOMEPAGE=http://www.opensync.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND==app-pda/libopensync-0.36*
+SLOT=0
+SRC_URI=http://www.opensync.org/download/releases/0.36/libopensync-plugin-gpe-0.36.tar.bz2
+_eclass_exported_funcs=src_prepare:cmake-utils src_configure:cmake-utils src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
+_eclasses_=cmake-utils	f474224ef49d530640a43a04ae94928e	eutils	95613dd6157fb4a3b225eafdc56bd441	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=015bd50f0742aab65783b362ac918ba2

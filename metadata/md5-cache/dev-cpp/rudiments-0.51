@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=pcre? ( dev-libs/libpcre ) ssl? ( dev-libs/openssl:0 ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=C++ class library for daemons, clients and servers
+EAPI=5
+HOMEPAGE=http://rudiments.sourceforge.net/
+IUSE=debug pcre ssl static-libs
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=LGPL-2.1
+RDEPEND=pcre? ( dev-libs/libpcre ) ssl? ( dev-libs/openssl:0 )
+SLOT=0
+SRC_URI=mirror://sourceforge/rudiments/rudiments-0.51.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_compile:autotools-utils src_test:autotools-utils src_install:autotools-utils
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	eutils	95613dd6157fb4a3b225eafdc56bd441	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=41d9fbe8b7ee53d410e822d5327577b7
