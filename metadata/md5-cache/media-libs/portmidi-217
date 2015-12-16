@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
+DEPEND=media-libs/alsa-lib app-arch/unzip java? ( >=virtual/jdk-1.6 ) python? ( >=dev-python/cython-0.12.1 ) doc? ( app-doc/doxygen dev-texlive/texlive-fontsrecommended dev-texlive/texlive-latexextra dev-tex/xcolor virtual/latex-base ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) python? ( || ( =dev-lang/python-2.7* =dev-lang/python-2.6* ) ) java? ( >=dev-java/java-config-2.2.0 )
+DESCRIPTION=A library for real time MIDI input and output
+EAPI=4
+HOMEPAGE=http://portmedia.sourceforge.net/
+IUSE=debug doc java python static-libs test-programs elibc_FreeBSD java
+KEYWORDS=amd64 x86
+LICENSE=MIT
+RDEPEND=media-libs/alsa-lib java? ( >=virtual/jre-1.6 ) python? ( || ( =dev-lang/python-2.7* =dev-lang/python-2.6* ) ) java? ( >=dev-java/java-config-2.2.0 )
+SLOT=0
+SRC_URI=mirror://sourceforge/portmedia/portmidi-src-217.zip
+_eclass_exported_funcs=pkg_preinst:java-pkg-opt-2 pkg_postrm:- pkg_postinst:- pkg_setup:- src_prepare:- src_configure:- src_compile:- src_test:cmake-utils src_install:-
+_eclasses_=cmake-utils	7dc05d514e5011a2a16bfa7a32e69587	distutils	def8c8eb435ec28fd9315114640f6c84	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	java-pkg-opt-2	40db73f27fc6458ec2105812a4f261c7	java-utils-2	c059b30d6a4df7cf32e2c98c1da1c9b5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	python	06d7be3e54573292f012e3cc433d8297	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=2c0abaa4d068dce559d14a20e7185516

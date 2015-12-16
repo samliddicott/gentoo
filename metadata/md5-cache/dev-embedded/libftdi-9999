@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=virtual/libusb:1 cxx? ( dev-libs/boost ) python? ( dev-lang/python ) tools? ( !<dev-embedded/ftdi_eeprom-1.0 dev-libs/confuse ) doc? ( app-doc/doxygen ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) dev-vcs/git
+DESCRIPTION=Userspace access to FTDI USB interface chips
+EAPI=4
+HOMEPAGE=http://www.intra2net.com/en/developer/libftdi/
+IUSE=cxx doc examples python static-libs tools
+LICENSE=LGPL-2
+RDEPEND=virtual/libusb:1 cxx? ( dev-libs/boost ) python? ( dev-lang/python ) tools? ( !<dev-embedded/ftdi_eeprom-1.0 dev-libs/confuse )
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-2 src_prepare:cmake-utils src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:-
+_eclasses_=cmake-utils	7dc05d514e5011a2a16bfa7a32e69587	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	git-2	1bb87192831f668cd20d93ffb1689c94	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=36f61cd88392d11d2a612b991a343744

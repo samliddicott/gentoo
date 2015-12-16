@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-qt/qtcore:4 >=dev-libs/qjson-0.5 dev-qt/qttest:4 virtual/pkgconfig test? ( dev-qt/qttest:4 ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) dev-vcs/git
+DESCRIPTION=Qt/C++ library wrapping the gpodder.net webservice
+EAPI=5
+HOMEPAGE=http://wiki.gpodder.org/wiki/Libmygpo-qt
+IUSE=test
+LICENSE=LGPL-2.1
+RDEPEND=dev-qt/qtcore:4 >=dev-libs/qjson-0.5
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-2 src_prepare:- src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
+_eclasses_=cmake-utils	7dc05d514e5011a2a16bfa7a32e69587	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	git-2	1bb87192831f668cd20d93ffb1689c94	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=5458c72f314f0cd543cfd4b0f2025eb6

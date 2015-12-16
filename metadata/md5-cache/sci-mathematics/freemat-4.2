@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare test
+DEPEND=dev-libs/libpcre media-libs/portaudio sci-libs/arpack sci-libs/fftw:3.0 sci-libs/matio sci-libs/umfpack sys-libs/ncurses virtual/glu virtual/lapack virtual/libffi virtual/opengl dev-qt/qtgui:4 dev-qt/qtopengl:4 dev-qt/qtsvg:4 dev-qt/qtwebkit:4 volpack? ( media-libs/volpack ) vtk? ( sci-libs/vtk ) dev-lang/python virtual/pkgconfig sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Environment for rapid engineering and scientific processing
+EAPI=5
+HOMEPAGE=http://freemat.sourceforge.net/
+IUSE=volpack vtk
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libpcre media-libs/portaudio sci-libs/arpack sci-libs/fftw:3.0 sci-libs/matio sci-libs/umfpack sys-libs/ncurses virtual/glu virtual/lapack virtual/libffi virtual/opengl dev-qt/qtgui:4 dev-qt/qtopengl:4 dev-qt/qtsvg:4 dev-qt/qtwebkit:4 volpack? ( media-libs/volpack ) vtk? ( sci-libs/vtk )
+SLOT=0
+SRC_URI=mirror://sourceforge/freemat/FreeMat-4.2-Source.tar.gz
+_eclass_exported_funcs=pkg_postrm:- pkg_postinst:- src_prepare:- src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:-
+_eclasses_=cmake-utils	7dc05d514e5011a2a16bfa7a32e69587	eutils	43da5163ba106e87d22d2e7d6d67537f	fdo-mime	92d07846ea8ea54172f8c0112a47ae3d	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=56b46bc2a7d9785e601cc198d1feb877
