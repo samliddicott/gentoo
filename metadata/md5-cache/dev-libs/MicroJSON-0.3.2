@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=>=dev-libs/UTF8Strings-1.12.0 sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Small and simple to use JSON generation and parsing library
+EAPI=5
+HOMEPAGE=http://grigory.info/MicroJSON.About.html
+KEYWORDS=~amd64 ~mips ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-3
+RDEPEND=>=dev-libs/UTF8Strings-1.12.0
+SLOT=0
+SRC_URI=http://grigory.info/distfiles/MicroJSON-0.3.2.tar.bz2
+_eclass_exported_funcs=src_prepare:cmake-utils src_configure:cmake-utils src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
+_eclasses_=cmake-utils	34a43631b1edbd429618149bc986d524	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=a73c8ad4c4bbc51b888f9f0b7e71f5ea

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=sys-libs/zlib >=dev-qt/qtcore-4.7:4 >=dev-qt/qt3support-4.7:4 >=dev-qt/qtsvg-4.7:4 <media-gfx/graphviz-2.28.0 sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=A graphical tool for designing finite state machines
+EAPI=4
+HOMEPAGE=http://qfsm.sourceforge.net
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/zlib >=dev-qt/qtcore-4.7:4 >=dev-qt/qt3support-4.7:4 >=dev-qt/qtsvg-4.7:4 <media-gfx/graphviz-2.28.0
+SLOT=0
+SRC_URI=mirror://sourceforge/qfsm/qfsm-0.53.0-Source.tar.bz2
+_eclass_exported_funcs=src_prepare:- src_configure:cmake-utils src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
+_eclasses_=cmake-utils	34a43631b1edbd429618149bc986d524	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=cef61f83f96c57aeddb300c932f70b7e
