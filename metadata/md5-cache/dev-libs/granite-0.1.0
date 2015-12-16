@@ -9,5 +9,5 @@ RDEPEND=dev-libs/glib:2 dev-libs/gobject-introspection dev-libs/libgee:0 x11-lib
 SLOT=0
 SRC_URI=https://launchpad.net/granite/0.x/0.1/+download/granite-0.1.0.tar.gz
 _eclass_exported_funcs=src_prepare:- src_configure:cmake-utils src_compile:cmake-utils src_test:cmake-utils src_install:-
-_eclasses_=cmake-utils	7dc05d514e5011a2a16bfa7a32e69587	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	vala	335996addec48717e632dfd1f588ef1c
+_eclasses_=cmake-utils	5fd449cff18c923334d368d1de8ffcd1	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	a962960e614e45da7dc2898cef2b455e	vala	335996addec48717e632dfd1f588ef1c
 _md5_=843417f6cb1ccce889c2970b3b51f31f

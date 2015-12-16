@@ -10,5 +10,5 @@ RDEPEND=>=x11-base/xorg-server-1.0.99 !<=x11-base/xorg-x11-6.9
 SLOT=0
 SRC_URI=http://xorg.freedesktop.org/releases/individual/driver/xf86-video-v4l-0.2.0.tar.bz2
 _eclass_exported_funcs=pkg_preinst:x-modular pkg_postrm:x-modular pkg_postinst:x-modular src_unpack:x-modular src_compile:x-modular src_install:x-modular
-_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	x-modular	8b335320b605eca71eda902e3a927fd1
+_eclasses_=autotools	01197ce5a0404993502bd9f22ebd3085	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	libtool	37afc145f452fdef27aabee08a70ae4e	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	a962960e614e45da7dc2898cef2b455e	x-modular	512cf4f161ea272a7173369e155215a8
 _md5_=68a082f91c66ae9d1ed14fcec9c1985e

@@ -11,5 +11,5 @@ RDEPEND=>=dev-libs/libusb-1.0.16 tecla? ( dev-libs/libtecla )
 SLOT=0/2015.02
 SRC_URI=https://github.com/Nuand/bladeRF/archive/2015.02.tar.gz -> bladerf-2015.02.tar.gz
 _eclass_exported_funcs=src_prepare:cmake-utils src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
-_eclasses_=cmake-utils	7dc05d514e5011a2a16bfa7a32e69587	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	udev	37ef89be271b9ae8aa64be024ddb39b5
+_eclasses_=cmake-utils	5fd449cff18c923334d368d1de8ffcd1	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	a962960e614e45da7dc2898cef2b455e	udev	37ef89be271b9ae8aa64be024ddb39b5
 _md5_=cd6eb2cafc01a2a5bacee725c45824ee

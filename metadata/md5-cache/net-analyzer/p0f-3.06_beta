@@ -10,5 +10,5 @@ RDEPEND=net-libs/libpcap
 SLOT=0
 SRC_URI=http://lcamtuf.coredump.cx/p0f3/releases/p0f-3.06b.tgz
 _eclass_exported_funcs=src_prepare:- src_compile:- src_install:-
-_eclasses_=multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	a962960e614e45da7dc2898cef2b455e
 _md5_=58b459a5c21485b3af3a032f884b58c8

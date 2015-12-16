@@ -10,5 +10,5 @@ RDEPEND=!libav? ( media-video/ffmpeg:= ) libav? ( media-video/libav:= ) media-li
 SLOT=0
 SRC_URI=https://github.com/x42/harvid/archive/v0.8.0.tar.gz -> harvid-0.8.0.tar.gz
 _eclass_exported_funcs=src_compile:- src_install:-
-_eclasses_=multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	a962960e614e45da7dc2898cef2b455e
 _md5_=5ec2b9b80dee9f77887bf2fe8d4e13fa

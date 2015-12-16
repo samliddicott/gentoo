@@ -10,5 +10,5 @@ RDEPEND=>=dev-lang/mono-2.0 >=media-sound/banshee-2.1.0[web] >=gnome-base/gconf-
 SLOT=0
 SRC_URI=http://download.banshee-project.org/banshee-community-extensions/2.2.0/banshee-community-extensions-2.2.0.tar.bz2
 _eclass_exported_funcs=src_unpack:base src_prepare:base src_configure:- src_compile:base src_install:-
-_eclasses_=base	9fc6743731ec1d8d8a5eb88ccd5944b6	eutils	43da5163ba106e87d22d2e7d6d67537f	mono	3fb22ec265e021c7294a29e720f3d5f7	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=base	57cb4793400ea76532498f21dea48771	eutils	43da5163ba106e87d22d2e7d6d67537f	mono	dc20a9fd5f2d41d59d68264d88362916	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	a962960e614e45da7dc2898cef2b455e
 _md5_=e45f4c527777e6e2ba945846845fbb03

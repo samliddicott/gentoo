@@ -10,5 +10,5 @@ RDEPEND=>=x11-libs/gtk+-2.20:2 pda? ( >=app-pda/jpilot-0.99 ) ssl? ( >=net-libs/
 SLOT=0
 SRC_URI=mirror://sourceforge/sylpheed-claws/claws-mail-3.9.0.tar.bz2
 _eclass_exported_funcs=pkg_preinst:- pkg_postrm:- pkg_postinst:- src_prepare:autotools-utils src_configure:- src_compile:autotools-utils src_test:autotools-utils src_install:-
-_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	eutils	43da5163ba106e87d22d2e7d6d67537f	gnome2-utils	588052cacdf74572e68bdfeaece20534	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=autotools	01197ce5a0404993502bd9f22ebd3085	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	eutils	43da5163ba106e87d22d2e7d6d67537f	gnome2-utils	266fae707d01715ba21474dcaa98c342	libtool	37afc145f452fdef27aabee08a70ae4e	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	a962960e614e45da7dc2898cef2b455e
 _md5_=43c3c44b61ad22148bb185dd461dbb5c
