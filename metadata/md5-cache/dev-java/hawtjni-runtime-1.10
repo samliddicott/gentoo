@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install preinst prepare setup
+DEFINED_PHASES=compile install preinst prepare setup test
 DEPEND=>=virtual/jdk-1.5 >=dev-java/java-config-2.2.0 source? ( app-arch/zip )
 DESCRIPTION=A JNI code generator based on the generator used by the Eclipse SWT project
 EAPI=5
@@ -9,6 +9,6 @@ LICENSE=Apache-2.0
 RDEPEND=>=virtual/jre-1.5 >=dev-java/java-config-2.2.0 source? ( app-arch/zip )
 SLOT=0
 SRC_URI=https://github.com/fusesource/hawtjni/archive/hawtjni-project-1.10.tar.gz
-_eclass_exported_funcs=pkg_preinst:java-pkg-2 pkg_setup:java-pkg-2 src_prepare:java-pkg-2 src_compile:java-pkg-simple src_install:-
-_eclasses_=eutils	43da5163ba106e87d22d2e7d6d67537f	java-pkg-2	b02dc1e46b3648e467b5fbdf7857cf28	java-pkg-simple	002bfd79a6cd417a199bb3bd8704334e	java-utils-2	a96633177f44ee992b3fce360d1c4f16	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclass_exported_funcs=pkg_preinst:java-pkg-2 pkg_setup:java-pkg-2 src_prepare:java-pkg-2 src_compile:java-pkg-simple src_test:java-pkg-simple src_install:-
+_eclasses_=eutils	43da5163ba106e87d22d2e7d6d67537f	java-pkg-2	b02dc1e46b3648e467b5fbdf7857cf28	java-pkg-simple	8de553036c19c2254842bfaada23e6cc	java-utils-2	a96633177f44ee992b3fce360d1c4f16	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=95d052737bc92799a71d7de226665b58
