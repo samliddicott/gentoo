@@ -1501,7 +1501,7 @@ app-i18n/libtomoe-gtk 0.6.0-r2 0.6.0-r3: Tomoe GTK+ interface widget library
 app-i18n/man-pages-da 0.1.2: A somewhat comprehensive collection of Danish Linux man pages
 app-i18n/man-pages-de 1.7 1.8 1.9: A somewhat comprehensive collection of Linux german man page translations
 app-i18n/man-pages-fr 2.39.0 3.40.1: A somewhat comprehensive collection of french Linux man pages
-app-i18n/man-pages-it 2.80-r1: A somewhat comprehensive collection of Italian Linux man pages
+app-i18n/man-pages-it 2.80-r1 4.00: A somewhat comprehensive collection of Italian Linux man pages
 app-i18n/man-pages-ja 20130215 20131015: A collection of manual pages translated into Japanese
 app-i18n/man-pages-nl 0.13.3: A somewhat comprehensive collection of Dutch Linux man pages
 app-i18n/man-pages-pl 0_pre20070628-r2 0.6: A collection of Polish translations of Linux manual pages
@@ -17032,7 +17032,7 @@ sys-libs/timezone-data 2015e 2015f 2015g: Timezone data (/usr/share/zoneinfo) an
 sys-libs/uclibc 0.9.33.2-r15 0.9.33.9999 9999: C library for developing embedded Linux systems
 sys-libs/uid_wrapper 1.1.0 1.1.1 1.2.0: A wrapper to fake privilege separation
 sys-libs/zlib 1.2.8-r1: Standard (de)compression library
-sys-power/acpi 1.6: Attempts to replicate the functionality of the 'old' apm command on ACPI systems
+sys-power/acpi 1.6 1.7: Attempts to replicate the functionality of the 'old' apm command on ACPI systems
 sys-power/acpi_call 1.1.0 1.1.0-r1 9999: A kernel module that enables you to call ACPI methods
 sys-power/acpid 2.0.23 2.0.25: Daemon for Advanced Configuration and Power Interface
 sys-power/acpitool 0.5.1-r1: A small command line application, intended to be a replacement for the apm tool
