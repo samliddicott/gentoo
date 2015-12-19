@@ -10916,8 +10916,8 @@ kde-apps/kdeartwork-iconthemes 4.14.3 15.08.3: Icon themes for kde
 kde-apps/kdeartwork-kscreensaver 4.14.3 15.08.3: Extra screensavers for kde
 kde-apps/kdeartwork-meta 4.14.3 15.08.3: kdeartwork - merge this to pull in all kdeartwork-derived packages
 kde-apps/kdeartwork-styles 4.14.3 15.08.3: Extra KWin styles and window decorations
-kde-apps/kdeartwork-wallpapers 4.14.3 15.08.3: Wallpapers from kde
-kde-apps/kdeartwork-weatherwallpapers 4.14.3 15.08.3: Weather aware wallpapers. Changes with weather outside
+kde-apps/kdeartwork-wallpapers 4.14.3 15.08.3 15.08.3-r1: Wallpapers from kde
+kde-apps/kdeartwork-weatherwallpapers 4.14.3 15.08.3 15.08.3-r1: Weather aware wallpapers. Changes with weather outside
 kde-apps/kdebase-data 4.14.3 4.14.3-r1 15.08.3: Icons, localization data and various .desktop files from kdebase
 kde-apps/kdebase-desktoptheme 4.14.3 15.08.3: Oxygen KDE4 desktop theme
 kde-apps/kdebase-kioslaves 4.14.3 15.08.3: KDE VFS framework - kioslaves present a filesystem-like view of arbitrary data
