@@ -4,6 +4,8 @@
 
 EAPI="5"
 
+inherit eutils
+
 MY_P="${PN}-core-${PV}"
 
 DESCRIPTION="Xapian Probabilistic Information Retrieval library"
@@ -11,32 +13,36 @@ HOMEPAGE="http://www.xapian.org/"
 SRC_URI="http://oligarchy.co.uk/xapian/${PV}/${MY_P}.tar.xz"
 
 LICENSE="GPL-2"
-SLOT="0"
+SLOT="0/1.3"
 KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86"
 IUSE="doc static-libs -cpu_flags_x86_sse +cpu_flags_x86_sse2 +brass +chert +inmemory"
 
-DEPEND="sys-libs/zlib"
-RDEPEND="${DEPEND}"
+COMMON_DEPEND="sys-libs/zlib"
+DEPEND="${COMMON_DEPEND}
+	virtual/pkgconfig"
+RDEPEND="${COMMON_DEPEND}"
+
+REQUIRED_USE="inmemory? ( chert )"
 
 S="${WORKDIR}/${MY_P}"
 
 src_configure() {
 	local myconf=""
 
-	ewarn
+	einfo
 	if use cpu_flags_x86_sse2; then
-		ewarn "Using sse2"
+		einfo "Using sse2"
 		myconf="${myconf} --enable-sse=sse2"
 	else
 		if use cpu_flags_x86_sse; then
-			ewarn "Using sse"
+			einfo "Using sse"
 			myconf="${myconf} --enable-sse=sse"
 		else
-			ewarn "Disabling sse and sse2"
+			einfo "Disabling sse and sse2"
 			myconf="${myconf} --disable-sse"
 		fi
 	fi
-	ewarn
+	einfo
 
 	myconf="${myconf} $(use_enable static-libs static)"
 
@@ -52,10 +58,14 @@ src_configure() {
 src_install() {
 	emake DESTDIR="${D}" install
 
-	mv "${D}usr/share/doc/xapian-core" "${D}usr/share/doc/${PF}"
-	use doc || rm -rf "${D}usr/share/doc/${PF}"
+	mv "${ED}usr/share/doc/xapian-core" "${ED}usr/share/doc/${PF}" || die
+	if ! use doc ; then
+		rm -r "${ED}usr/share/doc/${PF}" || die
+	fi
 
 	dodoc AUTHORS HACKING PLATFORMS README NEWS
+
+	prune_libtool_files
 }
 
 src_test() {
