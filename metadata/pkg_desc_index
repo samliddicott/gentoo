@@ -15173,7 +15173,7 @@ sci-biology/maq 0.7.1 0.7.1-r1: Mapping and Assembly with Qualities - mapping So
 sci-biology/maqview 0.2.5-r2: GUI for sci-biology/maq, a short read mapping assembler
 sci-biology/mauve 9999: Multiple genome alignment with large-scale evolutionary events (GUI component)
 sci-biology/mauvealigner 9999: Multiple genome alignment with large-scale evolutionary events (aligner component)
-sci-biology/mcl 08.312 12.135: A Markov Cluster Algorithm implementation
+sci-biology/mcl 08.312 12.135 14.137: A Markov Cluster Algorithm implementation
 sci-biology/meme 4.8.1-r2: The MEME/MAST system - Motif discovery and search
 sci-biology/mira 4.0.2: Whole Genome Shotgun and EST Sequence Assembler for Sanger, 454 and Solexa / Illumina
 sci-biology/mosaik 1.0.1367 1.0.1388: A reference-guided aligner for next-generation sequencing technologies
