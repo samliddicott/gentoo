@@ -1,0 +1,9 @@
+DEFINED_PHASES=install postrm
+DESCRIPTION=Manages opencascade env file
+EAPI=4
+HOMEPAGE=http://www.gentoo.org/proj/en/eselect/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+_eclass_exported_funcs=pkg_postrm:- src_install:-
+_md5_=3a4d7c1268cd0f485ea814f565a35aa8

@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DESCRIPTION=Alternative to Test::More::use_ok
+EAPI=5
+HOMEPAGE=http://www.gentoo.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=~virtual/perl-Test-Simple-1.1.14
+SLOT=0
+_eclass_exported_funcs=-
+_md5_=b625b8a1b656d9317803b9f3db2af151
