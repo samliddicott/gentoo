@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <maintainer restrict="&gt;=net-fs/netatalk-2.2.1-r1">
+  <maintainer restrict="&gt;=net-fs/netatalk-2.2.1-r1" type="person">
     <email>jlec@gentoo.org</email>
   </maintainer>
-  <maintainer>
+  <maintainer type="person">
     <email>vapier@gentoo.org</email>
   </maintainer>
   <use>

@@ -4,11 +4,11 @@
 	<use>
 		<flag name="id3tag">Enables ID3 tagging with id3tag library</flag>
 	</use>
-	<maintainer>
+	<maintainer type="unknown">
 		<email>redhatter@gentoo.org</email>
 		<name>Stuart Longland</name>
 	</maintainer>
-<maintainer>
+<maintainer type="project">
 		<email>sound@gentoo.org</email>
 		<name>Gentoo Sound project</name>
 	</maintainer>

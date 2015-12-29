@@ -2,19 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<!-- Proxy maintainer. Be sure to also CC vim@ on any bugs. -->
-	<maintainer>
+	<maintainer type="person">
 		<email>jkt@gentoo.org</email>
 		<name>Jan Kundrát</name>
 	</maintainer>
-	<maintainer>
+	<maintainer type="person">
 		<email>radhermit@gentoo.org</email>
 		<name>Tim Harder</name>
 	</maintainer>
-	<maintainer>
+	<maintainer type="person">
 		<email>tranquility@gentoo.org</email>
 		<name>Ole Reifschneider</name>
 	</maintainer>
-	<maintainer>
+	<maintainer type="project">
 		<email>proxy-maint@gentoo.org</email>
 		<name>Proxy Maintainers</name>
 	</maintainer>

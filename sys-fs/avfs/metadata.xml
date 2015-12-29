@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <maintainer>
+  <maintainer type="person">
     <email>pete4abw@comcast.net</email>
     <name>Peter Hyman</name>
   </maintainer>
-  <maintainer>
+  <maintainer type="person">
     <email>robbat2@gentoo.org</email>
     <name>Robin H. Johnson</name>
   </maintainer>
-  <maintainer>
+  <maintainer type="person">
     <email>ssuominen@gentoo.org</email>
     <name>Samuli Suominen</name>
   </maintainer>
-  <maintainer>
+  <maintainer type="person">
     <email>caster@gentoo.org</email>
     <name>Vlastimil Babka</name>
   </maintainer>
-  <maintainer>
+  <maintainer type="project">
     <email>proxy-maint@gentoo.org</email>
     <name>Proxy Maintainers</name>
   </maintainer>

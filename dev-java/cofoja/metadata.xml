@@ -5,7 +5,7 @@
 		<remote-id type="google-code">cofoja</remote-id>
 		<remote-id type="github">nhatminhle/cofoja</remote-id>
 	</upstream>
-	<maintainer>
+	<maintainer type="person">
 		<email>monsieurp@gentoo.org</email>
 		<name>Patrice Clement</name>
 	</maintainer>

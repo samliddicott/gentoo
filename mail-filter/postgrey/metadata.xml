@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<maintainer>
+<maintainer type="person">
 	 <email>andreis.vinogradovs@gmail.com</email>
 	 <name>Andreis Vinogradovs</name>
   </maintainer>
-  <maintainer>
+  <maintainer type="person">
 	  <email>qnikst@gentoo.org</email>
 	  <name>Alexander Vershilov</name>
   </maintainer>
-  <maintainer>
+  <maintainer type="person">
 	<email>lists@xunil.at</email>
 	<name>Stefan Weichinger</name>
 	<description>Proxy maintainer under the proxy-maintainers herd</description>
   </maintainer>
-<maintainer>
+<maintainer type="person">
 	  <email>robbat2@gentoo.org</email>
 	  <name>Robin H. Johnson</name>
   </maintainer>
-<maintainer>
+<maintainer type="person">
 	  <email>hattya@gentoo.org</email>
 	  <name>Akinori Hattori</name>
   </maintainer>
-<maintainer>
+<maintainer type="person">
 	  <email>radhermit@gentoo.org</email>
 	  <name>Tim Harder</name>
   </maintainer>
-<maintainer>
+<maintainer type="person">
 	  <email>eras@gentoo.org</email>
 	  <name>Eray Aslan</name>
   </maintainer>
-<maintainer>
+<maintainer type="person">
 	  <email>mschiff@gentoo.org</email>
 	  <name>Marc Schiffbauer</name>
   </maintainer>
-<maintainer>
+<maintainer type="project">
 	  <email>proxy-maint@gentoo.org</email>
 	  <name>Proxy Maintainers</name>
   </maintainer>

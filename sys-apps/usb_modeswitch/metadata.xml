@@ -4,7 +4,7 @@
   <use>
     <flag name="jimtcl">Use <pkg>dev-lang/jimtcl</pkg> instead of <pkg>dev-lang/tcl</pkg> for smaller memory footprint</flag>
   </use>
-  <maintainer>
+  <maintainer type="person">
     <email>rafaelmartins@gentoo.org</email>
     <name>Rafael G. Martins</name>
   </maintainer>

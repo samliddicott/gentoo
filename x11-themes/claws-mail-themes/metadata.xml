@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<maintainer>
+<maintainer type="person">
 <email>fauli@gentoo.org</email>
 <name>Christian Faulhammer</name>
 </maintainer>
-<maintainer>
+<maintainer type="person">
 <email>robbat2@gentoo.org</email>
 <name>Robin H. Johnson</name>
 </maintainer>
-<maintainer>
+<maintainer type="person">
 <email>hattya@gentoo.org</email>
 <name>Akinori Hattori</name>
 </maintainer>
-<maintainer>
+<maintainer type="person">
 <email>radhermit@gentoo.org</email>
 <name>Tim Harder</name>
 </maintainer>
-<maintainer>
+<maintainer type="person">
 <email>eras@gentoo.org</email>
 <name>Eray Aslan</name>
 </maintainer>
-<maintainer>
+<maintainer type="person">
 <email>mschiff@gentoo.org</email>
 <name>Marc Schiffbauer</name>
 </maintainer>

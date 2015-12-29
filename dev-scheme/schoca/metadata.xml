@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<maintainer>
+	<maintainer type="project">
 		<email>scheme@gentoo.org</email>
 		<name>Gentoo Scheme Project</name>
 	</maintainer>
-	<maintainer>
+	<maintainer type="person">
 		<email>aballier@gentoo.org</email>
 		<name>Alexis Ballier</name>
 	</maintainer>
-	<maintainer>
+	<maintainer type="person">
 		<email>hkBst@gentoo.org</email>
 	</maintainer>
-	<maintainer>
+	<maintainer type="project">
 		<email>heroxbd@gentoo.org</email>
 		<name>Benda XU</name>
 	</maintainer>

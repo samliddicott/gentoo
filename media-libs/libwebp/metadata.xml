@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<maintainer>
+	<maintainer type="person">
 		<email>lu_zero@gentoo.org</email>
 		<name>Luca Barbato</name>
 	</maintainer>
-	<maintainer>
+	<maintainer type="person">
 		<email>maekke@gentoo.org</email>
 		<name>Markus Meier</name>
 	</maintainer>
-	<maintainer>
+	<maintainer type="person">
 		<email>radhermit@gentoo.org</email>
 		<name>Tim Harder</name>
 	</maintainer>
-	<maintainer>
+	<maintainer type="project">
 		<email>chromium@gentoo.org</email>
 		<name>Chromium in Gentoo Project</name>
 	</maintainer>

@@ -4,11 +4,11 @@
   <use>
     <flag name="gconf">Enable GConf as configuration backend</flag>
   </use>
-  <maintainer>
+  <maintainer type="person">
     <email>xarthisius@gentoo.org</email>
     <name>Kacper Kowalik</name>
   </maintainer>
-  <maintainer>
+  <maintainer type="person">
     <email>jer@gentoo.org</email>
     <name>Jeroen Roovers</name>
   </maintainer>

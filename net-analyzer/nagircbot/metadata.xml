@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <maintainer>
+  <maintainer type="person">
     <email>dev-zero@gentoo.org</email>
     <name>Tiziano Müller</name>
   </maintainer>
-<maintainer>
+<maintainer type="person">
     <email>chutzpah@gentoo.org</email>
     <name>Patrick McLean</name>
   </maintainer>
-<maintainer>
+<maintainer type="person">
     <email>flameeyes@gentoo.org</email>
     <name>Diego Elio Pettenò</name>
   </maintainer>
-<maintainer>
+<maintainer type="person">
     <email>robbat2@gentoo.org</email>
     <name>Robin H. Johnson</name>
   </maintainer>
-<maintainer>
+<maintainer type="person">
     <email>tampakrap@gentoo.org</email>
     <name>Theo Chatzimichos</name>
   </maintainer>
