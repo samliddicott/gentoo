@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>net-mail</herd>
+  <maintainer>
+    <email>hattya@gentoo.org</email>
+    <name>Akinori Hattori</name>
+  </maintainer>
+  <maintainer>
+    <email>radhermit@gentoo.org</email>
+    <name>Tim Harder</name>
+  </maintainer>
+  <maintainer>
+    <email>eras@gentoo.org</email>
+    <name>Eray Aslan</name>
+  </maintainer>
+  <maintainer>
+    <email>mschiff@gentoo.org</email>
+    <name>Marc Schiffbauer</name>
+  </maintainer>
   <upstream>
     <remote-id type="sourceforge">policyd</remote-id>
   </upstream>

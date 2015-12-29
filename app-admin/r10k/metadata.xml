@@ -5,7 +5,30 @@
     <email>vikraman@gentoo.org</email>
     <name>Vikraman Choudhury</name>
   </maintainer>
-  <herd>sysadmin</herd>
+  <maintainer>
+    <email>dev-zero@gentoo.org</email>
+    <name>Tiziano Müller</name>
+  </maintainer>
+  <maintainer>
+    <email>chutzpah@gentoo.org</email>
+    <name>Patrick McLean</name>
+  </maintainer>
+  <maintainer>
+    <email>flameeyes@gentoo.org</email>
+    <name>Diego Elio Pettenò</name>
+  </maintainer>
+  <maintainer>
+    <email>robbat2@gentoo.org</email>
+    <name>Robin H. Johnson</name>
+  </maintainer>
+  <maintainer>
+    <email>tampakrap@gentoo.org</email>
+    <name>Theo Chatzimichos</name>
+  </maintainer>
+  <maintainer>
+    <email>idl0r@gentoo.org</email>
+    <name>Christian Ruppert</name>
+  </maintainer>
   <longdescription lang="en">
 			r10k provides a general purpose toolset for deploying Puppet environments and modules. It implements the Puppetfile format and provides a native implementation of Puppet dynamic environments.
   </longdescription>

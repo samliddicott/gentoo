@@ -5,7 +5,10 @@
     <email>xfce@gentoo.org</email>
     <name>XFCE Team</name>
   </maintainer>
-  <herd>media-optical</herd>
+  <maintainer>
+    <email>ssuominen@gentoo.org</email>
+    <name>Samuli Suominen</name>
+  </maintainer>
   <upstream>
     <maintainer>
       <email>mario@xfce.org</email>

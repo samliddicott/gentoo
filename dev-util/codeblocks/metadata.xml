@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>wxwidgets</herd>
+  <maintainer>
+    <email>leio@gentoo.org</email>
+  </maintainer>
+  <maintainer>
+    <email>rhill@gentoo.org</email>
+  </maintainer>
   <use>
     <flag name="contrib">Build additional contrib components</flag>
   </use>

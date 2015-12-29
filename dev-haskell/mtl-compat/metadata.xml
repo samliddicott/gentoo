@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>haskell</herd>
 	<longdescription>
 		This package backports the "Control.Monad.Except" module from
 		@mtl@ (if using @mtl-2.2.0.1@ or earlier), which reexports the

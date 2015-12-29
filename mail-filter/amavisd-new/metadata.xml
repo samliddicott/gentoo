@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>net-mail</herd>
-	<herd>antivirus</herd>
+	<maintainer>
+		<email>hattya@gentoo.org</email>
+		<name>Akinori Hattori</name>
+	</maintainer>
+	<maintainer>
+		<email>radhermit@gentoo.org</email>
+		<name>Tim Harder</name>
+	</maintainer>
+	<maintainer>
+		<email>eras@gentoo.org</email>
+		<name>Eray Aslan</name>
+	</maintainer>
+	<maintainer>
+		<email>mschiff@gentoo.org</email>
+		<name>Marc Schiffbauer</name>
+	</maintainer>
+	<maintainer>
+		<email>lordvan@gentoo.org</email>
+		<name>Thomas Raschbacher</name>
+	</maintainer>
 	<use>
 		<flag name="courier">Add courier support</flag>
 		<flag name="dkim">Add DomainKeys Identified Mail support</flag>

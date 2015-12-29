@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>media-tv</herd>
-  <herd>perl</herd>
+  <maintainer>
+    <email>zzam@gentoo.org</email>
+    <name>Matthias Schwarzott</name>
+  </maintainer>
+  <maintainer>
+    <email>hd_brummy@gentoo.org</email>
+    <name>Joerg Bornkessel</name>
+  </maintainer>
+  <maintainer>
+    <email>idl0r@gentoo.org</email>
+    <name>Christian Ruppert</name>
+  </maintainer>
+  <maintainer>
+    <email>perl@gentoo.org</email>
+    <name>Gentoo Perl Project</name>
+  </maintainer>
   <upstream>
     <remote-id type="cpan">X-Osd</remote-id>
     <remote-id type="cpan-module">X::Osd</remote-id>

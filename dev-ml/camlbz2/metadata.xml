@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>ml</herd>
+<maintainer>
+	<email>aballier@gentoo.org</email>
+	<name>Alexis Ballier</name>
+</maintainer>
+<maintainer>
+	<email>hkBst@gentoo.org</email>
+</maintainer>
+<maintainer>
+	<email>heroxbd@gentoo.org</email>
+	<name>Benda XU</name>
+</maintainer>
 </pkgmetadata>

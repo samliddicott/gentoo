@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>ruby</herd>
-  <herd>netmon</herd>
+  <maintainer>
+<email>ruby@gentoo.org</email>
+<name>Gentoo Ruby Project</name>
+  </maintainer>
+<maintainer>
+<email>vapier@gentoo.org</email>
+  </maintainer>
+<maintainer>
+<email>jer@gentoo.org</email>
+<name>Jeroen Roovers</name>
+  </maintainer>
+<maintainer>
+<email>zerochaos@gentoo.org</email>
+<name>Rick Farina</name>
+  </maintainer>
 <use>
 <flag name="graph">Enable support for graphing functions</flag>
 </use>

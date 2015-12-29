@@ -6,7 +6,22 @@
 		<name>Rick Farina</name>
 		<description>maintainer</description>
 	</maintainer>
-	<herd>radio</herd>
+	<maintainer>
+		<email>chithanh@gentoo.org</email>
+		<name>Chí-Thanh Christopher Nguyễn</name>
+	</maintainer>
+	<maintainer>
+		<email>creffett@gentoo.org</email>
+		<name>Chris Reffett</name>
+	</maintainer>
+	<maintainer>
+		<email>xmw@gentoo.org</email>
+		<name>Michael Weber</name>
+	</maintainer>
+	<maintainer>
+		<email>zx2c4@gentoo.org</email>
+		<name>Jason A. Donenfeld</name>
+	</maintainer>
 	<longdescription lang="en">
 </longdescription>
 	<upstream>

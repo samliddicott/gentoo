@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>dev-embedded</herd>
+<maintainer>
+ <email>radhermit@gentoo.org</email>
+ <name>Tim Harder</name>
+</maintainer>
+<maintainer>
+ <email>robbat2@gentoo.org</email>
+ <name>Robin H. Johnson</name>
+</maintainer>
+<maintainer>
+ <email>vapier@gentoo.org</email>
+ <name>Mike Frysinger</name>
+</maintainer>
+<maintainer>
+ <email>zlogene@gentoo.org</email>
+ <name>Mikle Kolyada</name>
+</maintainer>
 <use>
  <flag name="tools">build ftdi_eeprom helper tool</flag>
 </use>

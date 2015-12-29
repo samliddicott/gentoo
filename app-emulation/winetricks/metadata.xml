@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>wine</herd>
-	<herd>proxy-maintainers</herd>
 	<maintainer>
 		<email>NP-Hardass@gentoo.org</email>
 		<name>NP-Hardass</name>
+	</maintainer>
+	<maintainer>
+		<email>ryao@gentoo.org</email>
+		<name>Richard Yao</name>
+	</maintainer>
+	<maintainer>
+		<email>tetromino@gentoo.org</email>
+		<name>Alexandre Rostovtsev</name>
+	</maintainer>
+	<maintainer>
+		<email>vapier@gentoo.org</email>
+	</maintainer>
+	<maintainer>
+		<email>proxy-maint@gentoo.org</email>
+		<name>Proxy Maintainers</name>
 	</maintainer>
 	<upstream>
 		<remote-id type="google-code">winetricks</remote-id>

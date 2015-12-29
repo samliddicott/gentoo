@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>sh</herd>
+<maintainer>
+	<email>vapier@gentoo.org</email>
+</maintainer>
+<maintainer>
+	<email>armin76@gentoo.org</email>
+	<name>Raúl Porcel</name>
+</maintainer>
+<maintainer>
+	<email>ago@gentoo.org</email>
+	<name>Agostino Sarubbo</name>
+</maintainer>
 </pkgmetadata>

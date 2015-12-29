@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>media-tv</herd>
+	<maintainer>
+		<email>zzam@gentoo.org</email>
+		<name>Matthias Schwarzott</name>
+	</maintainer>
+	<maintainer>
+		<email>hd_brummy@gentoo.org</email>
+		<name>Joerg Bornkessel</name>
+	</maintainer>
+	<maintainer>
+		<email>idl0r@gentoo.org</email>
+		<name>Christian Ruppert</name>
+	</maintainer>
 	<longdescription>
     Driver for ivtv based tv tuner cards, currently supports Hauppauge 
     PVR-[23]50 cards

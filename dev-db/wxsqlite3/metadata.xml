@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>wxwidgets</herd>
 	<maintainer>
 		<email>jlec@gentoo.org</email>
+	</maintainer>
+	<maintainer>
+		<email>leio@gentoo.org</email>
+	</maintainer>
+	<maintainer>
+		<email>rhill@gentoo.org</email>
 	</maintainer>
 	<upstream>
 		<remote-id type="sourceforge">wxcode</remote-id>

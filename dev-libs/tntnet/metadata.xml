@@ -5,7 +5,10 @@
 		<email>hd_brummy@gentoo.org</email>                                                                        
 		<name>Joerg Bornkessel</name>                                                                      
 	</maintainer>
-	<herd>media-tv</herd>
+	<maintainer>
+		<email>zzam@gentoo.org</email>
+		<name>Matthias Schwarzott</name>
+	</maintainer>
 	<use>
 		<flag name="server">Enable tntnet server daemon</flag>
 	</use>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>java</herd>
 	<longdescription lang="en">
 		 The JSR-296  Swing Application Framework prototype implementation is a small set of Java classes that simplify building desktop applications. The prototype provides infrastructure that's common to most desktop applications:
 

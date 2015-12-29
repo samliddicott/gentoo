@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>sci</herd>
 <longdescription lang="en">
   SuiteSparseQR is an implementation of the multifrontal sparse QR
   factorization method. Parallelism is exploited both in the BLAS and

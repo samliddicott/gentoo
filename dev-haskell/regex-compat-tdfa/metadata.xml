@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>haskell</herd>
 	<use>
 		<flag name="newbase">Use base-4.0 or newer.</flag>
 		<flag name="splitbase">Use the new smaller, split-up base package.</flag>

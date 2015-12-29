@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>fonts</herd>
-	<herd>graphics</herd>
+	<maintainer>
+		<email>fonts@gentoo.org</email>
+		<name>Fonts</name>
+	</maintainer>
+	<maintainer>
+		<email>maekke@gentoo.org</email>
+		<name>Markus Meier</name>
+	</maintainer>
+	<maintainer>
+		<email>radhermit@gentoo.org</email>
+		<name>Tim Harder</name>
+	</maintainer>
 	<use>
 		<flag name="metric">
 			default to a4 paper size and metric measurement

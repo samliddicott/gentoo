@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>radio</herd>
+	<maintainer>
+		<email>chithanh@gentoo.org</email>
+		<name>Chí-Thanh Christopher Nguyễn</name>
+	</maintainer>
+	<maintainer>
+		<email>creffett@gentoo.org</email>
+		<name>Chris Reffett</name>
+	</maintainer>
 	<use>
 		<flag name="embedded">Build for embedded use and disable unsupported features</flag>
 		<flag name="pcsc-lite">Enable smartcard support with <pkg>sys-apps/pcsc-lite</pkg></flag>

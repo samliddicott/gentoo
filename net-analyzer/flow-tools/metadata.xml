@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>netmon</herd>
+	<maintainer>
+		<email>vapier@gentoo.org</email>
+	</maintainer>
+	<maintainer>
+		<email>jer@gentoo.org</email>
+		<name>Jeroen Roovers</name>
+	</maintainer>
+	<maintainer>
+		<email>zerochaos@gentoo.org</email>
+		<name>Rick Farina</name>
+	</maintainer>
 	<longdescription lang="en">Flow-tools is library and a collection of programs used to collect,
 		send, process, and generate reports from NetFlow data. The tools can be
 		used together on a single server or distributed to multiple servers for

@@ -5,7 +5,6 @@
     <email>bircoph@gentoo.org</email>
     <name>Andrew Savchenko</name>
   </maintainer>
-  <herd>sci-physics</herd>
   <longdescription lang="en">
   This package contains the automatically generated ROOT class
   documentation.

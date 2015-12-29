@@ -4,7 +4,10 @@
 	<maintainer>
 		<email>graaff@gentoo.org</email>
 	</maintainer>
-	<herd>net-p2p</herd>
+	<maintainer>
+		<email>sochotnicky@gentoo.org</email>
+		<name>Stanislav Ochotnický</name>
+	</maintainer>
 	<upstream>
 		<remote-id type="sourceforge">gtk-gnutella</remote-id>
 	</upstream>

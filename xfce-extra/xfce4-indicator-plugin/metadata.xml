@@ -5,8 +5,15 @@
     <email>xfce@gentoo.org</email>
     <name>XFCE Team</name>
   </maintainer>
-  <herd>ayatana</herd>
   <maintainer>
     <email>ayatana-bugs@gentoo.org</email>
+  </maintainer>
+<maintainer>
+    <email>ssuominen@gentoo.org</email>
+    <name>Samuli Suominen</name>
+  </maintainer>
+<maintainer>
+    <email>chithanh@gentoo.org</email>
+    <name>Chí-Thanh Christopher Nguyễn</name>
   </maintainer>
 </pkgmetadata>

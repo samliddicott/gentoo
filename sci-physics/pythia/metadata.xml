@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>sci-physics</herd>
   <longdescription lang="en">
   PYTHIA is a program for the generation of high-energy physics
   events, i.e. for the description of collisions at high energies

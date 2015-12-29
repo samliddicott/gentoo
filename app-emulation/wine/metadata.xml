@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>wine</herd>
+	<maintainer>
+		<email>ryao@gentoo.org</email>
+		<name>Richard Yao</name>
+	</maintainer>
+	<maintainer>
+		<email>tetromino@gentoo.org</email>
+		<name>Alexandre Rostovtsev</name>
+	</maintainer>
+	<maintainer>
+		<email>vapier@gentoo.org</email>
+	</maintainer>
 	<longdescription>
 Wine is an Open Source implementation of the Windows API on top of X and Unix.
 

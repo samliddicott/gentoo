@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>proaudio</herd>
+<maintainer>
+	<email>radhermit@gentoo.org</email>
+	<name>Tim Harder</name>
+</maintainer>
+
+<maintainer>
+	<email>nativemad@gentoo.org</email>
+	<name>Andreas Schuerch</name>
+</maintainer>
 
 <longdescription lang="en">
 	Jalv is a simple but fully featured LV2 host for Jack. It runs LV2 plugins and exposes their ports as Jack ports, essentially making any LV2 plugin function as a Jack application.

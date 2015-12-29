@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>shell-tools</herd>
+  <maintainer>
+    <email>darkside@gentoo.org</email>
+  </maintainer>
+  <maintainer>
+    <email>heroxbd@gentoo.org</email>
+    <name>Benda Xu</name>
+  </maintainer>
   <longdescription>
   Gcal is a program similar the standard calendar programs BSD "cal" and
   "calendar". Gcal displays hybrid and proleptic Julian and Gregorian calendar

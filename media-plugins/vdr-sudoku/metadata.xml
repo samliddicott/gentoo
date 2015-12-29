@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>media-tv</herd>
-	<maintainer>
+  <maintainer>
 	  <email>vdr@gentoo.org</email>
 	  <name>Gentoo VDR Project</name>
 	  <description>
 		  Please contacts maintainer before you something change
 		</description>
 	</maintainer>
+	<maintainer>
+	  <email>zzam@gentoo.org</email>
+	  <name>Matthias Schwarzott</name>
+  </maintainer>
+	<maintainer>
+	  <email>idl0r@gentoo.org</email>
+	  <name>Christian Ruppert</name>
+  </maintainer>
 	<longdescription>
 	  Sudoku is a VDR plugin to generate and solve Number Place puzzles, 
 	  so called Sudokus.

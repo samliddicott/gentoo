@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>lxde</herd>
   <maintainer>
     <email>hwoarang@gentoo.org</email>
     <name>Markos Chandras</name>
   </maintainer>
-  <herd>lxqt</herd>
+  <maintainer>
+    <email>lxde@gentoo.org</email>
+    <name>Gentoo LXDE Project</name>
+  </maintainer>
+  <maintainer>
+    <email>jauhien@gentoo.org</email>
+    <name>Jauhien Piatlicki</name>
+  </maintainer>
+  <maintainer>
+    <email>kensington@gentoo.org</email>
+    <name>Michael Palimaka</name>
+  </maintainer>
+  <maintainer>
+    <email>mrueg@gentoo.org</email>
+    <name>Manuel Rüger</name>
+  </maintainer>
+  <maintainer>
+    <email>yngwin@gentoo.org</email>
+    <name>Ben de Groot</name>
+  </maintainer>
   <use>
     <flag name="vala">Support custom actions in menus</flag>
     <flag name="udisks">Use libfm's udisks-based volume monitor implementation instead of using the one from gvfs</flag>

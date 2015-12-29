@@ -11,6 +11,24 @@
       <name>Chris Reffett</name>
       <description>Proxy maintainer. CC him on bugs.</description>
   </maintainer>
-  <herd>proxy-maintainers</herd>
-  <herd>sysadmin</herd>
-</pkgmetadata>
+  <maintainer>
+      <email>proxy-maint@gentoo.org</email>
+      <name>Proxy Maintainers</name>
+  </maintainer>
+  <maintainer>
+      <email>dev-zero@gentoo.org</email>
+      <name>Tiziano Müller</name>
+  </maintainer>
+  <maintainer>
+      <email>chutzpah@gentoo.org</email>
+      <name>Patrick McLean</name>
+  </maintainer>
+  <maintainer>
+      <email>robbat2@gentoo.org</email>
+      <name>Robin H. Johnson</name>
+  </maintainer>
+  <maintainer>
+      <email>tampakrap@gentoo.org</email>
+      <name>Theo Chatzimichos</name>
+  </maintainer>
+  </pkgmetadata>

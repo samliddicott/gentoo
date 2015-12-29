@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>ros</herd>
+  <maintainer>
+    <email>aballier@gentoo.org</email>
+  </maintainer>
   <use>
     <flag name="glog">Use <pkg>dev-cpp/glog</pkg> as log backend.</flag>
     <flag name="log4cxx">Use <pkg>dev-libs/log4cxx</pkg> as log backend.</flag>

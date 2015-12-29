@@ -5,7 +5,10 @@
 		<email>tommy@gentoo.org</email>
 		<name>Thomas Sachau (Tommy[D])</name>
 	</maintainer>
-	<herd>net-p2p</herd>
+	<maintainer>
+		<email>sochotnicky@gentoo.org</email>
+		<name>Stanislav Ochotnický</name>
+	</maintainer>
 	<use>
 		<flag name="frost">Add support for frost boards</flag>
 	</use>

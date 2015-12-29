@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>graphics</herd>
+<maintainer>
+	<email>lu_zero@gentoo.org</email>
+	<name>Luca Barbato</name>
+</maintainer>
+<maintainer>
+	<email>maekke@gentoo.org</email>
+	<name>Markus Meier</name>
+</maintainer>
+<maintainer>
+	<email>radhermit@gentoo.org</email>
+	<name>Tim Harder</name>
+</maintainer>
 <longdescription>TIFF image library and tools, mostly for scanner and fax
  support, but also used by GIS and other imaging tools.</longdescription>
 </pkgmetadata>

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>ml</herd>
+	<maintainer>
+		<email>hkBst@gentoo.org</email>
+	</maintainer>
+	<maintainer>
+		<email>heroxbd@gentoo.org</email>
+		<name>Benda XU</name>
+	</maintainer>
 	<use>
 		<flag name="binary">install a binary version (need to do this once to bootstrap, until smlnj is supported)</flag>
 	</use>

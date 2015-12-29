@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>java</herd>
-
 <longdescription>
 	BFM, the Brutal File Manager is a combined file manager and first
 	person shooter game. The basic idea is to represent different folders

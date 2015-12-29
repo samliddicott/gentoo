@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>java</herd>
   <longdescription lang="en">
 Gjdoc provides a framework for generating documentation in various
 formats from java source files.  It implements all features of the

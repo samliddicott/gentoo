@@ -4,7 +4,10 @@
   <maintainer>
     <email>jlec@gentoo.org</email>
   </maintainer>
-  <herd>python</herd>
+  <maintainer>
+    <email>python@gentoo.org</email>
+    <name>Python</name>
+  </maintainer>
   <upstream>
     <remote-id type="pypi">Markups</remote-id>
   </upstream>

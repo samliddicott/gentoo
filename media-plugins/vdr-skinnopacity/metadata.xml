@@ -5,5 +5,8 @@
 		<email>idl0r@gentoo.org</email>
 		<name>Christian Ruppert</name>
 	</maintainer>
-	<herd>media-tv</herd>
-</pkgmetadata>
+	<maintainer>
+		<email>zzam@gentoo.org</email>
+		<name>Matthias Schwarzott</name>
+	</maintainer>
+	</pkgmetadata>

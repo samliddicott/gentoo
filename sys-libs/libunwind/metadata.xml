@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>toolchain</herd>
+	<maintainer>
+		<email>rhill@gentoo.org</email>
+		<name>Ryan Hill</name>
+	</maintainer>
+	<maintainer>
+		<email>kumba@gentoo.org</email>
+		<name>Joshua Kinard</name>
+	</maintainer>
+	<maintainer>
+		<email>lu_zero@gentoo.org</email>
+		<name>Luca Barbato</name>
+	</maintainer>
+	<maintainer>
+		<email>vapier@gentoo.org</email>
+	</maintainer>
+	<maintainer>
+		<email>blueness@gentoo.org</email>
+		<name>Anthony G. Basile</name>
+	</maintainer>
 	<use>
 		<flag name="debug-frame">Adds support for DWARF .debug_frame section: Use the information from this section if available</flag>
 		<flag name="libatomic">Use libatomic instead of builtin atomic operations</flag>

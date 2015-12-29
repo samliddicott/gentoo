@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>tex</herd>
-	<herd>ml</herd>
+	<maintainer>
+		<email>tex@gentoo.org</email>
+		<name>Gentoo TeX Project</name>
+	</maintainer>
+<maintainer>
+		<email>aballier@gentoo.org</email>
+		<name>Alexis Ballier</name>
+	</maintainer>
+<maintainer>
+		<email>hkBst@gentoo.org</email>
+	</maintainer>
+<maintainer>
+		<email>heroxbd@gentoo.org</email>
+		<name>Benda XU</name>
+	</maintainer>
 </pkgmetadata>

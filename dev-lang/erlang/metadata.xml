@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>lang-misc</herd>
 <maintainer>
 <email>djc@gentoo.org</email>
 <name>Dirkjan Ochtman</name>
 </maintainer>
+ <maintainer>
+    <email>george@gentoo.org</email>
+    <name>George Shapovalov</name>
+ </maintainer>
  <use>
     <flag name="hipe">HIgh Performance Erlang extension</flag>
     <flag name="halfword">Enable halfword emulator</flag>

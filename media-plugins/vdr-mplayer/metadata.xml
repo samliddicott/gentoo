@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>media-tv</herd>
 <maintainer>
   <email>vdr@gentoo.org</email>
   <name>Gentoo VDR Project</name>
@@ -9,6 +8,14 @@
 	Please contacts maintainer before you something change.
   </description>
 </maintainer>
+  <maintainer>
+  <email>zzam@gentoo.org</email>
+  <name>Matthias Schwarzott</name>
+  </maintainer>
+  <maintainer>
+  <email>idl0r@gentoo.org</email>
+  <name>Christian Ruppert</name>
+  </maintainer>
   <longdescription>
 	VDR Plugin to play video files, the plugin use for this the mplayer.
 	All supported file types in mplayer will be played.

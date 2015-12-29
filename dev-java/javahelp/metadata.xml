@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>java</herd>
 	<longdescription lang="en">
 		The JavaHelp system is an online help system that developers can
 		use to add online help to their Java platform applications. The

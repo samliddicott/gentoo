@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>graphics</herd>
 	<maintainer>
 		<email>angelos@gentoo.org</email>
 		<name>Christoph Mende</name>
+	</maintainer>
+	<maintainer>
+		<email>maekke@gentoo.org</email>
+		<name>Markus Meier</name>
+	</maintainer>
+	<maintainer>
+		<email>radhermit@gentoo.org</email>
+		<name>Tim Harder</name>
 	</maintainer>
 	<upstream>
 		<remote-id type="google-code">raw-thumbnailer</remote-id>

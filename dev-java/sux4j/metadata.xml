@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>java</herd>
 	<longdescription lang="en">
 		Sux in an umbrella nickname for the results of my fiddling with the implementation of basic succinct data strucures.
 

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>java</herd>
-
 <longdescription>
 GNU JavaMail is a free implementation of the JavaMail API specification,
 version 1.3. All the code has been written from scratch without

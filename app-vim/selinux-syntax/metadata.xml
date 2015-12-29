@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>vim</herd>
-	<herd>hardened</herd>
+	<maintainer>
+		<email>radhermit@gentoo.org</email>
+		<name>Tim Harder</name>
+	</maintainer>
+<maintainer>
+		<email>tranquility@gentoo.org</email>
+		<name>Ole Reifschneider</name>
+	</maintainer>
+<maintainer>
+		<email>hardened@gentoo.org</email>
+		<name>Gentoo Hardened</name>
+	</maintainer>
 </pkgmetadata>

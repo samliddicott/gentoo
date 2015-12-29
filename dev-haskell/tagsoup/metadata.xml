@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>haskell</herd>
 	<longdescription>
 		TagSoup is a library for parsing HTML/XML. It supports the HTML 5 specification,
 		and can be used to parse either well-formed XML, or unstructured and malformed HTML

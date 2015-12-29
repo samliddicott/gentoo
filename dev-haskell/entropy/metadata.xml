@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>haskell</herd>
 	<longdescription>
 		A platform independent method to obtain cryptographically strong entropy
 		(RDRAND when available anywhere, urandom on nix, CryptAPI on Windows, patches welcome).

@@ -15,8 +15,26 @@
     <email>mjo@gentoo.org</email>
     <name>Michael Orlitzky</name>
   </maintainer>
-  <herd>proxy-maintainers</herd>
-  <herd>sysadmin</herd>
+  <maintainer>
+    <email>proxy-maint@gentoo.org</email>
+    <name>Proxy Maintainers</name>
+  </maintainer>
+  <maintainer>
+    <email>dev-zero@gentoo.org</email>
+    <name>Tiziano Müller</name>
+  </maintainer>
+  <maintainer>
+    <email>chutzpah@gentoo.org</email>
+    <name>Patrick McLean</name>
+  </maintainer>
+  <maintainer>
+    <email>robbat2@gentoo.org</email>
+    <name>Robin H. Johnson</name>
+  </maintainer>
+  <maintainer>
+    <email>tampakrap@gentoo.org</email>
+    <name>Theo Chatzimichos</name>
+  </maintainer>
   <longdescription>
     Nagios is a host and service monitor designed to inform you of
     network problems before your clients, end-users or managers do. It

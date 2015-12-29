@@ -4,7 +4,18 @@
 	<maintainer>
 		<email>robbat2@gentoo.org</email>
 	</maintainer>
-	<herd>sysadmin</herd>
+	<maintainer>
+		<email>dev-zero@gentoo.org</email>
+		<name>Tiziano Müller</name>
+	</maintainer>
+	<maintainer>
+		<email>chutzpah@gentoo.org</email>
+		<name>Patrick McLean</name>
+	</maintainer>
+	<maintainer>
+		<email>tampakrap@gentoo.org</email>
+		<name>Theo Chatzimichos</name>
+	</maintainer>
 	<use>
 		<flag name="pskc">Build tools &amp; library for the Portable Symmetric Key Container (PSKC) format per RFC6030</flag>
 		<flag name="pam">Build PAM module for pluggable login authentication for OATH</flag>

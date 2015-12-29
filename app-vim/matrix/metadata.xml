@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>vim</herd>
+	<maintainer>
+		<email>radhermit@gentoo.org</email>
+		<name>Tim Harder</name>
+	</maintainer>
+	<maintainer>
+		<email>tranquility@gentoo.org</email>
+		<name>Ole Reifschneider</name>
+	</maintainer>
+	<maintainer>
+		<email>yngwin@gentoo.org</email>
+		<name>Ben de Groot</name>
+	</maintainer>
 	<longdescription lang="en">
 		A Vim plugin which displays a screensaver based upon the falling green
 		symbols seen in the Matrix.

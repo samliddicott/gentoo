@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>shell-tools</herd>
+	<maintainer>
+		<email>darkside@gentoo.org</email>
+	</maintainer>
+	<maintainer>
+		<email>heroxbd@gentoo.org</email>
+		<name>Benda Xu</name>
+	</maintainer>
 	<longdescription lang="en">
 		Color is a nifty little utility that you can call from shell scripts,
 		that will let you easily use ANSI escape codes (for colors, bold,

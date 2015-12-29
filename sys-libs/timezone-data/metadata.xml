@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>toolchain</herd>
   <maintainer>
     <email>djc@gentoo.org</email>
     <name>Dirkjan Ochtman</name>
+  </maintainer>
+  <maintainer>
+    <email>rhill@gentoo.org</email>
+    <name>Ryan Hill</name>
+  </maintainer>
+  <maintainer>
+    <email>kumba@gentoo.org</email>
+    <name>Joshua Kinard</name>
+  </maintainer>
+  <maintainer>
+    <email>lu_zero@gentoo.org</email>
+    <name>Luca Barbato</name>
+  </maintainer>
+  <maintainer>
+    <email>vapier@gentoo.org</email>
+  </maintainer>
+  <maintainer>
+    <email>blueness@gentoo.org</email>
+    <name>Anthony G. Basile</name>
   </maintainer>
   <use>
     <flag name="leaps_timezone">

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>net-p2p</herd>
   <maintainer>
     <email>floppym@gentoo.org</email>
     <name>Mike Gilbert</name>
@@ -9,6 +8,10 @@
   <maintainer>
     <email>ssuominen@gentoo.org</email>
     <name>Samuli Suominen</name>
+  </maintainer>
+  <maintainer>
+    <email>sochotnicky@gentoo.org</email>
+    <name>Stanislav Ochotnický</name>
   </maintainer>
   <use>
     <flag name="lightweight">Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)</flag>

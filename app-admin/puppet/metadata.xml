@@ -4,8 +4,34 @@
 	<maintainer>
 	<email>prometheanfire@gentoo.org</email>
 	</maintainer>
-	<herd>sysadmin</herd>
-	<herd>ruby</herd>
+	<maintainer>
+		<email>dev-zero@gentoo.org</email>
+		<name>Tiziano Müller</name>
+	</maintainer>
+	<maintainer>
+		<email>chutzpah@gentoo.org</email>
+		<name>Patrick McLean</name>
+	</maintainer>
+	<maintainer>
+		<email>flameeyes@gentoo.org</email>
+		<name>Diego Elio Pettenò</name>
+	</maintainer>
+	<maintainer>
+		<email>robbat2@gentoo.org</email>
+		<name>Robin H. Johnson</name>
+	</maintainer>
+	<maintainer>
+		<email>tampakrap@gentoo.org</email>
+		<name>Theo Chatzimichos</name>
+	</maintainer>
+	<maintainer>
+		<email>idl0r@gentoo.org</email>
+		<name>Christian Ruppert</name>
+	</maintainer>
+	<maintainer>
+		<email>ruby@gentoo.org</email>
+		<name>Gentoo Ruby Project</name>
+	</maintainer>
 	<longdescription lang="en">
 		Centralised configuration management for networks
 		Puppet lets you centrally manage every important aspect of your system

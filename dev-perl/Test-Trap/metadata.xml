@@ -4,7 +4,10 @@
   <maintainer>
     <email>jlec@gentoo.org</email>
   </maintainer>
-  <herd>perl</herd>
+  <maintainer>
+    <email>perl@gentoo.org</email>
+    <name>Gentoo Perl Project</name>
+  </maintainer>
   <upstream>
     <remote-id type="cpan">Test-Trap</remote-id>
     <remote-id type="cpan-module">Test::Trap</remote-id>

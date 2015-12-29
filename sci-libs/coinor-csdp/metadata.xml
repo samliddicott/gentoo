@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>sci</herd>
 <longdescription lang="en">
    CSDP is a library of routines that implements a predictor corrector
    variant of the semidefinite programming algorithm of Helmberg,

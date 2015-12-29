@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>netmon</herd>
+	<maintainer>
+		<email>vapier@gentoo.org</email>
+	</maintainer>
+	<maintainer>
+		<email>zerochaos@gentoo.org</email>
+		<name>Rick Farina</name>
+	</maintainer>
 	<use>
 		<flag name="system-lua">Use <pkg>dev-lang/lua</pkg> instead of the bundled liblua</flag>
 		<flag name="lua">Include support for the Nmap Scripting Engine (NSE)</flag>

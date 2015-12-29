@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>java</herd>
   <use>
     <flag name="antlr">Enable ANTLR Ant tasks</flag>
     <flag name="bcel">Enable bcel (bytecode manipulation) Ant tasks</flag>

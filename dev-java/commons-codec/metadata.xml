@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>java</herd>
-
 <longdescription>
 Codec was formed as an attempt to focus development effort on one
 definitive implementation of the Base64 encoder. At the time of Codec's

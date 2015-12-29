@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>gnome-office</herd>
-	<herd>proxy-maintainers</herd>
 	<maintainer>
 		<email>remi@gentoo.org</email>
 	</maintainer>
@@ -11,6 +9,30 @@
 		<name>Guillaume Castagnino</name>
 		<description>Third party maintainer, through the gnome-office herd 
     as a proxy</description>
+	</maintainer>
+	<maintainer>
+		<email>eva@gentoo.org</email>
+		<name>Gilles Dartiguelongue</name>
+	</maintainer>
+	<maintainer>
+		<email>leio@gentoo.org</email>
+		<name>Mart Raudsepp</name>
+	</maintainer>
+	<maintainer>
+		<email>nirbheek@gentoo.org</email>
+		<name>Nirbheek Chauhan</name>
+	</maintainer>
+	<maintainer>
+		<email>pacho@gentoo.org</email>
+		<name>Pacho Ramos</name>
+	</maintainer>
+	<maintainer>
+		<email>tetromino@gentoo.org</email>
+		<name>Alexandre Rostovtsev</name>
+	</maintainer>
+	<maintainer>
+		<email>proxy-maint@gentoo.org</email>
+		<name>Proxy Maintainers</name>
 	</maintainer>
 	<upstream>
 		<remote-id type="sourceforge">grisbi</remote-id>

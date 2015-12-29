@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>gnome</herd>
-<herd>video</herd>
-<herd>gstreamer</herd>
+<maintainer>
+	<email>gnome@gentoo.org</email>
+	<name>Gentoo GNOME Desktop</name>
+</maintainer>
+<maintainer>
+	<email>leio@gentoo.org</email>
+</maintainer>
+<maintainer>
+	<email>eva@gentoo.org</email>
+	<name>Gilles Dartiguelongue</name>
+</maintainer>
+<maintainer>
+	<email>pacho@gentoo.org</email>
+	<name>Pacho Ramos</name>
+</maintainer>
 </pkgmetadata>

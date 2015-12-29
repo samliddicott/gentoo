@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>desktop-misc</herd>
   <maintainer>
     <email>jlec@gentoo.org</email>
+  </maintainer>
+  <maintainer>
+    <email>xarthisius@gentoo.org</email>
+    <name>Kacper Kowalik</name>
+  </maintainer>
+  <maintainer>
+    <email>jer@gentoo.org</email>
+    <name>Jeroen Roovers</name>
   </maintainer>
   <longdescription>
 The engine is the main module that accepts all incoming events and allows 

@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>ml</herd>
-<herd>proxy-maintainers</herd>
 <maintainer>
   <email>v.ivanov@ymail.com</email>
   <name>Vladimir Ivanov</name>
+</maintainer>
+<maintainer>
+  <email>hkBst@gentoo.org</email>
+</maintainer>
+<maintainer>
+  <email>heroxbd@gentoo.org</email>
+  <name>Benda XU</name>
+</maintainer>
+<maintainer>
+  <email>proxy-maint@gentoo.org</email>
+  <name>Proxy Maintainers</name>
 </maintainer>
 </pkgmetadata>

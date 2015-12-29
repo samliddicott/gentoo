@@ -4,7 +4,10 @@
   <maintainer>
     <email>jlec@gentoo.org</email>
   </maintainer>
-  <herd>perl</herd>
+  <maintainer>
+    <email>perl@gentoo.org</email>
+    <name>Gentoo Perl Project</name>
+  </maintainer>
   <upstream>
     <remote-id type="cpan">WWW-Dict-Leo-Org</remote-id>
     <remote-id type="cpan-module">WWW::Dict::Leo::Org</remote-id>
