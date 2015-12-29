@@ -3,6 +3,6 @@
 <pkgmetadata>
 <herd>enlightenment</herd>
 <use>
- <flag name='vlc'>Enable support for the <pkg>media-video/vlc</pkg> player backend</flag>
+ <flag name="vlc">Enable support for the <pkg>media-video/vlc</pkg> player backend</flag>
 </use>
 </pkgmetadata>

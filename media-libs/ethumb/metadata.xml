@@ -3,6 +3,6 @@
 <pkgmetadata>
 	<herd>enlightenment</herd>
 	<use>
-		<flag name='emotion'>Add support for <pkg>media-libs/emotion</pkg></flag>
+		<flag name="emotion">Add support for <pkg>media-libs/emotion</pkg></flag>
 	</use>
 </pkgmetadata>

@@ -3,6 +3,6 @@
 <pkgmetadata>
 	<herd>web-apps</herd>
 	<use>
-		<flag name='transcode'>Install optional dependencies for transcoding support</flag>
+		<flag name="transcode">Install optional dependencies for transcoding support</flag>
 	</use>
 </pkgmetadata>
