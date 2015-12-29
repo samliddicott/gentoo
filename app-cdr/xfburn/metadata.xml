@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <maintainer>
+  <maintainer type="project">
     <email>xfce@gentoo.org</email>
     <name>XFCE Team</name>
   </maintainer>
-  <herd>media-optical</herd>
+  <maintainer type="person">
+    <email>ssuominen@gentoo.org</email>
+    <name>Samuli Suominen</name>
+  </maintainer>
   <upstream>
     <maintainer>
       <email>mario@xfce.org</email>

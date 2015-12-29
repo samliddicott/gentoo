@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>netmon</herd>
+  <maintainer type="person">
+    <email>vapier@gentoo.org</email>
+  </maintainer>
+<maintainer type="person">
+    <email>zerochaos@gentoo.org</email>
+    <name>Rick Farina</name>
+  </maintainer>
 <longdescription>
   vnStat is a network traffic monitor for Linux that keeps a log of daily
   network traffic for the selected interface(s). vnStat isn't a packet sniffer.

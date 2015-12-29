@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>toolchain</herd>
-  <maintainer>
+  <maintainer type="unknown">
     <email>toolchain@gentoo.org</email>
+  </maintainer>
+<maintainer type="person">
+    <email>rhill@gentoo.org</email>
+    <name>Ryan Hill</name>
+  </maintainer>
+<maintainer type="person">
+    <email>kumba@gentoo.org</email>
+    <name>Joshua Kinard</name>
   </maintainer>
 </pkgmetadata>

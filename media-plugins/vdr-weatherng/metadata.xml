@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>media-tv</herd>
-	<maintainer>
+<maintainer type="project">
 		<email>vdr@gentoo.org</email>
 		<name>Gentoo VDR Project</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>zzam@gentoo.org</email>
+		<name>Matthias Schwarzott</name>
 	</maintainer>
 	<longdescription>
 		Plugin weatherng for the Video Disk Recorder (VDR)
 		Show weahter data for your City.
 	</longdescription>
 	<use>
-		<flag name='dxr3'>enables lower osd color depth for dxr3 cards</flag>
+		<flag name="dxr3">enables lower osd color depth for dxr3 cards</flag>
 	</use>
 </pkgmetadata>

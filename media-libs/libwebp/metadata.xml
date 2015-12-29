@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>graphics</herd>
-	<herd>chromium</herd>
+	<maintainer type="person">
+		<email>lu_zero@gentoo.org</email>
+		<name>Luca Barbato</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>maekke@gentoo.org</email>
+		<name>Markus Meier</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>radhermit@gentoo.org</email>
+		<name>Tim Harder</name>
+	</maintainer>
+	<maintainer type="project">
+		<email>chromium@gentoo.org</email>
+		<name>Chromium in Gentoo Project</name>
+	</maintainer>
 	<use>
-		<flag name='experimental'>Build with -DWEBP_EXPERIMENTAL_FEATURES</flag>
-		<flag name='swap-16bit-csp'>Enable byte swapping for 16 bit colorspace</flag>
+		<flag name="experimental">Build with -DWEBP_EXPERIMENTAL_FEATURES</flag>
+		<flag name="swap-16bit-csp">Enable byte swapping for 16 bit colorspace</flag>
 	</use>
 	<upstream>
 		<remote-id type="google-code">webp</remote-id>

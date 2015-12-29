@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>media-tv</herd>
-	<maintainer>
+  <maintainer type="project">
 	  <email>vdr@gentoo.org</email>
 	  <name>Gentoo VDR Project</name>
 	</maintainer>
+	<maintainer type="person">
+	  <email>zzam@gentoo.org</email>
+	  <name>Matthias Schwarzott</name>
+  </maintainer>
+	<maintainer type="person">
+	  <email>idl0r@gentoo.org</email>
+	  <name>Christian Ruppert</name>
+  </maintainer>
 	<longdescription>
 	  This Plugin display a background image while the vdr is switcht to radio channels.
 	  Also it supports RDS on radio channels.

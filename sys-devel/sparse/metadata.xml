@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>kernel-misc</herd>
-  <herd>toolchain</herd>
+  <maintainer type="person">
+    <email>robbat2@gentoo.org</email>
+    <name>Robin H. Johnson</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>ssuominen@gentoo.org</email>
+    <name>Samuli Suominen</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>caster@gentoo.org</email>
+    <name>Vlastimil Babka</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>rhill@gentoo.org</email>
+    <name>Ryan Hill</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>kumba@gentoo.org</email>
+    <name>Joshua Kinard</name>
+  </maintainer>
   <use>
-    <flag name='gtk'>
+    <flag name="gtk">
       Build the test-inspect utility (requires
       <pkg>x11-libs/gtk+</pkg> version 2)
     </flag>
-	<flag name='llvm'>Build the sparse-llvm utility</flag>
-    <flag name='xml'>
+	<flag name="llvm">Build the sparse-llvm utility</flag>
+    <flag name="xml">
       Build the c2xml utility (requires <pkg>dev-libs/libxml2</pkg>).
     </flag>
   </use>

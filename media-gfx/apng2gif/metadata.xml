@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>graphics</herd>
+	<maintainer type="person">
+		<email>maekke@gentoo.org</email>
+		<name>Markus Meier</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>radhermit@gentoo.org</email>
+		<name>Tim Harder</name>
+	</maintainer>
 	<upstream>
 		<remote-id type="sourceforge">apng2gif</remote-id>
 	</upstream>

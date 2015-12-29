@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>sci-biology</herd>
 	<longdescription>
 		A protein motif fingerprint database maintained at the University of
 		Manchester. A fingerprint is a group of conserved motifs used to

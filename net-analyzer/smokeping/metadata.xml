@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>netmon</herd>
+<maintainer type="person">
+<email>vapier@gentoo.org</email>
+</maintainer>
+<maintainer type="person">
+<email>zerochaos@gentoo.org</email>
+<name>Rick Farina</name>
+</maintainer>
 <use>
-<flag name='dig'>Install <pkg>net-dns/bind-tools</pkg> for dig functionality</flag>
-<flag name='echoping'>Install <pkg>net-analyzer/echoping</pkg> for echoping functionality</flag>
-<flag name='telnet'>Install <pkg>dev-perl/Net-Telnet</pkg> for telnet functionality</flag>
-<flag name='ssh'>Install ssh functionality</flag>
+<flag name="dig">Install <pkg>net-dns/bind-tools</pkg> for dig functionality</flag>
+<flag name="echoping">Install <pkg>net-analyzer/echoping</pkg> for echoping functionality</flag>
+<flag name="telnet">Install <pkg>dev-perl/Net-Telnet</pkg> for telnet functionality</flag>
+<flag name="ssh">Install ssh functionality</flag>
 </use>
 </pkgmetadata>

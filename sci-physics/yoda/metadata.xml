@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>sci-physics</herd>
 <longdescription>
   Yet more Objects for Data Analysis is a small set of data analysis
   (specifically histogramming) classes being developed by MCnet
@@ -11,6 +10,6 @@
 </longdescription>
 <use>
   <flag name="c++11"> Build using the C++11 standard</flag>
-  <flag name='root'>Adds support for <pkg>sci-physics/root</pkg></flag>
+  <flag name="root">Adds support for <pkg>sci-physics/root</pkg></flag>
 </use>
 </pkgmetadata>

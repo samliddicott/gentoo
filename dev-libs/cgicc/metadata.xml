@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>cpp</herd>
 	<longdescription lang="en">
 GNU cgicc is an ANSI C++ compliant class library that greatly
 simplifies the creation of CGI applications for the World Wide
@@ -18,4 +17,3 @@ Web. cgicc performs the following functions:
  - Compatible with FastCGI
 	</longdescription>
 </pkgmetadata>
-

@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>dotnet</herd>
-  <herd>gstreamer</herd>
+  <maintainer type="person">
+	  <email>cynede@gentoo.org</email>
+	  <name>Heather Cynede</name>
+  </maintainer>
+  <maintainer type="person">
+	  <email>leio@gentoo.org</email>
+  </maintainer>
+  <maintainer type="person">
+	  <email>eva@gentoo.org</email>
+	  <name>Gilles Dartiguelongue</name>
+  </maintainer>
+  <maintainer type="person">
+	  <email>pacho@gentoo.org</email>
+	  <name>Pacho Ramos</name>
+  </maintainer>
   <use>
 	  <flag name="lastfmfingerprint">Enable support to ientify your
 	  music automatically, using the Last.fm online service.</flag>

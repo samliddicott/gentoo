@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>kernel-misc</herd>
-	<herd>crypto</herd>
+	<maintainer type="person">
+		<email>robbat2@gentoo.org</email>
+		<name>Robin H. Johnson</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>ssuominen@gentoo.org</email>
+		<name>Samuli Suominen</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>caster@gentoo.org</email>
+		<name>Vlastimil Babka</name>
+	</maintainer>
+	<maintainer type="project">
+		<email>crypto@gentoo.org</email>
+		<name>Crypto</name>
+	</maintainer>
 	<use>
 		<flag name="gpg">Enable <pkg>app-crypt/gnupg</pkg> key module</flag>
 		<flag name="openssl">Enable <pkg>dev-libs/openssl</pkg> key

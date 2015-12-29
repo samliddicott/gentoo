@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>java</herd>
-
 <longdescription>
 JMP is a profiler for java that can be used to trace objects usage and
 method timings. JMP uses the JVMPI interface to gather statistics

@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>vim</herd>
+  <maintainer type="person">
+    <email>radhermit@gentoo.org</email>
+    <name>Tim Harder</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>tranquility@gentoo.org</email>
+    <name>Ole Reifschneider</name>
+  </maintainer>
   <use>
-    <flag name='nvimpager'>Install nvimpager symlink to less.sh macro</flag>
+    <flag name="nvimpager">Install nvimpager symlink to less.sh macro</flag>
     <flag name="jemalloc">Use <pkg>dev-libs/jemalloc</pkg> for allocations</flag>
   </use>
   <upstream>

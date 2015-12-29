@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>netmon</herd>
-  <herd>perl</herd>
+  <maintainer type="person">
+    <email>vapier@gentoo.org</email>
+  </maintainer>
+  <maintainer type="person">
+    <email>jer@gentoo.org</email>
+    <name>Jeroen Roovers</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>zerochaos@gentoo.org</email>
+    <name>Rick Farina</name>
+  </maintainer>
+  <maintainer type="project">
+    <email>perl@gentoo.org</email>
+    <name>Gentoo Perl Project</name>
+  </maintainer>
   <longdescription>Look up country by IP Address</longdescription>
   <upstream>
     <remote-id type="cpan">Geo-IP</remote-id>

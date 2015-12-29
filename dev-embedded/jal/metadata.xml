@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>dev-embedded</herd>
+	<maintainer type="person">
+		<email>radhermit@gentoo.org</email>
+		<name>Tim Harder</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>robbat2@gentoo.org</email>
+		<name>Robin H. Johnson</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>vapier@gentoo.org</email>
+		<name>Mike Frysinger</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>hwoarang@gentoo.org</email>
+		<name>Markos Chandras</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>zlogene@gentoo.org</email>
+		<name>Mikle Kolyada</name>
+	</maintainer>
 	<longdescription>
 Jal is a high-level language for a number of Microchip (TM) PIC microcontrollers (16c84, 16f84, 12c508, 
 12c509, 16F877) and Ubicom SX (SX18 and SX28) microcontrollers

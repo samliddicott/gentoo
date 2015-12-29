@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>proaudio</herd>
-	<herd>proxy-maintainers</herd>
-	<maintainer>
+	<maintainer type="person">
 		<email>aballier@gentoo.org</email>
 		<name>Alexis Ballier</name>
 	</maintainer>
-	<maintainer>
+	<maintainer type="person">
 		<email>l33tmmx@gmail.com</email>
 		<name>Jouni Rinne</name>
 	</maintainer>
+<maintainer type="person">
+		<email>radhermit@gentoo.org</email>
+		<name>Tim Harder</name>
+	</maintainer>
+<maintainer type="person">
+		<email>nativemad@gentoo.org</email>
+		<name>Andreas Schuerch</name>
+	</maintainer>
+<maintainer type="project">
+		<email>proxy-maint@gentoo.org</email>
+		<name>Proxy Maintainers</name>
+	</maintainer>
 </pkgmetadata>
-

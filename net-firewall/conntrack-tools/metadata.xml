@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>netmon</herd>
+	<maintainer type="person">
+		<email>vapier@gentoo.org</email>
+	</maintainer>
+	<maintainer type="person">
+		<email>jer@gentoo.org</email>
+		<name>Jeroen Roovers</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>zerochaos@gentoo.org</email>
+		<name>Rick Farina</name>
+	</maintainer>
 	<longdescription lang="en">
 		A set of tools targeted at system administrators. They are conntrack,
 		the userspace command line interface, and conntrackd, the userspace

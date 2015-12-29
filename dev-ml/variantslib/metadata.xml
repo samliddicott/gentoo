@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>ml</herd>
+  <maintainer type="person">
+    <email>aballier@gentoo.org</email>
+    <name>Alexis Ballier</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>hkBst@gentoo.org</email>
+  </maintainer>
+  <maintainer type="project">
+    <email>heroxbd@gentoo.org</email>
+    <name>Benda XU</name>
+  </maintainer>
   <upstream>
     <remote-id type="bitbucket">yminsky/ocaml-core</remote-id>
   </upstream>

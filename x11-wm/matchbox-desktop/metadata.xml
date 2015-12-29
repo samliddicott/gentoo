@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>gpe</herd>
+  <maintainer type="person">
+    <email>miknix@gentoo.org</email>
+    <name>Angelo Arrifano</name>
+  </maintainer>
   <use>
     <flag name="dnotify">Use the linux kernel directory notification feature.</flag>
   </use>

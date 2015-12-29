@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>vim</herd>
+	<maintainer type="person">
+		<email>radhermit@gentoo.org</email>
+		<name>Tim Harder</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>tranquility@gentoo.org</email>
+		<name>Ole Reifschneider</name>
+	</maintainer>
 	<longdescription lang="en">
 		Vim's internal modeline support allows all sorts of annoying and
 		potentially insecure options to be set. This script implements a much

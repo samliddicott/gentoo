@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-
 <pkgmetadata>
-	<herd>java</herd>
-
 	<longdescription>
 	ASM is a Java bytecode manipulation framework. It can be used to
 	dynamically generate stub classes or other proxy classes, directly in

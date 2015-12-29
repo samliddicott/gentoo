@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>haskell</herd>
 	<longdescription>
 		To store passwords securely, they should be salted,
 		then hashed with a slow hash function. This library

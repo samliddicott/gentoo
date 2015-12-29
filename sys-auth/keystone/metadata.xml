@@ -5,8 +5,7 @@
     <flag name="memcached">Installs dependencies needed for using memcached as a backend</flag>
     <flag name="mongo">Installs dependencies needed for using mongo as a backend</flag>
   </use>
-  <herd>openstack</herd>
-  <maintainer>
+  <maintainer type="project">
     <email>prometheanfire@gentoo.org</email>
     <name>Matthew Thode</name>
   </maintainer>

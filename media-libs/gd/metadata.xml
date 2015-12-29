@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>graphics</herd>
-<maintainer>
+<maintainer type="person">
 	<email>vapier@gentoo.org</email>
+</maintainer>
+<maintainer type="person">
+	<email>lu_zero@gentoo.org</email>
+	<name>Luca Barbato</name>
+</maintainer>
+<maintainer type="person">
+	<email>maekke@gentoo.org</email>
+	<name>Markus Meier</name>
+</maintainer>
+<maintainer type="person">
+	<email>radhermit@gentoo.org</email>
+	<name>Tim Harder</name>
+</maintainer>
+<maintainer type="person">
+	<email>ssuominen@gentoo.org</email>
+	<name>Samuli Suominen</name>
 </maintainer>
 <longdescription>
 gd is a graphics library. It allows your code to quickly draw images complete  
@@ -28,6 +43,6 @@ and so forth.
 	<bugs-to>https://github.com/libgd/libgd/issues</bugs-to>
 </upstream>
 <use>
-	<flag name='webp'>Enable support for the webp format</flag>
+	<flag name="webp">Enable support for the webp format</flag>
 </use>
 </pkgmetadata>

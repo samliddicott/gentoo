@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>gnome-accessibility</herd>
+  <maintainer type="person">
+    <email>leio@gentoo.org</email>
+    <name>Mart Raudsepp</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>pacho@gentoo.org</email>
+    <name>Pacho Ramos</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>tetromino@gentoo.org</email>
+    <name>Alexandre Rostovtsev</name>
+  </maintainer>
   <longdescription lang="en">
 Accerciser is an interactive Python accessibility explorer for the GNOME desktop. It uses AT-SPI to inspect and control widgets, allowing you to check if an application is providing correct information to assistive technologies and automated test frameworks. Accerciser has a simple plugin framework which you can use to create custom views of accessibility information.
 

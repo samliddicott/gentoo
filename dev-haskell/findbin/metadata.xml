@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>haskell</herd>
 	<longdescription>
 		This module locates the full directory to the running program,
 		to allow the use of paths relative to it.

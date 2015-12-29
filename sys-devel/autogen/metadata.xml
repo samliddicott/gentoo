@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>toolchain</herd>
+<maintainer type="person">
+ <email>rhill@gentoo.org</email>
+ <name>Ryan Hill</name>
+</maintainer>
+<maintainer type="person">
+ <email>kumba@gentoo.org</email>
+ <name>Joshua Kinard</name>
+</maintainer>
 <use>
- <flag name='libopts'>install the libopts tarball (a few packages want this for developing)</flag>
+ <flag name="libopts">install the libopts tarball (a few packages want this for developing)</flag>
 </use>
 </pkgmetadata>

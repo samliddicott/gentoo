@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>prolog</herd>
+<maintainer type="person">
+	<email>george@gentoo.org</email>
+	<name>George Shapovalov</name>
+</maintainer>
+<maintainer type="person">
+	<email>keri@gentoo.org</email>
+	<name>Keri Harris</name>
+</maintainer>
 <use>
-	<flag name='archive'>Use libarchive for extension packs</flag>
-	<flag name='uuid'>Use ossp-uuid for UUID pack</flag>
+	<flag name="archive">Use libarchive for extension packs</flag>
+	<flag name="uuid">Use ossp-uuid for UUID pack</flag>
 </use>
 </pkgmetadata>

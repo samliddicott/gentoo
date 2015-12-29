@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>sci</herd>
 <longdescription lang="en">
 BLAS (Basic Linear Algebra Subroutines) is a set of efficient routines
 for most of the basic vector and matrix operations. They are widely

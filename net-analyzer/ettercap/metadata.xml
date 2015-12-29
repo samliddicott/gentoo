@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>netmon</herd>
-	<maintainer>
+	<maintainer type="person">
 		<email>zerochaos@gentoo.org</email>
 		<name>Rick Farina</name>
 	</maintainer>
-	<maintainer>
+	<maintainer type="person">
 		<email>ago@gentoo.org</email>
 		<name>Agostino Sarubbo</name>
 	</maintainer>

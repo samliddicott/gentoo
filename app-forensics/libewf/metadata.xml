@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>forensics</herd>
+	<maintainer type="person">
+		<email>patrick@gentoo.org</email>
+		<name>Patrick Lauer</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>radhermit@gentoo.org</email>
+		<name>Tim Harder</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>zerochaos@gentoo.org</email>
+		<name>Rick Farina</name>
+	</maintainer>
 	<use>
 		<flag name="bfio">Enables libbfio for chaining file in file handling</flag>
 		<flag name="rawio">Enables raw IO handling</flag>

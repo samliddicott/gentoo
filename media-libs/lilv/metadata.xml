@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>proaudio</herd>
+<maintainer type="person">
+    <email>radhermit@gentoo.org</email>
+    <name>Tim Harder</name>
+  </maintainer>
+<maintainer type="person">
+    <email>nativemad@gentoo.org</email>
+    <name>Andreas Schuerch</name>
+  </maintainer>
 <longdescription lang="en">
 	Lilv is a library to make the use of LV2 plugins as simple as possible for applications. Lilv is the successor to SLV2, rewritten to be significantly faster and have minimal dependencies.
 </longdescription>

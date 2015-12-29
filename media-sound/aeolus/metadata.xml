@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>proaudio</herd>
+<maintainer type="person">
+	<email>radhermit@gentoo.org</email>
+	<name>Tim Harder</name>
+</maintainer>
+<maintainer type="person">
+	<email>nativemad@gentoo.org</email>
+	<name>Andreas Schuerch</name>
+</maintainer>
 <longdescription lang="en">
 	Aeolus is a synthesised (i.e. not sampled) pipe organ emulator that should
 	be good enough to make an organist enjoy playing it. It is a software

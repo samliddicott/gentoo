@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <maintainer>
+  <maintainer type="person">
     <email>karl.j.linden@gmail.com</email>
     <name>Karl Lindén</name>
   </maintainer>
-  <herd>proaudio</herd>
+  <maintainer type="person">
+    <email>radhermit@gentoo.org</email>
+    <name>Tim Harder</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>nativemad@gentoo.org</email>
+    <name>Andreas Schuerch</name>
+  </maintainer>
   <use>
     <flag name="fdgl">Use experimental force-directed graph layout</flag>
   </use>

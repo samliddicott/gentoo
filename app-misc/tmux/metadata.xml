@@ -1,10 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>shell-tools</herd>
-  <maintainer>
+  <maintainer type="person">
     <email>wired@gentoo.org</email>
     <name>Alex Alexander</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>darkside@gentoo.org</email>
+  </maintainer>
+  <maintainer type="project">
+    <email>heroxbd@gentoo.org</email>
+    <name>Benda Xu</name>
   </maintainer>
   <longdescription>
 		tmux is a "terminal multiplexer", it enables a number of terminals

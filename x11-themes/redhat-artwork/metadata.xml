@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>desktop-misc</herd>
+<maintainer type="person">
+<email>xarthisius@gentoo.org</email>
+<name>Kacper Kowalik</name>
+</maintainer>
+<maintainer type="person">
+<email>hwoarang@gentoo.org</email>
+<name>Markos Chandras</name>
+</maintainer>
+<maintainer type="person">
+<email>jer@gentoo.org</email>
+<name>Jeroen Roovers</name>
+</maintainer>
 <use>
-<flag name='audacious'>Install <pkg>media-sound/audacious</pkg> theme</flag>
-<flag name='cursors'>Install Bluecurve cursors</flag>
-<flag name='gdm'>Install Bluecurve <pkg>gnome-base/gdm</pkg> theme</flag>
-<flag name='icons'>Install Bluecurve icons</flag>
-<flag name='kdm'>Install Bluecurve <pkg>kde-base/kdm</pkg> theme</flag>
-<flag name='nautilus'>Install Bluecurve <pkg>gnome-base/nautilus</pkg> icons</flag>
+<flag name="audacious">Install <pkg>media-sound/audacious</pkg> theme</flag>
+<flag name="cursors">Install Bluecurve cursors</flag>
+<flag name="gdm">Install Bluecurve <pkg>gnome-base/gdm</pkg> theme</flag>
+<flag name="icons">Install Bluecurve icons</flag>
+<flag name="kdm">Install Bluecurve <pkg>kde-base/kdm</pkg> theme</flag>
+<flag name="nautilus">Install Bluecurve <pkg>gnome-base/nautilus</pkg> icons</flag>
 </use>
 </pkgmetadata>

@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>dev-embedded</herd>
+	<maintainer type="person">
+		<email>radhermit@gentoo.org</email>
+		<name>Tim Harder</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>robbat2@gentoo.org</email>
+		<name>Robin H. Johnson</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>vapier@gentoo.org</email>
+		<name>Mike Frysinger</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>zlogene@gentoo.org</email>
+		<name>Mikle Kolyada</name>
+	</maintainer>
 	<longdescription>
 		This package is part of the avr- binutils, -gcc, -lib toolchain for the Atmel microcontrollers.
 		These ebuilds have been created and submitted by Scott L. Price (dflytech.com).

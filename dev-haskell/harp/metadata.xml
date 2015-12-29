@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>haskell</herd>
 	<longdescription lang="en">
 	HaRP, or Haskell Regular Patterns, is a Haskell extension that extends the
 	normal pattern matching facility with the power of regular expressions. This

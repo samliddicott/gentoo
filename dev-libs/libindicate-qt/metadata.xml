@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>kde</herd>
-	<herd>ayatana</herd>
-	<maintainer>
+	<maintainer type="unknown">
 		<email>ayatana-bugs@gentoo.org</email>
+	</maintainer>
+	<maintainer type="project">
+		<email>kde@gentoo.org</email>
+		<name>Gentoo KDE Project</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>ssuominen@gentoo.org</email>
+		<name>Samuli Suominen</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>chithanh@gentoo.org</email>
+		<name>Chí-Thanh Christopher Nguyễn</name>
 	</maintainer>
 	<upstream>
 		<remote-id type="launchpad">libindicate-qt</remote-id>

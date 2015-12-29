@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>qmail</herd>
+<maintainer type="person">
+	<email>vapier@gentoo.org</email>
+</maintainer>
 <longdescription lang="en">
 spamdyke is a filter for monitoring and intercepting SMTP connections between a
 remote host and a qmail server. Spam is blocked while the remote server
@@ -13,6 +15,6 @@ features to enhance qmail.
 Best of all, using spamdyke does not require patching or recompiling qmail!
 </longdescription>
 <use>
-	<flag name='ssl'>Enables TLS protocol for spamdyke</flag>
+	<flag name="ssl">Enables TLS protocol for spamdyke</flag>
 </use>
 </pkgmetadata>

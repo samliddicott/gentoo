@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>desktop-dock</herd>
 	<longdescription>
 		wmapm is a small dock-app for WindowMaker that shows
 		continually-updated APM statistics. It's a must have for Laptop

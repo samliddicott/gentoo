@@ -4,7 +4,14 @@
   <use>
     <flag name="gconf">Enable GConf as configuration backend</flag>
   </use>
-  <herd>desktop-misc</herd>
+  <maintainer type="person">
+    <email>xarthisius@gentoo.org</email>
+    <name>Kacper Kowalik</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>jer@gentoo.org</email>
+    <name>Jeroen Roovers</name>
+  </maintainer>
   <longdescription>
     Avant Window Navigator (Awn) is a dock-like bar which sits at the
     bottom of the screen. It has support for launchers, task lists, and

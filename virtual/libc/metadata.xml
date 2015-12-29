@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>toolchain</herd>
-<herd>embedded</herd>
-<herd>bsd</herd>
+<maintainer type="person">
+	<email>rhill@gentoo.org</email>
+	<name>Ryan Hill</name>
+</maintainer>
+<maintainer type="person">
+	<email>kumba@gentoo.org</email>
+	<name>Joshua Kinard</name>
+</maintainer>
+<maintainer type="person">
+	<email>kumba@gentoo.org</email>
+	<name>Joshua Kinard</name>
+</maintainer>
+<maintainer type="person">
+	<email>radhermit@gentoo.org</email>
+	<name>Tim Harder</name>
+</maintainer>
+<maintainer type="person">
+	<email>hwoarang@gentoo.org</email>
+	<name>Markos Chandras</name>
+</maintainer>
+<maintainer type="person">
+	<email>zlogene@gentoo.org</email>
+	<name>Mikle Kolyada</name>
+</maintainer>
+<maintainer type="project">
+	<email>bsd@gentoo.org</email>
+	<name>BSD Project</name>
+</maintainer>
 </pkgmetadata>

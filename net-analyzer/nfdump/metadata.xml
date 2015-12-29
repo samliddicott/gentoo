@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>netmon</herd>
+  <maintainer type="person">
+    <email>vapier@gentoo.org</email>
+  </maintainer>
+  <maintainer type="person">
+    <email>zerochaos@gentoo.org</email>
+    <name>Rick Farina</name>
+  </maintainer>
   <use>
     <flag name="readpcap">Build nfcapd collector to read from pcap file instead ofnetwork data</flag>
     <flag name="compat15">Enable read support for nfdump data files created with nfdump 1.5.x</flag>

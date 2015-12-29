@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>netmon</herd>
-<herd>crypto</herd>
-<maintainer>
+<maintainer type="person">
 	<email>zerochaos@gentoo.org</email>
 	<name>Rick Farina</name>
 	<description>Also on the upstream team</description>
+</maintainer>
+<maintainer type="project">
+	<email>crypto@gentoo.org</email>
+	<name>Crypto</name>
 </maintainer>
 <longdescription>
 	aircrack is a set of tools for auditing wireless networks.

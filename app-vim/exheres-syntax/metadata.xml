@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>vim</herd>
-  <herd>proxy-maintainers</herd>
-<maintainer>
+  <maintainer type="person">
     <email>ahf@0x90.dkg</email>
     <name>Alexander Faeroy</name>
     <description>Proxied upstream</description>
+  </maintainer>
+<maintainer type="person">
+    <email>radhermit@gentoo.org</email>
+    <name>Tim Harder</name>
+  </maintainer>
+<maintainer type="person">
+    <email>tranquility@gentoo.org</email>
+    <name>Ole Reifschneider</name>
+  </maintainer>
+<maintainer type="project">
+    <email>proxy-maint@gentoo.org</email>
+    <name>Proxy Maintainers</name>
   </maintainer>
 </pkgmetadata>

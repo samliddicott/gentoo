@@ -1,11 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <maintainer>
+  <maintainer type="person">
     <email>vikraman@gentoo.org</email>
     <name>Vikraman Choudhury</name>
   </maintainer>
-  <herd>sysadmin</herd>
+  <maintainer type="person">
+    <email>dev-zero@gentoo.org</email>
+    <name>Tiziano Müller</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>chutzpah@gentoo.org</email>
+    <name>Patrick McLean</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>flameeyes@gentoo.org</email>
+    <name>Diego Elio Pettenò</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>robbat2@gentoo.org</email>
+    <name>Robin H. Johnson</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>tampakrap@gentoo.org</email>
+    <name>Theo Chatzimichos</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>idl0r@gentoo.org</email>
+    <name>Christian Ruppert</name>
+  </maintainer>
   <longdescription lang="en">
 			r10k provides a general purpose toolset for deploying Puppet environments and modules. It implements the Puppetfile format and provides a native implementation of Puppet dynamic environments.
   </longdescription>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>java</herd>
 	<longdescription lang="en">
 		The DSI utilities are a mish mash of classes accumulated during the last
 		ten years in projects developed at the DSI (Dipartimento di Scienze
@@ -11,4 +10,3 @@
 		the material in a single place.
 	</longdescription>
 </pkgmetadata>
-

@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>radio</herd>
+	<maintainer type="person">
+		<email>chithanh@gentoo.org</email>
+		<name>Chí-Thanh Christopher Nguyễn</name>
+	</maintainer>
+<maintainer type="person">
+		<email>creffett@gentoo.org</email>
+		<name>Chris Reffett</name>
+	</maintainer>
+<maintainer type="person">
+		<email>xmw@gentoo.org</email>
+		<name>Michael Weber</name>
+	</maintainer>
+<maintainer type="person">
+		<email>zx2c4@gentoo.org</email>
+		<name>Jason A. Donenfeld</name>
+	</maintainer>
 </pkgmetadata>
-

@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>toolchain</herd>
+	<maintainer type="person">
+		<email>rhill@gentoo.org</email>
+		<name>Ryan Hill</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>kumba@gentoo.org</email>
+		<name>Joshua Kinard</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>lu_zero@gentoo.org</email>
+		<name>Luca Barbato</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>vapier@gentoo.org</email>
+	</maintainer>
+	<maintainer type="project">
+		<email>blueness@gentoo.org</email>
+		<name>Anthony G. Basile</name>
+	</maintainer>
 	<longdescription>
 		Delta assists you in minimizing "interesting" files
 		subject to a test of their interestingness. A common such situation

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>haskell</herd>
 	<longdescription>
 		The premier WAI handler. For more information, see &lt;http://steve.vinoski.net/blog/2011/05/01/warp-a-haskell-web-server/&gt;.
 	</longdescription>

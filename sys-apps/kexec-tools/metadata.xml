@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>kernel-misc</herd>
-  <maintainer>
+  <maintainer type="person">
     <email>jlec@gentoo.org</email>
+  </maintainer>
+  <maintainer type="person">
+    <email>robbat2@gentoo.org</email>
+    <name>Robin H. Johnson</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>ssuominen@gentoo.org</email>
+    <name>Samuli Suominen</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>caster@gentoo.org</email>
+    <name>Vlastimil Babka</name>
   </maintainer>
   <use>
     <flag name="lzma">Enables support for LZMA compressed kernel images</flag>

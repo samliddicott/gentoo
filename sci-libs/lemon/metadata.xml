@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<herd>sci</herd>
-<maintainer>
+<maintainer type="person">
   <email>mmokrejs@gmail.com</email>
   <name>Martin Mokrejs</name>
 </maintainer>
@@ -16,7 +15,7 @@
 <use>
   <flag name="coin">Enable the <pkg>coinor-clp</pkg> and
   <pkg>coinor-cbc</pkg> graph algorithms</flag>
-  <flag name='glpk'>Enable GNU Linear Programming Kit
+  <flag name="glpk">Enable GNU Linear Programming Kit
   <pkg>sci-mathematics/glpk</pkg> support</flag>
   <flag name="tools">Build additional tools</flag>
   <flag name="coin">Enable the <pkg>coinor-clp</pkg> and

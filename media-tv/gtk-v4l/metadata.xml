@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>media-tv</herd>
-	<maintainer>
+	<maintainer type="person">
 		<email>ssuominen@gentoo.org</email>
 		<name>Samuli Suominen</name>
+	</maintainer>
+<maintainer type="person">
+		<email>zzam@gentoo.org</email>
+		<name>Matthias Schwarzott</name>
+	</maintainer>
+<maintainer type="person">
+		<email>hd_brummy@gentoo.org</email>
+		<name>Joerg Bornkessel</name>
+	</maintainer>
+<maintainer type="person">
+		<email>idl0r@gentoo.org</email>
+		<name>Christian Ruppert</name>
 	</maintainer>
 </pkgmetadata>

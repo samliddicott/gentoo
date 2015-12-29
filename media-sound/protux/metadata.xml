@@ -1,8 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>proaudio</herd>
-  <herd>java</herd>
+  <maintainer type="person">
+    <email>radhermit@gentoo.org</email>
+    <name>Tim Harder</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>nativemad@gentoo.org</email>
+    <name>Andreas Schuerch</name>
+  </maintainer>
+  <maintainer type="project">
+    <email>java@gentoo.org</email>
+    <name>Java</name>
+  </maintainer>
   <upstream>
     <remote-id type="sourceforge">protux</remote-id>
   </upstream>

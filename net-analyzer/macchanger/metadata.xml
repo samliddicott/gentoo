@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>netmon</herd>
-	<maintainer>
+	<maintainer type="person">
 		<email>robbat2@gentoo.org</email>
 		<name>Robin H. Johnson</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>vapier@gentoo.org</email>
+	</maintainer>
+	<maintainer type="person">
+		<email>jer@gentoo.org</email>
+		<name>Jeroen Roovers</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>zerochaos@gentoo.org</email>
+		<name>Rick Farina</name>
 	</maintainer>
 	<upstream>
 		<remote-id type="github">alobbs/macchanger</remote-id>

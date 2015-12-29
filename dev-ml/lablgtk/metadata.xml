@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>ml</herd>
+	<maintainer type="person">
+	<email>hkBst@gentoo.org</email>
+	</maintainer>
+<maintainer type="project">
+	<email>heroxbd@gentoo.org</email>
+	<name>Benda XU</name>
+	</maintainer>
 <use>
-	<flag name='glade'>Enable libglade bindings compilation.</flag>
-	<flag name='gnomecanvas'>Enable libgnomecanvas bindings compilation.</flag>
-	<flag name='sourceview'>Enable GtkSourceView support</flag>
+	<flag name="glade">Enable libglade bindings compilation.</flag>
+	<flag name="gnomecanvas">Enable libgnomecanvas bindings compilation.</flag>
+	<flag name="sourceview">Enable GtkSourceView support</flag>
 </use>
 </pkgmetadata>
