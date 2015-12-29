@@ -10,15 +10,14 @@ inherit eutils python-single-r1
 
 DESCRIPTION="Backup system inspired by TimeVault and FlyBack, with a GUI for GNOME and KDE4"
 HOMEPAGE="http://backintime.le-web.org/"
-SRC_URI="http://${PN}.le-web.org/download/${PN}/${P}.tar.gz"
+SRC_URI="http://${PN}.le-web.org/wp-content/uploads/2009/03/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="kde gnome"
 
-RDEPEND="${PYTHON_DEPS}
-	dev-python/dbus-python[${PYTHON_USEDEP}]
+COMMON_DEPEND="${PYTHON_DEPS}
 	dev-python/keyring[${PYTHON_USEDEP}]
 	dev-python/notify-python[${PYTHON_USEDEP}]
 	net-misc/openssh
@@ -38,16 +37,20 @@ RDEPEND="${PYTHON_DEPS}
 		dev-python/pygobject:2[${PYTHON_USEDEP}]
 		dev-python/pygtk[${PYTHON_USEDEP}]
 		x11-libs/gksu
-	)"
-
-DEPEND="${RDEPEND}"
+	)
+"
+DEPEND="${COMMON_DEPEND}"
+RDEPEND="${COMMON_DEPEND}
+	kde? ( dev-python/PyQt4 )
+"
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 S=${WORKDIR}
 
 src_prepare() {
-	epatch "${FILESDIR}"/${PN}-1.0.24-dont-install-license.patch
+	epatch "${FILESDIR}"/${P}-dont-install-license.patch
+	epatch "${FILESDIR}"/${PN}-1.0.4-fix-configure-warning.diff
 
 	#fix doc install location
 	sed -i "s:/doc/kde4/HTML/:/doc/HTML/:g" kde4/Makefile.template || die
@@ -57,7 +60,7 @@ src_prepare() {
 		kde4/backintime-kde4-root.desktop || die
 
 	#bug 482106
-	epatch "${FILESDIR}"/${PN}-1.0.36-wrapper.patch
+	epatch "${FILESDIR}"/${P}-wrapper.patch
 	sed -e "s:^python2 :${PYTHON} :" \
 		-e "s:APP_PATH=\"/usr:APP_PATH=\"${EPREFIX}/usr:" \
 		-i kde4/backintime-kde4 gnome/backintime-gnome \
