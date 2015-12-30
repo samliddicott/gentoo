@@ -11122,7 +11122,6 @@ kde-apps/thumbnailers 4.14.3 15.08.3: KDE 4 thumbnail generators for PDF/PS file
 kde-apps/umbrello 4.14.3 15.08.3: KDE UML Modeller
 kde-apps/zeroconf-ioslave 4.14.3 15.08.3: A DNSSD (DNS Service Discovery - part of Rendezvous) ioslave and kded module
 kde-base/baloo 4.14.3: Next generation of the Nepomuk project
-kde-base/contactthemeeditor 4.13.3: A contact theme editor for KAddressBook
 kde-base/freespacenotifier 4.11.19 4.11.22: A module that monitors free disk space on the home dir
 kde-base/kactivities 4.13.3 4.13.3-r1: KDE Activity Manager
 kde-base/kactivitymanagerd 4.13.3-r1: KDE Activity Manager Daemon
