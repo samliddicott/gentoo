@@ -11050,7 +11050,7 @@ kde-apps/kscd 4.14.3 15.08.3: KDE CD player
 kde-apps/kshisen 4.14.3 15.08.3: A KDE game similiar to Mahjongg
 kde-apps/ksirk 4.14.3 15.08.3: KDE: Ksirk is a KDE port of the board game risk
 kde-apps/ksnakeduel 4.14.3 15.08.3: KDE Tron game
-kde-apps/ksnapshot 4.14.3 15.08.3: KDE Screenshot Utility
+kde-apps/ksnapshot 4.14.3 15.08.3-r1: KDE Screenshot Utility
 kde-apps/kspaceduel 4.14.3 15.08.3: KDE Space Game
 kde-apps/ksquares 4.14.3 15.08.3: KDE clone of the game squares
 kde-apps/kstars 4.14.3-r1: KDE Desktop Planetarium
@@ -11368,7 +11368,7 @@ kde-plasma/kdecoration 5.4.3 5.5.0 5.5.1 5.5.2: Plugin based library to create w
 kde-plasma/kdeplasma-addons 5.4.3 5.4.3-r1 5.5.0 5.5.1 5.5.2: Extra Plasma applets and engines
 kde-plasma/kgamma 5.4.3 5.5.0 5.5.1 5.5.2: Screen gamma values kcontrol module
 kde-plasma/khelpcenter 5.4.3 5.5.0 5.5.1 5.5.2: The KDE Help Center
-kde-plasma/khotkeys 5.4.3 5.5.0 5.5.1 5.5.2: KDE workspace hotkey module
+kde-plasma/khotkeys 5.4.3-r1 5.5.0 5.5.1 5.5.2: KDE workspace hotkey module
 kde-plasma/kinfocenter 5.4.3 5.5.0 5.5.1 5.5.2: A utility that provides information about a computer system
 kde-plasma/kmenuedit 5.4.3 5.5.0 5.5.1 5.5.2: KDE menu editor
 kde-plasma/kscreen 5.4.3 5.5.0 5.5.1 5.5.2: KDE screen management
