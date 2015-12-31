@@ -42,10 +42,13 @@ DEPEND="${RDEPEND}
 DOCS=( README doc/ChangeLog doc/cmd.txt )
 
 PATCHES=(
-	"${FILESDIR}/${PN}-0.25-fix-docs.patch"
 	"${FILESDIR}/${PN}-0.25-fix-install-dirs.patch"
-	"${FILESDIR}/${PN}-0.25-tools-optional.patch"
 	"${FILESDIR}/${PN}-0.25-fix-without-zlib.patch"
+	"${FILESDIR}/${PN}-0.25-hide-symbols.patch"
+	"${FILESDIR}/${PN}-0.25-fvisibility-hidden.patch"
+	# TODO: Take to upstream
+	"${FILESDIR}/${PN}-0.25-fix-docs.patch"
+	"${FILESDIR}/${PN}-0.25-tools-optional.patch"
 )
 
 pkg_setup() {
