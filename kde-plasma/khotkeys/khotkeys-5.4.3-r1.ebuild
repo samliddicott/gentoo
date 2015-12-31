@@ -44,3 +44,8 @@ DEPEND="${COMMON_DEPEND}
 	x11-libs/libXtst
 	x11-proto/xproto
 "
+
+src_install() {
+	kde5_src_install
+	rm "${ED}"usr/share/khotkeys/printscreen.khotkeys || die
+}

@@ -20,7 +20,11 @@ DEPEND="
 	)
 	kipi? ( $(add_kdeapps_dep libkipi) )
 "
-RDEPEND="${DEPEND}"
+RDEPEND="${DEPEND}
+	!<kde-plasma/khotkeys-5.4.3-r1
+"
+
+PATCHES=( "${FILESDIR}/${P}-install-hotkey-file.patch" )
 
 src_configure() {
 	local mycmakeargs=(
