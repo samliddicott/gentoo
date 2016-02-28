@@ -1014,7 +1014,7 @@ app-editors/gedit-plugins 3.16.0 3.18.0: Official plugins for gedit
 app-editors/ghex 3.10.1 3.18.0: GNOME hexadecimal editor
 app-editors/ghostwriter 1.2.5: A cross-platform, aesthetic, distraction-free Markdown editor
 app-editors/gobby 0.4.13 0.4.13-r1 0.4.94: GTK-based collaborative editor
-app-editors/gummi 0.6.5 9999: Simple LaTeX editor for GTK+ users
+app-editors/gummi 0.6.5 0.6.6 9999: Simple LaTeX editor for GTK+ users
 app-editors/gvim 7.4.769 7.4.1089 7.4.1229 7.4.1342 9999: GUI version of the Vim text editor
 app-editors/hexcurse 1.55: ncurses based hex editor
 app-editors/hexedit 1.2.13: View and edit files in hex or ASCII
