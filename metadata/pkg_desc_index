@@ -5132,7 +5132,7 @@ dev-perl/Algorithm-Diff 1.190.300: Compute intelligent differences between two f
 dev-perl/Algorithm-Munkres 0.80.0-r1: Munkres solution to classical Assignment problem
 dev-perl/Alien-SDL 1.446.0: building, finding and using SDL binaries
 dev-perl/Alien-wxWidgets 0.670.0: Building, finding and using wxWidgets binaries
-dev-perl/Any-Moose 0.210.0 0.260.0: Use Moose or Mouse modules (DEPRECATED)
+dev-perl/Any-Moose 0.210.0 0.260.0 0.260.0-r1: Use Moose or Mouse modules (DEPRECATED)
 dev-perl/AnyEvent 7.40.0-r1 7.80.0 7.110.0: Provides a uniform interface to various event loops
 dev-perl/AnyEvent-CacheDNS 0.80.0: Simple DNS resolver with caching
 dev-perl/AnyEvent-HTTP 2.220.0: Simple but non-blocking HTTP/HTTPS client
