@@ -5885,7 +5885,7 @@ dev-perl/Net-DNS-Resolver-Programmable 0.3.0-r1: programmable DNS resolver class
 dev-perl/Net-DNS-SEC 0.220.0 1.20.0: DNSSEC extensions to Net::DNS
 dev-perl/Net-Daemon 0.480.0-r1: Abstract base class for portable servers
 dev-perl/Net-Domain-TLD 1.690.0-r1 1.730.0: Current list of available top level domain names including new ICANN additions and ccTLDs
-dev-perl/Net-FreeDB 0.80.0-r1: OOP interface to the FreeDB database
+dev-perl/Net-FreeDB 0.80.0-r1 0.100.0: OOP interface to the FreeDB database
 dev-perl/Net-Google-SafeBrowsing-Blocklist 1.40.0-r1: Query a Google SafeBrowsing table
 dev-perl/Net-Google-SafeBrowsing-UpdateRequest 1.60.0-r1: Update a Google SafeBrowsing table
 dev-perl/Net-HTTP 6.60.0: Low-level HTTP connection (client)
