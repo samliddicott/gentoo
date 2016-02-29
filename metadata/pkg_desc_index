@@ -5748,6 +5748,7 @@ dev-perl/Lirc-Client 1.540.0-r1 2.20.0: A client library for the Linux Infrared 
 dev-perl/List-AllUtils 0.30.0-r1 0.80.0 0.90.0: Combines List::Util and List::MoreUtils in one bite-sized package
 dev-perl/List-MoreUtils 0.330.0-r1 0.413.0: Provide the missing functionality from List::Util
 dev-perl/List-UtilsBy 0.100.0: Higher-order list utility functions
+dev-perl/Locale-Maketext-Fuzzy 0.110.0-r1: Maketext from already interpolated strings
 dev-perl/Locale-Maketext-Lexicon 0.960.0-r1 1.0.0: Use other catalog formats in Maketext
 dev-perl/Locale-Msgfmt 0.150.0-r1: Compile .po files to .mo files
 dev-perl/Locale-PO 0.230.0 0.270.0: Perl module for manipulating .po entries from GNU gettext
@@ -6448,7 +6449,6 @@ dev-perl/libvorbis-perl 0.50.0-r1: Ogg::Vorbis - Perl extension for Ogg Vorbis s
 dev-perl/libwww-perl 6.50.0 6.150.0: A collection of Perl Modules for the WWW
 dev-perl/libxml-perl 0.80.0-r1: Collection of Perl modules for working with XML
 dev-perl/local-lib 2.0.14 2.0.18: create and use a local lib/ for perl modules with PERL5LIB
-dev-perl/locale-maketext-fuzzy 0.110.0-r1: Maketext from already interpolated strings
 dev-perl/math-pari 2.10.806.50-r1 2.10.808: Perl interface to PARI
 dev-perl/maybe 0.20.200-r1: Use a Perl module and ignore error if can't be loaded
 dev-perl/mecab-perl 0.996: Perl binding for MeCab
@@ -17534,7 +17534,7 @@ www-apps/radicale 1.1.1: A simple CalDAV calendar server
 www-apps/redmine 2.6.9: Flexible project management web application using the Ruby on Rails framework
 www-apps/rocketwiki-lqfb 0.4: Small parser which translates a wiki dialect to HTML
 www-apps/roundup 1.4.20 1.4.21 1.5.0: Simple-to-use and -install issue-tracking system with command-line, web, and e-mail interfaces
-www-apps/rt 4.2.12: RT is an enterprise-grade ticketing system
+www-apps/rt 4.2.12-r1: RT is an enterprise-grade ticketing system
 www-apps/rutorrent 3.4-r1: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 www-apps/scgi 1.14: A Python package for implementing SCGI servers
 www-apps/sitebar 3.3.9-r1 3.3.9-r2: The Bookmark Server for Personal and Team Use
