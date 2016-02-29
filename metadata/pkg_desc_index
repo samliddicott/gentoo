@@ -5330,7 +5330,7 @@ dev-perl/Crypt-OpenSSL-Random 0.40.0-r2: Crypt::OpenSSL::Random module for perl
 dev-perl/Crypt-PasswdMD5 1.400.0: Provides interoperable MD5-based crypt() functions
 dev-perl/Crypt-RC4 2.020.0-r1: Implements the RC4 encryption algorithm
 dev-perl/Crypt-RIPEMD160 0.50.0-r1: Crypt::RIPEMD160 module for perl
-dev-perl/Crypt-Random-Source 0.70.0-r1: Get weak or strong random data from pluggable sources
+dev-perl/Crypt-Random-Source 0.70.0-r1 0.110.0: Get weak or strong random data from pluggable sources
 dev-perl/Crypt-Rijndael 1.130.0: Crypt::CBC compliant Rijndael encryption module
 dev-perl/Crypt-SMIME 0.150.0-r1 0.160.0-r1: S/MIME message signing, verification, encryption and decryption
 dev-perl/Crypt-SSLeay 0.720.0-r1: OpenSSL support for LWP
