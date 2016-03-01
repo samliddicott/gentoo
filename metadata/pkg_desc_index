@@ -5889,7 +5889,7 @@ dev-perl/Net-Domain-TLD 1.690.0-r1 1.730.0 1.740.0: Current top level domain nam
 dev-perl/Net-FreeDB 0.80.0-r1 0.100.0: OOP interface to the FreeDB database
 dev-perl/Net-Google-SafeBrowsing-Blocklist 1.40.0-r1: Query a Google SafeBrowsing table
 dev-perl/Net-Google-SafeBrowsing-UpdateRequest 1.60.0-r1: Update a Google SafeBrowsing table
-dev-perl/Net-HTTP 6.60.0: Low-level HTTP connection (client)
+dev-perl/Net-HTTP 6.60.0 6.90.0: Low-level HTTP connection (client)
 dev-perl/Net-IDN-Encode 2.201.0-r1: Internationalizing Domain Names in Applications (IDNA)
 dev-perl/Net-IMAP-Simple 1.220.100-r1 1.220.600: Perl extension for simple IMAP account handling
 dev-perl/Net-IMAP-Simple-SSL 1.300.0-r1: SSL support for Net::IMAP::Simple
