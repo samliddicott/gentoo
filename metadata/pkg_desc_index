@@ -5321,6 +5321,7 @@ dev-perl/Crypt-Blowfish 2.140.0-r1: Crypt::Blowfish module for perl
 dev-perl/Crypt-CAST5_PP 1.40.0-r1: CAST5 block cipher in pure Perl
 dev-perl/Crypt-Cracklib 1.700.0-r1: Perl interface to Alec Muffett's Cracklib
 dev-perl/Crypt-DES 2.70.0: Crypt::DES module for perl
+dev-perl/Crypt-DH-GMP 0.0.120: Crypt::DH Using GMP Directly
 dev-perl/Crypt-Eksblowfish 0.9.0-r2: the Eksblowfish block cipher
 dev-perl/Crypt-OpenPGP 1.70.0: Pure-Perl OpenPGP-compatible PGP implementation
 dev-perl/Crypt-OpenSSL-Bignum 0.40.0-r2: OpenSSL's multiprecision integer arithmetic
@@ -5906,7 +5907,8 @@ dev-perl/Net-LDAPapi 3.0.3-r2: Perl5 Module Supporting LDAP API
 dev-perl/Net-LibIDN 0.120.0-r1: Perl bindings for GNU Libidn
 dev-perl/Net-Netmask 1.901.600-r1 1.902.100 1.902.200: Parse, manipulate and lookup IP network blocks
 dev-perl/Net-OAuth 0.280.0-r1: OAuth protocol support
-dev-perl/Net-OpenID-Consumer 1.30.0-r1: Library for consumers of OpenID identities
+dev-perl/Net-OpenID-Common 1.200.0: Libraries shared between Net::OpenID::Consumer and Net::OpenID::Server
+dev-perl/Net-OpenID-Consumer 1.30.0-r1 1.180.0: Library for consumers of OpenID identities
 dev-perl/Net-OpenSSH 0.590.0 0.600.0: Net::OpenSSH, Perl wrapper for OpenSSH secure shell client
 dev-perl/Net-Patricia 1.210.0-r1 1.220.0: Patricia Trie perl module for fast IP address lookups
 dev-perl/Net-Pcap 0.170.0-r1: Perl Net::Pcap - Perl binding to the LBL pcap
