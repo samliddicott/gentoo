@@ -6283,7 +6283,7 @@ dev-perl/TimeDate 2.300.0: A Date/Time Parsing Perl Module
 dev-perl/Tk-CursorControl 0.400.0-r1: Manipulate the mouse cursor programmatically
 dev-perl/Tk-JPEG-Lite 2.14.30-r1: lite JPEG loader for Tk::Photo
 dev-perl/Tk-TableMatrix 1.230.0-r1: Perl module for Tk-TableMatrix
-dev-perl/Tree-DAG_Node 1.60.0-r1 1.240.0 1.270.0: (Super)class for representing nodes in a tree
+dev-perl/Tree-DAG_Node 1.60.0-r1 1.240.0 1.270.0 1.290.0: (Super)class for representing nodes in a tree
 dev-perl/Tree-Simple 1.180.0-r1 1.250.0: A simple tree object
 dev-perl/Try-Tiny 0.220.0: Minimal try/catch with proper localization of source /home/mgorny/repos/gentoo/dev-perl/Try-Tiny/Try-Tiny-0.220.0.ebuild
 dev-perl/Type-Tiny 1.0.5: tiny, yet Moo(se)-compatible type constraint
