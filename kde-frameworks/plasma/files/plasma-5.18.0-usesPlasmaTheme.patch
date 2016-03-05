@@ -1,0 +1,111 @@
+From: David Rosca <nowrep@gmail.com>
+Date: Wed, 20 Jan 2016 10:28:56 +0000
+Subject: IconItem: Add usesPlasmaTheme property
+X-Git-Tag: v5.19.0
+X-Git-Url: http://quickgit.kde.org/?p=plasma-framework.git&a=commitdiff&h=83cec13edb43fa2ac17953dfed90cea3725108bf
+---
+IconItem: Add usesPlasmaTheme property
+
+Add usesPlasmaTheme (enabled by default) property to make it possible
+to disable using icons from Plasma theme.
+
+REVIEW: 126814
+---
+Backported to 5.18.0: 2016-03-05
+
+
+--- a/src/declarativeimports/core/iconitem.cpp
++++ b/src/declarativeimports/core/iconitem.cpp
+@@ -43,6 +43,7 @@
+       m_svgIcon(0),
+       m_smooth(false),
+       m_active(false),
++      m_usesPlasmaTheme(true),
+       m_textureChanged(false),
+       m_sizeChanged(false),
+       m_svgFromIconLoader(false),
+@@ -115,10 +116,12 @@
+                 m_svgIcon->setColorGroup(m_colorGroup);
+                 m_svgIcon->setDevicePixelRatio((window() ? window()->devicePixelRatio() : qApp->devicePixelRatio()));
+             }
+-            //try as a svg icon
+-            m_svgIcon->setImagePath(QLatin1String("icons/") + source.toString().split('-').first());
+-
+-            m_svgIcon->setContainsMultipleImages(true);
++
++            if (m_usesPlasmaTheme) {
++                //try as a svg icon from plasma theme
++                m_svgIcon->setImagePath(QLatin1String("icons/") + source.toString().split('-').first());
++                m_svgIcon->setContainsMultipleImages(true);
++            }
+ 
+             //success?
+             if (m_svgIcon->isValid() && m_svgIcon->hasElement(m_source.toString())) {
+@@ -261,6 +264,29 @@
+ bool IconItem::smooth() const
+ {
+     return m_smooth;
++}
++
++bool IconItem::usesPlasmaTheme() const
++{
++    return m_usesPlasmaTheme;
++}
++
++void IconItem::setUsesPlasmaTheme(bool usesPlasmaTheme)
++{
++    if (m_usesPlasmaTheme == usesPlasmaTheme) {
++        return;
++    }
++
++    m_usesPlasmaTheme = usesPlasmaTheme;
++
++    // Reload icon with new settings
++    if (m_svgIcon && m_svgIcon->hasElement(m_source.toString())) {
++        const QVariant src = m_source;
++        m_source.clear();
++        setSource(src);
++    }
++
++    emit usesPlasmaThemeChanged();
+ }
+ 
+ bool IconItem::isValid() const
+
+--- a/src/declarativeimports/core/iconitem.h
++++ b/src/declarativeimports/core/iconitem.h
+@@ -44,6 +44,7 @@
+     Q_PROPERTY(Plasma::Theme::ColorGroup colorGroup READ colorGroup WRITE setColorGroup NOTIFY colorGroupChanged)
+     Q_PROPERTY(bool smooth READ smooth WRITE setSmooth NOTIFY smoothChanged)
+     Q_PROPERTY(bool active READ isActive WRITE setActive NOTIFY activeChanged)
++    Q_PROPERTY(bool usesPlasmaTheme READ usesPlasmaTheme WRITE setUsesPlasmaTheme NOTIFY usesPlasmaThemeChanged)
+     Q_PROPERTY(bool valid READ isValid NOTIFY validChanged)
+ 
+ public:
+@@ -68,6 +69,9 @@
+     void setSmooth(const bool smooth);
+     bool smooth() const;
+ 
++    bool usesPlasmaTheme() const;
++    void setUsesPlasmaTheme(bool usesPlasmaTheme);
++
+     bool isValid() const;
+ 
+     void updatePolish() Q_DECL_OVERRIDE;
+@@ -86,6 +90,7 @@
+     void activeChanged();
+     void sourceChanged();
+     void smoothChanged();
++    void usesPlasmaThemeChanged();
+     void validChanged();
+     void colorGroupChanged();
+ 
+@@ -111,6 +116,7 @@
+ 
+     bool m_smooth;
+     bool m_active;
++    bool m_usesPlasmaTheme;
+ 
+     bool m_textureChanged;
+     bool m_sizeChanged;
+
