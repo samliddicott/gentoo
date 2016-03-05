@@ -11316,7 +11316,7 @@ kde-frameworks/kxmlrpcclient 5.17.0 5.18.0 5.19.0: Framework providing client-si
 kde-frameworks/modemmanager-qt 5.17.0 5.18.0 5.19.0: ModemManager bindings for Qt
 kde-frameworks/networkmanager-qt 5.17.0 5.18.0 5.19.0: NetworkManager bindings for Qt
 kde-frameworks/oxygen-icons 4.14.3 5.17.0 5.18.0 5.19.0: Oxygen SVG icon theme
-kde-frameworks/plasma 5.17.0-r2 5.18.0 5.19.0 5.19.0-r1: Plasma framework
+kde-frameworks/plasma 5.17.0-r2 5.18.0 5.18.0-r1 5.19.0-r1: Plasma framework
 kde-frameworks/solid 5.17.0 5.18.0 5.19.0: Provider for platform independent hardware discovery, abstraction and management
 kde-frameworks/sonnet 5.17.0 5.18.0 5.19.0: Framework for providing spell-checking through abstraction of popular backends
 kde-frameworks/threadweaver 5.17.0 5.18.0 5.19.0: Framework for managing threads using job and queue-based interfaces
@@ -11457,7 +11457,7 @@ kde-plasma/libksysguard 5.4.3 5.5.4 5.5.5: Task management and system monitoring
 kde-plasma/milou 5.4.3 5.5.4 5.5.5: Dedicated search application built on top of Baloo
 kde-plasma/oxygen 5.4.3 5.5.4 5.5.5: KDE window manager theme
 kde-plasma/oxygen-fonts 5.4.3: Desktop/GUI font family for integrated use with the KDE desktop
-kde-plasma/plasma-desktop 5.4.3 5.5.4 5.5.5: KDE Plasma desktop
+kde-plasma/plasma-desktop 5.4.3 5.5.4 5.5.5 5.5.5-r1: KDE Plasma desktop
 kde-plasma/plasma-mediacenter 5.4.3 5.5.4 5.5.5: Unified media experience for any device capable of running KDE
 kde-plasma/plasma-meta 5.4.3-r1 5.5.4 5.5.5: Merge this to pull in all Plasma 5 packages
 kde-plasma/plasma-nm 5.4.3 5.5.4 5.5.5: KDE Plasma applet for NetworkManager
