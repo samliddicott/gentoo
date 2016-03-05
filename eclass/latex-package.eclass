@@ -71,6 +71,12 @@ TEXMF="/usr/share/texmf-site"
 # DESCRIPTION above)
 SUPPLIER="misc"
 
+# @ECLASS-VARIABLE: LATEX_ARGUMENTS
+# @DESCRIPTION:
+# Add additional arguments for compilation of .tex files during installation;
+# usefull if generating of documentation needs -shell-escape or similiar flags
+LATEX_ARGUMENTS=""
+
 # Kept for backwards compatibility
 latex-package_has_tetex_3() {
 	case ${EAPI:-0} in
@@ -128,11 +134,11 @@ latex-package_src_doinstall() {
 					for i in `find . -maxdepth 1 -type f -name "*.${1}"`
 					do
 						einfo "Making documentation: $i"
-						if pdflatex --interaction=batchmode $i &> /dev/null ; then
-							pdflatex --interaction=batchmode $i &> /dev/null || die
+						if pdflatex ${LATEX_ARGUMENTS} --interaction=batchmode $i &> /dev/null ; then
+							pdflatex ${LATEX_ARGUMENTS} --interaction=batchmode $i &> /dev/null || die
 						else
 							einfo "pdflatex failed, trying texi2dvi"
-							texi2dvi -q -c --language=latex $i &> /dev/null || die
+							texi2dvi -q -c --language=latex ${LATEX_ARGUMENTS} $i &> /dev/null || die
 						fi
 					done
 				fi
