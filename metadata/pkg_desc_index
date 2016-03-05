@@ -5320,18 +5320,26 @@ dev-perl/Cookie-Baker 0.60.0: Cookie string generator / parser
 dev-perl/Coro 6.480.100: The only real threads in perl
 dev-perl/Crypt-Blowfish 2.140.0-r1: Crypt::Blowfish module for perl
 dev-perl/Crypt-CAST5_PP 1.40.0-r1: CAST5 block cipher in pure Perl
+dev-perl/Crypt-CBC 2.330.0-r1: Encrypt Data with Cipher Block Chaining Mode
 dev-perl/Crypt-Cracklib 1.700.0-r1: Perl interface to Alec Muffett's Cracklib
 dev-perl/Crypt-DES 2.70.0: Crypt::DES module for perl
+dev-perl/Crypt-DES_EDE3 0.10.0-r1: Triple-DES EDE encryption/decryption
+dev-perl/Crypt-DH 0.70.0-r1: Diffie-Hellman key exchange system
 dev-perl/Crypt-DH-GMP 0.0.120: Crypt::DH Using GMP Directly
+dev-perl/Crypt-DSA 1.170.0: DSA Signatures and Key Generation
 dev-perl/Crypt-Eksblowfish 0.9.0-r2: the Eksblowfish block cipher
+dev-perl/Crypt-IDEA 1.100.0: Parse and save PGP packet streams
 dev-perl/Crypt-OpenPGP 1.70.0: Pure-Perl OpenPGP-compatible PGP implementation
 dev-perl/Crypt-OpenSSL-Bignum 0.40.0-r2: OpenSSL's multiprecision integer arithmetic
 dev-perl/Crypt-OpenSSL-DSA 0.150.0-r1: Digital Signature Algorithm using OpenSSL
 dev-perl/Crypt-OpenSSL-RSA 0.280.0-r2: Crypt::OpenSSL::RSA module for perl
 dev-perl/Crypt-OpenSSL-Random 0.40.0-r2: Crypt::OpenSSL::Random module for perl
 dev-perl/Crypt-PasswdMD5 1.400.0: Provides interoperable MD5-based crypt() functions
+dev-perl/Crypt-Primes 0.500.0-r1: Provable Prime Number Generator suitable for Cryptographic Applications
 dev-perl/Crypt-RC4 2.020.0-r1: Implements the RC4 encryption algorithm
 dev-perl/Crypt-RIPEMD160 0.50.0-r1: Crypt::RIPEMD160 module for perl
+dev-perl/Crypt-RSA 1.990.0-r1: RSA public-key cryptosystem
+dev-perl/Crypt-Random 1.250.0-r1: Cryptographically Secure, True Random Number Generator
 dev-perl/Crypt-Random-Source 0.70.0-r1 0.110.0: Get weak or strong random data from pluggable sources
 dev-perl/Crypt-Rijndael 1.130.0: Crypt::CBC compliant Rijndael encryption module
 dev-perl/Crypt-SMIME 0.150.0-r1 0.160.0-r1: S/MIME message signing, verification, encryption and decryption
@@ -6416,14 +6424,6 @@ dev-perl/common-sense 3.740.0: Save a tree AND a kitten, use common::sense!
 dev-perl/constant-boolean 0.20.0-r1: Define TRUE and FALSE constants
 dev-perl/convert-ascii-armour 1.400.0-r1: Convert binary octets into ASCII armoured messages
 dev-perl/convert-pem 0.80.0-r1: Read/write encrypted ASN.1 PEM files
-dev-perl/crypt-cbc 2.330.0-r1: Encrypt Data with Cipher Block Chaining Mode
-dev-perl/crypt-des-ede3 0.10.0-r1: Triple-DES EDE encryption/decryption
-dev-perl/crypt-dh 0.70.0-r1: Diffie-Hellman key exchange system
-dev-perl/crypt-dsa 1.170.0: DSA Signatures and Key Generation
-dev-perl/crypt-idea 1.100.0: Parse and save PGP packet streams
-dev-perl/crypt-primes 0.500.0-r1: Provable Prime Number Generator suitable for Cryptographic Applications
-dev-perl/crypt-random 1.250.0-r1: Cryptographically Secure, True Random Number Generator
-dev-perl/crypt-rsa 1.990.0-r1: RSA public-key cryptosystem
 dev-perl/data-buffer 0.40.0-r1: Read/write buffer class
 dev-perl/dbix-searchbuilder 1.660.0: Encapsulate SQL queries and rows in simple Perl objects
 dev-perl/digest-bubblebabble 0.20.0-r1: Create bubble-babble fingerprints
