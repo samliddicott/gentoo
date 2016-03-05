@@ -74,8 +74,7 @@ SUPPLIER="misc"
 # @ECLASS-VARIABLE: LATEX_ARGUMENTS
 # @DESCRIPTION:
 # Add additional arguments for compilation of .tex files during installation;
-# usefull if generating of documentation needs -shell-escape or similiar flags
-LATEX_ARGUMENTS=""
+# usefull if generating of documentation needs -shell-escape or similar flags
 
 # Kept for backwards compatibility
 latex-package_has_tetex_3() {
@@ -138,7 +137,7 @@ latex-package_src_doinstall() {
 							pdflatex ${LATEX_ARGUMENTS} --interaction=batchmode $i &> /dev/null || die
 						else
 							einfo "pdflatex failed, trying texi2dvi"
-							texi2dvi -q -c --language=latex ${LATEX_ARGUMENTS} $i &> /dev/null || die
+							texi2dvi -q -c --language=latex $i &> /dev/null || die
 						fi
 					done
 				fi
