@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=static? ( >=dev-libs/skalibs-2.3.8.0[static-libs] ) !static? ( >=dev-libs/skalibs-2.3.8.0 )
+DESCRIPTION=Generates an init binary for s6-based init systems
+EAPI=6
+HOMEPAGE=http://www.skarnet.org/software/s6-linux-init/
+IUSE=+runtime static
+KEYWORDS=~amd64 ~x86
+LICENSE=ISC
+RDEPEND=!static? ( >=dev-libs/skalibs-2.3.8.0 ) runtime? ( >=dev-lang/execline-2.1.4.2 >=sys-apps/s6-2.2.2.0 >=sys-apps/s6-linux-utils-2.0.2.3 >=sys-apps/s6-portable-utils-2.0.5.3 )
+SLOT=0
+SRC_URI=http://www.skarnet.org/software/s6-linux-init/s6-linux-init-0.0.1.4.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
+_md5_=37c24825ae9b8456ca14bfa774b58f68
