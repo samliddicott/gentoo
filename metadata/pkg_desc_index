@@ -16438,6 +16438,7 @@ sys-apps/s390-tools 1.17.0 1.23.1: User space utilities for the zSeries (s390) L
 sys-apps/s6 2.1.3.0 2.2.4.3: skarnet.org's small and secure supervision software suite
 sys-apps/s6-linux-utils 2.0.2.3: Set of tiny linux utilities
 sys-apps/s6-portable-utils 2.0.5.3: Set of tiny portable unix utilities
+sys-apps/s6-rc 0.0.2.1: Service manager for the s6 supervision suite
 sys-apps/salinfo 1.2: decode Itanium SAL records (e.g. various hardware errors)
 sys-apps/sandbox 2.6-r1 2.7 2.8 2.9 2.10-r1: sandbox'd LD_PRELOAD hack
 sys-apps/sdparm 1.07 1.09 1.10: Utility to output and modify parameters on a SCSI device, like hdparm
