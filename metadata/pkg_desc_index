@@ -12624,6 +12624,7 @@ media-libs/pnglite 0.1.17: Small and simple library for loading and writing PNG 
 media-libs/portaudio 19_pre20140130: A free, cross-platform, open-source, audio I/O library
 media-libs/portmidi 217 217-r1: A library for real time MIDI input and output
 media-libs/prison 1.1.1: QRCode and data matrix barcode library
+media-libs/pyliblo 0.10.0: A Python wrapper for the liblo OSC library
 media-libs/pymemphis 0.2.1: Python bindings for the libmemphis library
 media-libs/qhull 2012.1-r1 2012.1-r3 2012.1-r4: Geometry library
 media-libs/qimageblitz 0.0.6-r1 0.0.6-r2: Graphical effect and filter library by KDE
