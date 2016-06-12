@@ -4765,7 +4765,7 @@ dev-libs/libpwquality 1.3.0: Library for password quality checking and generatin
 dev-libs/libqtxdg 1.3.0: A Qt implementation of XDG standards
 dev-libs/libqzeitgeist 0.8.0: Qt interface to the Zeitgeist event tracking system
 dev-libs/librdkafka 0.9.0.99: Apache Kafka C/C++ client library
-dev-libs/librelp 1.2.7-r1 1.2.9: An easy to use library for the RELP protocol
+dev-libs/librelp 1.2.7-r1 1.2.9 1.2.10: An easy to use library for the RELP protocol
 dev-libs/librep 0.92.2.1 0.92.3 0.92.5: Shared library implementing a Lisp dialect
 dev-libs/libreport 2.0.13-r1: Generic library for reporting software bugs
 dev-libs/libressl 2.2.8 2.2.9 2.3.5 2.3.6 2.4.0 2.4.1: Free version of the SSL/TLS protocol forked from OpenSSL
