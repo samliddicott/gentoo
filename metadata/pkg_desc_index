@@ -7877,6 +7877,7 @@ dev-python/pystatgrab 0.6: pystatgrab is a set of Python bindings for the libsta
 dev-python/pystdf 1.3.1-r1: Python module that makes it easy to work with STDF
 dev-python/pysvg 0.2.1-r1: Python SVG document creation library
 dev-python/pysvn 1.8.0: Object-oriented python bindings for subversion
+dev-python/pyswisseph 2.00.00_p2: Python extension to the AstroDienst Swiss Ephemeris
 dev-python/pytables 3.1.1-r2 3.2.0 3.2.1 3.2.1.1 3.2.2: Hierarchical datasets for Python
 dev-python/pyte 0.4.9 0.4.10 0.5.1: Simple VTXXX-compatible terminal emulator
 dev-python/pytest 2.7.2 2.8.2 2.8.7 9999: simple powerful testing with Python
