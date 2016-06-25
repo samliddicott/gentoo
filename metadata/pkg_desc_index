@@ -11699,7 +11699,7 @@ kde-plasma/kgamma 5.5.5 5.6.5: Screen gamma values kcontrol module
 kde-plasma/khotkeys 5.5.5 5.6.5: KDE Plasma workspace hotkey module
 kde-plasma/kinfocenter 5.5.5 5.6.5: A utility that provides information about a computer system
 kde-plasma/kmenuedit 5.5.5 5.6.5: KDE Plasma menu editor
-kde-plasma/kscreen 5.5.5 5.6.5: KDE Plasma screen management
+kde-plasma/kscreen 5.5.5 5.6.5 5.6.5-r1: KDE Plasma screen management
 kde-plasma/kscreenlocker 5.5.5 5.6.5: Library and components for secure lock screen architecture
 kde-plasma/ksshaskpass 5.5.5 5.6.5: KDE implementation of ssh-askpass with Kwallet integration
 kde-plasma/ksysguard 5.5.5 5.6.5: Network-enabled task manager and system monitor
