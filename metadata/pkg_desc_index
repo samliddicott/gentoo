@@ -56,7 +56,7 @@ app-admin/aws-iam-tools 1.3.0: The Command Line Interface (CLI) for the AWS Iden
 app-admin/aws-rds-tools 1.6.001: The Command Line Toolkit for the Amazon Relational Database Service
 app-admin/bastille 3.0.9-r1: Bastille-Linux is a security hardening tool
 app-admin/bcfg2 1.2.4-r1: Configuration management tool
-app-admin/calamares 2.2.2-r1 2.2.3: Distribution-independent installer framework
+app-admin/calamares 2.2.2-r1 2.2.3 2.2.3-r1: Distribution-independent installer framework
 app-admin/cancd 0.1.0-r3: the CA NetConsole Daemon, a daemon to receive output from the Linux netconsole driver
 app-admin/ccze 0.2.1-r3: A flexible and fast logfile colorizer
 app-admin/cdist 3.1.9 3.1.13: A usable configuration management system
@@ -263,7 +263,7 @@ app-arch/gcab 0.6 0.7: Library and tool for working with Microsoft Cabinet (CAB)
 app-arch/gtk-splitter 2.2.1-r1: Split files into smaller pieces and combine them back together
 app-arch/gzip 1.6 1.7 1.8: Standard GNU compressor
 app-arch/hardlink 0.2.0 0.3.0: A tool which replaces copies of a file with hardlinks
-app-arch/innoextract 1.4 1.5 1.6: A tool to unpack installers created by Inno Setup
+app-arch/innoextract 1.4 1.5 1.6 1.6-r1: A tool to unpack installers created by Inno Setup
 app-arch/ipkg-utils 1.7.050831-r2: Tools for working with the ipkg binary package format
 app-arch/lbzip2 2.3-r1 2.5: Parallel bzip2 utility
 app-arch/lcab 1.0_beta12: CAB file creation tool
@@ -387,7 +387,7 @@ app-backup/rsnapshot 1.3.1-r2 1.4.1: A filesystem backup utility based on rsync
 app-backup/sarab 1.0.0: SaraB is a powerful and automated backup scheduling system based on DAR
 app-backup/simplebackup 1.8.1: Cross-platform backup program
 app-backup/snapback2 1.1.0-r1: Routines for support of rsync-based snapshot backup
-app-backup/snapper 0.2.8 9999: Command-line program for btrfs and ext4 snapshot management
+app-backup/snapper 0.2.8 0.2.8-r1 9999: Command-line program for btrfs and ext4 snapshot management
 app-backup/spideroak-bin 6.1.3: Secure free online backup, storage, and sharing system
 app-backup/tarsnap 1.0.35: Online backups for the truly paranoid
 app-backup/tob 0.26-r2: A general driver for making and maintaining backups
@@ -1039,7 +1039,7 @@ app-editors/joe 4.2: A free ASCII-Text Screen Editor for UNIX
 app-editors/jove 4.16.0.73: Jonathan's Own Version of Emacs - a light emacs-like editor without LISP bindings
 app-editors/juffed 0.10: QScintilla-based tabbed text editor with syntax highlighting
 app-editors/jupp 3.1_p23 3.1_p24 3.1_p26 3.1_p27: portable version of JOE's Own Editor
-app-editors/kakoune 0_pre20160620 9999: Selection-oriented code editor inspired by vim
+app-editors/kakoune 0_pre20160620 0_pre20160620-r1 9999: Selection-oriented code editor inspired by vim
 app-editors/kile 2.1.3-r2: A Latex Editor and TeX shell for KDE
 app-editors/latexila 3.16.2 3.18.1 3.18.2 3.20.0: Integrated LaTeX environment for GNOME
 app-editors/le 1.14.3 1.16.1 1.16.3: Terminal text editor
@@ -1485,9 +1485,9 @@ app-i18n/ibus-chewing 1.4.7: The Chewing IMEngine for IBus Framework
 app-i18n/ibus-fbterm 0.9.1: ibus-fbterm is a input method for FbTerm based on iBus
 app-i18n/ibus-handwrite 2.1.4 2.1.4-r1: hand write recognition/input using ibus IM engine
 app-i18n/ibus-hangul 1.4.0 1.4.1 1.4.2 1.4.2-r1 1.5.0: The Hangul engine for IBus input platform
-app-i18n/ibus-libpinyin 1.6.92 1.7.4: ibus-libpinyin - pinyin chinese input for ibus using libpinyin
+app-i18n/ibus-libpinyin 1.6.92 1.7.4 1.7.4-r1: ibus-libpinyin - pinyin chinese input for ibus using libpinyin
 app-i18n/ibus-m17n 1.3.2 1.3.3 1.3.4: The M17N engine IMEngine for IBus Framework
-app-i18n/ibus-pinyin 1.4.0 1.4.0-r1 1.5.0 1.5.0-r1 1.5.0-r2: Chinese PinYin IMEngine for IBus Framework
+app-i18n/ibus-pinyin 1.4.0 1.4.0-r1 1.5.0 1.5.0-r1 1.5.0-r2 1.5.0-r3: Chinese PinYin IMEngine for IBus Framework
 app-i18n/ibus-qt 1.3.1 1.3.2 1.3.3: Qt IBus library and Qt input method plugin
 app-i18n/ibus-rime 0.9.9 1.1 1.2: Rime Input Method Engine for IBus Framework
 app-i18n/ibus-skk 1.3.9 1.4.0 1.4.1 1.4.1-r1: Japanese input method Anthy IMEngine for IBus Framework
@@ -1519,7 +1519,7 @@ app-i18n/libcangjie 1.1 1.3: The library implementing the Cangjie input method
 app-i18n/libguess 1.1 1.2: A high-speed character set detection library
 app-i18n/libhangul 0.0.12 0.1.0: libhangul is a generalized and portable library for processing hangul
 app-i18n/libpinyin 0.8.0 1.0.0 1.3.0: Library for Chinese pinyin input methods
-app-i18n/librime 0.9.9 1.2: Rime Input Method Engine library
+app-i18n/librime 0.9.9 1.2 1.2-r1: Rime Input Method Engine library
 app-i18n/libskk 0.0.9 0.0.11 0.0.12 1.0.1: GObject-based library to deal with Japanese kana-to-kanji conversion method
 app-i18n/libtabe 0.2.6 0.2.6.1.2: Libtabe provides bimsphone support for xcin-2.5+
 app-i18n/libtomoe-gtk 0.6.0-r2 0.6.0-r3: Tomoe GTK+ interface widget library
@@ -1539,9 +1539,9 @@ app-i18n/multiskkserv 20100128: SKK server that handles multiple dictionaries
 app-i18n/nabi 0.15 0.17 0.99.11: Simple Hanguk X Input Method
 app-i18n/nkf 2.1.3 2.1.3-r1: Network Kanji code conversion Filter with UTF-8/16 support
 app-i18n/opencc 0.3.0_pre20120819-r1 0.4.3 1.0.4: Libraries for conversion between Traditional and Simplified Chinese
-app-i18n/poedit 1.5.5 1.8.5 1.8.7: GUI editor for gettext translations files
+app-i18n/poedit 1.5.5 1.8.5 1.8.7 1.8.7-r1: GUI editor for gettext translations files
 app-i18n/pology 0.11-r1 0.12 9999: A framework for custom processing of PO files
-app-i18n/pyzy 0.1.0 0.1.0-r1 0.1.0-r2: The Chinese PinYin and Bopomofo conversion library
+app-i18n/pyzy 0.1.0 0.1.0-r1 0.1.0-r2 0.1.0-r3: The Chinese PinYin and Bopomofo conversion library
 app-i18n/qimhangul 0.2.0: a qt-based imhangul
 app-i18n/qkc 1.00: Quick KANJI code Converter
 app-i18n/rime-data 0.22 0.32 0.35: Data resources for Rime Input Method Engine
@@ -4500,7 +4500,7 @@ dev-libs/bglibs 1.041 1.104 1.106 1.106-r1: Bruce Guenters Libraries Collection
 dev-libs/bitset 2.8.3 2.8.4-r1: A compressed bitset with supporting data structures and algorithms
 dev-libs/blitz 0.10 0.10-r1: High-performance C++ numeric library
 dev-libs/boehm-gc 6.8 7.1-r1 7.2d 7.2d-r1 7.2e 7.4.0 7.4.2: The Boehm-Demers-Weiser conservative garbage collector
-dev-libs/boost 1.55.0-r2 1.56.0-r1 1.58.0-r1 1.59.0 1.60.0 1.61.0: Boost Libraries for C++
+dev-libs/boost 1.55.0-r2 1.56.0-r1 1.58.0-r1 1.59.0 1.60.0 1.61.0 1.61.0-r100: Boost Libraries for C++
 dev-libs/boost-numpy 9999: Boost.Python interface for NumPy
 dev-libs/botan 1.10.12 1.11.29: A C++ crypto library
 dev-libs/btparse 0.33 0.35: A C library to parse Bibtex files
