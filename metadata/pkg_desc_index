@@ -13439,6 +13439,7 @@ media-sound/vorbis-tools 1.4.0 1.4.0-r1 1.4.0-r2: tools for using the Ogg Vorbis
 media-sound/vorbisgain 0.37-r1: Calculator of perceived sound level for Ogg Vorbis files
 media-sound/vsound 0.6-r1: A virtual audio loopback cable
 media-sound/waheela 0.3: Amarok Fullscreen Player
+media-sound/wav2json 0.4: Generate waveformjs.org compatible json data out of wav files
 media-sound/wavbreaker 0.11: wavbreaker/wavmerge GTK+ utility to break or merge WAV files
 media-sound/wavegain 1.3.1: ReplayGain for WAVE audio files
 media-sound/wavpack 4.70.0 4.80.0: Hybrid lossless audio compression tools
