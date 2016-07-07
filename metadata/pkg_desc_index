@@ -10376,7 +10376,7 @@ games-emulation/gngeo 0.8: A NeoGeo emulator
 games-emulation/gnuboy 1.0.3-r1: Gameboy emulator with multiple renderers
 games-emulation/gxmame 0.35_beta2: frontend for XMame using the GTK library
 games-emulation/hatari 1.8.0: Atari ST emulator
-games-emulation/higan 094: A Nintendo multi-system emulator formerly known as bsnes
+games-emulation/higan 094 099: A Nintendo multi-system emulator formerly known as bsnes
 games-emulation/hugo 2.12: PC-Engine (Turbografx16) emulator for linux
 games-emulation/kigb 2.02: A Gameboy (GB, SGB, GBA) Emulator for Linux
 games-emulation/lxdream 0.9.1-r2: An emulator for the Sega Dreamcast system
