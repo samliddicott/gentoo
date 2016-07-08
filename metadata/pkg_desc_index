@@ -11449,7 +11449,6 @@ kde-apps/zeroconf-ioslave 15.12.3 16.04.2: A DNSSD (DNS Service Discovery - part
 kde-base/baloo 4.14.3: Next generation of the Nepomuk project
 kde-base/freespacenotifier 4.11.22: A module that monitors free disk space on the home dir
 kde-base/kactivities 4.13.3-r2: KDE Activity Manager
-kde-base/kactivitymanagerd 4.13.3-r1: KDE Activity Manager Daemon
 kde-base/katepart 4.14.3: KDE Editor KPart
 kde-base/kcheckpass 4.11.22-r1: A simple password checker, used by any software in need of user authentication
 kde-base/kcminit 4.11.22: KCMInit - runs startups initialization for Control Modules
