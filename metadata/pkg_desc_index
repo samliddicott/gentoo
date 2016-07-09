@@ -11568,7 +11568,7 @@ kde-frameworks/kxmlgui 5.21.0 5.23.0-r1 5.24.0: Framework for managing menu and 
 kde-frameworks/kxmlrpcclient 5.21.0 5.23.0 5.24.0: Framework providing client-side support for the XML-RPC protocol
 kde-frameworks/modemmanager-qt 5.21.0 5.23.0 5.24.0: ModemManager bindings for Qt
 kde-frameworks/networkmanager-qt 5.21.0 5.23.0 5.24.0: NetworkManager bindings for Qt
-kde-frameworks/oxygen-icons 4.14.3 5.21.0 5.23.0 5.24.0: Oxygen SVG icon theme
+kde-frameworks/oxygen-icons 5.21.0 5.23.0 5.24.0: Oxygen SVG icon theme
 kde-frameworks/plasma 5.21.0 5.23.0 5.24.0: Plasma framework
 kde-frameworks/solid 5.21.0 5.23.0 5.24.0: Provider for platform independent hardware discovery, abstraction and management
 kde-frameworks/sonnet 5.21.0 5.23.0 5.24.0: Framework for providing spell-checking through abstraction of popular backends
