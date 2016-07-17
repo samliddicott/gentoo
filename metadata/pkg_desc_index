@@ -14844,7 +14844,7 @@ net-misc/proxychains 4.10 4.11: force any tcp connections to flow through a prox
 net-misc/proxytunnel 1.9.1-r1: Connect stdin and stdout to a server somewhere on the network, through a standard HTTPS proxy
 net-misc/ps3mediaserver 1.82.0 1.90.0 1.90.1: DLNA compliant UPNP server for streaming media to Playstation 3
 net-misc/pssh 2.3.1-r1: PSSH provides parallel versions of OpenSSH and related tools
-net-misc/ptpd 2.3.1: Precision Time Protocol daemon
+net-misc/ptpd 2.3.1 2.3.1-r1: Precision Time Protocol daemon
 net-misc/puf 1.0.0: A download tool for UNIX-like systems
 net-misc/pump 0.8.24-r4: This is the DHCP/BOOTP client written by RedHat
 net-misc/putty 0.67 9999: A Free Telnet/SSH Client
