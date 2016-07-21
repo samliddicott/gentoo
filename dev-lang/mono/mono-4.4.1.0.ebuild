@@ -3,10 +3,10 @@
 # $Id$
 
 EAPI=6
-AUTOTOOLS_PRUNE_LIBTOOL_FILES="all"
-AUTOTOOLS_AUTORECONF=1
+#AUTOTOOLS_PRUNE_LIBTOOL_FILES="all"
+#AUTOTOOLS_AUTORECONF=1
 
-inherit eutils linux-info mono-env flag-o-matic pax-utils versionator
+inherit eutils linux-info mono-env flag-o-matic pax-utils versionator multilib-minimal
 
 DESCRIPTION="Mono runtime and class libraries, a C# compiler/interpreter"
 HOMEPAGE="http://www.mono-project.com/Main_Page"
@@ -34,8 +34,8 @@ DEPEND="${COMMONDEPEND}
 	!dev-lang/mono-basic
 "
 
-MAKEOPTS="${MAKEOPTS} -j1" #nowarn
-S="${WORKDIR}/${PN}-$(get_version_component_range 1-3)"
+#MAKEOPTS="${MAKEOPTS} -j1" #nowarn
+#S="${WORKDIR}/${PN}-$(get_version_component_range 1-3)"
 
 pkg_pretend() {
 	# https://github.com/gentoo/gentoo/blob/f200e625bda8de696a28338318c9005b69e34710/eclass/linux-info.eclass#L686
@@ -50,6 +50,11 @@ pkg_setup() {
 	mono-env_pkg_setup
 }
 
+src_unpack() {
+	default
+	mv "${WORKDIR}/${PN}-$(get_version_component_range 1-3)" "${S}"
+}
+
 src_prepare() {
 	# we need to sed in the paxctl-ng -mr in the runtime/mono-wrapper.in so it don't
 	# get killed in the build proces when MPROTECT is enable. #286280
@@ -62,8 +67,8 @@ src_prepare() {
 		sed '/exec "/ i\paxmark.sh -mr "$r/@mono_runtime@"' -i "${S}"/runtime/mono-wrapper.in || die "Failed to sed mono-wrapper.in"
 	fi
 
-	# mono build system can fail otherwise
-	strip-flags
+#	# mono build system can fail otherwise
+#	strip-flags
 
 	# Fix VB targets
 	# http://osdir.com/ml/general/2015-05/msg20808.html
@@ -85,9 +90,15 @@ src_prepare() {
 
 	default_src_prepare
 	#eapply_user
+	multilib_copy_sources
 }
 
-src_configure() {
+multilib_src_configure() {
+	local big_arr="enable"
+#	ECONF_SOURCE="${S}"
+
+	multilib_is_native_abi || big_arr="disable"
+
 	local myeconfargs=(
 		--disable-silent-rules
 		$(use_with xen xen_opt)
@@ -95,21 +106,18 @@ src_configure() {
 		--disable-dtrace
 		$(use_with doc mcs-docs)
 		$(use_enable nls)
+		--${big_arr}-big-arrays
 	)
 
-	default_src_configure
+	econf "${myeconfargs[@]}"
 }
 
-src_compile() {
-	default_src_compile
-}
-
-src_test() {
+multilib_src_test() {
 	cd mcs/tests || die
 	emake check
 }
 
-src_install() {
+multilib_src_install() {
 	default_src_install
 
 	# Remove files not respecting LDFLAGS and that we are not supposed to provide, see Fedora
