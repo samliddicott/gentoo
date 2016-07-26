@@ -11236,7 +11236,7 @@ kde-apps/kdeartwork-wallpapers 15.08.3 15.08.3-r2: Wallpapers from KDE
 kde-apps/kdeartwork-weatherwallpapers 15.08.3 15.08.3-r2: Weather aware wallpapers. Changes with weather outside
 kde-apps/kdebase-data 15.12.3 16.04.3: Icons, localization data and various .desktop files from kdebase
 kde-apps/kdebase-desktoptheme 15.12.3 16.04.3: Oxygen Plasma 4 desktop theme
-kde-apps/kdebase-kioslaves 15.12.3 16.04.3: KDE VFS framework - kioslaves present a filesystem-like view of arbitrary data
+kde-apps/kdebase-kioslaves 15.12.3 16.04.3-r1: KDE VFS framework - kioslaves present a filesystem-like view of arbitrary data
 kde-apps/kdebase-menu 15.12.3 16.04.3: KDE Menu query tool
 kde-apps/kdebase-menu-icons 15.12.3 16.04.3: KDE menu icons
 kde-apps/kdebase-meta 15.12.3 16.04.3: Transitional package to pull in plasma-meta plus basic applications
