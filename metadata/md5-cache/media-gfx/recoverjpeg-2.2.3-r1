@@ -1,0 +1,12 @@
+DEFINED_PHASES=-
+DEPEND=media-gfx/exif || ( media-gfx/imagemagick media-gfx/graphicsmagick[imagemagick-compat] )
+DESCRIPTION=Recover JPEG pictures from a possibly corrupted disk image
+EAPI=6
+HOMEPAGE=http://www.rfc1149.net/devel/recoverjpeg.html
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=media-gfx/exif || ( media-gfx/imagemagick media-gfx/graphicsmagick[imagemagick-compat] )
+SLOT=0
+SRC_URI=http://www.rfc1149.net/download/recoverjpeg/recoverjpeg-2.2.3.tar.gz
+_eclass_exported_funcs=-
+_md5_=94a34861238106583aec2c38c196a728

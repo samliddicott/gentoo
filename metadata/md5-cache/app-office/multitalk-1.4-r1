@@ -1,0 +1,14 @@
+DEFINED_PHASES=install prepare
+DEPEND=>=media-libs/libsdl-1.2.7 >=media-libs/sdl-image-1.2.3 >=media-libs/sdl-ttf-2.0.6 >=media-libs/sdl-gfx-2.0.13
+DESCRIPTION=A new type of presentation program
+EAPI=6
+HOMEPAGE=http://www.srcf.ucam.org/~dmi1000/multitalk/
+IUSE=examples latex
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libsdl-1.2.7 >=media-libs/sdl-image-1.2.3 >=media-libs/sdl-ttf-2.0.6 >=media-libs/sdl-gfx-2.0.13 latex? ( virtual/latex-base || ( media-gfx/imagemagick media-gfx/graphicsmagick[imagemagick-compat] ) )
+SLOT=0
+SRC_URI=http://www.srcf.ucam.org/~dmi1000/multitalk/multitalk-1.4.tar.gz
+_eclass_exported_funcs=src_prepare:- src_install:-
+_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	readme.gentoo-r1	03878c06495db70bc36bd717383c09f7	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
+_md5_=acf473cd09719790b1d3b6ff65e7600d

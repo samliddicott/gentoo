@@ -186,7 +186,7 @@ app-admin/quickswitch 1.05: Utility to switch network profiles on the fly
 app-admin/r10k 1.1.3-r1 1.5.1: Puppet environment and module deployment
 app-admin/radmind 1.14.1 1.14.1-r1: command-line tools and server to remotely administer multiple Unix filesystems
 app-admin/ranpwd 1.2: Generate random passwords using the in-kernel cryptographically secure random number generator
-app-admin/recursos 2.0: Script to create html and text report about your system
+app-admin/recursos 2.0-r1: Script to create html and text report about your system
 app-admin/reportmagic 2.21: Makes usable statistics from your web site log file analysis
 app-admin/restart_services 0.13.0-r1 0.13.1: Tool to manage OpenRC services that need to be restarted
 app-admin/rex 1.3.3 1.4.0-r1 1.4.1: (R)?ex is a small script to ease the execution of remote commands
@@ -1041,7 +1041,7 @@ app-editors/jove 4.16.0.73: Jonathan's Own Version of Emacs - a light emacs-like
 app-editors/juffed 0.10: QScintilla-based tabbed text editor with syntax highlighting
 app-editors/jupp 3.1_p23 3.1_p24 3.1_p26 3.1_p27: portable version of JOE's Own Editor
 app-editors/kakoune 0_pre20160620 9999: Selection-oriented code editor inspired by vim
-app-editors/kile 2.1.3-r2: A Latex Editor and TeX shell for KDE
+app-editors/kile 2.1.3-r3: A Latex Editor and TeX shell for KDE
 app-editors/latexila 3.18.2 3.20.0 3.20.1: Integrated LaTeX environment for GNOME
 app-editors/le 1.14.3 1.16.1 1.16.3: Terminal text editor
 app-editors/leafpad 0.8.18.1: A simple GTK2 text editor
@@ -1255,7 +1255,7 @@ app-emacs/teco 7-r1: TECO interpreter for GNU Emacs
 app-emacs/template 3.1c-r1: Use templates, decorate comments, auto-update buffers
 app-emacs/tempo-snippets 0.1.5: Visual insertion of tempo templates
 app-emacs/thinks 1.9: Insert text in a think bubble
-app-emacs/thumbs 2.0: Emacs thumbnail previewer for image files
+app-emacs/thumbs 2.0-r1: Emacs thumbnail previewer for image files
 app-emacs/tuareg-mode 2.0.7 2.0.8: An Objective Caml/Camllight mode for Emacs
 app-emacs/twittering-mode 2.0.0 3.0.0 9999: Emacs major mode for Twitter
 app-emacs/typing 1.1.4: The Typing of Emacs -- an Elisp parody of The Typing of the Dead for Dreamcast
@@ -1330,7 +1330,7 @@ app-emulation/open-vm-tools 9.4.0.1280544 9.10.0_p2476743 9.10.2_p2822639 10.0.0
 app-emulation/open-vm-tools-kmod 9.4.0.1280544 9.10.0_p2476743 10.0.0_p3000743: Opensourced tools for VMware guests
 app-emulation/openstack-guest-agents-unix 1.39.0 1.39.0-r1 1.39.0-r2 1.39.1: Openstack Unix Guest Agent
 app-emulation/phpvirtualbox 4.1.11 4.2.7 4.3.0 5.0.3: Web-based administration for VirtualBox in PHP
-app-emulation/playonlinux 4.2.4 4.2.6 4.2.8 4.2.10: Set of scripts to easily install and use Windows games and software
+app-emulation/playonlinux 4.2.4 4.2.6 4.2.8 4.2.10-r1: Set of scripts to easily install and use Windows games and software
 app-emulation/q4wine 1.0-r3 1.2_p2 1.3 1.3.1: Qt GUI configuration tool for Wine
 app-emulation/qemu 2.5.0-r2 2.5.0-r3 2.5.1 2.6.0 9999: QEMU + Kernel-based Virtual Machine userland tools
 app-emulation/qemu-guest-agent 2.5.0 2.6.0: QEMU Guest Agent (qemu-ga) for use when running inside a VM
@@ -1613,7 +1613,7 @@ app-leechcraft/lc-advancednotifications 0.6.60 0.6.65 0.6.70 9999: Flexible and 
 app-leechcraft/lc-aggregator 0.6.60 0.6.65 0.6.70 9999: Full-featured RSS/Atom feed reader for LeechCraft
 app-leechcraft/lc-anhero 0.6.60 0.6.65 0.6.70 9999: AnHero, crash handler for LeechCraft
 app-leechcraft/lc-auscrie 0.6.60 0.6.65 0.6.70 9999: Auscrie, LeechCraft auto screenshooter
-app-leechcraft/lc-azoth 0.6.60 0.6.65 0.6.70 9999: Azoth, the modular IM client for LeechCraft
+app-leechcraft/lc-azoth 0.6.60-r1 0.6.65 0.6.70-r1 9999: Azoth, the modular IM client for LeechCraft
 app-leechcraft/lc-bittorrent 0.6.60 0.6.65 0.6.70 9999: Full-featured BitTorrent client plugin for LeechCraft
 app-leechcraft/lc-blasq 0.6.60 0.6.65 0.6.70 9999: Cloud image storage services client (like Flickr or Picasa)
 app-leechcraft/lc-blogique 0.6.60 0.6.65 0.6.70 9999: Blogging client for LeechCraft
@@ -1937,7 +1937,7 @@ app-misc/towitoko 2.0.7-r2: This library provides a driver for using Towitoko sm
 app-misc/tpconfig 3.1.3-r1: Touchpad config for ALPS and Synaptics TPs. Controls tap/click behaviour
 app-misc/tpipe 1.6 1.6-r1: Command to duplicate standard input to more than one program
 app-misc/tprint 1.1.0-r1: Transparent Print Utility for terminals
-app-misc/tracker 1.6.2 1.8.0: A tagging metadata database, search tool and indexer
+app-misc/tracker 1.6.2-r1 1.8.0-r1: A tagging metadata database, search tool and indexer
 app-misc/trash-cli 0.12.9.14-r2: Python scripts to manipulate trash cans via the command line
 app-misc/ttyrec 1.0.8-r1: tty recorder
 app-misc/ttysnoop 0.12d: Tool to snoop on login tty's through another tty-device or pseudo-tty
@@ -1980,7 +1980,7 @@ app-mobilephone/kannel 1.4.3-r2 1.5.0-r2: Powerful SMS and WAP gateway
 app-mobilephone/kannel-sqlbox 0.7.2 1.5.0-r1: DB-Based Kannel Box for message queueing
 app-mobilephone/lightblue 0.4-r1: Cross-platform Bluetooth API for Python which provides simple access to Bluetooth operations
 app-mobilephone/linuxsms 0.77: A console perl script for sending SMS to cell phones
-app-mobilephone/obex-data-server 0.4.6: A DBus service providing easy to use API for using OBEX
+app-mobilephone/obex-data-server 0.4.6-r1: A DBus service providing easy to use API for using OBEX
 app-mobilephone/obexftp 0.23-r2 0.24 0.24-r1: File transfer over OBEX for mobile phones
 app-mobilephone/past 0.0.4: A simple SMS tool
 app-mobilephone/pysms 0.9.4-r1: Tool for sending text messages for various Swiss providers
@@ -2029,7 +2029,7 @@ app-office/libreoffice-l10n 5.1.4.2: Translations for the Libreoffice suite
 app-office/lyx 2.0.8.1 2.1.4 2.1.5 2.2.0 2.2.1: WYSIWYM frontend for LaTeX, DocBook, etc.
 app-office/magicpoint 1.13a_p20121015-r1: An X11 based presentation tool
 app-office/mdbtools 0.7.1 0.7.1-r1: A set of libraries and utilities for reading Microsoft Access database (MDB) files
-app-office/multitalk 1.4: A new type of presentation program
+app-office/multitalk 1.4-r1: A new type of presentation program
 app-office/odeskteam 3.6.1 3.12.9 3.12.19: Project collaboration and tracking software for oDesk.com
 app-office/ooextras 20060909: OOExtras: Extra Templates for OpenOffice.org!
 app-office/openerp 6.1.1-r1 7.0.20130219-r5 7.0.20140125 8.0.20140125: Open Source ERP & CRM
@@ -2373,7 +2373,7 @@ app-text/passivetex 1.25: A namespace-aware XML parser written in Tex
 app-text/pastebinit 1.4.1 1.5: A software that lets you send anything you want directly to a pastebin
 app-text/pdf2djvu 0.9.3 0.9.4: A tool to create DjVu files from PDF files
 app-text/pdf2html 1.4: Converts pdf files to html files
-app-text/pdf2oo 20090715: Converts pdf files to odf
+app-text/pdf2oo 20090715-r1: Converts pdf files to odf
 app-text/pdfgrep 1.3.2 1.4.1-r1: A tool similar to grep which searches text in PDFs
 app-text/pdfjam 2.08: pdfnup, pdfjoin and pdf90
 app-text/pdfminer 20131113 20140328 20140328-r1: Python tool for extracting information from PDF documents
@@ -2964,7 +2964,7 @@ dev-db/pgtap 0.93.0: Unit testing for PostgreSQL
 dev-db/pgxnclient 1.2-r1 1.2.1: PostgreSQL Extension Network Client
 dev-db/phpmyadmin 4.0.10.15 4.4.15.5 4.5.5.1 4.6.0 4.6.1: Web-based administration for MySQL database in PHP
 dev-db/phppgadmin 5.1 9999: Web-based administration for Postgres database in php
-dev-db/postgis 2.1.1 2.1.8 2.2.0 2.2.1 2.2.2 9999: Geographic Objects for PostgreSQL
+dev-db/postgis 2.1.1-r1 2.1.8 2.2.0 2.2.1 2.2.2-r1 9999: Geographic Objects for PostgreSQL
 dev-db/postgresql 9.0.23-r1 9.1.19-r1 9.1.20 9.1.21 9.1.22 9.2.14-r1 9.2.15 9.2.16 9.2.17 9.3.10-r1 9.3.10-r2 9.3.11 9.3.12 9.3.13 9.4.5-r1 9.4.5-r2 9.4.6 9.4.7 9.4.8 9.5.1 9.5.2 9.5.3 9.6_beta3 9999: PostgreSQL RDBMS
 dev-db/psqlodbc 09.01.0200 09.02.0100 09.03.0210: Official ODBC driver for PostgreSQL
 dev-db/qdbm 1.8.78-r1: Quick Database Manager
@@ -3082,7 +3082,7 @@ dev-embedded/pikdev 1.4.0: Simple graphic IDE for the development of PIC-based a
 dev-embedded/pista 0.70: Commandline-driven interface to PICSTART+ PIC programmer
 dev-embedded/pk2-la 1.1-r2: Logic Analyzer and I/O Probe for the Microchip PICkit2
 dev-embedded/pk2cmd 1.20: An application for working with the Microchip PicKit2 PIC programmer
-dev-embedded/ponyprog 2.07c-r1: Serial device programmer
+dev-embedded/ponyprog 2.07c-r2: Serial device programmer
 dev-embedded/powersoftplus-libftdi 0.1.8-r1: Library which includes a table of VIDs and PIDs of Ever UPS devices
 dev-embedded/scratchbox 1.0.19 1.0.20: A cross-compilation toolkit designed to make embedded Linux application development easier
 dev-embedded/scratchbox-devkit-apt-https 1.0.10 1.0.11: A cross-compilation toolkit designed to make embedded Linux application development easier
@@ -7528,7 +7528,7 @@ dev-python/multipledispatch 0.4.6 0.4.7 0.4.8: RESTful HTTP Content Negotiation 
 dev-python/munkres 1.0.5.4-r2: Module implementing munkres algorithm for the Assignment Problem
 dev-python/mwlib 0.15.15: Tools for parsing Mediawiki content to other formats
 dev-python/mwlib-ext 0.12.4-r1 0.13.2: Extension module to mwlib to pull in reportlab
-dev-python/mwlib-rl 0.14.5 0.14.6: Generate pdfs from mediawiki markup
+dev-python/mwlib-rl 0.14.5 0.14.6-r1: Generate pdfs from mediawiki markup
 dev-python/myghty 1.2-r1: Template and view-controller framework derived from HTML::Mason
 dev-python/myghtyutils 0.52-r1: Set of utility classes used by Myghty templating
 dev-python/mygpoclient 1.7-r1: A gpodder.net client library
@@ -10296,7 +10296,7 @@ games-board/blokish 0.9.4-r2: Open source clone of the four-player board game Bl
 games-board/camato 0.7.4: A map editor for the game gnocatan
 games-board/capicity 1.0: A monopd compatible boardgame to play Monopoly-like games (previously named capitalism)
 games-board/ccgo 0.3.6.5: An IGS client written in C++
-games-board/cgoban 1.9.14: A Go-frontend
+games-board/cgoban 1.9.14-r1: A Go-frontend
 games-board/cgoban2 2.6.12: A Java client for the Kiseido Go Server, and a SGF editor
 games-board/chessx 1.3.2 1.4.0: Qt5-based Chess Database Utility
 games-board/cockatrice 20160506: An open-source multiplatform software for playing card games over a network
@@ -10417,7 +10417,7 @@ games-emulation/raine 0.51.9: R A I N E M680x0 Arcade Emulation
 games-emulation/sdlmame 0.168 0.174: Multiple Arcade Machine Emulator + Multi Emulator Super System (MESS)
 games-emulation/snes9x 1.53: Super Nintendo Entertainment System (SNES) emulator
 games-emulation/stella 4.0 4.7.2: Stella Atari 2600 VCS Emulator
-games-emulation/vbam 2.0.0_pre1507 9999: Game Boy, GBC, and GBA emulator forked from VisualBoyAdvance
+games-emulation/vbam 2.0.0_pre1507-r1 9999: Game Boy, GBC, and GBA emulator forked from VisualBoyAdvance
 games-emulation/vgba 4.8: Gameboy Advance (GBA) emulator for Linux
 games-emulation/virtualjaguar 2.1.2-r1 2.1.2-r2: an Atari Jaguar emulator
 games-emulation/visualboyadvance 1.7.2-r4: gameboy, gameboy color, and gameboy advance emulator
@@ -11090,7 +11090,7 @@ gnome-extra/gpointing-device-settings 1.5.1-r3: A GTK+ based configuration utili
 gnome-extra/gtkhtml 4.8.5 4.10.0: Lightweight HTML rendering/printing/editing engine
 gnome-extra/gucharmap 3.0.1-r200 3.16.2 3.18.2 9.0.0: Unicode character map viewer and library
 gnome-extra/libgda 5.2.4 5.2.4-r1: GNOME database access library
-gnome-extra/libgsf 1.14.34 1.14.36 1.14.39: The GNOME Structured File Library
+gnome-extra/libgsf 1.14.34 1.14.36-r1 1.14.39-r1: The GNOME Structured File Library
 gnome-extra/mousetweaks 3.12.0: Mouse accessibility enhancements for the GNOME desktop
 gnome-extra/nautilus-actions 3.2.3 3.2.4: Configures programs to be launched when files are selected in Nautilus
 gnome-extra/nautilus-dropbox 1.6.2: Store, Sync and Share Files Online
@@ -11356,7 +11356,7 @@ kde-apps/konsole 15.12.3 16.04.3: KDE's terminal emulator
 kde-apps/konsolekalendar 4.4.2016.01 4.14.11_pre20160211: A command line interface to KDE calendars
 kde-apps/konsolepart 4.14.3: X terminal kpart for use by konsole and other KDE applications
 kde-apps/kontact 4.4.2016.01 4.14.11_pre20160211: KDE personal information manager
-kde-apps/kopete 15.12.3 16.04.3: KDE multi-protocol IM client
+kde-apps/kopete 15.12.3-r1 16.04.3-r1: KDE multi-protocol IM client
 kde-apps/korganizer 4.4.2016.01 4.14.11_pre20160211: Personal Organizer by KDE
 kde-apps/kpasswdserver 15.12.3 16.04.3: KDED Password Module
 kde-apps/kpat 15.12.3-r1 16.04.3: KDE patience game
@@ -11613,7 +11613,7 @@ kde-misc/kdmthemegenerator 0.8: Generates kdm theme from your current plasma the
 kde-misc/kepas 0.9.3: A zeroconf KDE4 filetransfer tool
 kde-misc/kfilebox 0.4.9: KDE dropbox client
 kde-misc/kgrubeditor 0.8.5: A KDE utility that edits GRUB configuration files
-kde-misc/kim4 0.9.5: A Dolphin and Konqueror service menu for ImageMagick
+kde-misc/kim4 0.9.5-r1: A Dolphin and Konqueror service menu for ImageMagick
 kde-misc/kimtoy 1.8 1.91: An input method frontend for Plasma
 kde-misc/kio-ftps 0.2: KDE ftps KIO slave
 kde-misc/kio-locate 0.5.3: Locate KIO slave for KDE
@@ -11876,7 +11876,7 @@ mate-base/mate-panel 1.10.1: The MATE panel
 mate-base/mate-session-manager 1.10.3: MATE session manager
 mate-base/mate-settings-daemon 1.10.3: MATE Settings Daemon
 mate-extra/caja-dropbox 1.10.1: Store, Sync and Share Files Online
-mate-extra/caja-extensions 1.10.1-r2: Several Caja extensions
+mate-extra/caja-extensions 1.10.1-r3: Several Caja extensions
 mate-extra/mate-calc 1.8.0: A calculator application for MATE
 mate-extra/mate-dialogs 1.8.0: Display MATE dialogs from the commandline and shell scripts
 mate-extra/mate-indicator-applet 1.10.0: MATE indicator applet
@@ -12098,7 +12098,7 @@ media-fonts/zh-kcfonts 1.05-r3: Kuo Chauo Chinese Fonts collection in BIG5 encod
 media-gfx/DFBPoint 0.7.2: DFBPoint is presentation program based on DirectFB
 media-gfx/aaphoto 0.43.1: Automatic color correction and resizing of photos
 media-gfx/aewan 1.0.01-r1: A curses-based ascii-art editor
-media-gfx/album 4.07 4.13: HTML photo album generator
+media-gfx/album 4.07 4.13-r1: HTML photo album generator
 media-gfx/aoi 2.5 2.7.2: A free, open-source 3D modelling and rendering studio
 media-gfx/apng2gif 1.4 1.5 1.6: create a GIF from an APNG
 media-gfx/apngasm 2.5 2.6 2.7: create an APNG from multiple PNG files
@@ -12119,7 +12119,7 @@ media-gfx/cairosvg 1.0 1.0.7: A simple cairo based SVG converter with support fo
 media-gfx/cellwriter 1.3.4 1.3.5: Grid-entry natural handwriting input panel
 media-gfx/colorhug-client 0.2.7 0.2.8: Client tools for the ColorHug display colorimeter
 media-gfx/comix 4.0.4-r1: A GTK image viewer specifically designed to handle comic books
-media-gfx/converseen 0.6.4 0.6.8: Batch image converter and resizer based on ImageMagick
+media-gfx/converseen 0.6.4 0.6.8-r1: Batch image converter and resizer based on ImageMagick
 media-gfx/cptutils 1.61 1.62 1.63: A number of utilities for the manipulation of color gradient files
 media-gfx/cropgui 0.1.1-r3 0.2 9999: GUI for lossless cropping of jpeg images
 media-gfx/crwinfo 0.2: Canon raw image (CRW) information and thumbnail extractor
@@ -12154,7 +12154,7 @@ media-gfx/fbida 2.10 2.12 9999: Image viewers for the framebuffer console (fbi) 
 media-gfx/fblogo 0.5.2: Creates images to substitute Linux boot logo
 media-gfx/feh 2.9.3 2.10 2.11 2.12 2.12.1 2.13.1 2.14: A fast, lightweight imageviewer using imlib2
 media-gfx/figurine 1.0.5: A vector based graphics editor similar to xfig, but simpler
-media-gfx/fim 0.4_rc3-r1: Fbi-IMproved is a framebuffer image viewer based on Fbi and inspired from Vim
+media-gfx/fim 0.4_rc3-r2: Fbi-IMproved is a framebuffer image viewer based on Fbi and inspired from Vim
 media-gfx/flam3 3.0.1 9999: Tools and a library for creating fractal flames
 media-gfx/fondu 20060102-r1: Utilities for converting between and manipulating mac fonts and unix fonts
 media-gfx/fontforge 20150612-r1 20150824 20160404: postscript font editor and converter
@@ -12164,7 +12164,7 @@ media-gfx/fotoxx 13.11.1 15.04.1 15.05: Program for improving image files made w
 media-gfx/fr0st 1.4-r2: A fractal flame editor
 media-gfx/freecad 0.15.4671 9999: QT based Computer Aided Design application
 media-gfx/freepv 0.3.0-r4: Panorama viewer (Quicktime, PangeaVR, GLPanoView formats)
-media-gfx/freewrl 1.22.13-r4 2.3.3-r1 3.0.0 9999: VRML97 and X3D compliant browser, library, and web-browser plugin
+media-gfx/freewrl 1.22.13-r5 2.3.3-r2 3.0.0-r1 9999: VRML97 and X3D compliant browser, library, and web-browser plugin
 media-gfx/galleryadd 2.30: Perl script to recursively adds directories/images to Gallery
 media-gfx/geeqie 1.2.2-r2 1.2.3-r1 1.3: A lightweight GTK image viewer forked from GQview
 media-gfx/gif2apng 1.6 1.7 1.8 1.9: create an APNG from a GIF
@@ -12187,7 +12187,7 @@ media-gfx/gphoto2 2.5.8 2.5.9 2.5.10: Free, redistributable digital camera softw
 media-gfx/gphotofs 0.5: FUSE file system for interfacing with digital cameras using gphoto2
 media-gfx/gpicview 0.2.4: A Simple and Fast Image Viewer for X
 media-gfx/gqview 2.1.5-r1: A GTK-based image browser
-media-gfx/graphicsmagick 1.3.24: Collection of tools and libraries for many image formats
+media-gfx/graphicsmagick 1.3.24-r1: Collection of tools and libraries for many image formats
 media-gfx/graphite2 1.3.5 1.3.7 1.3.8: Library providing rendering capabilities for complex non-Roman writing systems
 media-gfx/graphviz 2.26.3-r4 2.38.0-r1: Open Source Graph Visualization Software
 media-gfx/greycstoration 2.9-r1: Image regularization algorithm for denoising, inpainting and resizing
@@ -12200,8 +12200,8 @@ media-gfx/hugin 2015.0.0-r1 2016.0.0 2016.2.0_rc1 9999: GUI for the creation & p
 media-gfx/icc_examin 0.54 0.55 0.55-r1 9999: Viewer for ICC and CGATS profiles, argylls gamut vrml visualisations and GPU gamma tables
 media-gfx/icon-slicer 0.3: utility for generating icon themes and libXcursor cursor themes
 media-gfx/icoutils 0.31.0: A set of programs for extracting and converting images in icon and cursor files (.ico, .cur)
-media-gfx/igal 2.0: Static HTML image gallery generator
-media-gfx/imagemagick 6.9.4.6 6.9.4.7 7.0.1.9: A collection of tools and libraries for many image formats
+media-gfx/igal 2.0-r1: Static HTML image gallery generator
+media-gfx/imagemagick 6.9.4.6-r1 6.9.4.7-r1 7.0.1.9-r1: A collection of tools and libraries for many image formats
 media-gfx/imageworsener 0.9.2 1.0.0 1.2.0: Utility for image scaling and processing
 media-gfx/imv 2.1.2 9999: Minimal image viewer designed for tiling window manager users
 media-gfx/inkscape 0.48.5-r1 0.91 0.91-r1 0.91-r2 0.91-r3: A SVG based generic vector-drawing program
@@ -12304,7 +12304,7 @@ media-gfx/quat 1.20: A 3D quaternionic fractal generator
 media-gfx/qvv 4.02: QVV Image Viewer and Browser
 media-gfx/raw-thumbnailer 0.2.1: A lightweight and fast raw image thumbnailer
 media-gfx/rawtherapee 4.0.9-r1 4.0.10 4.0.11 4.0.12 4.1 4.2 4.2-r1: A powerful cross-platform raw image processing program
-media-gfx/recoverjpeg 2.0-r1 2.1.1 2.2.1 2.2.2 2.2.3: Recover JPEG pictures from a possibly corrupted disk image
+media-gfx/recoverjpeg 2.0-r1 2.1.1 2.2.1 2.2.2 2.2.3-r1: Recover JPEG pictures from a possibly corrupted disk image
 media-gfx/replicatorg 37-r2 40-r1: ReplicatorG is a simple, open source 3D printing program
 media-gfx/ristretto 0.8.0-r1: A fast and lightweight picture viewer for the Xfce desktop environment
 media-gfx/rotoscope 0.2: Graphics program that can be used to give photos a cartoon-like appearance
@@ -12318,7 +12318,7 @@ media-gfx/shotwell 0.23.1 0.23.2 0.23.4: Open source photo manager for GNOME
 media-gfx/simple-scan 3.18.2 3.20.0: Simple document scanning utility
 media-gfx/skencil 0.6.18_pre20080519 1.0_alpha784: Interactive X11 vector drawing program
 media-gfx/slic3r 1.1.7 1.2.9-r2 9999: A mesh slicer to generate G-code for fused-filament-fabrication (3D printers)
-media-gfx/smile 1.0: Slideshow Maker In Linux Environement
+media-gfx/smile 1.0-r1: Slideshow Maker In Linux Environement
 media-gfx/splash-themes-gentoo 20101212-r1 20101212-r2: A collection of Gentoo themes for splashutils
 media-gfx/splash-themes-livecd 2004.3 2005.0 2005.1 2006.0 2006.1 2007.0-r3: Gentoo theme for gensplash consoles
 media-gfx/splash-themes-livedvd 12.0-r1 12.0-r2: Gentoo theme for gensplash consoles
@@ -12357,7 +12357,7 @@ media-gfx/xsvg 0.2.1: a command line viewer for SVG files
 media-gfx/xv 3.10a-r17 3.10a-r19: Interactive image manipulation program supporting a wide variety of formats
 media-gfx/xzgv 0.9.1: Fast and simple GTK+ image viewer
 media-gfx/yafaray 0.1.1: YafaRay is a raytracing open source render engine
-media-gfx/zbar 0.10-r5 0.10_p20121015: Library and tools for reading barcodes from images or video
+media-gfx/zbar 0.10-r6 0.10_p20121015-r1: Library and tools for reading barcodes from images or video
 media-gfx/zgv 5.9: A svgalib console image viewer
 media-libs/FusionSound 1.1.1-r1: Audio sub system for multiple applications
 media-libs/SoQt 1.5.0-r1: The glue between Coin3D and Qt
@@ -12647,7 +12647,7 @@ media-libs/mediastreamer 2.7.3-r3 2.8.2 2.9.0 2.9.0-r1: Mediastreaming library f
 media-libs/memphis 0.2.3: A map-rendering application and a library for OpenStreetMap
 media-libs/mesa 7.10.3 10.3.7-r1 11.0.6 11.0.9 11.1.3 11.1.4 11.2.1 11.2.2 12.0.1 9999: OpenGL-like graphic library for Linux
 media-libs/ming 0.4.4-r1 0.4.5 0.4.7: An Open Source library for Flash movie generation
-media-libs/mlt 0.9.8-r2 6.2.0-r1 6.2.0-r2: Open source multimedia framework for television broadcasting
+media-libs/mlt 0.9.8-r3 6.2.0-r1 6.2.0-r3: Open source multimedia framework for television broadcasting
 media-libs/musicbrainz 2.1.5 3.0.2 3.0.3 4.0.3 5.0.1: The MusicBrainz Client Library (for accessing the latest XML based web service)
 media-libs/mutagen 1.27 1.31 1.32 1.33.2: Audio metadata tag reader and writer implemented in pure Python
 media-libs/nas 1.9.4 1.9.4-r1: Network Audio System
@@ -12740,7 +12740,7 @@ media-libs/urt 3.1b-r1: the Utah Raster Toolkit is a library for dealing with ra
 media-libs/vamp-plugin-sdk 2.5 2.6 2.6-r1: Audio processing plugin system for plugins that extract descriptive information from audio data
 media-libs/varconf 0.6.6 0.6.7 0.6.7-r1: A configuration system designed for the STAGE server
 media-libs/vigra 1.9.0 1.10.0: C++ computer vision library with emphasize on customizable algorithms and data structures
-media-libs/vips 7.26.3 7.26.7 7.26.7-r1: VIPS Image Processing Library
+media-libs/vips 7.26.3-r1 7.26.7 7.26.7-r2: VIPS Image Processing Library
 media-libs/virglrenderer 0.2.0 9999: library used implement a virtual 3D GPU used by qemu
 media-libs/vo-aacenc 0.1.2 0.1.3 9999: VisualOn AAC encoder library
 media-libs/vo-amrwbenc 0.1.2-r1 0.1.3 9999: VisualOn AMR-WB encoder library
@@ -12878,7 +12878,7 @@ media-plugins/gst-transcoder 1.8.1: GStreamer Transcoding API
 media-plugins/hexter 1.0.2 1.0.3: Yamaha DX7 modeling DSSI plugin
 media-plugins/imlib2_loaders 1.4.7 1.4.8 9999: image loader plugins for Imlib 2
 media-plugins/ir_lv2 1.3 1.3.2: LV2 convolver plugin especially for creating reverb effects
-media-plugins/kipi-plugins 4.4.0 4.14.0 5.0.0: Plugins for the KDE Image Plugin Interface
+media-plugins/kipi-plugins 4.4.0-r1 4.14.0-r1 5.0.0: Plugins for the KDE Image Plugin Interface
 media-plugins/kodi-pvr-hts 16_p20160220 16_p20160419 16.9999: Tvheadend Live TV and Radio PVR client addon for Kodi
 media-plugins/ladspa-bs2b 0.9.1: LADSPA plugin for bs2b headphone filter
 media-plugins/libvisual-plugins 0.4.0-r3: collection of visualization plugins for use with the libvisual framework
@@ -13157,7 +13157,7 @@ media-sound/freebirth 0.3.2-r1: Free software bass synthesizer step sequencer
 media-sound/frescobaldi 2.0.16 2.18.1 2.18.2 2.19.0: A LilyPond sheet music text editor
 media-sound/galan 0.3.0_beta7: gAlan - Graphical Audio Language
 media-sound/gbsplay 0.0.91-r1 0.0.91-r2: Nintendo Gameboy sound player for GBS format
-media-sound/gejengel 0.1.4-r1 0.1.4-r2: Lightweight audio player
+media-sound/gejengel 0.1.4-r1 0.1.4-r3: Lightweight audio player
 media-sound/gigedit 0.2.0-r1: An instrument editor for gig files
 media-sound/gimmix 0.5.7.2 0.5.7.2-r1: a graphical music player daemon (MPD) client using GTK+2
 media-sound/glmix 0.3: A 3D widget for mixing up to eight JACK audio streams down to stereo
@@ -13224,7 +13224,7 @@ media-sound/kmidimon 0.7.5: A MIDI monitor for ALSA sequencer
 media-sound/konvertible 1.0.1: A program to convert audio formats with FFmpeg
 media-sound/kradio 4.0.8: kradio is a radio tuner application for KDE
 media-sound/kstreamripper 0.7.100-r2: Program for ripping internet radios
-media-sound/kwave 0.8.10 0.8.12 0.8.99 0.9.1-r1 0.9.2: A sound editor built on KDE Frameworks 5 that can edit many types of audio files
+media-sound/kwave 0.8.10-r1 0.8.12 0.8.99-r1 0.9.1-r1 0.9.2-r1: A sound editor built on KDE Frameworks 5 that can edit many types of audio files
 media-sound/lame 3.99.5-r1: LAME Ain't an MP3 Encoder
 media-sound/lash 0.5.4-r1 0.5.4-r2: LASH Audio Session Handler
 media-sound/lastfm-desktop 2.1.35 2.1.36: The official Last.fm desktop application suite
@@ -13501,7 +13501,7 @@ media-video/blinkentools 2.9: blinkentools is a set of commandline utilities rel
 media-video/camorama 0.19-r2: A webcam application featuring various image filters
 media-video/ccextractor 0.59 0.68 0.69: Extract closed captioning subtitles from video to SRT
 media-video/cclive 0.9.3-r1: Command line tool for extracting videos from various websites
-media-video/chaplin 1.10-r1: This is a program to raw copy chapters from a dvd using libdvdread
+media-video/chaplin 1.10-r2: This is a program to raw copy chapters from a dvd using libdvdread
 media-video/cheese 3.18.1-r1 3.20.2: A cheesy program to take pictures and videos from your webcam
 media-video/cinelerra 20120707 20140710: The most advanced non-linear video editor and compositor
 media-video/clive 2.3.0.1: Command line tool for extracting videos from various websites
@@ -13515,12 +13515,12 @@ media-video/dirac 1.0.2 1.0.2-r1: Open Source video codec
 media-video/dv2sub 0.3: extract info or subtitles from DV stream
 media-video/dvbackup 0.0.4-r1: A small utility for creating backups on DV tapes
 media-video/dvbsnoop 1.4.50-r1: DVB/MPEG stream analyzer program
-media-video/dvd-slideshow 0.8.4.2: DVD Slideshow - Turn your pictures into a dvd with menus!
+media-video/dvd-slideshow 0.8.4.2-r1: DVD Slideshow - Turn your pictures into a dvd with menus!
 media-video/dvd9to5 0.1.7: Perl script to backup the main feature of a DVD-9 on DVD-5
 media-video/dvdauthor 0.7.1: Tools for generating DVD files to be played on standalone DVD players
 media-video/dvdbackup 0.4.1 0.4.2: Backup content from DVD to hard disk
 media-video/dvdimagecmp 0.3-r1: Tool to compare a burned DVD with an image to check for errors
-media-video/dvdrip 0.98.11-r2 0.98.11-r3: dvd::rip is a graphical frontend for transcode
+media-video/dvdrip 0.98.11-r3 0.98.11-r4: dvd::rip is a graphical frontend for transcode
 media-video/dvdstyler 2.9.6-r1: A cross-platform free DVD authoring application
 media-video/dvgrab 3.5: Digital Video (DV) grabber for GNU/Linux
 media-video/emovix 0.9.0: Micro Linux distro to boot from a CD and play every video file localized in the CD root
@@ -13559,7 +13559,7 @@ media-video/kino 1.3.4: Kino is a non-linear DV editor for GNU/Linux
 media-video/kmplayer 0.11.3d-r3 0.11.5 0.12.0a: Video player plugin for Konqueror and basic MPlayer frontend
 media-video/kplayer 0.7.2-r1: KPlayer is a KDE media player based on mplayer
 media-video/libav 9.17 11.3 11.3-r1 11.4 11.6 11.7 11.9999 12_pre20160529 9999: Complete solution to record, convert and stream audio and video
-media-video/lives 1.4.6: LiVES is a Video Editing System
+media-video/lives 1.4.6-r1: LiVES is a Video Editing System
 media-video/loopy 0.5.3: Simple video player for KDE
 media-video/lsdvd 0.17: Utility for getting info out of DVDs
 media-video/luvcview 0.2.6: USB Video Class grabber
@@ -13635,7 +13635,7 @@ media-video/super_demux 0.3: DVB transport stream TS to ES demultiplexer
 media-video/tcmplex-panteltje 0.4.7: audio video multiplexer for 8 audio channels
 media-video/tivodecode 0.2_pre4: TiVo File Decoder
 media-video/totem 3.18.1 3.20.1: Media player for GNOME
-media-video/tovid 0.34 0.35.2: A collection of DVD authoring tools
+media-video/tovid 0.34 0.35.2-r1: A collection of DVD authoring tools
 media-video/transcode 1.1.7-r3: A suite of utilities for transcoding video and audio codecs in different containers
 media-video/tsmuxer 1.10.6-r1 2.6.11: Utility to create and demux TS and M2TS files
 media-video/ttcut 0.19.6-r3: Tool for cutting MPEG files especially for removing commercials
@@ -13649,7 +13649,7 @@ media-video/vdr2jpeg 0.1.9-r1 0.2.0: Addon needed for XXV - WWW Admin for the Vi
 media-video/vdrsync 0.1.3_pre050322-r1: converting vdr-recordings to mpeg2, dvd or other similar formats
 media-video/vdrtools-genindex 0.1.3-r1: VDR: genindex Script
 media-video/videocut 0.2.0: A program to create compositions from video files
-media-video/videotrans 1.6.1 1.6.1-r1: A package to convert movies to DVD format and to build DVDs with
+media-video/videotrans 1.6.1 1.6.1-r2: A package to convert movies to DVD format and to build DVDs with
 media-video/vlc 2.2.1-r1 2.2.4 2.2.9999 9999: VLC media player - Video player and streamer
 media-video/vobcopy 1.2.0: copies DVD .vob files to harddisk, decrypting them on the way
 media-video/vstrip 0.8f: A program to split non-css dvd vobs into individual chapters
@@ -13887,7 +13887,7 @@ net-analyzer/sarg 2.3.10: Squid Analysis Report Generator
 net-analyzer/sbd 1.37-r1: Netcat-clone, designed to be portable and offer strong encryption
 net-analyzer/scanlogd 2.2.7: a port scan detection tool
 net-analyzer/scanssh 2.1: network scanner that gathers info on SSH protocols and versions
-net-analyzer/scapy 2.2.0-r2 2.3.0 2.3.1 2.3.2: A Python interactive packet manipulation program for mastering the network
+net-analyzer/scapy 2.2.0-r3 2.3.0 2.3.1 2.3.2-r1: A Python interactive packet manipulation program for mastering the network
 net-analyzer/scli 0.4.0-r1: SNMP Command Line Interface
 net-analyzer/sec 2.7.6-r1 2.7.9 2.7.10: Simple Event Correlator
 net-analyzer/sflowtool 3.32 3.33 3.34 3.35: sflowtool is a utility for collecting and processing sFlow data
@@ -14827,7 +14827,7 @@ net-misc/peervpn 0.044: P2P mesh VPN
 net-misc/pen 0.25.1: TCP Load Balancing Port Forwarder
 net-misc/pimpd 0.8: RFC1413-compliant identd server supporting masqueraded connections
 net-misc/pipes 1.16 1.16.1: Very versatile TCP pipes
-net-misc/plowshare 2.1.3 2.1.5 9999: Command-line downloader and uploader for file-sharing websites
+net-misc/plowshare 2.1.3 2.1.5-r1 9999: Command-line downloader and uploader for file-sharing websites
 net-misc/pmsvn 1.0.5 1.0.6 1.0.7: Server's configuration management and monitoring tool
 net-misc/polly 0.93.11 0.93.12: twitter client designed for multiple columns of multiple accounts
 net-misc/portfwd 0.29-r1: Port Forwarding Daemon
@@ -14869,7 +14869,7 @@ net-misc/rygel 0.28.3 0.30.3: Rygel is an open source UPnP/DLNA MediaServer
 net-misc/s3cmd 1.0.1 1.5.2-r1 1.6.0 1.6.1: Command line client for Amazon S3
 net-misc/samplicator 1.3.6 1.3.7_beta6: UDP packets forwarder and duplicator
 net-misc/scponly 4.8-r5: A tiny pseudoshell which only permits scp and sftp
-net-misc/secpanel 0.6.1: Graphical frontend for managing and running SSH and SCP connections
+net-misc/secpanel 0.6.1-r1: Graphical frontend for managing and running SSH and SCP connections
 net-misc/selfdhcp 0.2a-r1: a small stealth network autoconfigure software
 net-misc/sendfile 2.1b-r1: SAFT implementation for UNIX and serves as a tool for asynchronous sending of files in the Internet
 net-misc/ser 0.9.7-r2: SIP Express Router
@@ -15093,7 +15093,7 @@ net-p2p/vuze 4.8.1.2-r1 5.6.0.0 5.7.2.0: BitTorrent client in Java, formerly cal
 net-p2p/vuze-coreplugins 4.8.1.2 5.6.0.0 5.7.2.0: Core plugins for Vuze that are included in upstream distribution
 net-p2p/xnap 2.5-r3: A P2P framework and client
 net-print/adobeps 1.0.6-r1: Adobe PostScript drivers for Windows for use with CUPS
-net-print/apsfilter 7.2.5 7.2.8: Apsfilter Prints So Fine, It Leads To Extraordinary Results
+net-print/apsfilter 7.2.5 7.2.8-r1: Apsfilter Prints So Fine, It Leads To Extraordinary Results
 net-print/c2esp 25c 26: A cups filter for Kodak ESP printers
 net-print/cndrvcups-common-lb 3.10 3.20: Common files for Canon drivers
 net-print/cndrvcups-lb 3.00 3.20: Canon UFR II / LIPSLX Printer Driver for Linux
@@ -15708,7 +15708,7 @@ sci-electronics/netgen 1.3.11 1.4.52: LVS tool (layout versus schematic comparis
 sci-electronics/ngspice 26: The Next Generation Spice (Electronic Circuit Simulator)
 sci-electronics/oregano 0.69.1-r1 0.82: Oregano is an application for schematic capture and simulation of electrical circuits
 sci-electronics/osqoop 1.1.1: multi-platform open source software oscilloscope based on Qt 4
-sci-electronics/pcb 20140316: GPL Electronic Design Automation: Printed Circuit Board editor
+sci-electronics/pcb 20140316-r1: GPL Electronic Design Automation: Printed Circuit Board editor
 sci-electronics/petrify 4.2-r1: Synthesize Petri nets into asynchronous circuits
 sci-electronics/plcedit 2.2.1: Qt4 notepad for PLC programming
 sci-electronics/puff 20100127: microwave CAD software
@@ -16083,7 +16083,7 @@ sci-mathematics/nestedsums 1.4.12-r1: A GiNaC-based library for symbolic expansi
 sci-mathematics/normaliz 2.12.2 3.1.1: Tool for computations in affine monoids and more
 sci-mathematics/num-utils 0.3 0.5-r1: A set of programs for dealing with numbers from the command line
 sci-mathematics/nusmv 2.3.1 2.5.0 2.5.2 2.5.3 2.5.4: NuSMV: new symbolic model checker
-sci-mathematics/octave 3.6.4 3.6.4-r1 3.8.2 4.0.0 4.0.0-r1 4.0.1 4.0.1-r1 4.0.2-r1: High-level interactive language for numerical computations
+sci-mathematics/octave 3.6.4 3.6.4-r1 3.8.2-r1 4.0.0 4.0.0-r1 4.0.1 4.0.1-r1 4.0.2-r2: High-level interactive language for numerical computations
 sci-mathematics/octave-epstk 2.3 2.4: Graphical output functions for Matlab and Octave
 sci-mathematics/otter 3.3-r1 3.3-r2: An Automated Deduction System
 sci-mathematics/p9m4 05-r1: This is a Graphical User Interface for Prover9 and Mace4
@@ -16177,7 +16177,7 @@ sci-visualization/ggobi 2.1.8 2.1.9-r1 2.1.10 2.1.11: Visualization program for 
 sci-visualization/gle 4.2.4c 4.2.5: Graphics Layout Engine
 sci-visualization/gnuplot 4.6.5 5.0.1-r1 5.0.3 5.0.9999 5.1.9999: Command-line driven interactive plotting program
 sci-visualization/grace 5.1.22-r2 5.1.22-r3 5.1.23 5.1.23-r1: Motif based XY-plotting tool
-sci-visualization/gri 2.12.19 2.12.23: Language for scientific graphics programming
+sci-visualization/gri 2.12.19 2.12.23-r1: Language for scientific graphics programming
 sci-visualization/gwyddion 2.39 2.44: Framework for Scanning Mode Microscopy data analysis
 sci-visualization/kst 2.0.8: Fast real-time large-dataset viewing and plotting tool
 sci-visualization/labplot 2.0.2 9999: KDE data analysis and visualisation program
@@ -16187,7 +16187,7 @@ sci-visualization/opendx 4.4.4-r4 4.4.4-r5: 3D data visualization tool
 sci-visualization/opendx-samples 4.4.0-r1: Samples for IBM Data Explorer
 sci-visualization/paraview 4.1.0-r2 4.4.0 5.1.0-r1: ParaView is a powerful scientific data visualization application
 sci-visualization/pythonprop 0.13 0.18: Scripts to prepare and plot VOACAP propagation predictions
-sci-visualization/pyxplot 0.9.2: Gnuplot like graphing program publication-quality figures
+sci-visualization/pyxplot 0.9.2-r1: Gnuplot like graphing program publication-quality figures
 sci-visualization/qtiplot 0.9.8.9-r2 0.9.8.9-r3 0.9.8.9-r4: Qt based clone of the Origin plotting package
 sci-visualization/quickplot 0.10.6 0.10.8: A fast interactive 2D plotter
 sci-visualization/spectromatic 1.0-r2: Generates time-frequency analysis images from wav files
@@ -16731,7 +16731,7 @@ sys-auth/fprintd 0.2.0-r1 0.4.1 0.5.0 0.5.1 0.6.0: D-Bus service to access finge
 sys-auth/google-authenticator 1.01_pre20160307231538 9999: PAM Module for two step verification via mobile platform
 sys-auth/icmpdn 0.4: ICMP Domain Name utilities & NSS backend
 sys-auth/keystone 8.0.1-r1 8.1.0 8.1.2 9.0.0-r1 9.0.2 9.1.0 2015.2.9999 2016.1.9999: The Openstack authentication, authorization, and service catalog
-sys-auth/libfprint 0.4.0 0.5.0-r1 0.5.1-r1 0.6.0-r2: library to add support for consumer fingerprint readers
+sys-auth/libfprint 0.4.0 0.5.0-r2 0.5.1-r1 0.6.0-r3: library to add support for consumer fingerprint readers
 sys-auth/libnss-cache 0.1-r1 0.10.1 0.10.2: libnss-cache is a library that serves nss lookups
 sys-auth/libnss-mysql 1.5_p20060915-r2 1.5_p20060915-r3: NSS MySQL Library
 sys-auth/libnss-pgsql 1.4.0 1.5.0_beta: Name Service Switch module for use with PostgreSQL
@@ -17701,11 +17701,11 @@ www-apps/blazeblogger 1.2.0 1.2.0-r1: simple-to-use, capable content management 
 www-apps/blohg 0.13 9999: A Mercurial (or Git) based blogging engine
 www-apps/blohg-tumblelog 0.2 9999: A blohg extension with reStructuredText directives to run a tumblelog
 www-apps/browser-config 1.1: A lightweight modular configurable http url handler/browser launcher
-www-apps/bugzilla 4.4.11 4.4.12 5.0.2 5.0.3: Bugzilla is the Bug-Tracking System from the Mozilla project
+www-apps/bugzilla 4.4.11-r1 4.4.12-r1 5.0.2-r1 5.0.3-r1: Bugzilla is the Bug-Tracking System from the Mozilla project
 www-apps/cgisysinfo 0.4.1: A small cgi utility to show basic system information
 www-apps/cgit 0.12 9999: a fast web-interface for git repositories
 www-apps/collectd-web 0.4.0: Collectd-web is a web-based front-end for RRD data collected by collectd
-www-apps/curator 3.0_p20110120: Gallery generator
+www-apps/curator 3.0_p20110120-r1 3.0_p20110120-r2: Gallery generator
 www-apps/cvsweb 1.112 3.0.5 3.0.6 3.0.6-r1: WWW interface to a CVS tree
 www-apps/davical 1.0.2-r2 1.1.0-r1 1.1.1-r2 1.1.3.1-r2: A CalDAV and CardDAV Server
 www-apps/dokuwiki 20140505e 20140929d 20140929d-r1 20150810 20150810a 20160626a: DokuWiki is a simple to use Wiki aimed at a small company's documentation needs.
@@ -17740,7 +17740,7 @@ www-apps/klaus 0.9.1 1.0.1: A simple, easy-to-set-up Git web viewer
 www-apps/liquid_feedback_core 2.2.3 2.2.6 3.0.4: Internet platforms for proposition development and decision making
 www-apps/liquid_feedback_frontend 2.2.2 2.2.7 3.0.6: Internet platforms for proposition development and decision making
 www-apps/lxr 0.9.8-r1: general purpose source code indexer and cross-referener with a web-based frontend
-www-apps/mediawiki 1.23.10 1.24.3 1.25.2: The MediaWiki wiki web application (as used on wikipedia.org)
+www-apps/mediawiki 1.23.10-r1 1.24.3-r1 1.25.2-r1: The MediaWiki wiki web application (as used on wikipedia.org)
 www-apps/metadot 6.1.6-r1 6.4.5.4-r1: Metadot is a CMS with file, page and link management, and collaboration features
 www-apps/mirmon 1.38-r4 2.10: Simple webapp to monitor the status of mirrors
 www-apps/mod_survey 3.2.5: XML-defined web questionnaires as a plug-in module using Apache
@@ -17763,7 +17763,7 @@ www-apps/phpmp 0.11.0-r1: phpMp is a client program for Music Player Daemon (mpd
 www-apps/phprojekt 6.1.2: Project management and coordination system
 www-apps/phpsysinfo 3.2.2 3.2.3: phpSysInfo is a nice package that will display your system stats via PHP
 www-apps/phpwebsite 0.10.2 1.7.2: phpWebSite Content Management System
-www-apps/piwigo 2.8.0 2.8.1 2.8.2: a photo gallery software for the web
+www-apps/piwigo 2.8.0-r1 2.8.1-r1 2.8.2-r1: a photo gallery software for the web
 www-apps/polarblog 1.11.1: PolarBlog is an open source embedded weblog solution
 www-apps/postfixadmin 2.3.8: Web Based Management tool for Postfix style virtual domains and users
 www-apps/prewikka 3.0.0: Graphical front-end analysis console for the Prelude Framework
@@ -18390,7 +18390,7 @@ x11-misc/seetxt 0.72-r1: Clever, lightweight GUI text file and manual page viewe
 x11-misc/sent 0.2 9999: Simple plaintext presentation tool
 x11-misc/set_opacity 1.0 9999: Tool for set real compositing for windows through window's id, process' pid etc.
 x11-misc/shared-mime-info 1.4 1.4-r1 1.5 1.6: The Shared MIME-info Database specification
-x11-misc/shutter 0.90 0.90.1 0.91 0.93 0.93.1: Feature-rich screenshot program
+x11-misc/shutter 0.90-r1 0.90.1 0.91 0.93 0.93.1-r1: Feature-rich screenshot program
 x11-misc/shutterbug 1.6.36 1.7.45 1.7.47 1.7.49: Screenshot utility based on the FOX Toolkit
 x11-misc/simple-ccsm 0.8.4-r2: Simplified Compizconfig Settings Manager
 x11-misc/simpleswitcher 9999: lightweight EWMH window switcher with features and looks of dmenu
@@ -18482,7 +18482,7 @@ x11-misc/xlockmore 5.45 5.46 5.47: Just another screensaver application for X
 x11-misc/xmobar 0.20.1-r1 0.21 0.22.1 0.23 0.23.1: A Minimalistic Text Based Status Bar
 x11-misc/xmonad-log-applet 2.0.0-r301: Gnome and XFCE applet for displaying XMonad log
 x11-misc/xmountains 2.9: Fractal terrains of snow-capped mountains near water
-x11-misc/xnee 3.19: Program suite to record, replay and distribute user actions
+x11-misc/xnee 3.19-r1: Program suite to record, replay and distribute user actions
 x11-misc/xnots 0.2.1-r1 9999: A desktop sticky note program for the unix geek
 x11-misc/xorg-cf-files 1.0.5 1.0.6: Old Imake-related build files
 x11-misc/xosview 1.17: X11 operating system viewer
@@ -18490,7 +18490,7 @@ x11-misc/xpad 4.2 4.5.0: a sticky note application for jotting down things to re
 x11-misc/xplanet 1.3.0 1.3.1: Render images of the earth into the X root window
 x11-misc/xplanetFX 2.6.7 2.6.12: GUI to configure, run or daemonize xplanet with HQ capabilities
 x11-misc/xrestop 0.4: 'Top' like statistics of X11 client's server side resource usage
-x11-misc/xrmap 2.33-r1: a X client for generating images of the Earth and manipulating the CIA World data bank
+x11-misc/xrmap 2.33-r2: X client for generating images of Earth and manipulating CIA World data bank
 x11-misc/xrootconsole 0.6: A utility that displays its input in a text box on your root window
 x11-misc/xscreensaver 5.34 5.35: A modular screen saver and locker for the X Window System
 x11-misc/xscreensaver-app 2.3-r2 2.3-r3: XScreenSaver dockapp for the Window Maker window manager
@@ -18553,7 +18553,7 @@ x11-plugins/gkrellmlaunch 0.5: A Program-Launcher Plugin for GKrellM2
 x11-plugins/gkrellmoon 0.6-r1: A GKrellM2 plugin of the famous wmMoonClock dockapp
 x11-plugins/gkrellmss 2.6 2.6-r1 2.6-r2: A plugin for GKrellM2 that has a VU meter and a sound chart
 x11-plugins/gkrellmwireless 2.0.3 2.0.3-r1: A plugin for GKrellM that monitors your wireless network card
-x11-plugins/gkrellshoot 0.4.4: GKrellm2 plugin to take screen shots and lock screen
+x11-plugins/gkrellshoot 0.4.4-r1: GKrellm2 plugin to take screen shots and lock screen
 x11-plugins/gkrellstock 0.5-r1 0.5.1: Get Stock quotes plugin for Gkrellm2
 x11-plugins/gkrellsun 1.0.0-r1 1.0.0-r3 1.0.0-r4: A GKrellM plugin that shows sunrise and sunset times
 x11-plugins/gkrelltop 2.2.13-r1: a GKrellM2 plugin which displays the top three processes
@@ -18699,7 +18699,7 @@ x11-plugins/wmtime 1.0_beta2_p9 1.2 1.4: applet which displays the date and time
 x11-plugins/wmtimer 2.92 2.92-r1 2.92-r2: Dockable clock which can run in alarm, countdown timer or chronograph mode
 x11-plugins/wmtop 0.9.0-r1 0.85: dockapp for monitoring the top three processes using cpu or memory
 x11-plugins/wmtz 0.7: dockapp that shows the time in multiple timezones
-x11-plugins/wmudmount 2.2 2.2-r1: A filesystem mounter that uses udisks to handle notification and mounting
+x11-plugins/wmudmount 2.2-r1 2.2-r2: A filesystem mounter that uses udisks to handle notification and mounting
 x11-plugins/wmupmon 0.1.3-r1: wmUpMon is a program to monitor your Uptime
 x11-plugins/wmwave 0.4: a dockapp that displays quality, link, level and noise of an iee802.11 (wavelan) connection
 x11-plugins/wmweather 2.4.4 2.4.5: a dockable weather monitor for standard METAR stations using ICAO location
@@ -18757,7 +18757,7 @@ x11-terms/multi-aterm 0.2.1-r1: Terminal emulator with transparency support as w
 x11-terms/pangoterm 0.0_pre20150323 0.0_pre20150913 0.0_pre20151022 0.0_pre20160305: A GTK/Pango-based terminal that uses libvterm to provide terminal emulation
 x11-terms/qterminal 0.6.0-r1 9999: Qt-based multitab terminal emulator
 x11-terms/root-tail 1.2-r3: Terminal to display (multiple) log files on the root window
-x11-terms/roxterm 2.6.3 2.6.5 2.9.3-r1 3.1.5: A terminal emulator designed to integrate with the ROX environment
+x11-terms/roxterm 2.6.3-r1 2.6.5 2.9.3-r1 3.1.5-r1: A terminal emulator designed to integrate with the ROX environment
 x11-terms/rxvt 2.7.10-r4: A nice small x11 terminal
 x11-terms/rxvt-unicode 9.21 9.22 9999: rxvt clone with xft and unicode support
 x11-terms/sakura 3.2.0 3.2.1 3.3.0 3.3.2 3.3.3 3.3.4: sakura is a terminal emulator based on GTK and VTE
@@ -18793,8 +18793,8 @@ x11-themes/experience 3.04: GTK+2 themes which copy and improve the look of XP L
 x11-themes/faenza-icon-theme 1.3 1.3.1: A scalable icon theme called Faenza
 x11-themes/flatsvg 1.0: Flat SVG icon set
 x11-themes/fluxbox-styles-fluxmod 20050128-r1: A collection of FluxBox themes from FluxMod
-x11-themes/fvwm-crystal 3.2.3 3.2.5 3.4.1: Configurable FVWM theme with transparency and freedesktop compatible menu
-x11-themes/fvwm-themes 0.7.0: A configuration framework for the fvwm window manager
+x11-themes/fvwm-crystal 3.2.3-r1 3.2.5 3.4.1-r1: Configurable FVWM theme with transparency and freedesktop compatible menu
+x11-themes/fvwm-themes 0.7.0-r1 0.7.0-r2: A configuration framework for the fvwm window manager
 x11-themes/fvwm-themes-extra 0.7.0: Extra themes for fvwm-themes
 x11-themes/fvwm_icons 1.0: Icons for use with FVWM
 x11-themes/fvwm_sounds 1.0: Sounds for use with FVWM
@@ -18862,7 +18862,7 @@ x11-themes/notify-osd-icons 0.7: Icons for on-screen-display notification agent
 x11-themes/nou-icon-theme 09.02.08: A scalable icon theme called Nou
 x11-themes/nuovo-icon-theme 0.5: A scalable icon theme called Nuovo
 x11-themes/nuvola 1.0-r1: Nuvola SVG icon theme
-x11-themes/nuvox 07.1: NuvoX SVG icon theme
+x11-themes/nuvox 07.1-r1: NuvoX SVG icon theme
 x11-themes/obsidian-xcursors 1.0: A shiny and clean xcursor theme
 x11-themes/oxygen-gtk 1.4.1 1.4.6: Official GTK+:2 port of KDE's Oxygen widget style
 x11-themes/oxygen-molecule 3.2: Unified KDE and GTK+ theme
@@ -18886,8 +18886,8 @@ x11-themes/sound-theme-freedesktop 0.8: Default freedesktop.org sound theme foll
 x11-themes/tactile 0_pre20060612: Nice, calm and dark low contrast GTK+ theme
 x11-themes/tactile3 3.1: The third evolution of Tactile theme series
 x11-themes/tangerine-icon-theme 0.27: a derivative of the standard Tango theme, using a more orange approach
-x11-themes/tango-icon-theme 0.8.90: SVG and PNG icon theme from the Tango project
-x11-themes/tango-icon-theme-extras 0.1.0-r1: Tango icons for iPod Digital Audio Player (DAP) devices and the Dell Pocket DJ DAP
+x11-themes/tango-icon-theme 0.8.90-r1: SVG and PNG icon theme from the Tango project
+x11-themes/tango-icon-theme-extras 0.1.0-r2: Tango icons for iPod Digital Audio Players (DAP) and the Dell Pocket DJ DAP
 x11-themes/ubuntu-wallpapers 16.04.1: Ubuntu wallpapers
 x11-themes/vanilla-dmz-aa-xcursors 0.4: Style neutral scalable cursor theme
 x11-themes/vanilla-dmz-xcursors 0.4: Style neutral scalable cursor theme
@@ -18911,7 +18911,7 @@ x11-wm/aewm 1.3.12: A minimalistic X11 window manager
 x11-wm/aewm++ 1.1.5-r2: A window manager with more modern features than aewm but with the same look and feel
 x11-wm/afterstep 2.2.9 2.2.12: A feature rich NeXTish window manager
 x11-wm/amiwm 0.21_p2: Windowmanager ala Amiga(R) Workbench(R)
-x11-wm/awesome 3.4.15 3.5.6-r1 3.5.6-r2 3.5.7 3.5.8 3.5.9: A dynamic floating and tiling window manager
+x11-wm/awesome 3.4.15-r1 3.5.6-r1 3.5.6-r2 3.5.7 3.5.8 3.5.9: A dynamic floating and tiling window manager
 x11-wm/blackbox 0.70.1-r1: A small, fast, full-featured window manager for X
 x11-wm/bspwm 0.8.8-r1 0.8.9 0.9 0.9.1: Tiling window manager based on binary space partitioning
 x11-wm/compiz 0.8.8-r3: OpenGL window and compositing manager
