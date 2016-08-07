@@ -7049,7 +7049,7 @@ dev-python/configargparse 0.9.3 0.10.0: A drop-in replacement for argparse that 
 dev-python/configclass 0.1.0: A Python to class to hold configuration values
 dev-python/configobj 4.7.2-r2 5.0.5 5.0.6: Simple config file reader and writer
 dev-python/configparser 3.3.0.2 3.5.0: Backport of Python-3 built-in configparser
-dev-python/configshell 9999: ConfigShell Community Edition for target_core_mod/ConfigFS
+dev-python/configshell 1.6 9999: ConfigShell Community Edition for target_core_mod/ConfigFS
 dev-python/contextlib2 0.4.0 0.5.1 0.5.3 0.5.4: Backports and enhancements for the contextlib module
 dev-python/cookies 2.2.1: Friendlier RFC 6265-compliant cookie parser/renderer
 dev-python/cosmolopy 0.1.104-r1: Cosmology routines built on NumPy/SciPy
@@ -8109,7 +8109,7 @@ dev-python/rst-linker 1.6 1.7: Sphinx plugin to add links and timestamps to the 
 dev-python/rst2pdf 0.93-r2: Tool for transforming reStructuredText to PDF using ReportLab
 dev-python/rtf2xml 1.33-r1: Converts a Microsoft RTF file to structured XML
 dev-python/rtgraph 0.70-r1: Widgets for graphing data in real-time using PyGTK, and UI components for controlling the graphs
-dev-python/rtslib 9999: RTSLib Community Edition for target_core_mod/ConfigFS
+dev-python/rtslib 3.0_pre4 9999: RTSLib Community Edition for target_core_mod/ConfigFS
 dev-python/rtslib-fb 2.1.47 2.1.57: A Python object API for managing the Linux LIO kernel target
 dev-python/ruledispatch 0.5_pre2306-r2: Rule-based Dispatching and Generic Functions
 dev-python/runsnakerun 2.0.4: GUI Viewer for Python profiling runs
@@ -16839,7 +16839,7 @@ sys-block/seekwatcher 0.6 0.12 0.12_p20091015 0.12_p20091015-r1: generates graph
 sys-block/smp_utils 0.97 0.98: Utilities for SAS management protocol (SMP)
 sys-block/spindown 0.4.0-r5: Spindown is a daemon that can spin down idle disks
 sys-block/tapecat 1.0.0: tapecat is a tape utility used to describe the physical content of a tape
-sys-block/targetcli 9999: The targetcli administration shell
+sys-block/targetcli 3.0_pre4 9999: CLI and shell for the Linux SCSI target
 sys-block/tgt 1.0.60 1.0.63 1.0.64 1.0.65 1.0.66: Linux SCSI target framework (tgt)
 sys-block/thin-provisioning-tools 0.4.1 0.5.3 0.6.1: A suite of tools for thin provisioning on Linux
 sys-block/tw_cli 9.2.1.1 9.3.0.4 9.4.1.2 9.4.2 9.5.2 9.5.3 10.1 10.2 10.2.2.1: 3ware SATA/PATA/SAS RAID controller Command Line Interface tool
