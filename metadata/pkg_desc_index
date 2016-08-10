@@ -4503,7 +4503,7 @@ dev-libs/bglibs 1.041 1.104 1.106 1.106-r1: Bruce Guenters Libraries Collection
 dev-libs/bitset 2.8.3 2.8.4-r1: A compressed bitset with supporting data structures and algorithms
 dev-libs/blitz 0.10 0.10-r1: High-performance C++ numeric library
 dev-libs/boehm-gc 6.8 7.1-r1 7.2d 7.2d-r1 7.2e 7.4.0 7.4.2: The Boehm-Demers-Weiser conservative garbage collector
-dev-libs/boost 1.55.0-r2 1.56.0-r1 1.58.0-r1 1.59.0 1.60.0 1.61.0: Boost Libraries for C++
+dev-libs/boost 1.55.0-r2 1.56.0-r1 1.58.0-r1 1.59.0 1.60.0 1.61.0 1.61.0-r1: Boost Libraries for C++
 dev-libs/boost-numpy 9999: Boost.Python interface for NumPy
 dev-libs/botan 1.10.12 1.11.29: A C++ crypto library
 dev-libs/btparse 0.33 0.35: A C library to parse Bibtex files
@@ -15874,7 +15874,7 @@ sci-libs/dsdp 5.8-r2: Software for interior-point for semidefinite programming
 sci-libs/exodusii 6.02 6.09: Model developed to store and retrieve transient data for finite element analyses
 sci-libs/fcl 0.3.2 0.4.0 0.5.0 9999: The Flexible Collision Library
 sci-libs/fetk 1.5: The Finite Element ToolKit - Meta package
-sci-libs/fftw 2.1.5-r8 3.3.4 3.3.5-r1 9999: Fast C library for the Discrete Fourier Transform
+sci-libs/fftw 2.1.5-r8 3.3.4 3.3.5-r1 3.3.5-r2 9999: Fast C library for the Discrete Fourier Transform
 sci-libs/flann 1.8.4-r1 9999: Fast approximate nearest neighbor searches in high dimensional spaces
 sci-libs/fplll 4.0.4: Different implementations of the floating-point LLL reduction algorithm
 sci-libs/freesteam 2.0 9999: Open source implementation of IF97 steam tables
@@ -16946,7 +16946,7 @@ sys-cluster/lspbs 1.1-r1: Displays clear, concise and up-to-date PBS node and CP
 sys-cluster/maui 3.2.6_p16 3.2.6_p21 3.2.6_p21-r1 3.3 3.3.1-r2 3.3.1-r3: Maui Cluster Scheduler
 sys-cluster/moosefs 1.6.26-r1 1.6.27: A filesystem for highly reliable petabyte storage
 sys-cluster/mpe2 1.0.6_p1-r2: MPI development tools
-sys-cluster/mpich 3.0.4 3.1.3 3.1.4 3.2: A high performance and portable MPI implementation
+sys-cluster/mpich 3.0.4 3.1.3 3.1.4 3.2 3.2-r1: A high performance and portable MPI implementation
 sys-cluster/mpich2 1.5: A high performance and portable MPI implementation
 sys-cluster/mvapich2 1.6: MVAPICH2 MPI-over-infiniband package auto-configured for OpenIB
 sys-cluster/native-mpi 0: Use native OS MPI in prefix environment
@@ -16956,7 +16956,7 @@ sys-cluster/ocfs 1.0.14: The Oracle Cluster Filesystem
 sys-cluster/onesis 2.0.2: Diskless computing made easy
 sys-cluster/open-mx 1.5.4: Open-MX - Myrinet Express over Generic Ethernet Hardware
 sys-cluster/openais 1.1.4-r1: Open Application Interface Specification cluster framework
-sys-cluster/openmpi 1.4.3 1.4.5 1.6.5-r1 1.7.5-r1 1.8.4-r4 1.8.7-r1 1.8.8 1.10.0 1.10.2: A high-performance message passing library (MPI)
+sys-cluster/openmpi 1.4.3 1.4.5 1.6.5-r1 1.7.5-r1 1.8.4-r4 1.8.7-r1 1.8.8 1.10.0 1.10.2 1.10.2-r1: A high-performance message passing library (MPI)
 sys-cluster/openstack-meta 2015.2.9999 2016.1.9999: A openstack meta-package for installing the various openstack pieces
 sys-cluster/osc-mpiexec 0.83: replacement for mpirun, integrates MPI with PBS
 sys-cluster/pacemaker 1.1.12-r2 1.1.14: Pacemaker CRM
@@ -17489,7 +17489,7 @@ virtual/mailx 0 1: Virtual for mail implementations
 virtual/man 0-r1: Virtual for man
 virtual/mda 0: Virtual for Message Delivery Agents
 virtual/modutils 0: Virtual for utilities to manage Linux kernel modules
-virtual/mpi 2.0-r3: Virtual for Message Passing Interface (MPI) v2.0 implementation
+virtual/mpi 2.0-r3 2.0-r4: Virtual for Message Passing Interface (MPI) v2.0 implementation
 virtual/mta 0 1: Virtual for Message Transfer Agents
 virtual/mysql 5.5-r1 5.6-r6 5.6-r7 5.6-r8: Virtual for MySQL database server
 virtual/notification-daemon 0: Virtual for notification daemon dbus service
