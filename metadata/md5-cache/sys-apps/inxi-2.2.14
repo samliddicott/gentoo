@@ -1,5 +1,5 @@
 DEFINED_PHASES=install postinst
-DESCRIPTION=A newer, better system information script for irc, administration, and system troubleshooters.
+DESCRIPTION=Commandline script to print hardware information for irc and administration.
 EAPI=5
 HOMEPAGE=https://github.com/smxi/inxi
 KEYWORDS=~amd64 ~x86
@@ -8,4 +8,4 @@ RDEPEND=>=app-shells/bash-3.0 sys-apps/coreutils sys-apps/gawk sys-apps/grep sys
 SLOT=0
 SRC_URI=https://inxi.googlecode.com/svn/tarballs/inxi_2.2.14.tar.gz -> inxi-2.2.14.tar.gz
 _eclass_exported_funcs=pkg_postinst:- src_install:-
-_md5_=61cce3dd7c05335b56991bb8d633ac5d
+_md5_=a3d3d07d1f2a03aa844b01d3e8f3b794
