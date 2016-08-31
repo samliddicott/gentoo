@@ -8147,7 +8147,7 @@ dev-python/ryu 3.26 4.0: Component-based Software-defined Networking Framework
 dev-python/s3transfer 0.0.1 0.1.1 0.1.2: An Amazon S3 Transfer Manager
 dev-python/sampy 1.2.1: Simple Application Messaging Protocol messaging system implementation in Python
 dev-python/sancho 2.4 2.4-r1: Sancho is a unit testing framework
-dev-python/scapy-python3 0.18: Packet crafting/sending/... PCAP processing tool with python3 compatibility
+dev-python/scapy-python3 0.18-r1: Packet crafting/sending/... PCAP processing tool with python3 compatibility
 dev-python/schema 0.5.0: Library for validating Python data structures
 dev-python/scientificpython 2.9.1 2.9.3 2.9.4: Scientific Module for Python
 dev-python/scimath 4.1.2-r1: Enthought Tool Suite: Scientific and mathematical tools
