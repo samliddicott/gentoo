@@ -11451,7 +11451,7 @@ kde-apps/kurifilter-plugins 16.04.3: KDE: Plugins to manage filtering URIs
 kde-apps/kuser 16.04.3: KDE application that helps you manage system users
 kde-apps/kwalletd 16.04.3: KDE Password Server
 kde-apps/kwalletd-pam 5.5.5: KWallet PAM module to not enter password again
-kde-apps/kwalletmanager 15.04.3-r1 16.04.3: KDE Wallet management tool
+kde-apps/kwalletmanager 15.04.3-r1 16.04.3 16.04.3-r1: KDE Wallet management tool
 kde-apps/kwordquiz 16.04.3: A powerful flashcard and vocabulary learning program
 kde-apps/kwrite 16.04.3: KDE simple text editor
 kde-apps/libkcddb 16.04.3: KDE library for CDDB
