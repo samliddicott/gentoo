@@ -1802,6 +1802,7 @@ dev-java/protobuf-java:nano - Enable code generator and runtime library designed
 dev-java/rxtx:lfd - Installs and uses LockFileServer daemon (lfd)
 dev-java/sbt:binary - Install from (Gentoo-compiled) binary instead of building from sources. Set this when you run out of memory during build.
 dev-java/swt:webkit - Embedded browser support via net-libs/webkit-gtk:2, replacing former xulrunner-based browser.
+dev-java/tomcat-server:extra-webapps - Build also the docs and examples webapp
 dev-lang/bas:lr0 - Use the LR0 parser instead of the recursive descending parser
 dev-lang/crystal:xml - Use the dev-libs/libxml2 library to enable Crystal xml module
 dev-lang/crystal:yaml - Use the dev-libs/libyaml library to enable Crystal yaml module
