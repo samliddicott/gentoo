@@ -8353,7 +8353,7 @@ dev-python/tpg 3.2.2-r1: Toy Parser Generator for Python
 dev-python/tqdm 4.8.4 9999: Add a progress meter to your loops in a second.
 dev-python/traceback2 1.4.0: Backports of the traceback module
 dev-python/tracing 0.7-r1 0.8: Debug log/trace messages
-dev-python/traitlets 4.0.0 4.1.0 4.2.1 4.2.2: A configuration system for Python applications
+dev-python/traitlets 4.0.0 4.1.0 4.2.1 4.2.2 4.3.0: A configuration system for Python applications
 dev-python/traits 4.5.0 4.5.0-r1: Enthought Tool Suite: Explicitly typed attributes for Python
 dev-python/traitsui 4.4.0 4.5.1: Enthought Tool Suite: Traits-capable user interfaces
 dev-python/translate-toolkit 1.12.0: Toolkit to convert between many translation formats
