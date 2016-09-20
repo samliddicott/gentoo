@@ -1090,6 +1090,7 @@ app-editors/zile 2.3.24-r1 2.4.11: Zile is a small Emacs clone
 app-editors/znotes 0.4.5: Simple Notes
 app-editors/zoinks 0.4.1: programmer's text editor and development environment
 app-emacs/actionscript-mode 7.2.2_p20120405 7.2.2_p20140605: A major mode for GNU Emacs for editing Actionscript 3 files
+app-emacs/adaptive-wrap 0.5: Smart line-wrapping with wrap-prefix
 app-emacs/analog 1.9.99: Monitor lists of files or command output
 app-emacs/anything 1.3.2: Open anything - QuickSilver-like candidate-selection framework
 app-emacs/apache-mode 1.1: Major mode for editing Apache configuration files
