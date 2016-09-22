@@ -16232,7 +16232,7 @@ sci-mathematics/nauty 2.5.9: Computing automorphism groups of graphs and digraph
 sci-mathematics/nestedsums 1.4.12-r1: A GiNaC-based library for symbolic expansion of certain transcendental functions
 sci-mathematics/normaliz 2.12.2 3.1.1: Tool for computations in affine monoids and more
 sci-mathematics/num-utils 0.3 0.5-r1: A set of programs for dealing with numbers from the command line
-sci-mathematics/nusmv 2.3.1 2.5.0 2.5.2 2.5.3 2.5.4: NuSMV: new symbolic model checker
+sci-mathematics/nusmv 2.6.0: NuSMV: new symbolic model checker
 sci-mathematics/octave 3.6.4 3.6.4-r1 3.8.2-r1 4.0.0 4.0.0-r1 4.0.1 4.0.1-r1 4.0.2-r2 4.0.3: High-level interactive language for numerical computations
 sci-mathematics/octave-epstk 2.3 2.4: Graphical output functions for Matlab and Octave
 sci-mathematics/otter 3.3-r1 3.3-r2: An Automated Deduction System
@@ -16271,7 +16271,7 @@ sci-misc/fitscut 1.4.4: Extract cutouts from FITS image files
 sci-misc/fitsverify 4.17 4.18: FITS file format checker
 sci-misc/flashdot 1.1.4 1.1.4-r1: Generator for psychophysical experiments
 sci-misc/gato 1.1.2: Graph Animation Toolbox
-sci-misc/gt-itm 19961004-r1: Routines to generate and analyze graphs using different models for internetwork topology
+sci-misc/gt-itm 19961004-r1 19961004-r2: Routines to generate / analyze graphs using models for internetwork topology
 sci-misc/h5utils 1.12.1-r2: Utilities for visualization and conversion of HDF5 files
 sci-misc/lttoolbox 3.1.0 3.2.0: Toolbox for lexical processing, morphological analysis and generation of words
 sci-misc/mendeleydesktop 1.16.3: Research management tool for desktop and web
