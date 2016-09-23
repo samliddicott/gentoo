@@ -16318,7 +16318,7 @@ sci-physics/xfoil 6.97: Design and analysis of subsonic isolated airfoils
 sci-physics/yoda 1.4.0: Yet more Objects for (High Energy Physics) Data Analysis
 sci-visualization/circos 0.55: Circular layout visualization of genomic and other data
 sci-visualization/epix 1.2.10 1.2.11 1.2.11-r1: 2- and 3-D plotter for creating images (to be used in LaTeX)
-sci-visualization/fig2sxd 0.21: Utility to convert files in xfig format to OpenOffice.org Draw format
+sci-visualization/fig2sxd 0.22.1: Utility to convert files in xfig format to OpenOffice.org Draw format
 sci-visualization/fityk 1.2.1 1.2.9: General-purpose nonlinear curve fitting and data analysis
 sci-visualization/g3data 1.5.4: Tool for extracting data from graphs
 sci-visualization/gcalc 3.1_rc1: Java Mathematical Graphing System
