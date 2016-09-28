@@ -2207,7 +2207,7 @@ app-text/asa 1.1 1.1-r1: ASA Carriage control conversion for ouput by Fortran pr
 app-text/asciidoc 8.6.9-r1 8.6.9-r2 8.6.9-r3 9999: AsciiDoc is a plain text human readable/writable document format
 app-text/aspell 0.60.6.1-r1 0.60.6.1-r3 0.60.6.1-r4: A spell checker replacement for ispell
 app-text/atril 1.10.3-r2 1.12.2-r3: Atril document viewer for MATE
-app-text/bact 0.13: Boosting Algorithm for Classification of Trees
+app-text/bact 0.13-r1: Boosting Algorithm for Classification of Trees
 app-text/barcode 0.98-r1: barcode generator
 app-text/bdf2psf 1.104 1.113: Converter to generate console fonts from BDF source fonts
 app-text/bibclean 2.11.4 2.17: BibTeX bibliography prettyprinter and syntax checker
