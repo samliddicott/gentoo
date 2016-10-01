@@ -6849,6 +6849,7 @@ dev-php/pecl-apcu 4.0.7-r1 4.0.8 4.0.10 5.1.5: Stripped down version of APC supp
 dev-php/pecl-apcu_bc 1.0.3: Provides APC backwards compatibility functions via APCu
 dev-php/pecl-bbcode 1.0.3_beta1-r1: A quick and efficient BBCode Parsing Library
 dev-php/pecl-cairo 0.3.2: Cairo bindings for PHP
+dev-php/pecl-cassandra 1.2.2: DataStax PHP Driver for Apache Cassandra
 dev-php/pecl-crack 0.4-r4: PHP interface to the cracklib libraries
 dev-php/pecl-dbx 1.1.2-r1: The dbx module is a database abstraction layer
 dev-php/pecl-dio 0.0.7-r2: Direct I/O functions for PHP
