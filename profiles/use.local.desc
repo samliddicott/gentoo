@@ -4134,6 +4134,10 @@ media-libs/opus:custom-modes - Build with custom-modes.
 media-libs/opusfile:fixed-point - Enable fixed-point arithmetic operations
 media-libs/opusfile:float - Enable floating point arithmetic operations
 media-libs/opusfile:http - Enable http connections
+media-libs/panda3d:bullet - Support for Bullet Physics, a physics library.
+media-libs/panda3d:eigen - Optimized linear algebra library. Optional, but improves performance of matrix operations significantly.
+media-libs/panda3d:fmod - FMOD Ex is a proprietary audio library that supports various effects and surround sound. You must have one of FMOD or OpenAL to build support for Panda's sound interfaces. (However, you can use external sound libraries such as pygame, even without these two.)
+media-libs/panda3d:opencv - An alternate library that provides support for video textures and webcam, similar to FFMPEG.
 media-libs/phonon:designer - Install plugin for dev-qt/designer
 media-libs/phonon:vlc - Install VLC Phonon backend
 media-libs/phonon:zeitgeist - Add support for Zeitgeist event tracking system
