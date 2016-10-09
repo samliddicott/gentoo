@@ -11377,7 +11377,7 @@ kde-apps/kcron 16.04.3 16.08.1: KDE Task Scheduler
 kde-apps/kde-apps-meta 16.04.3 16.08.1: Meta package for the KDE Applications collection
 kde-apps/kde-dev-scripts 16.04.3 16.08.1: KDE Development Scripts
 kde-apps/kde-dev-utils 16.04.3 16.08.1: KDE Development Utilities
-kde-apps/kde-l10n 16.04.3 16.08.1: KDE internationalization package
+kde-apps/kde-l10n 16.04.3-r1 16.08.1-r1: KDE internationalization package
 kde-apps/kde-meta 16.04.3 16.08.1: Merge this to pull in all KDE Plasma and Applications packages
 kde-apps/kde4-l10n 16.04.3 16.08.1: KDE legacy internationalization package
 kde-apps/kdeaccessibility-meta 16.04.3 16.08.1: kdeaccessibility - merge this to pull in all kdeaccessiblity-derived packages
@@ -11534,7 +11534,6 @@ kde-apps/ktp-contact-runner 16.04.3 16.08.1: KDE Telepathy krunner plugin
 kde-apps/ktp-desktop-applets 16.04.3 16.08.1: KDE Telepathy contact, presence and chat Plasma applets
 kde-apps/ktp-filetransfer-handler 16.04.3 16.08.1: KDE Telepathy file transfer handler
 kde-apps/ktp-kded-module 16.04.3 16.08.1: KDE Telepathy workspace integration
-kde-apps/ktp-l10n 16.04.3 16.08.1: KDE Telepathy internationalization package
 kde-apps/ktp-send-file 16.04.3 16.08.1: KDE Telepathy file manager plugin to send files to contacts
 kde-apps/ktp-text-ui 16.04.3 16.08.1: KDE Telepathy text chat window
 kde-apps/ktraderclient 16.04.3: A command-line tool for querying the KDE trader system
@@ -11588,7 +11587,7 @@ kde-apps/pim-storage-service-manager 16.08.1: Assistant to help with managing ex
 kde-apps/pimcommon 16.08.1: Common PIM libraries
 kde-apps/plasma-apps 16.04.3 16.08.1: Additional Applets for Plasma
 kde-apps/plasma-runtime 16.04.3: Script engine and package tool for plasma
-kde-apps/plasma-telepathy-meta 16.04.3 16.08.1: Plasma Telepathy client
+kde-apps/plasma-telepathy-meta 16.04.3-r1 16.08.1-r1: Plasma Telepathy client
 kde-apps/poxml 16.04.3 16.08.1: KDE utility to translate DocBook XML files using gettext po files
 kde-apps/print-manager 16.04.3 16.08.1: Manage print jobs and printers in Plasma
 kde-apps/renamedlg-plugins 16.04.3: KDE RenameDlg plugins
