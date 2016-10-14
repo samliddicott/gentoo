@@ -15678,7 +15678,7 @@ sci-biology/vienna-rna 2.1.1 2.1.8: RNA secondary structure prediction and compa
 sci-biology/wgs-assembler 5.4 6.1 7.0 7.0-r1: A de novo whole-genome shotgun DNA sequence assembler, also known as the Celera Assembler and CABOG
 sci-biology/wise 2.4.0_alpha: Intelligent algorithms for DNA searches
 sci-biology/yass 1.14-r2: Genomic similarity search with multiple transition constrained spaced seeds
-sci-calculators/calcoo 1.3.18: Scientific calculator designed to provide maximum usability
+sci-calculators/calcoo 1.3.18 1.3.18-r1: Scientific calculator designed to provide maximum usability
 sci-calculators/calculator 1.6.43 1.7.49: Scientific calculator based on the FOX Toolkit
 sci-calculators/galculator 2.1.3 2.1.4: GTK+ based algebraic and RPN calculator
 sci-calculators/gonvert 0.2.25 0.2.32: Unit conversion utility written in PyGTK
