@@ -15693,7 +15693,7 @@ sci-calculators/calcoo 1.3.18-r1: Scientific calculator designed to provide maxi
 sci-calculators/calculator 1.6.43 1.7.49: Scientific calculator based on the FOX Toolkit
 sci-calculators/galculator 2.1.3 2.1.4: GTK+ based algebraic and RPN calculator
 sci-calculators/gonvert 0.2.25 0.2.32: Unit conversion utility written in PyGTK
-sci-calculators/grpn 1.3.4: A reverse polish notation (RPN) calculator based on GTK+ and libmath
+sci-calculators/grpn 1.3.4 1.4.0: A reverse polish notation (RPN) calculator based on GTK+ and libmath
 sci-calculators/hcalc 1.0-r1 1.2: DJ's Hex Calculator
 sci-calculators/hexcalc 1.11-r2: A simple hex calculator for X
 sci-calculators/keurocalc 1.2.3: A universal currency converter and calculator
