@@ -1957,7 +1957,7 @@ app-misc/workrave 1.10.8 1.10.15: Helpful utility to attack Repetitive Strain In
 app-misc/wyrd 1.4.6-r1: Text-based front-end to Remind
 app-misc/xmind 3.4.1.201401221918 3.5.1.201411201906 3.5.3.201506180105-r2 3.6.1-r1: A brainstorming and mind mapping software tool
 app-misc/yagtd 0.3.4-r1: CLI todo list manager based on the 'Getting Things Done' philosophy
-app-misc/ytree 1.98-r1: A curses-based file manager
+app-misc/ytree 1.98-r1 1.99_p1: A curses-based file manager
 app-misc/yworklog 0.0.7: Stack based utility with CLI interface helping to monitor time spent on tasks
 app-misc/zisofs-tools 1.0.6 1.0.8: User utilities for zisofs
 app-misc/zygrib 6.2.3 7.0.0: GRIB File Viewer - Weather data visualization
@@ -6612,7 +6612,7 @@ dev-perl/XML-Simple 2.200.0-r1 2.220.0: An API for simple XML files
 dev-perl/XML-Simple-DTDReader 0.40.0-r1: Simple XML file reading based on their DTDs
 dev-perl/XML-SimpleObject 0.530.0-r1: A Perl XML Simple package
 dev-perl/XML-Smart 1.790.0: A smart, easy and powerful way to access or create XML from fiels, data and URLs.
-dev-perl/XML-Stream 1.230.0 1.240.0: Creates and XML Stream connection and parses return data
+dev-perl/XML-Stream 1.240.0: Creates and XML Stream connection and parses return data
 dev-perl/XML-TreePP 0.430.0: Pure Perl implementation for parsing/writing XML documents
 dev-perl/XML-Twig 3.460.0 3.490.0: Process huge XML documents in tree mode
 dev-perl/XML-Validator-Schema 1.100.0: Validate XML against a subset of W3C XML Schema
@@ -14241,7 +14241,7 @@ net-firewall/iptables 1.4.17 1.4.21-r1 1.4.21-r2 1.4.21-r3 1.4.21-r4 1.6.0-r1: L
 net-firewall/itval 1.2_p20121104: Iptables policy testing and validation tool
 net-firewall/lutelwall 0.99: IPTables firewall setup script
 net-firewall/nfacct 1.0.1 1.0.2: Command line tool to create/retrieve/delete accounting objects in NetFilter
-net-firewall/nftables 0.6-r3: Linux kernel (3.13+) firewall, NAT and packet mangling tools
+net-firewall/nftables 0.6-r4: Linux kernel (3.13+) firewall, NAT and packet mangling tools
 net-firewall/nufw 2.2.22-r1: An enterprise grade authenticating firewall based on netfilter
 net-firewall/pftop 0.7-r2: Tool for real-time display of active states and rule statistics for pf
 net-firewall/pglinux 2.2.4 2.3.1: Privacy oriented firewall application
