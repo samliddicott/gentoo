@@ -101,6 +101,19 @@ app-admin/pass:importers - Allow importing passwords from other password manager
 app-admin/passwordsafe:minimal - Avoid collision with app-misc/pwsafe
 app-admin/passwordsafe:xml - Enable XML import support
 app-admin/passwordsafe:yubikey - Enable support for Yubikey
+app-admin/pinky-bar:alsa - To get the sound volume level.
+app-admin/pinky-bar:colours - Colorize the output data
+app-admin/pinky-bar:drivetemp - Read the drive temperature from S.M.A.R.T
+app-admin/pinky-bar:dvd - To get the cdrom dvdrom vendor and model names
+app-admin/pinky-bar:libnl - Enable the wifi related options regarding chipsets supporting the cfg80211,mac80211 modules
+app-admin/pinky-bar:mpd - To see the currently played song name
+app-admin/pinky-bar:ncurses - Output the data to the terminal using the ncurses library
+app-admin/pinky-bar:net - Enable the internet related options
+app-admin/pinky-bar:pci - To get the NIC vendor and model names
+app-admin/pinky-bar:sensors - Alternative way to obtain data from the sensors
+app-admin/pinky-bar:smartemp - Read the drive temperature from S.M.A.R.T
+app-admin/pinky-bar:weather - The temperature outside
+app-admin/pinky-bar:x11 - Enable it if you are using dwm.
 app-admin/prelude-manager:dbx - Enables Prelude Manager storing Prelude alerts into database through dev-libs/libpreludedb .
 app-admin/prelude-manager:tcpwrapper - Enables Prelude Manager using tcp wrapper. It requires sys-apps/tcp-wrappers .
 app-admin/puppet:augeas - Enable augeas support

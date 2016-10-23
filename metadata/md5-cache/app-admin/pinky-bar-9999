@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare setup unpack
+DEPEND=sys-devel/m4 sys-apps/gawk sys-devel/autoconf >=sys-devel/automake-1.14.1 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Gather some system information and show it in this statusbar program
+EAPI=6
+HOMEPAGE=https://gitlab.com/void0/pinky-bar
+IUSE=x11 alsa +net libnl +pci dvd sensors ncurses +colours weather mpd drivetemp smartemp
+LICENSE=GPL-2
+RDEPEND=alsa? ( media-libs/alsa-lib ) x11? ( x11-libs/libX11 ) net? ( sys-apps/iproute2 ) libnl? ( >=dev-libs/libnl-3.2.27 dev-util/pkgconfig ) pci? ( sys-apps/pciutils ) dvd? ( dev-libs/libcdio ) sensors? ( sys-apps/lm_sensors ) ncurses? ( sys-libs/ncurses ) weather? ( net-misc/curl app-arch/gzip ) mpd? ( media-sound/mpd media-libs/libmpdclient ) drivetemp? ( app-admin/hddtemp ) smartemp? ( sys-apps/smartmontools )
+REQUIRED_USE=x11? ( !ncurses ) ncurses? ( !x11 ) drivetemp? ( !smartemp ) smartemp? ( !drivetemp )
+SLOT=0
+_eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_unpack:git-r3 src_prepare:- src_configure:- src_compile:- src_install:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	e928b84a9f6f1d9076d1d27687876dc6	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=3ba93979466e991bc34b294d3e413120
