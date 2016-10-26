@@ -7072,7 +7072,7 @@ dev-python/cachetools 1.1.5: Extensible memoizing collections and decorators
 dev-python/cairocffi 0.7.2: CFFI-based drop-in replacement for Pycairo
 dev-python/cangjie 1.1 1.2: The Python bindings to libcangjie
 dev-python/capturer 2.1 2.1.1: Easily capture stdout/stderr of the current process and subprocesses
-dev-python/carbon 0.9.12-r1 0.9.13 0.9.13-r1 0.9.14 0.9.14-r1 0.9.15 0.9.15-r1: Backend data caching and persistence daemon for Graphite
+dev-python/carbon 0.9.13 0.9.13-r1 0.9.14-r1 0.9.15-r1: Backend data caching and persistence daemon for Graphite
 dev-python/carrot 0.10.7-r1: AMQP Messaging Framework for Python
 dev-python/case 1.2.3: Python unittest Utilities
 dev-python/cassandra-driver 2.7.2: DataStax python driver for Apache Cassandra
@@ -8395,16 +8395,16 @@ dev-python/tweepy 2.3 3.3.0 3.5.0: A Python library for accessing the Twitter AP
 dev-python/twilio 3.6.9: Helper library for the Twilio API
 dev-python/twill 0.9-r1: Simple scripting language for web browsing with Python API
 dev-python/twisted 16.2.0 16.3.2 16.4.1: An asynchronous networking framework written in Python
-dev-python/twisted-conch 13.0.0-r1 13.2.0 14.0.0 14.0.1 14.0.2 15.1.0 15.2.1: Twisted SSHv2 implementation
-dev-python/twisted-core 12.3.0-r1 13.0.0-r3 13.2.0 14.0.0 14.0.1 14.0.2 15.1.0 15.2.1: An asynchronous networking framework written in Python
-dev-python/twisted-lore 13.0.0-r1 13.2.0 14.0.0 14.0.1 14.0.2 15.1.0 15.2.1: Twisted documentation system
-dev-python/twisted-mail 13.0.0-r1 13.2.0 14.0.0 14.0.1 14.0.2 15.1.0 15.2.1: A Twisted Mail library, server and client
-dev-python/twisted-names 13.0.0-r1 13.2.0 14.0.0 14.0.1 14.0.2 15.1.0 15.2.1: A Twisted DNS implementation
-dev-python/twisted-news 13.0.0-r1 13.2.0 14.0.0 14.0.1 14.0.2 15.1.0 15.2.1: Twisted News is an NNTP server and programming library
-dev-python/twisted-pair 13.0.0-r1 13.2.0 14.0.0 14.0.1 14.0.2 15.1.0 15.2.1: Twisted low-level networking
-dev-python/twisted-runner 13.0.0-r1 13.2.0 14.0.0 14.0.1 14.0.2 15.1.0 15.2.1: Twisted Runner is a process management library and inetd replacement
-dev-python/twisted-web 12.3.0-r1 13.0.0-r1 13.2.0 14.0.0 14.0.1 14.0.2 15.1.0 15.2.1: Twisted web server, programmable in Python
-dev-python/twisted-words 13.0.0-r1 13.2.0 14.0.0 14.0.1 14.0.2 15.1.0 15.2.1: Twisted Words contains Instant Messaging implementations
+dev-python/twisted-conch 13.0.0-r1 13.2.0 15.1.0 15.2.1: Twisted SSHv2 implementation
+dev-python/twisted-core 13.0.0-r3 13.2.0 15.1.0 15.2.1: An asynchronous networking framework written in Python
+dev-python/twisted-lore 13.0.0-r1 13.2.0 15.1.0 15.2.1: Twisted documentation system
+dev-python/twisted-mail 13.0.0-r1 13.2.0 15.1.0 15.2.1: A Twisted Mail library, server and client
+dev-python/twisted-names 13.0.0-r1 13.2.0 15.1.0 15.2.1: A Twisted DNS implementation
+dev-python/twisted-news 13.0.0-r1 13.2.0 15.1.0 15.2.1: Twisted News is an NNTP server and programming library
+dev-python/twisted-pair 13.0.0-r1 13.2.0 15.1.0 15.2.1: Twisted low-level networking
+dev-python/twisted-runner 13.0.0-r1 13.2.0 15.1.0 15.2.1: Twisted Runner is a process management library and inetd replacement
+dev-python/twisted-web 13.0.0-r1 13.2.0 15.1.0 15.2.1: Twisted web server, programmable in Python
+dev-python/twisted-words 13.0.0-r1 13.2.0 15.1.0 15.2.1: Twisted Words contains Instant Messaging implementations
 dev-python/twitter 1.17.0 1.17.1: An API and command-line toolset for Twitter (twitter.com)
 dev-python/twython 3.0.0 3.2.0 3.3.0: An easy (and up to date) way to access Twitter data with Python
 dev-python/txAMQP 0.6.2: Python library for communicating with AMQP peers using Twisted
