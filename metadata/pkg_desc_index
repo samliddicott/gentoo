@@ -4724,7 +4724,7 @@ dev-libs/libf2c 20110801-r4 20130927: Library that converts FORTRAN to C source
 dev-libs/libfastjson 0.99.2 0.99.4: Fork of the json-c library, which is optimized for liblognorm processing
 dev-libs/libffi 3.0.13-r1 3.1-r3 3.2 3.2.1: a portable, high level programming interface to various calling conventions
 dev-libs/libfilezilla 0.6.1 0.7.0 0.7.1: C++ library offering some basic functionality for platform-independent programs
-dev-libs/libflatarray 0.1.1: Struct of arrays library with object oriented interface for C++
+dev-libs/libflatarray 0.1.1 0.3.0: Struct of arrays library with object oriented interface for C++
 dev-libs/libg15 1.2.7-r1 9999: The libg15 library gives low-level access to the Logitech G15 keyboard
 dev-libs/libg15render 1.2-r2 9999: Small library for display text and graphics on a Logitech G15 keyboard
 dev-libs/libgames-support 1.0.2: Library for code commong to Gnome games
