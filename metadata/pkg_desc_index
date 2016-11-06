@@ -16356,7 +16356,7 @@ sci-visualization/grace 5.1.22-r2 5.1.22-r3 5.1.23 5.1.23-r1: Motif based XY-plo
 sci-visualization/gri 2.12.19 2.12.23: Language for scientific graphics programming
 sci-visualization/gwyddion 2.39 2.44: Framework for Scanning Mode Microscopy data analysis
 sci-visualization/kst 2.0.8: Fast real-time large-dataset viewing and plotting tool
-sci-visualization/labplot 2.0.2 9999: KDE data analysis and visualisation program
+sci-visualization/labplot 2.3.0 9999: Scientific data analysis and visualisation based on KDE Frameworks
 sci-visualization/mayavi 4.3.0: Enthought Tool Suite: Scientific data 3-dimensional visualizer
 sci-visualization/nonolith-connect 1.1: CEE (Control - Experiment - Explore) analog multitool
 sci-visualization/opendx 4.4.4-r4 4.4.4-r5: 3D data visualization tool
