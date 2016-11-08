@@ -543,7 +543,7 @@ app-crypt/johntheripper 1.7.9-r6 1.7.9-r10 1.7.9-r11: fast password cracker
 app-crypt/kali-archive-keyring 2015.2: GnuPG archive keys of the Kali archive
 app-crypt/kbfs 9999: Keybase Filesystem (KBFS)
 app-crypt/kencfs 1.6.2: GUI frontend for encfs
-app-crypt/keybase 0.8.25 1.0.15 1.0.16 1.0.17 1.0.17-r1: Client for keybase.io
+app-crypt/keybase 0.8.25 1.0.15 1.0.16 1.0.17 1.0.17-r1 1.0.18: Client for keybase.io
 app-crypt/keylookup 2.2 2.2-r9999: A tool to fetch PGP keys from keyservers
 app-crypt/keynote 2.3-r3: The KeyNote Trust-Management System
 app-crypt/kstart 4.1 4.2: Modified versions of kinit for refreshing kerberos tickets automatically
@@ -2148,7 +2148,7 @@ app-shells/ctypes-sh 1.1: Foreign function interface for bash
 app-shells/dash 0.5.8.2 0.5.9 0.5.9.1-r1: Debian Almquist Shell
 app-shells/dsh 0.25.10: Distributed Shell
 app-shells/esh 0.8.5-r2: A UNIX Shell with a simplified Scheme syntax
-app-shells/fish 2.1.1 2.1.2 2.2.0 2.3.0 2.3.1: fish is the Friendly Interactive SHell
+app-shells/fish 2.2.0 2.3.1 2.4.0: fish is the Friendly Interactive SHell
 app-shells/gentoo-bashcomp 20101217-r1 20121024 20140911: Gentoo-specific bash command-line completions (emerge, ebuild, equery, repoman, layman, etc)
 app-shells/gentoo-zsh-completions 20141115 20150103 99999999: Gentoo specific zsh completion support (includes emerge and ebuild commands)
 app-shells/heirloom-sh 050706: Heirloom Bourne Shell, derived from OpenSolaris code SVR4/SVID3
@@ -2546,7 +2546,7 @@ app-vim/dirdiff 1.1.5: vim plugin: diff and merge two directories recursively
 app-vim/easy-align 2.10.0: vim plugin: a simple alignment plugin
 app-vim/easytags 3.11: vim plugin: automated tag file generation and syntax highlighting
 app-vim/ebnf-syntax 1.1-r1 1.1-r2: vim plugin: EBNF (ISO/IEC 14997) file syntax highlighting
-app-vim/editorconfig-vim 0.3.3-r1: vim plugin: Support EditorConfig files
+app-vim/editorconfig-vim 0.3.3-r2: vim plugin: Support EditorConfig files
 app-vim/emmet 0.85: vim plugin: HTML and CSS hi-speed coding
 app-vim/enhancedcommentify 2.3 2.3-r1: vim plugin: enhanced comment creation
 app-vim/errsign 0.1-r1: vim plugin: display marks on lines with errors
@@ -4655,7 +4655,7 @@ dev-libs/hiredis 0.11.0-r1 0.13.1 0.13.3: Minimalistic C client library for the 
 dev-libs/http-fetcher 1.1.0: small, robust, flexible library for downloading files via HTTP using the GET method
 dev-libs/hyperleveldb 1.2.2: Hyperdex fork/extension of leveldb
 dev-libs/hyphen 2.8.6 2.8.8: ALTLinux hyphenation library
-dev-libs/icu 55.1 57.1 58.1: International Components for Unicode
+dev-libs/icu 55.1 57.1 58.1 58.1-r1: International Components for Unicode
 dev-libs/icu-layoutex 58.1: External layout part of International Components for Unicode
 dev-libs/icu-le-hb 1.0.3: ICU Layout Engine API on top of HarfBuzz shaping library
 dev-libs/igraph 0.7.1-r2: Creating and manipulating undirected and directed graphs
@@ -10375,7 +10375,7 @@ games-arcade/funnyboat 1.5-r1: A side scrolling shooter game starring a steamboa
 games-arcade/gav 0.9.0: GPL Arcade Volleyball
 games-arcade/gish-demo 1.6: Play as an amorphous ball of tar that rolls and squishes around
 games-arcade/gnake 0.94b: An ncurses-based Nibbles clone
-games-arcade/gnome-nibbles 3.18.2 3.20.2.1 3.22.1: Nibbles clone for Gnome
+games-arcade/gnome-nibbles 3.18.2 3.20.2.1 3.22.1 3.22.2.2: Nibbles clone for Gnome
 games-arcade/gnome-robots 3.18.1 3.20.2 3.22.0: Avoid the robots and make them crash into each other
 games-arcade/gnujump 1.0.8: Xjump clone with added features
 games-arcade/grande-KXL 0.6: ZANAC type game
@@ -11229,18 +11229,18 @@ gnome-extra/cinnamon-translations 2.8.3 3.0.3: Translation data for Cinnamon
 gnome-extra/cjs 2.8.0 3.0.1: Linux Mint's fork of gjs for Cinnamon
 gnome-extra/docky 2.2.1.1-r1: Elegant, powerful, clean dock
 gnome-extra/eiciel 0.9.11 0.9.11-r1: ACL editor for GNOME, with Nautilus extension
-gnome-extra/evolution-data-server 3.20.5 3.22.1: Evolution groupware backend
+gnome-extra/evolution-data-server 3.20.5 3.22.1 3.22.2: Evolution groupware backend
 gnome-extra/evolution-ews 3.20.5 3.22.1: Evolution module for connecting to Microsoft Exchange Web Services
 gnome-extra/gconf-editor 3.0.1-r1: An editor to the GNOME config system
 gnome-extra/gnome-activity-journal 0.8.0-r4 0.8.0-r5: Tool for easily browsing and finding files on your computer
-gnome-extra/gnome-boxes 3.20.2 3.22.1: Simple GNOME 3 application to access remote or virtual systems
+gnome-extra/gnome-boxes 3.20.2 3.22.1 3.22.2: Simple GNOME 3 application to access remote or virtual systems
 gnome-extra/gnome-builder 3.18.1: Builder attempts to be an IDE for writing software for GNOME
-gnome-extra/gnome-calculator 3.20.2 3.22.1: A calculator application for GNOME
+gnome-extra/gnome-calculator 3.20.2 3.22.1 3.22.2: A calculator application for GNOME
 gnome-extra/gnome-calendar 3.20.4 3.22.1: Manage your online calendars with simple and modern interface
 gnome-extra/gnome-characters 3.20.1 3.22.0: Unicode character map viewer and library
 gnome-extra/gnome-clocks 3.18.0 3.20.1 3.20.2 3.22.1: Clocks application for GNOME
 gnome-extra/gnome-color-chooser 0.2.5: GTK+/GNOME color customization tool
-gnome-extra/gnome-color-manager 3.20.0 3.22.1: Color profile manager for the GNOME desktop
+gnome-extra/gnome-color-manager 3.20.0 3.22.1 3.22.2: Color profile manager for the GNOME desktop
 gnome-extra/gnome-commander 1.4.8 1.6.1: A graphical, full featured, twin-panel file manager
 gnome-extra/gnome-contacts 3.20.0 3.22.1: GNOME contact management application
 gnome-extra/gnome-directory-thumbnailer 0.1.6 0.1.7 0.1.8: Thumbnail generator for directories
@@ -11252,7 +11252,7 @@ gnome-extra/gnome-getting-started-docs 3.20.0 3.22.0: Help a new user get starte
 gnome-extra/gnome-integration-spotify 20131013 20140907: GNOME integration for Spotify
 gnome-extra/gnome-logs 3.20.1 3.22.1: Log messages and event viewer
 gnome-extra/gnome-packagekit 3.20.0 3.22.1: PackageKit client for the GNOME desktop
-gnome-extra/gnome-power-manager 3.20.0 3.22.1: GNOME power management service
+gnome-extra/gnome-power-manager 3.20.0 3.22.1 3.22.2: GNOME power management service
 gnome-extra/gnome-search-tool 3.6.0: Search tool for GNOME 3
 gnome-extra/gnome-shell-extensions 3.18.4 3.20.1: JavaScript extensions for GNOME Shell
 gnome-extra/gnome-shell-extensions-topicons 28 28-r1: Shows legacy tray icons on top
@@ -11955,7 +11955,7 @@ mail-client/clawsker 0.7.8 0.7.10: Applet to edit Claws Mail's hidden preference
 mail-client/cone 0.89 0.90 0.90-r1 0.92: CONE: COnsole News reader and Emailer
 mail-client/drac 1.12-r1: A robust implementation of POP-before-SMTP
 mail-client/etpan-ng 0.7.1-r1: etPan is a console mail client that is based on libEtPan
-mail-client/evolution 3.20.5 3.22.1: Integrated mail, addressbook and calendaring functionality
+mail-client/evolution 3.20.5 3.22.1 3.22.2: Integrated mail, addressbook and calendaring functionality
 mail-client/geary 0.11.0 0.11.1: A lightweight, easy-to-use, feature-rich email client
 mail-client/hap 3.7-r1: A terminal mail notification program (replacement for biff)
 mail-client/mail-notification 5.4-r8 5.4-r10: Status icon informing about new mail
@@ -13794,7 +13794,7 @@ media-video/pitivi 0.95 0.96-r1 0.97.1: A non-linear video editor using the GStr
 media-video/plasma-mediacenter 5.7.5: Unified media experience for any device capable of running KDE Plasma
 media-video/projectx 0.91.0.10: Converts, splits and demuxes DVB and other MPEG recordings
 media-video/pymp 1.1: a lean, flexible frontend to mplayer written in python
-media-video/qgifer 0.2.1-r2 0.2.1-r3: A video-based animated GIF creator
+media-video/qgifer 0.2.1-r4: A video-based animated GIF creator
 media-video/qt-recordmydesktop 0.3.8-r2: Qt4 interface for RecordMyDesktop
 media-video/qx11grab 0.4.12: X11 desktop video grabber tray
 media-video/raspberrypi-omxplayer 0_p20160217 0_p20160528 0_p20160528-r1 9999: Command line media player for the Raspberry Pi
@@ -15204,7 +15204,7 @@ net-nntp/kwooty 1.1.0: Friendly nzb linux usenet binary client
 net-nntp/leafnode 1.11.10 1.11.11: A USENET software package designed for small sites
 net-nntp/newspost 2.1.1-r3: A usenet binary autoposter for unix
 net-nntp/nzb 0.3: A binary news grabber
-net-nntp/nzbget 14.1 16.4 17.0 17.1: A command-line based binary newsgrabber supporting .nzb files
+net-nntp/nzbget 14.1 16.4 17.1 18.0_pre1820: A command-line based binary newsgrabber supporting .nzb files
 net-nntp/pan 0.139-r1 0.139-r2 0.140: A newsreader for GNOME
 net-nntp/sabnzbd 1.1.0: Binary newsgrabber with web-interface
 net-nntp/slrn 1.0.2: A s-lang based newsreader
@@ -15919,7 +15919,7 @@ sci-geosciences/gebabbel 0.4: QT-Frontend to load and convert gps tracks with gp
 sci-geosciences/geocode-glib 3.18.2 3.20.1: GLib geocoding library that uses the Yahoo! Place Finder service
 sci-geosciences/gmapcatcher 0.8.0.4: An offline viewer for different map providers
 sci-geosciences/gmt 4.5.6 4.5.8 4.5.9: Powerful map generator
-sci-geosciences/gnome-maps 3.18.4 3.20.3.1 3.22.1: A map application for GNOME
+sci-geosciences/gnome-maps 3.18.4 3.20.3.1 3.22.1 3.22.2: A map application for GNOME
 sci-geosciences/googleearth 7.1.4.1529: A 3D interface to the planet
 sci-geosciences/gpsbabel 1.4.3 1.4.4: GPS waypoints, tracks and routes converter
 sci-geosciences/gpscorrelate 1.6.1: Tool for adjusting EXIF tags of your photos with a recorded GPS trace
@@ -16987,7 +16987,7 @@ sys-block/disktype 9: Detect the content format of a disk or disk image
 sys-block/eject-bsd 1.5: eject command for FreeBSD systems
 sys-block/endpoint 0.1.0: Endpoint turns a Linux machine with one or more firewire cards into an SBP-2 device
 sys-block/f3 6.0: Utilities to detect broken or counterfeit flash storage
-sys-block/fio 2.2.9 2.2.10 2.2.13 2.5 2.6 2.8: Jens Axboe's Flexible IO tester
+sys-block/fio 2.2.9 2.2.10 2.2.13 2.5 2.6 2.8 2.15: Jens Axboe's Flexible IO tester
 sys-block/flashbench 20120606: Tool for benchmarking and classifying flash memory drives
 sys-block/fwdl 1.2.3: Seagate Fibre-Channel disk firmware upgrade tool
 sys-block/gpart 0.1h-r2: Partition table rescue/guessing tool
@@ -17546,7 +17546,7 @@ sys-power/cpupower 3.13 3.14 3.15 3.18 4.2 4.5.0-r1 4.7.0-r1: Shows and sets pro
 sys-power/hibernate-script 2.0-r6: Hibernate script supporting multiple suspend methods
 sys-power/iasl 20121018 20140828 20150717 20160729: Intel ACPI Source Language (ASL) compiler
 sys-power/ncpufreqd 2.4: Daemon controlling CPU speed and temperature
-sys-power/nut 2.6.5-r1 2.7.2-r2 2.7.3: Network-UPS Tools
+sys-power/nut 2.6.5-r1 2.7.2-r2 2.7.3 2.7.4: Network-UPS Tools
 sys-power/nvclock 0.8_p20110102-r2: NVIDIA Overclocking Utility
 sys-power/nvram-reboot 2004.10.03: PowerOff Boot-Images for nvram-wakeup (not needed for GRUB)
 sys-power/nvram-wakeup 1.0 1.1: read and write the WakeUp time in the BIOS
@@ -17972,7 +17972,7 @@ www-apps/webmcp 1.2.5 1.2.6: Web application framework written in Lua and C
 www-apps/websvn 2.3.2 2.3.3-r1: Web-based browsing tool for Subversion (SVN) repositories in PHP
 www-apps/wiliki 0.6.1: WiLiKi is a lightweight Wiki engine written in and running on Gauche Scheme
 www-apps/wordpress 4.4.2 4.5.3 4.6 4.6.1: Wordpress PHP and MySQL based content management system (CMS)
-www-client/chromium 54.0.2840.59 55.0.2883.28 55.0.2883.35 56.0.2897.0: Open-source version of Google Chrome web browser
+www-client/chromium 54.0.2840.59 55.0.2883.28 55.0.2883.35 56.0.2897.0 56.0.2906.0: Open-source version of Google Chrome web browser
 www-client/ck4up 1.2: Check for Updates on HTTP pages
 www-client/conkeror 1.0_pre20140212 1.0_pre20150519 1.0.3: A Mozilla-based web browser whose design is inspired by GNU Emacs
 www-client/dillo 3.0.4 3.0.4.1 3.0.5 3.0.5-r1: Lean FLTK based web browser
@@ -18036,7 +18036,7 @@ www-misc/visitors 0.7-r1: Fast web log analyzer
 www-misc/wsmake 0.6.4: Website Pre-processor
 www-misc/xxv 1.6.1-r1: WWW Admin for the VDR (Video Disk Recorder)
 www-misc/zoneminder 1.27.0 1.28.0 1.28.1: ZoneMinder allows you to capture, analyse, record and monitor any cameras attached to your system
-www-plugins/adobe-flash 11.2.202.643 23.0.0.205 24.0.0.145: Adobe Flash Player
+www-plugins/adobe-flash 11.2.202.644 23.0.0.207 24.0.0.145: Adobe Flash Player
 www-plugins/chrome-binary-plugins 54.0.2840.90 55.0.2883.35_beta 56.0.2906.0_alpha: Binary plugins from Google Chrome for use in Chromium
 www-plugins/freshplayerplugin 0.3.5-r2: PPAPI-host NPAPI-plugin adapter for flashplayer in npapi based browsers
 www-plugins/gecko-mediaplayer 1.0.8 1.0.9: A browser plugin that uses GNOME MPlayer
@@ -18373,7 +18373,7 @@ x11-libs/scw 0.4.7: A GTK+ widget set specifically designed for chat programs
 x11-libs/snorenotify 0.7.0 0.7.0-r1: Multi platform Qt notification framework
 x11-libs/startup-notification 0.12-r1: Application startup notification and feedback library
 x11-libs/tslib 1.0-r3: Touchscreen Access Library
-x11-libs/vte 0.28.2-r207 0.36.5 0.40.2 0.42.5 0.44.2 0.46.0: Library providing a virtual terminal emulator widget
+x11-libs/vte 0.28.2-r207 0.36.5 0.40.2 0.42.5 0.44.2 0.46.0 0.46.1: Library providing a virtual terminal emulator widget
 x11-libs/wxGTK 2.8.12.1-r1 2.8.12.1-r2 2.9.4.1-r1 3.0.2.0-r1 3.0.2.0-r2 3.0.2.0-r3 3.0.2.0-r300 3.0.2.0-r301: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
 x11-libs/xbae 4.60.4: Motif-based widget to display a grid of cells as a spreadsheet
 x11-libs/xcb-util 0.4.0: X C-language Bindings sample implementations
@@ -18922,7 +18922,7 @@ x11-proto/xproto 7.0.27 7.0.28 7.0.29 7.0.31: X.Org xproto protocol headers
 x11-terms/aterm 1.0.1-r2: A terminal emulator with transparency support as well as rxvt backwards compatibility
 x11-terms/eterm 0.9.5 0.9.6 9999: A vt102 terminal emulator for X
 x11-terms/evilvte 0.5.1 0.5.2_pre1: VTE based, super lightweight terminal emulator
-x11-terms/gnome-terminal 3.20.2 3.22.0: The Gnome Terminal
+x11-terms/gnome-terminal 3.20.2 3.22.0 3.22.1: The Gnome Terminal
 x11-terms/guake 0.8.3 0.8.5 0.8.7 9999: Drop-down terminal for GTK+ desktops
 x11-terms/hanterm 3.1.6-r2 3.1.6-r4: Hanterm -- Korean terminal
 x11-terms/kterm 6.2.0-r5: Japanese Kanji X Terminal
