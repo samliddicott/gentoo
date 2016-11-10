@@ -11585,7 +11585,7 @@ kde-apps/kubrick 16.04.3 16.08.2: A game based on the "Rubik's Cube" puzzle
 kde-apps/kuiserver 16.04.3: KDE: Progress Info UI server
 kde-apps/kurifilter-plugins 16.04.3: KDE: Plugins to manage filtering URIs
 kde-apps/kuser 16.04.3 16.08.2: KDE application that helps you manage system users
-kde-apps/kwalletd 16.04.3: KDE Password Server
+kde-apps/kwalletd 16.04.3 16.04.3-r1: KDE Password Server
 kde-apps/kwalletmanager 15.04.3-r1 16.04.3 16.04.3-r1 16.08.2: KDE Wallet management tool
 kde-apps/kwordquiz 16.04.3 16.08.2: A powerful flashcard and vocabulary learning program
 kde-apps/kwrite 16.04.3 16.08.2: KDE simple text editor
