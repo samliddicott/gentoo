@@ -3979,7 +3979,7 @@ dev-java/glassfish-servlet-api 3.1.1: Glassfish reference implementation of Serv
 dev-java/glassfish-transaction-api 1.1.2.2.04: Java Transaction API
 dev-java/glassfish-xmlrpc-api 1.1.1: Project GlassFish XML RPC API
 dev-java/glazedlists 1.8.0-r1: A toolkit for list transformations
-dev-java/gnu-classpath 0.98-r5: Free core class libraries for use with Java VMs and compilers
+dev-java/gnu-classpath 0.98-r5 0.98-r6: Free core class libraries for use with Java VMs and compilers
 dev-java/gnu-classpath-inetlib 1.0-r3 1.1-r3: Network extensions library for GNU classpath and classpathx
 dev-java/gnu-crypto 2.0.1-r2 2.0.1-r3: GNU Crypto cryptographic primitives for Java
 dev-java/gnu-hylafax 1.0.3-r2: Java API designed to implement the client protocol portion of the hfaxd server
