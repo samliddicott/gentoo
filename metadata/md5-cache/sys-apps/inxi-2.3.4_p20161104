@@ -1,11 +1,11 @@
 DEFINED_PHASES=install postinst
 DESCRIPTION=Commandline script to print hardware information for irc and administration.
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/smxi/inxi
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=GPL-3
 RDEPEND=>=app-shells/bash-3.0 sys-apps/pciutils
 SLOT=0
-SRC_URI=https://inxi.googlecode.com/svn/tarballs/inxi_2.2.19.tar.gz -> inxi-2.2.19.tar.gz
+SRC_URI=https://github.com/smxi/inxi/tarball/89e18d245bc34fc5be5f5baddac2ccd8106be050 -> inxi-2.3.4_p20161104.tar.gz
 _eclass_exported_funcs=pkg_postinst:- src_install:-
-_md5_=fa6e2ccb94eba222de3b1554699f7a95
+_md5_=96a449655a9e66d6d34f30fa8ec508fd
