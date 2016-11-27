@@ -1,9 +1,9 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI=5
-inherit eutils toolchain-funcs
+EAPI=6
+inherit eutils
 
 DESCRIPTION="programmer's text editor and development environment"
 HOMEPAGE="http://zoinks.mikelockwood.com"
@@ -11,7 +11,7 @@ SRC_URI="http://${PN}.mikelockwood.com/download/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="~amd64 ~ppc ~x86"
 IUSE="nls"
 
 RDEPEND="x11-libs/libX11
@@ -21,9 +21,11 @@ RDEPEND="x11-libs/libX11
 DEPEND="${RDEPEND}
 	nls? ( sys-devel/gettext )"
 
+PATCHES=( "${FILESDIR}/${PN}-cpp14.patch" )
+
 src_prepare() {
+	default
 	sed -i -e 's:-g -Werror::g' configure* || die
-	tc-export CXX
 }
 
 src_configure() {
@@ -32,7 +34,6 @@ src_configure() {
 
 src_install() {
 	default
-	dodoc AUTHORS ChangeLog NEWS README
 	doicon ide/Pixmaps/${PN}.xpm
 	make_desktop_entry ${PN} "Zoinks!" ${PN} "Utility;TextEditor"
 }
