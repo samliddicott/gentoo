@@ -12837,7 +12837,7 @@ media-libs/libomxil-bellagio 0.9.3: An Open Source implementation of the OpenMAX
 media-libs/libopendaap 0.4.0: A library which enables applications to discover and connect to iTunes(R) music shares
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
 media-libs/libopenshot 0.1.0 0.1.1 0.1.2: Video editing library used by OpenShot
-media-libs/libopenshot-audio 0.0.6 0.1.2: Audio library used by OpenShot
+media-libs/libopenshot-audio 0.0.6 0.1.2-r1: Audio library used by OpenShot
 media-libs/libpagemaker 0.0.2 0.0.3 9999: C++ Library that parses the file format of Aldus/Adobe PageMaker documents.
 media-libs/libpano13 2.9.18 2.9.19: Helmut Dersch's panorama toolbox library
 media-libs/libpgf 6.11.32 6.12.27: Library to load, handle and manipulate images in the PGF format
