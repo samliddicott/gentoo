@@ -7405,7 +7405,7 @@ dev-python/flask-login 0.2.11 0.3.2 0.3.2-r1: Login session support for Flask
 dev-python/flask-mail 0.9.0 0.9.1 0.9.1-r1: Flask extension for sending email
 dev-python/flask-migrate 1.3.0 1.8.0 2.0.0: SQLAlchemy database migrations for Flask applications using Alembic
 dev-python/flask-mongoengine 0.7.0 0.7.1 0.8: Flask support for MongoDB and with WTF model forms
-dev-python/flask-nav 0.5: Easily create navigation for Flask applications.
+dev-python/flask-nav 0.5 0.6: Easily create navigation for Flask applications.
 dev-python/flask-openid 1.2.3 1.2.4 1.2.5: OpenID support for Flask
 dev-python/flask-peewee 0.6.5 0.6.6 0.6.7: Flask integration layer for the Peewee ORM
 dev-python/flask-principal 0.4.0 0.4.0-r1: Identity management for flask
