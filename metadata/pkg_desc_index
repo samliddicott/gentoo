@@ -11847,7 +11847,7 @@ kde-misc/kcometen4 1.0.8: OpenGL KDE4 screensaver
 kde-misc/kdeconnect 1.0.2: Adds communication between KDE Plasma and your smartphone
 kde-misc/kdesudo 3.4.2.4-r1: A frontend for sudo. Unlike kdesu, it uses directly sudo as backend
 kde-misc/kdiff3 0.9.97-r2 0.9.98-r1: Qt/KDE based frontend to diff3
-kde-misc/kdirstat 3.0-r1: Nice KDE replacement to the du command
+kde-misc/kdirstat 3.0-r1 3.1.2: GUI equivalent to the du command based on KDE Frameworks
 kde-misc/kdmthemegenerator 0.8: Generates kdm theme from your current plasma theme and wallpaper
 kde-misc/kepas 0.9.3: A zeroconf KDE4 filetransfer tool
 kde-misc/kfilebox 0.4.9: KDE dropbox client
