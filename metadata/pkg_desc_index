@@ -18005,7 +18005,7 @@ www-apps/otrs 4.0.12 4.0.13: OTRS is an Open source Ticket Request System
 www-apps/owncloud 8.1.10 8.1.11 8.2.8 8.2.9 9.0.5 9.0.6 9.1.1 9.1.2: Web-based storage application where all your data is under your own control
 www-apps/ownpaste 0.2.2-r1 9999: Private pastebin (server-side implementation)
 www-apps/pcgi 2.0_alpha5: Jeff Bauer's Persistent CGI
-www-apps/phpBB 3.0.10 3.0.11 3.0.12: phpBB is an open-source bulletin board package
+www-apps/phpBB 3.0.10 3.0.11 3.0.12 3.1.10: phpBB is an open-source bulletin board package
 www-apps/phpmp 0.11.0-r1: phpMp is a client program for Music Player Daemon (mpd)
 www-apps/phprojekt 6.1.2: Project management and coordination system
 www-apps/phpsysinfo 3.2.2 3.2.3: phpSysInfo is a nice package that will display your system stats via PHP
