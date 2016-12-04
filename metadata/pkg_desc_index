@@ -4027,6 +4027,7 @@ dev-java/istack-commons-soimp 2.22: IStack Commons - Soimp jar
 dev-java/itext 2.1.5-r2 5.5.4-r2: Java library that generate documents in the Portable Document Format (PDF) and/or HTML.
 dev-java/j2objc-annotations 1.2: Annotations for the J2ObjC Java to Objective-C translator
 dev-java/j2ssh 0.2.9: Java implementation of the SSH protocol
+dev-java/jackcess 1.2.14.3: Pure Java library for reading from and writing to MS Access databases
 dev-java/jackrabbit-webdav 2.10.1: Fully conforming implementation of the JRC API (specified in JSR 170 and 283)
 dev-java/jackson 2.8.5: High-performance JSON processor
 dev-java/jackson-annotations 2.8.5: Annotations for the Java Jackson data processor
@@ -16121,7 +16122,7 @@ sci-libs/freesteam 2.0 9999: Open source implementation of IF97 steam tables
 sci-libs/galib 2.4.6 2.4.7 2.4.7-r1: Library for genetic algorithms in C++ programs
 sci-libs/gamer 1.5-r2: Geometry-preserving Adaptive MeshER
 sci-libs/gaul-devel 0.1849-r1 0.1849-r2: Genetic Algorithm Utility Library
-sci-libs/gdal 1.11.1-r4 1.11.2-r1 2.0.2-r1 2.0.2-r2 2.0.2-r3: Translator library for raster geospatial data formats (includes OGR support)
+sci-libs/gdal 1.11.1-r4 1.11.2-r1 2.0.2-r1 2.0.2-r2 2.0.2-r3 2.0.3: Translator library for raster geospatial data formats (includes OGR support)
 sci-libs/geos 3.5.0 3.5.0-r2: Geometry engine library for Geographic Information Systems
 sci-libs/gerris 20131206-r1: Gerris Flow Solver
 sci-libs/getdata 0.8.5 0.9.0 0.9.0-r1: Reference implementation of the Dirfile, format for time-ordered binary data
