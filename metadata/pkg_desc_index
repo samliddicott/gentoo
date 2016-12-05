@@ -14587,7 +14587,7 @@ net-libs/libhubbub 0.3.3: HTML5 compliant parsing library, written in C
 net-libs/libident 0.32: A small library to interface to the Ident protocol server
 net-libs/libinfinity 0.6.7: An implementation of the Infinote protocol written in GObject-based C
 net-libs/libircclient 1.6-r2 1.8: Small but powerful library implementing the client-server IRC protocol
-net-libs/libiscsi 1.9.0-r1 1.15.0 9999: iscsi client library and utilities
+net-libs/libiscsi 1.9.0-r1 1.15.0 1.18.0 9999: iscsi client library and utilities
 net-libs/libisds 0.7 0.10 9999: Client library for accessing ISDS Soap services
 net-libs/libkgapi 2.2.0 5.3.1: Library for accessing Google calendar and contact resources
 net-libs/libkpeople 0.3.0: KDE contact person abstraction library
