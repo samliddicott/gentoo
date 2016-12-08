@@ -11706,7 +11706,7 @@ kde-apps/lokalize 16.04.3 16.08.3: KDE Applications 5 translation tool
 kde-apps/lskat 16.04.3 16.08.3: Skat game by KDE
 kde-apps/mailcommon 16.08.3: Common mail library
 kde-apps/mailimporter 16.08.3: Library to import mail from various sources
-kde-apps/marble 4.14.3 16.04.3 16.08.3: Virtual Globe and World Atlas to learn more about Earth
+kde-apps/marble 4.14.3 16.04.3 16.08.3-r1: Virtual Globe and World Atlas to learn more about Earth
 kde-apps/mbox-importer 16.08.3: Import mbox email archives from various sources into Akonadi
 kde-apps/messagelib 16.08.3: Libraries for messaging functions
 kde-apps/minuet 16.04.3 16.08.3: A KDE Software for Music Education
