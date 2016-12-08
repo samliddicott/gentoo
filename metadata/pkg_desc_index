@@ -17348,7 +17348,7 @@ sys-freebsd/boot0 8.2 9.1 10.3 11.0-r1: FreeBSD's bootloader
 sys-freebsd/freebsd-bin 8.2 9.1 10.3 11.0: FreeBSD /bin tools
 sys-freebsd/freebsd-cddl 8.2 9.1 10.3 11.0: FreeBSD CDDL (opensolaris/zfs) extra software
 sys-freebsd/freebsd-contrib 8.2 9.1: Contributed sources for FreeBSD
-sys-freebsd/freebsd-lib 8.2-r1 9.1-r11 10.3-r2 11.0: FreeBSD's base system libraries
+sys-freebsd/freebsd-lib 8.2-r1 9.1-r11 10.3-r3 11.0-r1: FreeBSD's base system libraries
 sys-freebsd/freebsd-libexec 8.2 8.2-r1 9.1-r2 10.3 11.0: FreeBSD libexec things
 sys-freebsd/freebsd-mk-defs 8.2 9.1 10.3 11.0: Makefiles definitions used for building and installing libraries and system files
 sys-freebsd/freebsd-pam-modules 8.2 9.1-r1 10.3 11.0: FreeBSD's PAM authentication modules
@@ -17357,7 +17357,7 @@ sys-freebsd/freebsd-rescue 8.2 9.1 10.3 11.0: FreeBSD's rescue binaries
 sys-freebsd/freebsd-sbin 8.2-r1 9.1 10.3 11.0: FreeBSD sbin utils
 sys-freebsd/freebsd-share 8.2 9.1 10.3 11.0: FreeBSD shared tools/files
 sys-freebsd/freebsd-sources 8.2-r2 9.1-r3 9.1-r9 10.3-r6 11.0-r1: FreeBSD kernel sources
-sys-freebsd/freebsd-ubin 8.2-r1 9.1-r2 9.1-r3 10.3-r2 11.0: FreeBSD's base system source for /usr/bin
+sys-freebsd/freebsd-ubin 8.2-r1 9.1-r2 9.1-r3 10.3-r2 11.0-r1: FreeBSD's base system source for /usr/bin
 sys-freebsd/freebsd-usbin 8.2-r2 9.1-r1 10.3-r1 11.0-r1: FreeBSD /usr/sbin tools
 sys-freebsd/ubin-wrappers 0: /usr/bin wrapper scripts for FreeBSD script compatibility
 sys-freebsd/virtio-kmod 0.228301-r1: Virtio drivers from FreeBSD Ports' emulators/virtio-kmod
