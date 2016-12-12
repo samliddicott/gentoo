@@ -16869,7 +16869,7 @@ sys-apps/microcode-ctl 1.23 1.27 1.28 1.28-r1: Intel processor microcode update 
 sys-apps/miller 4.0.0 4.2.0: A tool like sed, awk, cut, join, and sort for name-indexed data (CSV, JSON, ..)
 sys-apps/minised 1.13 1.14: a smaller, cheaper, faster SED implementation
 sys-apps/miscfiles 1.4.2-r1 1.5 1.5-r1: Miscellaneous files
-sys-apps/mlocate 0.26-r1: Merging locate is an utility to index and quickly search for files
+sys-apps/mlocate 0.26-r1 0.26-r2: Merging locate is an utility to index and quickly search for files
 sys-apps/modutils 2.4.27-r1: Standard kernel module utilities for linux-2.4 and older
 sys-apps/more 2.12r: Primitive text file viewer
 sys-apps/moreutils 0.50 0.51 0.52 0.53 0.54 0.55 0.56 0.57 0.58 0.59 0.60: a collection of tools that nobody thought to write when Unix was young
