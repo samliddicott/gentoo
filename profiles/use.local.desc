@@ -1737,7 +1737,6 @@ dev-lang/ghc:binary - Install the binary version directly, rather than using it 
 dev-lang/ghc:ghcbootstrap - Bootstrap from an existing GHC installation.
 dev-lang/ghc:ghcmakebinary - Build with less runtime depends (bundle libffi for building bootstrap binaries).
 dev-lang/ghc:llvm - Enable llvm code generator for ghc (-fllvm).
-dev-lang/gnat-gcc:acats - Installs ACATS source under LIBPATH.
 dev-lang/go:gccgo - Enable bootstrapping using gccgo
 dev-lang/icon:iplsrc - install the icon programming library source
 dev-lang/lazarus:minimal - Don't build extra packages from the bigide component
@@ -3451,7 +3450,6 @@ mail-client/alpine:chappa - enhance alpine by applying Eduardo Chappa's patches
 mail-client/alpine:onlyalpine - installs only the alpine binary, so it does not collied with pico and/or pine
 mail-client/alpine:passfile - Adds support for caching passwords into a file between sessions
 mail-client/alpine:smime - Enable support for S/MIME
-mail-client/alpine:topal - Enable support for net-mail/topal
 mail-client/balsa:crypt - Adds support for GnuPG encryption
 mail-client/balsa:gtkhtml - Use gtkhtml for HTML rendering
 mail-client/balsa:gtkspell - Use gtkspell for dictionary support
@@ -5693,7 +5691,6 @@ net-libs/axtls:httpd - Enables axhttpd web server component
 net-libs/axtls:static - Statically build axhttpd server
 net-libs/c-client:chappa - Enable Eduardo Chappa's patches for use with mail-client/alpine (mainly adds support for maildir)
 net-libs/c-client:doc - Install RFCs related to IMAP
-net-libs/c-client:topal - Enable support for net-mail/topal for use with mail-client/alpine
 net-libs/courier-authlib:vpopmail - Enable vpopmail support
 net-libs/cvm:vpopmail - Enable vpopmail support
 net-libs/daq:afpacket - Build the AFPacket data acquisition module. Functions similar to the PCAP module but with better performance. Snort can run unprivileged when using this module. AFpacket supports both inline and passive modes.
