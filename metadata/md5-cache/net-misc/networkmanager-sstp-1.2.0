@@ -11,4 +11,4 @@ SLOT=0
 SRC_URI=mirror://sourceforge/project/sstp-client/network-manager-sstp/1.2.0/NetworkManager-sstp-1.2.0.tar.bz2
 _eclass_exported_funcs=src_configure:- src_install:-
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=3a384eb861b2e8ef9cf934c3df4f65ca
+_md5_=c69514000d5f48fab9cffbfa76dc69b9
