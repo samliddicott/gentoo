@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Find a path to the system CA bundle, and fallback to the Mozilla CA bundle
+EAPI=6
+HOMEPAGE=https://github.com/composer/ca-bundle
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+SLOT=0
+SRC_URI=https://github.com/composer/ca-bundle/archive/1.0.0.tar.gz -> ca-bundle-1.0.0.tar.gz
+_eclass_exported_funcs=src_install:-
+_md5_=f8192dd1ad6781ec643f5e644a936bd5
