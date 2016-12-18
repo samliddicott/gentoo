@@ -7940,6 +7940,7 @@ sys-process/glances:chart - Enables support of graph charts via matplotlib
 sys-process/glances:hddtemp - Enables hard drive temperature monitoring
 sys-process/glances:snmp - Enables SNMP support
 sys-process/glances:web - Enables the web server mode
+sys-process/htop:files - Allow htop to show what processes are accessing what files by using sys-process/lsof.
 sys-process/htop:oom - Add column to track the OOM-killer score of processes
 sys-process/htop:openvz - Enable openvz support
 sys-process/htop:vserver - Enable vserver support
