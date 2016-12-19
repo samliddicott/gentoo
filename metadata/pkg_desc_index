@@ -11677,7 +11677,7 @@ kde-apps/ktimer 16.04.3 16.08.3 16.12.0: KDE Timer
 kde-apps/ktimetracker 4.4.2016.01 4.14.11_pre20160211: KTimeTracker tracks time spent on various tasks
 kde-apps/ktimezoned 16.04.3: KDE: Timezone daemon
 kde-apps/ktnef 4.14.11_pre20160211: Viewer for TNEF attachments
-kde-apps/ktouch 16.04.3 16.08.3 16.12.0: Program that helps to learn and practice touch typing
+kde-apps/ktouch 16.04.3 16.08.3 16.12.0-r1: Program that helps to learn and practice touch typing
 kde-apps/ktp-accounts-kcm 16.04.3 16.08.3 16.12.0: KDE Telepathy account management kcm
 kde-apps/ktp-approver 16.04.3 16.08.3 16.12.0: KDE Telepathy notification handler
 kde-apps/ktp-auth-handler 16.04.3 16.08.3 16.12.0: KDE Telepathy authentication handler
