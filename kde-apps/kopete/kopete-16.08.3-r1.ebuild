@@ -66,10 +66,10 @@ IUSE="${IUSE} ${PLUGINS} ${PROTOCOLS}"
 COMMONDEPEND="
 	$(add_kdeapps_dep kdepimlibs)
 	dev-libs/libpcre
-	>=dev-qt/qtgui-4.4.0:4[mng]
+	dev-qt/qtgui:4[mng]
+	kde-frameworks/kdelibs:4[zeroconf?]
 	media-libs/phonon[qt4]
 	media-libs/qimageblitz
-	kde-frameworks/kdelibs:4[zeroconf?]
 	!aqua? (
 		x11-libs/libX11
 		x11-libs/libXScrnSaver
@@ -114,6 +114,8 @@ DEPEND="${COMMONDEPEND}
 	jingle? ( dev-libs/jsoncpp )
 	!aqua? ( x11-proto/scrnsaverproto )
 "
+
+PATCHES=( "${FILESDIR}"/${P}-otr{1,2,3,4,5}.patch )
 
 src_configure() {
 	local x x2
