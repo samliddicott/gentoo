@@ -5073,6 +5073,7 @@ dev-lua/LuaBitOp 1.0.1-r1 1.0.2 1.0.2-r1: Bit Operations Library for the Lua Pro
 dev-lua/busted 2.0_rc11_p0 2.0_rc12_p1: Elegant Lua unit testing
 dev-lua/dkjson 2.5: David Kolf's JSON module for Lua
 dev-lua/lanes 3.10.0: lightweight, native, lazy evaluating multithreading library
+dev-lua/ldoc 1.4.6: A LuaDoc-compatible documentation generation system
 dev-lua/lgi 0.6.2 0.6.2-r1 0.7.2 0.9.0: Lua bindings using gobject-introspection
 dev-lua/lpeg 0.12 0.12.1 0.12.2 1.0.0 1.0.0-r1: Parsing Expression Grammars for Lua
 dev-lua/lua-cjson 2.1.0: A fast JSON encoding/parsing module for Lua
