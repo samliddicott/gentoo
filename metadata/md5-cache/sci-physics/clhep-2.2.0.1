@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=doc? ( virtual/latex-base ) sys-devel/make >=dev-util/cmake-3.5.2
+DESCRIPTION=High Energy Physics C++ library
+EAPI=5
+HOMEPAGE=http://www.cern.ch/clhep
+IUSE=doc static-libs test
+KEYWORDS=~amd64 ~hppa ~ppc ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-3 LGPL-3
+SLOT=2/2.2.0.1
+SRC_URI=http://proj-clhep.web.cern.ch/proj-clhep/DISTRIBUTION/tarFiles/clhep-2.2.0.1.tgz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:-
+_eclasses_=cmake-utils	fa4d8052a1ccf4fbbfa76361bffebe42	eutils	017377e73405d964cd0137088cddb9c3	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	66b3bf714f8cfc1b6494db5269b4666e	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=0d4a684539aab0143230ea28cb6ed6ee
