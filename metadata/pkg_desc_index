@@ -17000,7 +17000,7 @@ sys-apps/ucspi-unix 0.36-r2 0.36-r3 0.36-r4: A ucspi implementation for unix soc
 sys-apps/udevil 0.4.4-r1 0.4.4-r2: mount and unmount removable devices without a password
 sys-apps/ultracopier 0.2.0.16: Advanced file copying tool
 sys-apps/unscd 0.52-r2: simple & stable nscd replacement
-sys-apps/usb_modeswitch 2.2.6 2.3.0 2.4.0: A tool for controlling 'flip flop' (multiple devices) USB gear like UMTS sticks
+sys-apps/usb_modeswitch 2.2.6 2.3.0 2.4.0-r1: A tool for controlling 'flip flop' (multiple devices) USB gear like UMTS sticks
 sys-apps/usbmon 6-r1: Userland for USB monitoring framework
 sys-apps/usbredir 0.7 0.7.1 9999: A simple TCP daemon and set of libraries for the usbredir protocol (redirecting USB traffic)
 sys-apps/usbutils 007 008 008-r1: USB enumeration utilities
