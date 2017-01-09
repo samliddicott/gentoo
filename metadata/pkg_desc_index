@@ -2222,6 +2222,7 @@ app-text/chasen 2.4.4-r3: Japanese Morphological Analysis System, ChaSen
 app-text/cherrytree 0.37.0: A hierarchical note taking application
 app-text/chm2pdf 0.9.1-r2: A script that converts a CHM file into a single PDF file
 app-text/clara 20031214 20031214-r1: An OCR (Optical Character Recognition) program
+app-text/cmark 0.27.1: CommonMark parsing and rendering library and program in C
 app-text/cmigemo 1.3c 1.3c-r1 1.3c-r2: C/Migemo -- Migemo library implementation in C
 app-text/code2html 0.9.1-r1 0.9.1-r2: Converts source files to colored HTML output
 app-text/convertlit 1.8-r1 1.8-r3: CLit converts MS ebook .lit files to .opf (xml+html+png+jpg)
