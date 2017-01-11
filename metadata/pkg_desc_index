@@ -7934,6 +7934,7 @@ dev-python/ptyprocess 0.5 0.5.1: Run a subprocess in a pseudo terminal
 dev-python/pudb 2013.3.6 2013.5.1 2014.1 2015.1 2015.2 2015.3 2016.1 2016.2: A full-screen, console-based Python debugger
 dev-python/pudge 0.1.3-r1: A documentation generator for Python projects, using Restructured Text
 dev-python/pupynere 1.0.15-r1: Pupynere is a PUre PYthon NEtcdf REader
+dev-python/pushbullet-py 0.10.0: A simple python client for pushbullet.com
 dev-python/pxml 0.2.11-r1 0.2.12: A python library and command-line tool to prettify and colorize XML
 dev-python/py 1.4.30 1.4.31: library with cross-python path, ini-parsing, io, code, log facilities
 dev-python/py-amqp 1.4.5 1.4.6 1.4.7 1.4.8 1.4.9: Low-level AMQP client for Python (fork of amqplib)
@@ -18190,7 +18191,7 @@ www-misc/nx_util 0.52.1 0.53.1: Whitelist & Reports generation for Naxsi (Web Ap
 www-misc/profile-sync-daemon 5.45.1 6.28 9999: Symlinks and syncs browser profile dirs to RAM.
 www-misc/shellinabox 2.19 2.19-r1 2.20: Export command line tools to a web based terminal emulator
 www-misc/surl 0.7.1.1: URL shortening command line application that supports various sites
-www-misc/urlwatch 2.5: A tool for monitoring webpages for updates
+www-misc/urlwatch 2.5 2.6: A tool for monitoring webpages for updates
 www-misc/vdradmin-am 3.6.9 3.6.9-r3 3.6.10: WWW Admin for the Video Disk Recorder
 www-misc/visitors 0.7-r1: Fast web log analyzer
 www-misc/wsmake 0.6.4: Website Pre-processor
