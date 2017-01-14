@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -14,24 +14,25 @@ SLOT="0"
 IUSE="curl gnuplot ipv6 kerberos minimal nls readline s3 samba systemd xfs"
 
 KEYWORDS="~amd64 ~ppc ~ppc64 ~sparc ~x86"
-RDEPEND="sys-libs/readline
+RDEPEND="sys-libs/readline:=
 	virtual/awk
 	app-arch/tar
-	>=dev-lang/perl-5.6
+	dev-lang/perl:=
 	app-arch/dump
 	net-misc/openssh
 	>=dev-libs/glib-2.26.0
+	dev-perl/JSON
+	dev-perl/Encode-Locale
 	nls? ( virtual/libintl )
 	s3? ( >=net-misc/curl-7.10.0 )
 	!s3? ( curl? ( >=net-misc/curl-7.10.0 ) )
-	samba? ( net-fs/samba )
+	samba? ( net-fs/samba:= )
 	kerberos? ( app-crypt/mit-krb5 )
 	xfs? ( sys-fs/xfsdump )
-	readline? ( sys-libs/readline )
 	!minimal? (
 		dev-perl/XML-Simple
 		virtual/mailx
-		app-arch/mt-st
+		app-arch/mt-st:=
 		sys-block/mtx
 		gnuplot? ( sci-visualization/gnuplot )
 		app-crypt/aespipe
@@ -44,6 +45,7 @@ DEPEND="${RDEPEND}
 	>=app-text/docbook-xsl-stylesheets-1.72.0
 	app-text/docbook-xml-dtd
 	dev-libs/libxslt
+	dev-lang/swig
 	"
 
 MYFILESDIR="${T}/files"
@@ -60,7 +62,7 @@ TMPENVFILE="${T}/${ENVDFILE}"
 ENV_SETTINGS_AMANDA="
 AMANDA_GROUP_GID AMANDA_GROUP_NAME
 AMANDA_USER_NAME AMANDA_USER_UID AMANDA_USER_SH AMANDA_USER_HOMEDIR AMANDA_USER_GROUPS
-AMANDA_SERVER AMANDA_SERVER_TAPE AMANDA_SERVER_INDEX
+AMANDA_SERVER AMANDA_SERVER_TAPE AMANDA_SERVER_TAPE_DEVICE AMANDA_SERVER_INDEX
 AMANDA_TAR_LISTDIR AMANDA_TAR
 AMANDA_PORTS_UDP AMANDA_PORTS_TCP AMANDA_PORTS_BOTH AMANDA_PORTS
 AMANDA_CONFIG_NAME AMANDA_TMPDIR"
@@ -86,6 +88,7 @@ amanda_variable_setup() {
 	# just specify an alternate server name in AMANDA_SERVER.
 	[ -z "${AMANDA_SERVER}" ] && AMANDA_SERVER="${HOSTNAME}"
 	[ -z "${AMANDA_SERVER_TAPE}" ] && AMANDA_SERVER_TAPE="${AMANDA_SERVER}"
+	[ -z "${AMANDA_SERVER_TAPE_DEVICE}" ] && AMANDA_SERVER_TAPE_DEVICE="/dev/nst0"
 	[ -z "${AMANDA_SERVER_INDEX}" ] && AMANDA_SERVER_INDEX="${AMANDA_SERVER}"
 	[ -z "${AMANDA_TAR_LISTDIR}" ] && AMANDA_TAR_LISTDIR=${AMANDA_USER_HOMEDIR}/tar-lists
 	[ -z "${AMANDA_CONFIG_NAME}" ] && AMANDA_CONFIG_NAME=DailySet1
@@ -136,9 +139,6 @@ src_unpack() {
 }
 
 src_prepare() {
-	# gentoo bug #537248
-	epatch "${FILESDIR}/local-amanda-perl5.20.patch"
-
 	# gentoo bug #331111
 	sed -i '/^check-local: check-perl$/d' "${S}"/config/automake/scripts.am
 	sed -i '/^check-local:/s,syntax-check,,g' "${S}"/perl/Makefile.am
@@ -178,6 +178,9 @@ src_prepare() {
 		sed -i -e 's:^\(my $amandahomedir\)=.*:\1 = $localstatedir;:' \
 			server-src/am{addclient,serverconfig}.pl || die
 	fi
+
+	epatch "${FILESDIR}"/${P}-slots.patch
+	epatch "${FILESDIR}"/${P}-labelstr.patch
 }
 
 src_configure() {
@@ -193,6 +196,8 @@ src_configure() {
 
 	einfo "Using ${AMANDA_SERVER_TAPE} for tape server."
 	myconf="${myconf} --with-tape-server=${AMANDA_SERVER_TAPE}"
+	einfo "Using ${AMANDA_SERVER_TAPE_DEVICE} for tape server."
+	myconf="${myconf} --with-tape-device=${AMANDA_SERVER_TAPE_DEVICE}"
 	einfo "Using ${AMANDA_SERVER_INDEX} for index server."
 	myconf="${myconf} --with-index-server=${AMANDA_SERVER_INDEX}"
 	einfo "Using ${AMANDA_USER_NAME} for amanda user."
@@ -341,7 +346,7 @@ src_install() {
 
 	einfo "Installing systemd service and socket files for Amanda"
 	systemd_dounit "${FILESDIR}"/amanda.socket || die
-	systemd_newunit "${FILESDIR}"/amanda.service-r1 'amanda@.service' || die
+	systemd_newunit "${FILESDIR}"/amanda.service 'amanda@.service' || die
 
 	insinto /etc/amanda
 	einfo "Installing .amandahosts File for ${AMANDA_USER_NAME} user"
@@ -455,11 +460,11 @@ pkg_postinst() {
 	elog "If you use localhost in your disklist your restores may break."
 	elog "You should replace it with the actual hostname!"
 	elog "Please also see the syntax changes to amandahosts."
+	elog "The only exception is when you use the authentication method 'local'."
 	elog
 	elog "Please note that this package no longer explicitly depends on"
 	elog "virtual/inetd, as it supports modes where an inetd is not needed"
 	elog "(see bug #506028 for details)."
-	elog "The only exception is when you use the authentication method 'local'."
 }
 
 # We have had reports of amanda file permissions getting screwed up.
