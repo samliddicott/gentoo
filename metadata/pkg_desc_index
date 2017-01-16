@@ -16514,7 +16514,7 @@ sci-physics/siscone 2.0.6 3.0.3: Hadron Seedless Infrared-Safe Cone jet algorith
 sci-physics/thepeg 1.9.2 2.0.0 2.0.4: Toolkit for High Energy Physics Event Generation
 sci-physics/xfoil 6.97-r1: Design and analysis of subsonic isolated airfoils
 sci-physics/yoda 1.4.0 1.6.5: Yet more Objects for (High Energy Physics) Data Analysis
-sci-visualization/circos 0.55: Circular layout visualization of genomic and other data
+sci-visualization/circos 0.55-r1: Circular layout visualization of genomic and other data
 sci-visualization/epix 1.2.10 1.2.11 1.2.11-r1: 2- and 3-D plotter for creating images (to be used in LaTeX)
 sci-visualization/fig2sxd 0.22.1: Utility to convert files in xfig format to OpenOffice.org Draw format
 sci-visualization/fityk 1.2.1 1.2.9: General-purpose nonlinear curve fitting and data analysis
