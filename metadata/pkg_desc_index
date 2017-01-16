@@ -16544,7 +16544,7 @@ sci-visualization/veusz 1.11 1.25.1: Qt scientific plotting package with good Po
 sci-visualization/visit 2.7.3 2.8.2 2.9.0 2.9.2 2.10.3: A software that delivers parallel interactive visualizations
 sci-visualization/xd3d 8.3.1: Scientific visualization tool
 sci-visualization/xds-viewer 0.6-r1: X-ray diffraction/control image viewer in the context of data processing by XDS
-sci-visualization/xgraph 12.1-r2 12.1-r3: X11 Plotting Utility
+sci-visualization/xgraph 12.1-r4: X11 Plotting Utility
 sci-visualization/xyscan 3.3.1: Tool for extracting data points from graphs
 sci-visualization/yt 3.2.3 3.3.2: Astrophysical Simulation Analysis and Vizualization package
 sci-visualization/zhu3d 4.2.4 4.2.6: Interactive 3D mathematical function viewer
