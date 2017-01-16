@@ -16542,7 +16542,7 @@ sci-visualization/spectromatic 1.0-r2: Generates time-frequency analysis images 
 sci-visualization/spyview 20111018 20130823 20150124: 2D and 3D data visualization and analysis program
 sci-visualization/veusz 1.11 1.25.1: Qt scientific plotting package with good Postscript output
 sci-visualization/visit 2.7.3 2.8.2 2.9.0 2.9.2 2.10.3: A software that delivers parallel interactive visualizations
-sci-visualization/xd3d 8.3.1: Scientific visualization tool
+sci-visualization/xd3d 8.3.1-r1: Scientific visualization tool
 sci-visualization/xds-viewer 0.6-r1: X-ray diffraction/control image viewer in the context of data processing by XDS
 sci-visualization/xgraph 12.1-r2 12.1-r3: X11 Plotting Utility
 sci-visualization/xyscan 3.3.1: Tool for extracting data points from graphs
