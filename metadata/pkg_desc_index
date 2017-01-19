@@ -17626,7 +17626,7 @@ sys-kernel/tuxonice-sources 3.4.110 3.4.111 3.4.112 3.10.100 3.10.101 3.12.56 3.
 sys-kernel/vanilla-sources 3.2.84 3.4.113 3.10.104 3.12.69 3.16.39 3.18.47 4.1.38 4.4.43 4.8.17 4.9.4: Full sources for the Linux kernel
 sys-kernel/xbox-sources 2.6.16.26: Full sources for the Xbox Linux kernel
 sys-kernel/zen-sources 3.8.9999 3.9.9999 3.10.9999 3.11.9999 3.12.9999 3.13.9999: The Zen Kernel Live Sources
-sys-libs/argp-standalone 1.3 1.3-r1: Standalone argp library for use with uclibc
+sys-libs/argp-standalone 1.3 1.3-r1 1.3-r2: Standalone argp library for use with uclibc
 sys-libs/binutils-libs 2.25.1-r2 2.27: Core binutils libraries (libbfd, libopcodes, libiberty) for external packages
 sys-libs/compiler-rt 4.0.0_rc1 9999: Compiler runtime library for clang (built-in part)
 sys-libs/compiler-rt-sanitizers 4.0.0_rc1 9999: Compiler runtime libraries for clang (sanitizers & xray)
