@@ -14384,6 +14384,7 @@ net-dns/rbldnsd 0.998 0.998-r2: DNS server designed to serve blacklist zones
 net-dns/resolv_wrapper 1.1.4 1.1.5: A wrapper for DNS name resolving or DNS faking
 net-dns/resolvconf-symlink 0: Make /etc/resolv.conf a symlink to a runtime-writable location
 net-dns/sheerdns 1.0.3: Sheerdns is a small, simple, fast master only DNS server
+net-dns/sleepproxyclient 0.7.3: A SleepProxyClient implementation
 net-dns/tinystats 1.1: A tinydns logging helper app
 net-dns/totd 1.5.1: Trick Or Treat Daemon, a DNS proxy for 6to4
 net-dns/unbound 1.5.1-r2 1.5.7 1.5.8 1.5.9 1.5.10 1.6.0: A validating, recursive and caching DNS resolver
