@@ -13001,7 +13001,7 @@ media-libs/phonon-vlc 0.9.0 9999: Phonon VLC backend
 media-libs/plib 1.8.5-r1: multimedia library used by many games
 media-libs/plotutils 2.6 2.6-r1: Powerful C/C++ function library for exporting 2-D vector graphics
 media-libs/pnglite 0.1.17: Small and simple library for loading and writing PNG images
-media-libs/portaudio 19_pre20140130: A free, cross-platform, open-source, audio I/O library
+media-libs/portaudio 19_pre20140130 19.06.00: A free, cross-platform, open-source, audio I/O library
 media-libs/portmidi 217-r1: A library for real time MIDI input and output
 media-libs/ptex 2.1.28: Per-Face Texture Mapping for Production Rendering
 media-libs/pyliblo 0.10.0: A Python wrapper for the liblo OSC library
