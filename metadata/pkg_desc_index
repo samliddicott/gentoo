@@ -12049,7 +12049,7 @@ kde-plasma/sddm-kcm 5.8.3 5.8.5: KDE Plasma control module for SDDM
 kde-plasma/solid-actions-kcm 4.11.22: KDE Plasma control module for Solid actions
 kde-plasma/systemsettings 4.11.22-r2 5.8.3 5.8.5: System settings utility
 kde-plasma/user-manager 5.8.3 5.8.5: Simple system settings module to manage the users of your system
-lxde-base/lxappearance 0.5.5 0.6.2: LXDE GTK+ theme switcher
+lxde-base/lxappearance 0.5.5 0.6.2 0.6.3: LXDE GTK+ theme switcher
 lxde-base/lxappearance-obconf 0.2.1 0.2.3: LXAppearance plugin for configuring OpenBox
 lxde-base/lxde-common 0.5.5-r3 0.99.1: LXDE Session default configuration files and nuoveXT2 iconset
 lxde-base/lxde-icon-theme 0.5.0 0.5.0-r1 0.5.1: nuoveXT2 iconset
