@@ -249,6 +249,16 @@ app-backup/duplicity:s3 - Support for backing up to the Amazon S3 system
 app-backup/holland-backup-mysql-meta:lvm - Install Holland LVM Plugin
 app-backup/holland-backup-mysql-meta:mysqldump - Install Holland mysqldump Plugin
 app-backup/holland-backup-mysql-meta:mysqlhotcopy - Install Holland mysqlhotcopy Plugin
+app-backup/qt5-fsarchiver:btrfs - Enable support for sys-fs/btrfs-progs
+app-backup/qt5-fsarchiver:jfs - Enable support forsys-fs/jfsutils
+app-backup/qt5-fsarchiver:nfs - Enable support for net-fs/nfs-utils
+app-backup/qt5-fsarchiver:ntfs - Enable support for sys-fs/ntfs3g[ntfsprogs]
+app-backup/qt5-fsarchiver:reiser4 - Enable support forsys-fs/reiser4progs
+app-backup/qt5-fsarchiver:reiserfs - Enable support for sys-fs/reiserfsprogs
+app-backup/qt5-fsarchiver:samba - Enable support for net-fs/samba
+app-backup/qt5-fsarchiver:smbnetfs - Enable support for net-fs/smbnetfs
+app-backup/qt5-fsarchiver:sshfs - Enable support for sys-fs/sshfs-fuse
+app-backup/qt5-fsarchiver:xfs - Enable support for sys-fs/xfsprogs session
 app-backup/rear:udev - Have ReaR start backup when attaching your USB drive.
 app-backup/snapper:btrfs - Include Btrfs support sys-fs/btrfs-progs
 app-backup/snapper:ext4 - Include Ext4 support sys-fs/e2fsprogs
