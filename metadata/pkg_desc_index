@@ -2339,7 +2339,7 @@ app-text/libwpg 0.2.2 0.3.0 0.3.1: C++ library to read and parse graphics in WPG
 app-text/libwps 0.4.4-r1 0.4.5: Microsoft Works file word processor format import filter library
 app-text/libxmlpatch 0.3.3: A set of tools to create and apply patch to XML files using XPath
 app-text/linuxdoc-tools 0.9.72: A toolset for processing LinuxDoc DTD SGML files
-app-text/llpp 20_p20140818 22 22_p20160324 23: graphical PDF viewer which aims to superficially resemble less(1)
+app-text/llpp 22_p20160324 23: graphical PDF viewer which aims to superficially resemble less(1)
 app-text/logmerge 0.5.2b: Small and powerful script to merge two or more logfiles
 app-text/lout 3.38-r1 3.39: high-level language for document formatting
 app-text/lv 4.51-r3 4.51-r4: Powerful Multilingual File Viewer
@@ -2351,7 +2351,7 @@ app-text/mftrace 1.2.18: Traces TeX fonts to PFA or PFB fonts (formerly pktrace)
 app-text/mht-rip 0.8: convert mht/mhtml files to something usable
 app-text/mpage 2.5.6-r1: Many to one page printing utility
 app-text/multitail 6.4.1 6.4.2: Tail with multiple windows
-app-text/mupdf 1.5-r1 1.8 1.9a 1.10a: a lightweight PDF viewer and toolkit written in portable C
+app-text/mupdf 1.10a: a lightweight PDF viewer and toolkit written in portable C
 app-text/mythes 1.2.4: A simple thesaurus for Libreoffice
 app-text/namazu 2.0.21 2.0.22_p1: Namazu is a full-text search engine
 app-text/nfoview 1.15.1 9999: simple viewer for NFO files, which are ASCII art in the CP437 codepage
@@ -2495,7 +2495,7 @@ app-text/zathura 0.2.9 0.3.3 0.3.5 0.3.7 9999: A highly customizable and functio
 app-text/zathura-cb 0.1.2 0.1.5 0.1.6 9999: Comic book plug-in for zathura with 7zip, rar, tar and zip support
 app-text/zathura-djvu 0.2.3 0.2.5 0.2.6 9999: DjVu plug-in for zathura
 app-text/zathura-meta 0: Meta package for app-text/zathura plugins
-app-text/zathura-pdf-mupdf 0.2.8 0.3.0 0.3.1 9999: PDF plug-in for zathura
+app-text/zathura-pdf-mupdf 0.3.1 9999: PDF plug-in for zathura
 app-text/zathura-pdf-poppler 0.2.5 0.2.6 0.2.7 9999: PDF plug-in for zathura
 app-text/zathura-ps 0.2.2 0.2.3 0.2.4 9999: PostScript plug-in for zathura
 app-text/zemberek-server 0.7.1 0.7.1-r1: A Turkish spell checker server based on Zemberek NLP library
