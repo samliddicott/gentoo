@@ -15750,7 +15750,7 @@ sci-astronomy/swarp 2.38.0: Resample and coadd astronomical FITS images
 sci-astronomy/wcslib 4.25.1 5.14 5.15: Astronomical World Coordinate System transformations library
 sci-astronomy/wcstools 3.9.3 3.9.4: World Coordinate System library for astronomical FITS images
 sci-astronomy/weightwatcher 1.12: Combine weight maps and polygon for astronomical images weighting
-sci-astronomy/xephem 3.7.5 3.7.6 3.7.7: Interactive tool for astronomical ephemeris and sky simulation
+sci-astronomy/xephem 3.7.6 3.7.7: Interactive tool for astronomical ephemeris and sky simulation
 sci-astronomy/xfitsview 2.2-r2: Viewer for astronomical images in FITS format
 sci-biology/ApE 2.0.7-r1: A Plasmid Editor
 sci-biology/GBrowse 2.48-r1: Generic Model Organism Database Project - The Generic Genome Browser
