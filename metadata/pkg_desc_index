@@ -15734,7 +15734,7 @@ sci-astronomy/kapteyn 2.3: Collection of python tools for astronomy
 sci-astronomy/missfits 2.8.0: Performs basic maintenance and packaging tasks on FITS files
 sci-astronomy/montage 4.1: Toolkit for assembling FITS images into mosaics
 sci-astronomy/pal 0.9.7: Positional Astronomy Library
-sci-astronomy/predict 2.2.3-r1 2.2.3-r2: Satellite tracking and orbital prediction
+sci-astronomy/predict 2.2.3-r2: Satellite tracking and orbital prediction
 sci-astronomy/psfex 3.17.1: Extracts models of the Point Spread Function from FITS images
 sci-astronomy/pyephem 3.7.5.3 3.7.6.0: Astronomical routines for the python programming language
 sci-astronomy/scamp 2.0.4: Astrometric and photometric solutions for astronomical images
