@@ -13222,7 +13222,7 @@ media-plugins/kodi-inputstream-rtmp 1.0.3 9999: Kodi's RTMP inputstream addon
 media-plugins/kodi-peripheral-joystick 9999: Libretro compatibility layer for the Kodi Game API
 media-plugins/kodi-pvr-argustv 9999: Kodi's ARGUS TV client addon
 media-plugins/kodi-pvr-demo 9999: Demo PVR for Kodi
-media-plugins/kodi-pvr-dvblink 9999: Kodi's DVBLink client addon
+media-plugins/kodi-pvr-dvblink 3.3.11 9999: Kodi's DVBLink client addon
 media-plugins/kodi-pvr-dvbviewer 2.4.6 9999: Kodi's DVBViewer client addon
 media-plugins/kodi-pvr-filmon 9999: Kodi's Filmon client addon
 media-plugins/kodi-pvr-hts 16_p20160220 16_p20160419 16.9999: Tvheadend Live TV and Radio PVR client addon for Kodi
