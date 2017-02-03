@@ -1470,7 +1470,7 @@ app-i18n/canfep 1.0: Canna Japanese kana-kanji frontend processor on console
 app-i18n/canna 3.7_p3-r1 3.7_p3-r2: A client-server based Kana-Kanji conversion system
 app-i18n/cstools 3.42: A charset conversion tool cstocs and two convenience Perl modules for Czech language
 app-i18n/dbskkd-cdb 2.00: Yet another Dictionary server for the SKK Japanese-input software
-app-i18n/enca 1.13-r3 1.14-r1 1.14-r2 1.19-r1: Detect and convert encoding of text files
+app-i18n/enca 1.19-r1: Detect and convert encoding of text files
 app-i18n/fbiterm 0.5-r2: Framebuffer internationalized terminal emulator
 app-i18n/fbterm 1.7-r1 1.7-r2: Fast terminal emulator for the Linux framebuffer
 app-i18n/fcitx 4.2.9.1 9999: Fcitx (Flexible Context-aware Input Tool with eXtension) input method framework
