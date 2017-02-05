@@ -29,6 +29,7 @@ src_prepare() {
 	epatch "${FILESDIR}"/${P}-glxinfo-unicode.patch \
 		"${FILESDIR}"/${P}-update-toolbar-methods.patch \
 		"${FILESDIR}"/${P}-desktop-menu.patch \
+		"${FILESDIR}"/${P}-drop-old-tooltips.patch \
 		"${FILESDIR}"/${P}-driconf_simpleui.py.patch
 	eapply_user
 
