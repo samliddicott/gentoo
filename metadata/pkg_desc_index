@@ -1580,6 +1580,7 @@ app-i18n/tegaki-zinnia-japanese 0.3: Handwriting model data of Japanese
 app-i18n/tomoe 0.6.0-r2: Japanese handwriting recognition engine
 app-i18n/transifex-client 0.10 0.12.2: A command line interface for Transifex
 app-i18n/translate-shell 0.9.4 0.9.5: Online command-line translator
+app-i18n/uchardet 0.0.5-r1 0.0.6 9999: An encoding detector library
 app-i18n/uim 1.8.6-r1 1.8.6-r2: Simple, secure and flexible input method library
 app-i18n/uim-tomoe-gtk 0.6.0: Japanese input method Tomoe IMEngine for uim
 app-i18n/unicode-data 6.1.0 9.0.0: Unicode data from unicode.org
@@ -4996,7 +4997,6 @@ dev-libs/tre 0.8.0: Lightweight, robust, and efficient POSIX compliant regexp ma
 dev-libs/tut 2013.12.18 2016.12.19: C++ Template Unit Test Framework
 dev-libs/tvision 2.1.0_pre2-r3: Text User Interface that implements the well known CUA widgets
 dev-libs/tvmet 1.7.2-r2: Tiny Vector Matrix library using Expression Templates
-dev-libs/uchardet 0.0.5-r1 0.0.6 9999: An encoding detector library
 dev-libs/ucl 1.03-r1: the UCL Compression Library
 dev-libs/ucommon 6.0.3 6.1.10 6.3.1 6.5.2 6.5.7: Portable C++ runtime for threads and sockets
 dev-libs/udis86 1.7-r2 1.7.2: Disassembler library for the x86/-64 architecture sets
