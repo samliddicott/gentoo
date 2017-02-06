@@ -1,8 +1,8 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI="2"
+EAPI=6
 
 DESCRIPTION="A tray menu for the Fluxbox toolbar"
 HOMEPAGE="http://ftmenu.sourceforge.net/"
@@ -19,15 +19,6 @@ DEPEND="${COMMON_DEPEND}
 	virtual/pkgconfig"
 RDEPEND="${COMMON_DEPEND}
 	x11-wm/fluxbox"
-
-src_compile() {
-	emake CFLAGS="${CFLAGS}" || die "emake failed"
-}
-
-src_install() {
-	make DESTDIR="${D}" install || die "make install failed"
-	dodoc AUTHORS NEWS README ChangeLog || die
-}
 
 pkg_postinst() {
 	echo
