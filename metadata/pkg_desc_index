@@ -18676,7 +18676,7 @@ x11-misc/grun 0.9.3-r1: A GTK based Run dialog resembling the Windows Run dialog
 x11-misc/gtk2fontsel 0.1: A font selection tool similar to xfontsel
 x11-misc/gtkdialog 0.8.2 0.8.3-r2: A small utility for fast and easy GUI building
 x11-misc/gxmessage 2.20.1 2.20.3 3.4.2 3.4.3: A GTK+ based xmessage clone
-x11-misc/habak 0.2.5-r1: A simple but powerful tool to set desktop wallpaper
+x11-misc/habak 0.2.5-r1 0.2.5-r2: A simple but powerful tool to set desktop wallpaper
 x11-misc/hsetroot 1.0.2: Tool which allows you to compose wallpapers ('root pixmaps') for X
 x11-misc/i3blocks 1.4: highly flexible status line for the i3 window manager
 x11-misc/i3lock 2.6 2.7 2.8: Simple screen locker
