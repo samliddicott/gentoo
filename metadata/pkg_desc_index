@@ -18648,7 +18648,7 @@ x11-misc/efax-gtk 3.2.9 3.2.13: A graphical frontend for the 'efax' application
 x11-misc/etm 696-r1: Event and Task Manager, an intuitive time management application
 x11-misc/evolvotron 0.6.3: Generative art image evolver
 x11-misc/fbdesk 1.4.1: fluxbox-util application that creates and manage icons on your Fluxbox desktop
-x11-misc/fbpager 20090221: A Pager for fluxbox
+x11-misc/fbpager 20090221 20090221-r1: A Pager for fluxbox
 x11-misc/fbpanel 6.1-r2: light-weight X11 desktop panel
 x11-misc/fireflies 2.07-r1 2.07-r2 2.08 2.08-r1: Fireflies screensaver: Wicked cool eye candy
 x11-misc/flow-pomodoro 1.1.1 1.1.2: A pomodoro app that blocks distractions while you work
