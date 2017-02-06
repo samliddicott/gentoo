@@ -18604,7 +18604,7 @@ x11-misc/albert 0.8.11: Desktop agnostic launcher
 x11-misc/alock 1.0.0 94 94-r1 94-r2: locks the local X display until a password is entered
 x11-misc/andromeda 0.3: Qt4-based filemanager
 x11-misc/appmenu-qt 0.2.6: Application menu module for Qt
-x11-misc/apwal 0.4.5-r1: A simple application launcher and combined editor
+x11-misc/apwal 0.4.5-r1 0.4.5-r2: A simple application launcher and combined editor
 x11-misc/arandr 0.1.7.1 0.1.8 0.1.9: Another XRandR GUI
 x11-misc/autocutsel 0.9.0 0.10.0: Synchronise the two copy/paste buffers mainly used by X applications
 x11-misc/basqet 0.2.0: Keep your notes, pictures, ideas, and information in Baskets
