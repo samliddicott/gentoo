@@ -18816,7 +18816,7 @@ x11-misc/wbar 2.3.4-r1 2.3.4-r2: A fast, lightweight quick launch bar
 x11-misc/wbarconf 0.7.2.2-r1: Configuration GUI for x11-misc/wbar
 x11-misc/wdm 1.28-r3: WINGs Display Manager
 x11-misc/whaw 0.2: Window manager independent Window Layout tool
-x11-misc/wininfo 0.7: An X app that follows your pointer providing information about the windows below
+x11-misc/wininfo 0.7 0.7-r1: An X app that follows your pointer providing information about the windows below
 x11-misc/winswitch 0.12.18-r1: client server tool to start and control virtual desktops
 x11-misc/wmakerconf 2.12-r2 2.12-r3: X based config tool for the windowmaker X windowmanager
 x11-misc/wmctrl 1.07-r1 1.07-r2: command line tool to interact with an EWMH/NetWM compatible X Window Manager
