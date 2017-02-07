@@ -18462,7 +18462,7 @@ x11-libs/compizconfig-backend-kconfig4 0.8.8: Compizconfig Kconfig Backend
 x11-libs/dnd 1.1-r1: OffiX' Drag'n'drop library
 x11-libs/flowcanvas 0.7.1-r1 0.7.1-r2: Gtkmm/Gnomecanvasmm widget for boxes and lines environments
 x11-libs/fltk 1.3.3-r3 1.3.3-r5 1.3.9999: C++ user interface toolkit for X and OpenGL
-x11-libs/fox 1.6.49 1.6.50 1.7.49 1.7.53 1.7.54: C++ based Toolkit for developing Graphical User Interfaces easily and effectively
+x11-libs/fox 1.6.49 1.6.50 1.7.49 1.7.53 1.7.54: C++ Toolkit for developing Graphical User Interfaces easily and effectively
 x11-libs/fox-wrapper 2 3: wrapper for fox-config to manage multiple versions
 x11-libs/gdk-pixbuf 2.34.0 2.36.2: Image loading library for GTK+
 x11-libs/gdk-pixbuf-loader-webp 20160328234507: WebP Image format GdkPixbuf loader
@@ -18538,7 +18538,7 @@ x11-libs/libgksu 2.0.12-r2: A library for integration of su into applications
 x11-libs/libgxim 0.5.0: GObject-based XIM protocol library
 x11-libs/libiterm-mbt 0.5: Hacked version of libiterm -- Internationalized Terminal Emulator Library
 x11-libs/libnotify 0.7.6-r3 0.7.7: A library for sending desktop notifications
-x11-libs/liboglappth 0.98 1.0.0: A library for creating portable OpenGL applications with easy-to-code scene setup and selection
+x11-libs/liboglappth 0.98 1.0.0: Libary for OpenGL applications with easy-to-code scene setup and selection
 x11-libs/libpciaccess 0.13.3 0.13.4: Library providing generic access to the PCI bus and devices
 x11-libs/libproplist 0.10.1-r4: An library to mimic property list functionality from the GNUstep environment
 x11-libs/libqxt 0.6.2-r2: Extension library providing cross-platform utility classes for the Qt toolkit
@@ -18591,7 +18591,7 @@ x11-libs/xcb-util-renderutil 0.3.9-r1: X C-language Bindings sample implementati
 x11-libs/xcb-util-wm 0.4.1-r1: X C-language Bindings sample implementations
 x11-libs/xcb-util-xrm 1.0 1.2: X C-language Bindings sample implementations
 x11-libs/xforms 1.0.93_p1-r1 1.2.4: A graphical user interface toolkit for X
-x11-libs/xosd 2.2.14-r1 2.2.14-r2 2.2.14_p2_p1: Library for overlaying text in X-Windows X-On-Screen-Display plus binary for sending text from CLI
+x11-libs/xosd 2.2.14-r1 2.2.14-r2 2.2.14_p2_p1: Library for overlaying text in X-Windows X-On-Screen-Display
 x11-libs/xpa 2.1.15 2.1.17 2.1.18: Messaging system providing communication between programs
 x11-libs/xpyb 1.3.1-r2 1.3.1-r3: XCB-based Python bindings for the X Window System
 x11-libs/xtrans 1.3.5: X.Org xtrans library
