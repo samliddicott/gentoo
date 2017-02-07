@@ -1354,7 +1354,7 @@ app-emulation/spice-vdagent 0.16.0 0.17.0: SPICE VD Linux Guest Agent
 app-emulation/spim 8.0-r1: MIPS Simulator
 app-emulation/uade 2.13: Unix Amiga Delitracker Emulator - plays old Amiga tunes through UAE emulation
 app-emulation/uae 0.8.29-r2: The Umiquious Amiga Emulator
-app-emulation/vagrant 1.8.6 1.8.7 1.9.1: A tool for building and distributing development environments
+app-emulation/vagrant 1.8.6 1.8.7 1.9.1 1.9.1-r1: A tool for building and distributing development environments
 app-emulation/vice 2.4.22 2.4.27 2.4.27-r2 2.4.27-r3 2.4.31: The Versatile Commodore 8-bit Emulator
 app-emulation/virt-manager 1.3.2 1.4.0-r2 9999: A graphical tool for administering virtual machines
 app-emulation/virt-viewer 3.1 4.0 5.0: Graphical console client for connecting to virtual machines
@@ -9078,7 +9078,7 @@ dev-ros/xacro 1.11.0 1.11.1 9999: XML macro language
 dev-ros/xmlrpcpp 1.11.14 1.11.15-r1 1.11.16-r1 1.11.17 1.12.0 1.12.1 1.12.2 1.12.4 1.12.5 1.12.6 9999: C++ implementation of the XML-RPC protocol
 dev-ruby/GeoRuby 2.2.1-r2 2.5.2: Ruby data holder for OGC Simple Features
 dev-ruby/RubyInline 3.12.3 3.12.4: Allows to embed C/C++ in Ruby code
-dev-ruby/abstract 1.0.0-r3: Library which enable you to define abstract method in Ruby
+dev-ruby/abstract 1.0.0-r3 1.0.0-r4: Library which enable you to define abstract method in Ruby
 dev-ruby/actioncable 5.0.0.1 5.0.1: Integrated WebSockets for Rails
 dev-ruby/actionmailer 4.1.16 4.2.6 4.2.7 4.2.7.1 5.0.0.1 5.0.1: Framework for designing email-service layers
 dev-ruby/actionpack 4.1.16 4.2.6 4.2.7 4.2.7.1 5.0.0.1 5.0.1: Eases web-request routing, handling, and response
@@ -9140,7 +9140,7 @@ dev-ruby/bsearch 1.5.0-r2: A binary search library for Ruby
 dev-ruby/bson 3.2.6 4.1.1 4.2.0 4.2.1: A Ruby BSON implementation for MongoDB. (Includes binary C-based extension.)
 dev-ruby/buftok 0.2.0-r1: Statefully split input data by a specifiable token
 dev-ruby/builder 3.0.4-r2 3.1.4 3.2.2-r1 3.2.3: A builder to facilitate programatic generation of XML markup
-dev-ruby/bundler 1.8.9 1.12.5 1.12.6 1.13.7: An easy way to vendor gem dependencies
+dev-ruby/bundler 1.8.9 1.12.5 1.12.5-r1 1.12.6 1.12.6-r1 1.13.7: An easy way to vendor gem dependencies
 dev-ruby/bundler-audit 0.4.0 0.5.0: Provides patch-level verification for Bundled apps
 dev-ruby/bunny 2.6.1 2.6.2 2.6.3: Another synchronous Ruby AMQP client
 dev-ruby/calendar_date_select 2.1.2: A popular and flexible JavaScript DatePicker for RubyOnRails
@@ -9158,7 +9158,7 @@ dev-ruby/celluloid-supervision 0.20.5 0.20.6: Provides a simple and natural way 
 dev-ruby/certificate_authority 0.1.6 0.1.6-r1: Managing the core functions outlined in RFC-3280 for PKI
 dev-ruby/charlock_holmes 0.7.3: Character encoding detecting library for Ruby using ICU
 dev-ruby/childlabor 0.0.3-r1: A scripting framework that replaces rake and sake
-dev-ruby/childprocess 0.5.3 0.5.9 0.5.9-r1 0.6.1: Solution for controlling external programs running in the background
+dev-ruby/childprocess 0.5.3 0.5.9 0.5.9-r1 0.5.9-r2 0.6.1 0.6.1-r1: Solution for controlling external programs running in the background
 dev-ruby/chronic 0.10.2: Chronic is a natural language date/time parser written in pure Ruby
 dev-ruby/chunky_png 1.3.6 1.3.7 1.3.8: Pure Ruby library that can read and write PNG images
 dev-ruby/classifier 1.3.4: Module to allow Bayesian and other types of classifications
@@ -9213,16 +9213,16 @@ dev-ruby/did_you_mean 1.0.2 1.1.0: 'did you mean?'experience in Ruby
 dev-ruby/diff-lcs 1.2.5-r1 1.3: Use the McIlroy-Hunt LCS algorithm to compute differences
 dev-ruby/dnsruby 1.59.3 1.60.0: A pure Ruby DNS client library
 dev-ruby/docile 1.1.5: Turns any Ruby object into a DSL
-dev-ruby/domain_name 0.5.24 0.5.20160615 0.5.20160826 0.5.20161021 0.5.20161129: Domain Name manipulation library for Ruby
+dev-ruby/domain_name 0.5.24 0.5.24-r1 0.5.20160615 0.5.20160826 0.5.20161021 0.5.20161129: Domain Name manipulation library for Ruby
 dev-ruby/dotenv 2.1.1 2.2.0: Loads environment variables from .env into ENV
 dev-ruby/duby 0.0.2-r1: Customizable typed programming language with Ruby-inspired syntax
 dev-ruby/dust 0.1.7-r2: Descriptive block syntax definition for Test::Unit
 dev-ruby/equalizer 0.0.11: Module to define equality, equivalence and inspection methods
-dev-ruby/erubis 2.7.0-r2: Erubis is an implementation of eRuby
+dev-ruby/erubis 2.7.0-r2 2.7.0-r3: Erubis is an implementation of eRuby
 dev-ruby/escape_utils 1.2.0 1.2.1: Faster string escaping routines for your ruby apps
 dev-ruby/ethon 0.9.1 0.10.1: Very lightweight libcurl wrapper
 dev-ruby/evented-spec 0.9.0: A set of helpers to help you test your asynchronous code
-dev-ruby/eventmachine 1.0.9.1 1.2.0.1: EventMachine is a fast, simple event-processing library for Ruby programs
+dev-ruby/eventmachine 1.0.9.1 1.0.9.1-r1 1.2.0.1: EventMachine is a fast, simple event-processing library for Ruby programs
 dev-ruby/execjs 1.4.0 2.6.0 2.7.0: ExecJS lets you run JavaScript code from Ruby
 dev-ruby/exifr 1.2.4 1.2.5: A library to read EXIF info from JPEG and TIFF images
 dev-ruby/expression_parser 0.9.0_p20130518: A math parser
@@ -9241,7 +9241,7 @@ dev-ruby/fattr 2.3.0: fattr.rb is a "fatter attr" for ruby
 dev-ruby/fcgi 0.9.2.1-r1: FastCGI library for Ruby
 dev-ruby/ferret 0.11.8.6: A ruby indexing/searching library
 dev-ruby/ffaker 2.4.0: Faster Faker, generates dummy data
-dev-ruby/ffi 1.9.6-r2 1.9.10 1.9.14 1.9.17: Ruby extension for programmatically loading dynamic libraries
+dev-ruby/ffi 1.9.6-r2 1.9.6-r3 1.9.10 1.9.14 1.9.17 1.9.17-r1: Ruby extension for programmatically loading dynamic libraries
 dev-ruby/file-tail 1.1.1: A small ruby library that allows it to 'tail' files in Ruby
 dev-ruby/filesize 0.1.1: small ruby class for handling filesizes with both the SI and binary prefixes
 dev-ruby/fivemat 1.3.2: MiniTest/RSpec/Cucumber formatter that gives each test file its own line of dots
@@ -9266,7 +9266,7 @@ dev-ruby/haml-rails 0.9.0: Provides Haml generators for Rails 4
 dev-ruby/hamster 3.0.0-r1: Efficient, immutable, thread-safe collection classes for Ruby
 dev-ruby/hashdiff 0.3.0 0.3.1 0.3.2: Simple Hash extension to make working with nested hashes easier
 dev-ruby/hashery 2.1.2: The Hashery is a tight collection of Hash-like classes
-dev-ruby/hashicorp-checkpoint 0.1.4-r1: Internal HashiCorp service to check version information
+dev-ruby/hashicorp-checkpoint 0.1.4-r1 0.1.4-r2: Internal HashiCorp service to check version information
 dev-ruby/hashie 2.1.2-r1 3.4.4 3.4.4-r1 3.4.6 3.5.1: Hashie is a small collection of tools that make hashes more powerful
 dev-ruby/hashr 2.0.0: Simple Hash extension to make working with nested hashes easier
 dev-ruby/heredoc_unindent 1.2.0: Removes leading whitespace from Ruby heredocs
@@ -9284,13 +9284,13 @@ dev-ruby/hpricot 0.8.6-r3 0.8.6-r5: A fast and liberal HTML parser for Ruby
 dev-ruby/html2haml 2.0.0 2.1.0: Convert HTML and HTML+Erb to Haml
 dev-ruby/htmlentities 4.3.4: A simple library for encoding/decoding entities in (X)HTML documents
 dev-ruby/http 0.6.3-r1 0.9.8 0.9.8-r1 1.0.2 2.0.3 2.1.0 2.2.0: An easy-to-use client library for making requests from Ruby
-dev-ruby/http-cookie 1.0.2-r1 1.0.3: A ruby library to handle HTTP cookies
+dev-ruby/http-cookie 1.0.2-r1 1.0.2-r2 1.0.3: A ruby library to handle HTTP cookies
 dev-ruby/http-form_data 1.0.1-r1: Utility-belt to build form data request bodies
 dev-ruby/http_parser_rb 0.6.0-r1: Simple callback-based HTTP request/response parser
 dev-ruby/httparty 0.13.7 0.14.0 0.14.0-r1: Makes http fun! Also, makes consuming restful web services dead easy
 dev-ruby/httpauth 0.2.1: Library implementing the full HTTP Authentication protocol (RFC 2617)
 dev-ruby/httpclient 2.8.2.4 2.8.3: 'httpclient' gives something like the functionality of libwww-perl (LWP) in Ruby
-dev-ruby/i18n 0.6.9-r1 0.6.11 0.6.11-r1 0.7.0 0.7.0-r1 0.7.0-r2 0.8.0: Add Internationalization support to your Ruby application
+dev-ruby/i18n 0.6.9-r1 0.6.11 0.6.11-r1 0.7.0 0.7.0-r1 0.7.0-r2 0.8.0 0.8.0-r1: Add Internationalization support to your Ruby application
 dev-ruby/imagesize 0.1.1_p20100902-r1: Measure image size (GIF, PNG, JPEG, etc)
 dev-ruby/inifile 3.0.0: Native Ruby package for reading and writing INI files
 dev-ruby/instance_storage 1.0.0: Manage class instances with dictionary
@@ -9304,7 +9304,7 @@ dev-ruby/journey 1.0.4-r1: Journey is a router. It routes requests
 dev-ruby/jquery-rails 3.1.4 4.0.5 4.1.1 4.1.1-r1 4.2.1 4.2.2: jQuery! For Rails! So great
 dev-ruby/jquery-ui-rails 3.0.1 4.2.1 5.0.5 6.0.0 6.0.1: The jQuery UI assets for the Rails 3.2+ asset pipeline
 dev-ruby/jsobfu 0.2.1 0.2.1-r1 0.3.0 0.3.0-r1 0.4.1: A Javascript code obfuscator
-dev-ruby/json 1.8.2-r1 1.8.3 2.0.1 2.0.2 2.0.3: A JSON implementation as a Ruby extension
+dev-ruby/json 1.8.2-r1 1.8.2-r2 1.8.3 2.0.1 2.0.2 2.0.3: A JSON implementation as a Ruby extension
 dev-ruby/jwt 1.5.4 1.5.5 1.5.6: A Ruby implementation of JSON Web Token draft 06
 dev-ruby/kirbybase 2.6.1-r2: A simple Ruby DBMS that stores data in plaintext files
 dev-ruby/kissfft 0.0.2: ruby interface to kissfft
@@ -9317,12 +9317,12 @@ dev-ruby/levenshtein 0.2.2-r2: Levenshtein distance algorithm
 dev-ruby/libxml 2.8.0-r1 2.9.0: Ruby libxml with a user friendly API, akin to REXML
 dev-ruby/liquid 2.6.2 3.0.6: Template engine for Ruby
 dev-ruby/liquid-c 3.0.0: Liquid performance extension in C
-dev-ruby/listen 0.7.3-r2 1.3.1-r3 1.3.1-r4 2.8.6-r1 3.0.5 3.0.6 3.0.8 3.1.1 3.1.1-r1 3.1.5: Listens to file modifications and notifies you about the changes
+dev-ruby/listen 0.7.3-r2 1.3.1-r3 1.3.1-r4 1.3.1-r5 2.8.6-r1 3.0.5 3.0.6 3.0.8 3.1.1 3.1.1-r1 3.1.5 3.1.5-r1: Listens to file modifications and notifies you about the changes
 dev-ruby/litc 1.0.3-r1: A tiny ruby module for Amazon EC2 intance metadata
 dev-ruby/little-plugger 1.1.4: Module that provides Gem based plugin management
 dev-ruby/locale 2.1.0-r2 2.1.1 2.1.2: A pure ruby library which provides basic APIs for localization
 dev-ruby/lockfile 2.1.3: A ruby library for creating NFS safe lockfiles
-dev-ruby/log4r 1.1.10-r2: A comprehensive and flexible logging library written in Ruby
+dev-ruby/log4r 1.1.10-r2 1.1.10-r3: A comprehensive and flexible logging library written in Ruby
 dev-ruby/log_buddy 0.7.0: Log statements along with their name easily
 dev-ruby/logging 2.1.0: Flexible logging library based on the design of Java's log4j library
 dev-ruby/logue 1.0.2-r2 1.0.4: A module that adds logging/trace functionality
@@ -9354,7 +9354,7 @@ dev-ruby/metasploit_data_models 2.0.0: The database layer for Metasploit
 dev-ruby/metasploit_payloads-mettle 0.0.6: Compiled binaries for Metasploit's next-gen Meterpreter
 dev-ruby/meterpreter_bins 0.0.22: Compiled binaries for Metasploit's Meterpreter
 dev-ruby/method_source 0.8.2-r3: Retrieve the source code for a method
-dev-ruby/mime-types 1.25.1 2.6.2 2.99.2 3.0 3.0-r1 3.1: Provides a mailcap-like MIME Content-Type lookup for Ruby
+dev-ruby/mime-types 1.25.1 2.6.2 2.6.2-r1 2.99.2 3.0 3.0-r1 3.1: Provides a mailcap-like MIME Content-Type lookup for Ruby
 dev-ruby/mime-types-data 3.2015.1120 3.2016.0221 3.2016.0521: Registry for information about MIME media type definitions
 dev-ruby/mimemagic 0.3.1 0.3.2: Fast mime detection by extension or content
 dev-ruby/mini_magick 4.4.0 4.5.1: Manipulate images with minimal use of memory
@@ -9385,17 +9385,17 @@ dev-ruby/neovim-ruby-client 0.3.0 0.3.1: Ruby bindings for Neovim
 dev-ruby/net-http-digest_auth 1.4-r2: An implementation of RFC 2617 - Digest Access Authentication
 dev-ruby/net-http-persistent 2.9.4-r2: Manages persistent connections using Net::HTTP plus a speed fix for Ruby 1.8
 dev-ruby/net-http-pipeline 1.0.1: An HTTP/1.1 pipelining implementation atop Net::HTTP
-dev-ruby/net-scp 1.1.2-r1 1.2.1: A pure Ruby implementation of the SCP client protocol
-dev-ruby/net-sftp 2.1.2-r2: SFTP in pure Ruby
-dev-ruby/net-ssh 2.10.0 3.2.0: Non-interactive SSH processing in pure Ruby
+dev-ruby/net-scp 1.1.2-r1 1.1.2-r2 1.2.1: A pure Ruby implementation of the SCP client protocol
+dev-ruby/net-sftp 2.1.2-r2 2.1.2-r3: SFTP in pure Ruby
+dev-ruby/net-ssh 2.10.0 3.2.0 3.2.0-r1: Non-interactive SSH processing in pure Ruby
 dev-ruby/net-ssh-gateway 1.2.0-r1 1.3.0: A simple library to assist in enabling tunneled Net::SSH connections
 dev-ruby/net-ssh-multi 1.2.1: A library for controlling multiple Net::SSH connections via a single interface
 dev-ruby/net-telnet 0.1.1-r1: Provides telnet client functionality
-dev-ruby/netrc 0.11.0: This library reads and writes .netrc files
+dev-ruby/netrc 0.11.0 0.11.0-r1: This library reads and writes .netrc files
 dev-ruby/network_interface 0.0.1-r1: network_interface layer from metasploit pcaprub
 dev-ruby/niceogiri 1.1.2: Some wrappers around and helpers for XML manipulation using Nokogiri
 dev-ruby/nio4r 1.2.1 1.2.1-r1 2.0.0: A high performance selector API for monitoring IO objects
-dev-ruby/nokogiri 1.6.6.2 1.6.8.1 1.7.0 1.7.0.1: Nokogiri is an HTML, XML, SAX, and Reader parser
+dev-ruby/nokogiri 1.6.6.2 1.6.8.1 1.6.8.1-r1 1.7.0 1.7.0.1: Nokogiri is an HTML, XML, SAX, and Reader parser
 dev-ruby/nokogiri-diff 0.2.0-r2: Calculate the differences between two XML/HTML documents
 dev-ruby/nokogumbo 1.4.7 1.4.9: A Nokogiri interface to the Gumbo HTML5 parser
 dev-ruby/notify 0.5.2-r1: A function to notify on cross platform
@@ -9466,11 +9466,11 @@ dev-ruby/rails_autolink 1.1.6: This is an extraction of the auto_link method fro
 dev-ruby/railties 4.1.16 4.2.6 4.2.7 4.2.7.1 5.0.0.1-r1 5.0.1: Tools for creating, working with, and running Rails applications
 dev-ruby/rainbow 1.1.4-r1 2.0.0-r1 2.1.0 2.2.1: Colorize printed text on ANSI terminals
 dev-ruby/rake 0.9.6-r1 10.5.0 11.1.2 11.2.2-r1 11.3.0 12.0.0: Make-like scripting in Ruby
-dev-ruby/rake-compiler 0.9.2-r1 0.9.9 1.0.0 1.0.2: Provide a standard and simplified way to build and package Ruby extensions
+dev-ruby/rake-compiler 0.9.2-r1 0.9.9 1.0.0 1.0.2 1.0.2-r1: Provide a standard and simplified way to build and package Ruby extensions
 dev-ruby/rake-remote_task 2.3.1 2.4.0 2.4.1: Extends Rake with remote task goodness
 dev-ruby/rash 0.4.0-r2: Rash is an extension to Hashie
 dev-ruby/rb-gsl 1.16.0.6 2.1.0.1: Ruby interface to GNU Scientific Library
-dev-ruby/rb-inotify 0.9.5-r1 0.9.6 0.9.7 0.9.7-r1 0.9.8: A thorough inotify wrapper for Ruby using FFI
+dev-ruby/rb-inotify 0.9.5-r1 0.9.6 0.9.7 0.9.7-r1 0.9.7-r2 0.9.8: A thorough inotify wrapper for Ruby using FFI
 dev-ruby/rb-readline 0.5.3: Ruby implementation of the GNU readline C library
 dev-ruby/rb-readline-r7 0.5.2.0: Ruby implementation of the GNU readline C library forked by r7
 dev-ruby/rbnacl 4.0.1: Provides a high-level toolkit for building cryptographic systems and protocols
@@ -9488,7 +9488,7 @@ dev-ruby/redis 3.0.7 3.2.2 3.3.0 3.3.1 3.3.2: A Ruby client library for Redis
 dev-ruby/ref 2.0.0: Implements weak, soft, and strong references in Ruby
 dev-ruby/regexp_parser 0.3.6 0.4.1: A library for tokenizing, lexing, and parsing Ruby regular expressions
 dev-ruby/request_store 1.0.5 1.3.1 1.3.2: Per-request global storage for Rack
-dev-ruby/rest-client 1.8.0-r1 1.8.0-r2 1.8.0-r3 2.0.0: Simple Simple HTTP and REST client for Ruby
+dev-ruby/rest-client 1.8.0-r1 1.8.0-r2 1.8.0-r3 1.8.0-r4 2.0.0: Simple Simple HTTP and REST client for Ruby
 dev-ruby/rev 0.3.2-r1: Rev is an event library for Ruby, built on the libev event library
 dev-ruby/rex-arch 0.1.1 0.1.2: architecture specific information for Rex
 dev-ruby/rex-java 0.1.2: Ruby Exploitation(Rex) library for parsing Java serialized streams
@@ -9580,7 +9580,7 @@ dev-ruby/ruby-webkit2-gtk 3.0.7 3.0.8: Ruby WebKitGtk+ for Gtk 3.0 bindings
 dev-ruby/ruby-xslt 0.9.9-r3: A Ruby class for processing XSLT
 dev-ruby/ruby-yadis 0.3.4-r2: A ruby library for performing Yadis service discovery
 dev-ruby/ruby2ruby 2.3.0 2.3.1 2.3.2: Generates readable ruby from ParseTree
-dev-ruby/ruby_dep 1.3.1 1.4.0 1.5.0: Creates a version constraint of supported Rubies,suitable for a gemspec file
+dev-ruby/ruby_dep 1.3.1 1.4.0 1.4.0-r1 1.5.0: Creates a version constraint of supported Rubies,suitable for a gemspec file
 dev-ruby/ruby_gntp 0.3.4: Ruby library for GNTP(Growl Notification Transport Protocol)
 dev-ruby/ruby_parser 3.8.2 3.8.3 3.8.4: A ruby parser written in pure ruby
 dev-ruby/rubygems 2.2.5-r1 2.5.2 2.6.8 2.6.9 2.6.10: Centralized Ruby extension management system
@@ -9593,7 +9593,7 @@ dev-ruby/rubyzip 0.9.9-r2 1.1.7-r1 1.2.0: A ruby library for reading and writing
 dev-ruby/safe_yaml 1.0.4 1.0.4-r2 1.0.4-r3: Parse YAML safely, alternative implementation of YAML.load
 dev-ruby/samuel 0.3.3-r2: An automatic logger for HTTP requests in Ruby
 dev-ruby/sanitize 2.1.0 4.2.0 4.3.0 4.4.0: Sanitize is a whitelist-based HTML sanitizer
-dev-ruby/sass 3.2.19-r2 3.4.15 3.4.21 3.4.22 3.4.22-r1 3.4.23: An extension of CSS3, adding nested rules, variables, mixins, and more
+dev-ruby/sass 3.2.19-r2 3.4.15 3.4.15-r1 3.4.21 3.4.22 3.4.22-r1 3.4.23: An extension of CSS3, adding nested rules, variables, mixins, and more
 dev-ruby/sass-rails 4.0.5 5.0.4-r1 5.0.5 5.0.5-r1 5.0.5-r2 5.0.6: Official Ruby-on-Rails Integration with Sass
 dev-ruby/sawyer 0.7.0 0.7.0-r1 0.8.0 0.8.1: Secret User Agent of HTTP
 dev-ruby/sdoc 0.4.1 0.4.2: rdoc generator html with javascript search index
@@ -9629,7 +9629,7 @@ dev-ruby/spring 1.6.4 1.7.1 1.7.2 2.0.0 2.0.1: Rails application preloader
 dev-ruby/sprockets 2.2.3 2.11.3 2.12.3-r1 3.4.1 3.5.2 3.6.3 3.7.0 3.7.1: Ruby library for compiling and serving web assets
 dev-ruby/sprockets-rails 2.0.0 2.1.3 2.2.4 2.3.3-r1 3.0.4 3.0.4-r1 3.1.1 3.2.0: Sprockets implementation for Rails 4.x (and beyond) Asset Pipeline
 dev-ruby/spy 0.4.2 0.4.3 0.4.5: A simple opinionated mocking framework
-dev-ruby/sqlite3 1.3.11 1.3.12 1.3.13: An extension library to access a SQLite database from Ruby
+dev-ruby/sqlite3 1.3.11 1.3.11-r1 1.3.12 1.3.13: An extension library to access a SQLite database from Ruby
 dev-ruby/sshkey 1.8.0 1.9.0: SSH private and public key generator in pure Ruby
 dev-ruby/sshkit 1.11.4 1.11.5: SSHKit makes it easy to write structured, testable SSH commands in Ruby
 dev-ruby/stamp 0.6.0: Date and time formatting for humans
@@ -9677,8 +9677,8 @@ dev-ruby/tzinfo 0.3.52 1.2.2: Daylight-savings aware timezone library
 dev-ruby/uconv 0.6.1-r2: A module to convert ISO/IEC 10646 (Unicode) string and Japanese strings
 dev-ruby/uglifier 2.7.2 3.0.2 3.0.3 3.0.4: Ruby wrapper for UglifyJS JavaScript compressor
 dev-ruby/ultraviolet 1.0.1: A syntax highlighting engine based on Textpow
-dev-ruby/unf 0.1.4: A wrapper library to bring Unicode Normalization Form support to Ruby/JRuby
-dev-ruby/unf_ext 0.0.7.1 0.0.7.2: Unicode Normalization Form support library for CRuby
+dev-ruby/unf 0.1.4 0.1.4-r1: A wrapper library to bring Unicode Normalization Form support to Ruby/JRuby
+dev-ruby/unf_ext 0.0.7.1 0.0.7.1-r1 0.0.7.2: Unicode Normalization Form support library for CRuby
 dev-ruby/unindent 1.0: Ruby method to unindent strings
 dev-ruby/uuidtools 2.1.4-r1 2.1.5 2.1.5-r1: Simple library to generate UUIDs
 dev-ruby/vcard 0.2.13 0.2.14 0.2.15: Ruby vcard support extracted from Vpim
@@ -14057,7 +14057,7 @@ net-analyzer/braa 0.82: Quick and dirty mass SNMP scanner
 net-analyzer/bro 2.4.1-r2: The Bro Network Security Monitor
 net-analyzer/bsnmp 1.11a 1.12 1.12-r1: Mini-SNMP Daemon and Library
 net-analyzer/bwbar 1.2.3: The kernel.org "Current bandwidth utilization" bar
-net-analyzer/bwm-ng 0.6-r1 0.6.1-r1: Bandwidth Monitor NG is a small and simple console-based bandwidth monitor
+net-analyzer/bwm-ng 0.6-r1 0.6.1-r1 0.6.1-r2: Bandwidth Monitor NG is a small and simple console-based bandwidth monitor
 net-analyzer/bwmon 1.3-r2: Simple ncurses bandwidth monitor
 net-analyzer/bwping 1.7-r1 1.8 1.9: A tool to measure bandwidth and RTT between two hosts using ICMP
 net-analyzer/cacti 0.8.8h 1.0.0: Cacti is a complete frontend to rrdtool
