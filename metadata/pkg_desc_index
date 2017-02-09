@@ -18810,7 +18810,7 @@ x11-misc/vnc2swf 0.5.0-r1: A tool for recording Flash SWF movies from VNC sessio
 x11-misc/vym 2.3.22 2.3.24 9999: View Your Mind, a mindmap tool
 x11-misc/wayv 0.3-r2: Wayv is hand-writing/gesturing recognition software for X
 x11-misc/wbar 2.3.4-r1 2.3.4-r2: A fast, lightweight quick launch bar
-x11-misc/wbarconf 0.7.2.2-r1: Configuration GUI for x11-misc/wbar
+x11-misc/wbarconf 0.7.2.2-r1 0.7.2.2-r2: Configuration GUI for x11-misc/wbar
 x11-misc/wdm 1.28-r3 1.28-r4: WINGs Display Manager
 x11-misc/whaw 0.2: Window manager independent Window Layout tool
 x11-misc/wininfo 0.7 0.7-r1: An X app that follows your pointer providing information about the windows below
