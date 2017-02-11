@@ -17828,7 +17828,7 @@ sys-process/xjobs 20151016: Reads commands line by line and executes them in par
 virtual/acl 0 0-r1 0-r2: Virtual for acl support (sys/acl.h)
 virtual/ada 1995 2005 2012: Virtual for selecting an appropriate Ada compiler
 virtual/awk 0 1: Virtual for awk implementation
-virtual/bitcoin-leveldb 0: Virtual for LevelDB versions known to be compatible with Bitcoin Core 0.9+
+virtual/bitcoin-leveldb 0-r1: Virtual for LevelDB versions known to be compatible with Bitcoin Core 0.9+
 virtual/blas 1.0 3.6 3.7: Virtual for FORTRAN 77 BLAS implementation
 virtual/cblas 1.0 3.6 3.7: Virtual for BLAS C implementation
 virtual/cdrtools 0: Virtual for command-line recorders cdrtools and cdrkit
