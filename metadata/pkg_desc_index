@@ -18808,6 +18808,7 @@ x11-misc/treeline 1.4.1-r1 1.9.4: TreeLine is a structured information storage p
 x11-misc/unclutter 8-r2 8-r3: Hides mouse pointer while not in use
 x11-misc/urxvt-font-size 1.1 9999: Perl extension for rxvt-unicode to change the font size on the fly
 x11-misc/urxvt-perls 2.2: Perl extensions for rxvt-unicode
+x11-misc/urxvtconfig 1.0: GUI configuration tool for the rxvt-unicode terminal emulator.
 x11-misc/util-macros 1.19.1: X.Org autotools utility macros
 x11-misc/vdpauinfo 1.0: Displays info about your card's VDPAU support
 x11-misc/viewglob 2.0.4-r1: Graphical display of directories and globs referenced at the shell prompt
