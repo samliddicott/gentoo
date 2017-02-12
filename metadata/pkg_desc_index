@@ -7788,7 +7788,7 @@ dev-python/nbdime 0.1.0 0.1.2: Diff and merge of Jupyter Notebooks
 dev-python/nbformat 4.0.1 4.1.0 4.2.0: Reference implementation of the Jupyter Notebook format
 dev-python/nbsphinx 0.2.8: Jupyter Notebook Tools for Sphinx
 dev-python/ndg-httpsclient 0.4.0 0.4.2: Provides enhanced HTTPS support for httplib and urllib2 using PyOpenSSL
-dev-python/neovim-python-client 0.0.37 0.0.38 0.1.0 0.1.2 0.1.5 0.1.7 0.1.9 0.1.11 0.1.12: Python client for Neovim
+dev-python/neovim-python-client 0.0.37 0.0.38 0.1.0 0.1.2 0.1.5 0.1.7 0.1.9 0.1.11 0.1.12 0.1.13: Python client for Neovim
 dev-python/netaddr 0.7.12 0.7.13 0.7.14 0.7.15 0.7.17 0.7.18: Network address representation and manipulation library
 dev-python/netcdf4-python 1.2.2: Python/numpy interface to the netCDF C library
 dev-python/netifaces 0.8-r2 0.10.4 0.10.5: Portable network interface information
