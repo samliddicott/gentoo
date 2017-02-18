@@ -1,7 +1,7 @@
 DEFINED_PHASES=configure install prepare
 DEPEND=mpi? ( virtual/mpi )
 DESCRIPTION=Inference of RNA alignments
-EAPI=4
+EAPI=6
 HOMEPAGE=http://infernal.janelia.org/
 IUSE=mpi
 KEYWORDS=amd64 x86
@@ -11,4 +11,4 @@ SLOT=0
 SRC_URI=ftp://selab.janelia.org/pub/software/infernal/infernal-1.0.2.tar.gz
 _eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
 _eclasses_=eutils	ea170b525f6a38a006be05c9d9429f13	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=34e807b33fc0c63f6787bf849c22463c
+_md5_=b01b2f7c6b74a3aad8cbe092eafcbcaa
