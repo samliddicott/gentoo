@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=media-libs/libsdl[joystick,opengl?,video] media-libs/sdl-image[png] media-libs/sdl-mixer music? ( media-libs/sdl-mixer[mod] ) opengl? ( virtual/opengl ) media-libs/libpng:0= dev-libs/boost:= virtual/pkgconfig dev-util/scons
+DESCRIPTION=free Lemmings clone
+EAPI=5
+HOMEPAGE=http://pingus.seul.org/
+IUSE=opengl music
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-3
+RDEPEND=media-libs/libsdl[joystick,opengl?,video] media-libs/sdl-image[png] media-libs/sdl-mixer music? ( media-libs/sdl-mixer[mod] ) opengl? ( virtual/opengl ) media-libs/libpng:0= dev-libs/boost:= games-misc/games-envd
+SLOT=0
+SRC_URI=https://pingus.googlecode.com/files/pingus-0.7.6.tar.bz2
+_eclass_exported_funcs=pkg_preinst:games pkg_postinst:games pkg_setup:games src_unpack:base src_prepare:- src_configure:games src_compile:- src_install:-
+_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	708f85bc1bf00876604e223fb56e062a	flag-o-matic	35067884fbff37bc0c8e7421c5315558	games	2cf0d67d765e6358b435ccda30c13ad8	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	eb9be4b678c4e71f3f530a767df31912	scons-utils	d42c1726f481bb5812cc2ce1f236db1d	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	user	e10ccb95af96d45f86016fa982a949bb
+_md5_=6533739b51f986cf2933c93746a6f6de
