@@ -18786,7 +18786,7 @@ x11-misc/touchfreeze 0.2.5-r1: X11 touch pad driver configuration utility
 x11-misc/trayer 1.0-r1 1.0-r2: Lightweight GTK+ based systray for UNIX desktop
 x11-misc/trayer-srg 1.1.5 1.1.6: trayer fork with multi monitor support and cleaned up codebase
 x11-misc/treeline 1.4.1-r1 1.9.4: TreeLine is a structured information storage program
-x11-misc/unclutter 8-r2 8-r3: Hides mouse pointer while not in use
+x11-misc/unclutter 8-r2 8-r4: Hides mouse pointer while not in use
 x11-misc/urxvt-font-size 1.1 9999: Perl extension for rxvt-unicode to change the font size on the fly
 x11-misc/urxvt-perls 2.2: Perl extensions for rxvt-unicode
 x11-misc/urxvtconfig 1.0: GUI configuration tool for the rxvt-unicode terminal emulator
@@ -18836,12 +18836,12 @@ x11-misc/xdock 0.3.0: emulates Window Maker docks (runs in any window manager)
 x11-misc/xdotool 2.20110530.1 3.20150503.1-r1: Simulate keyboard input and mouse activity, move and resize windows
 x11-misc/xearth 1.1-r1: Xearth sets the X root window to an image of the Earth
 x11-misc/xfe 1.40.1 1.41 1.42: MS-Explorer-like minimalist file manager for X
-x11-misc/xfishtank 2.1-r1 2.1-r2: Turns your root window into an aquarium
+x11-misc/xfishtank 2.1-r2: Turns your root window into an aquarium
 x11-misc/xfractint 20.04_p12: A fractal generator
 x11-misc/xgestures 0.4: A mouse gesture recognition program for X11 desktops
 x11-misc/xhkeys 2.2.1: assign particular actions to any key or key combination
 x11-misc/xiccd 0.2.3: A desktop environment-independent bridge between colord and X
-x11-misc/xidle 24102005 26052015: Monitors inactivity in X and runs the specified program when a timeout occurs
+x11-misc/xidle 26052015: Monitors inactivity in X and runs the specified program when a timeout occurs
 x11-misc/xkbd 0.8.15-r1 0.8.16-r1: onscreen soft keyboard for X11
 x11-misc/xkbset 0.5-r1 0.5_p5_p1: User preference utility for XKB extensions for X
 x11-misc/xkeyboard-config 2.14 2.16 2.17 2.18 2.19 2.20: X keyboard configuration database
@@ -18873,7 +18873,7 @@ x11-misc/xssstate 1.1: A simple tool to retrieve the X screensaver state
 x11-misc/xstroke 0.6-r1: Gesture/Handwriting recognition engine for X
 x11-misc/xteddy 2.2: A cuddly teddy bear (or other image) for your X desktop
 x11-misc/xtermcontrol 3.2 3.3: xtermcontrol enables dynamic control of XFree86 xterm properties
-x11-misc/xtitle 1.0.2 1.0.3: Set window title and icon name for an X11 terminal window
+x11-misc/xtitle 1.0.2 1.0.4: Set window title and icon name for an X11 terminal window
 x11-misc/xtoolwait 1.3-r2: Xtoolwait notably decreases the startup time of an X session
 x11-misc/xtrace 1.3.0: X11 protocol trace utility
 x11-misc/xtrlock 2.7 2.8: A simplistic screen locking program for X
@@ -18881,7 +18881,7 @@ x11-misc/xtscal 0.6.3-r1: Touchscreen calibration utility
 x11-misc/xvfb-run 1.17.2_p2 1.18.4_p2: Run a command in a virtual X server environment
 x11-misc/xvkbd 3.6 3.7: virtual keyboard for X window system
 x11-misc/xwinwrap 0_p4 0_p4-r1: replace a desktop background with a movie or screensaver
-x11-misc/xwit 3.4 3.4-r1: A collection of simple routines to call some of those X11 functions
+x11-misc/xwit 3.4 3.4_p15: A collection of simple routines to call some of those X11 functions
 x11-misc/xwrits 2.26 2.26-r1: Reminds you to take wrist breaks to help you prevent repetitive stress injury
 x11-misc/xxkb 1.11-r3 1.11.1: eXtended XKB - assign different keymaps to different windows
 x11-misc/xystray 1.0: A simple implementation of freedesktop.org notification area for X
