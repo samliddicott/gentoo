@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare
+DEPEND=media-libs/libsdl[joystick,video] media-libs/sdl-image[png] media-libs/sdl-mixer[vorbis] !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=Snipe terrorists from your orbital base
+EAPI=6
+HOMEPAGE=http://icculus.org/oes/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=ZLIB
+RDEPEND=media-libs/libsdl[joystick,video] media-libs/sdl-image[png] media-libs/sdl-mixer[vorbis]
+SLOT=0
+SRC_URI=http://filesingularity.timedoctor.org/orbital_eunuchs_sniper-1.30.tar.gz
+_eclass_exported_funcs=src_prepare:- src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	708f85bc1bf00876604e223fb56e062a	libtool	84763589a795fb127b537cac01e5359f	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=60ad0c2d580128ccb39a97da48ef46e8
