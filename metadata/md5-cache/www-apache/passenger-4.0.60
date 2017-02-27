@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst prepare setup test unpack
+DEPEND=ruby_targets_ruby20? ( dev-ruby/rake[ruby_targets_ruby20] ) ruby_targets_ruby21? ( dev-ruby/rake[ruby_targets_ruby21] ) ruby_targets_ruby22? ( dev-ruby/rake[ruby_targets_ruby22] ) test? ( ruby_targets_ruby20? ( >=dev-ruby/daemon_controller-1.2.0[ruby_targets_ruby20] >=dev-ruby/rack-1.0.0:*[ruby_targets_ruby20] >=dev-ruby/rake-0.8.1[ruby_targets_ruby20] ) ruby_targets_ruby21? ( >=dev-ruby/daemon_controller-1.2.0[ruby_targets_ruby21] >=dev-ruby/rack-1.0.0:*[ruby_targets_ruby21] >=dev-ruby/rake-0.8.1[ruby_targets_ruby21] ) ruby_targets_ruby22? ( >=dev-ruby/daemon_controller-1.2.0[ruby_targets_ruby22] >=dev-ruby/rack-1.0.0:*[ruby_targets_ruby22] >=dev-ruby/rake-0.8.1[ruby_targets_ruby22] ) ) >=dev-libs/libev-4.15 net-misc/curl[ssl] www-servers/apache[apache2_modules_unixd(+)] =www-servers/apache-2* ruby_targets_ruby20? ( dev-lang/ruby:2.0 ) ruby_targets_ruby21? ( dev-lang/ruby:2.1 ) ruby_targets_ruby22? ( dev-lang/ruby:2.2 )
+DESCRIPTION=Passenger (a.k.a. mod_rails) makes deployment of Ruby on Rails applications a breeze
+EAPI=5
+HOMEPAGE=http://modrails.com/
+IUSE=debug test elibc_FreeBSD ruby_targets_ruby20 ruby_targets_ruby21 ruby_targets_ruby22
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=ruby_targets_ruby20? ( >=dev-ruby/daemon_controller-1.2.0[ruby_targets_ruby20] >=dev-ruby/rack-1.0.0:*[ruby_targets_ruby20] >=dev-ruby/rake-0.8.1[ruby_targets_ruby20] ) ruby_targets_ruby21? ( >=dev-ruby/daemon_controller-1.2.0[ruby_targets_ruby21] >=dev-ruby/rack-1.0.0:*[ruby_targets_ruby21] >=dev-ruby/rake-0.8.1[ruby_targets_ruby21] ) ruby_targets_ruby22? ( >=dev-ruby/daemon_controller-1.2.0[ruby_targets_ruby22] >=dev-ruby/rack-1.0.0:*[ruby_targets_ruby22] >=dev-ruby/rake-0.8.1[ruby_targets_ruby22] ) >=dev-libs/libev-4.15 net-misc/curl[ssl] www-servers/apache[apache2_modules_unixd(+)] =www-servers/apache-2* ruby_targets_ruby20? ( dev-lang/ruby:2.0 ) ruby_targets_ruby21? ( dev-lang/ruby:2.1 ) ruby_targets_ruby22? ( dev-lang/ruby:2.2 )
+REQUIRED_USE=|| ( ruby_targets_ruby20 ruby_targets_ruby21 ruby_targets_ruby22 )
+SLOT=0
+SRC_URI=http://s3.amazonaws.com/phusion-passenger/releases/passenger-4.0.60.tar.gz
+_eclass_exported_funcs=pkg_postinst:apache-module pkg_setup:- src_unpack:ruby-ng src_prepare:ruby-ng src_configure:ruby-ng src_compile:ruby-ng src_test:ruby-ng src_install:ruby-ng
+_eclasses_=apache-module	5e66430013d92dfe0bf8672b05319b6d	depend.apache	7aeacf4ba074b9aa0047e2ba05c1010f	eutils	708f85bc1bf00876604e223fb56e062a	flag-o-matic	35067884fbff37bc0c8e7421c5315558	java-utils-2	b31a7fe19a47c6a2d901f6de949e5209	multilib	165fc17c38d1b11dac2008280dab6e80	ruby-ng	70882a6b5354712e3ef87632e3d99f75	ruby-utils	382c3a262907e1219a21618dfd1a01a0	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=f3134945a3a0ed0f848972b01fde5883
