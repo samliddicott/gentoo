@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_single_target_python3_4? ( dev-lang/python:3.4 ) python_single_target_python3_5? ( dev-lang/python:3.5 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_4(-)?,python_targets_python3_5(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)?,python_single_target_python3_4(+)?,python_single_target_python3_5(+)?] media-libs/freeglut virtual/opengl sys-libs/zlib media-libs/SeExpr doc? ( app-doc/doxygen[latex] ) dev-lang/swig:* sys-devel/make >=dev-util/cmake-3.6.3
+DESCRIPTION=A library for particle IO and manipulation
+EAPI=6
+HOMEPAGE=http://www.disneyanimation.com/technology/partio.html
+IUSE=doc python_targets_python2_7 python_targets_python3_4 python_targets_python3_5 python_single_target_python2_7 python_single_target_python3_4 python_single_target_python3_5
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_single_target_python3_4? ( dev-lang/python:3.4 ) python_single_target_python3_5? ( dev-lang/python:3.5 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_4(-)?,python_targets_python3_5(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)?,python_single_target_python3_4(+)?,python_single_target_python3_5(+)?] media-libs/freeglut virtual/opengl sys-libs/zlib media-libs/SeExpr
+REQUIRED_USE=^^ ( python_single_target_python2_7 python_single_target_python3_4 python_single_target_python3_5 ) python_single_target_python2_7? ( python_targets_python2_7 ) python_single_target_python3_4? ( python_targets_python3_4 ) python_single_target_python3_5? ( python_targets_python3_5 )
+SLOT=0
+SRC_URI=https://github.com/wdas/partio/archive/7f3e0d19e1931a591f53d4485bfffc665724a967.tar.gz -> partio-1.0.0_p20160426.tar.gz
+_eclass_exported_funcs=pkg_setup:python-single-r1 src_unpack:vcs-snapshot src_prepare:- src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
+_eclasses_=cmake-utils	dd1d263f83f0791bd433b134f40db39b	eutils	3c847a0129fed780bd709b98e426f89c	flag-o-matic	979af9133d4de419fa98992355b07ca4	multilib	0236be304ee52e7f179ed2f337075515	multiprocessing	284a473719153462f3e974d86c8cb81c	python-single-r1	4346485bdd137b2d301e993dad734668	python-utils-r1	316c531873247e48befb99900e5aa2ed	toolchain-funcs	53b75b4a49cf3e61530a523804045432	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_md5_=85c30f95c2a1d18a3c1fb7b32f019e02
