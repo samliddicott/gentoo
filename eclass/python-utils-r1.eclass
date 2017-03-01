@@ -114,22 +114,39 @@ _python_set_impls() {
 		_python_impl_supported "${i}"
 	done
 
-	_PYTHON_SUPPORTED_IMPLS=()
-	_PYTHON_UNSUPPORTED_IMPLS=()
+	local supp=() unsupp=()
 
 	for i in "${_PYTHON_ALL_IMPLS[@]}"; do
 		if has "${i}" "${PYTHON_COMPAT[@]}"; then
-			_PYTHON_SUPPORTED_IMPLS+=( "${i}" )
+			supp+=( "${i}" )
 		else
-			_PYTHON_UNSUPPORTED_IMPLS+=( "${i}" )
+			unsupp+=( "${i}" )
 		fi
 	done
 
-	if [[ ${#_PYTHON_SUPPORTED_IMPLS[@]} -eq 0 ]]; then
+	if [[ ! ${supp[@]} ]]; then
 		die "No supported implementation in PYTHON_COMPAT."
 	fi
 
-	readonly _PYTHON_SUPPORTED_IMPLS _PYTHON_UNSUPPORTED_IMPLS
+	if [[ ${_PYTHON_SUPPORTED_IMPLS[@]} ]]; then
+		# set once already, verify integrity
+		if [[ ${_PYTHON_SUPPORTED_IMPLS[@]} != ${supp[@]} ]]; then
+			eerror "Supported impls (PYTHON_COMPAT) changed between inherits!"
+			eerror "Before: ${_PYTHON_SUPPORTED_IMPLS[*]}"
+			eerror "Now   : ${supp[*]}"
+			die "_PYTHON_SUPPORTED_IMPLS integrity check failed"
+		fi
+		if [[ ${_PYTHON_UNSUPPORTED_IMPLS[@]} != ${unsupp[@]} ]]; then
+			eerror "Unsupported impls changed between inherits!"
+			eerror "Before: ${_PYTHON_UNSUPPORTED_IMPLS[*]}"
+			eerror "Now   : ${unsupp[*]}"
+			die "_PYTHON_UNSUPPORTED_IMPLS integrity check failed"
+		fi
+	else
+		_PYTHON_SUPPORTED_IMPLS=( "${supp[@]}" )
+		_PYTHON_UNSUPPORTED_IMPLS=( "${unsupp[@]}" )
+		readonly _PYTHON_SUPPORTED_IMPLS _PYTHON_UNSUPPORTED_IMPLS
+	fi
 }
 
 # @ECLASS-VARIABLE: PYTHON
