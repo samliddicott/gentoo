@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=>=virtual/emacs-23
+DESCRIPTION=Emacs extension to increase selected region by semantic units
+EAPI=6
+HOMEPAGE=https://github.com/magnars/expand-region.el
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=>=virtual/emacs-23
+SLOT=0
+SRC_URI=https://github.com/magnars/expand-region.el/archive/0.11.0.tar.gz -> expand-region-0.11.0.tar.gz
+_eclass_exported_funcs=pkg_postrm:elisp pkg_postinst:elisp pkg_setup:elisp src_unpack:elisp src_prepare:elisp src_configure:elisp src_compile:- src_install:elisp
+_eclasses_=elisp	0f9fb41c5a844d876880e414faee1340	elisp-common	f49d14e575e158ccab82cf05b315a180
+_md5_=f202b3e8272591c85d33aeb45faf7bb1
