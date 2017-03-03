@@ -8457,7 +8457,7 @@ dev-python/rosdistro 0.6.1 9999: Tools to work with catkinized rosdistro files
 dev-python/rospkg 1.1.0-r1 9999: Standalone Python library for the ROS package system
 dev-python/routes 2.1-r1 2.2 2.3.1 2.4.1: A re-implementation of Rails routes system, mapping URLs to Controllers/Actions
 dev-python/rply 0.7.3 0.7.4: Pure python parser generator that also works with RPython
-dev-python/rpy 2.6.2 2.7.2 2.7.3 2.7.4 2.7.5 2.7.6 2.7.7 2.7.8: Python interface to the R Programming Language
+dev-python/rpy 2.6.2 2.7.2 2.7.3 2.7.4 2.7.5 2.7.6 2.7.7 2.7.8 2.8.5: Python interface to the R Programming Language
 dev-python/rpyc 3.2.3-r1 3.3.0: Remote Python Call (RPyC), a transparent and symmetric RPC library
 dev-python/rsa 3.2.3-r1 3.3 3.4.2: Pure-Python RSA implementation
 dev-python/rst-linker 1.6 1.7: Sphinx plugin to add links and timestamps to the changelog
