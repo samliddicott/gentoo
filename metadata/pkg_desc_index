@@ -13599,7 +13599,7 @@ media-sound/id3v2 0.1.12: A command line editor for id3v2 tags
 media-sound/ifp-gnome 0.7-r2: Gnome front-end for file management on iRiver iFP MP3 players
 media-sound/imp3sh 0.2.4: flexible playlist manipulation shell and song player/streamer
 media-sound/jaaa 0.4.2 0.6.0 0.8.4: The JACK and ALSA Audio Analyser is an audio signal generator and spectrum analyser
-media-sound/jack 3.1.1-r1: A frontend for several cd-rippers and mp3 encoders
+media-sound/jack 3.1.1-r1 3.1.1-r2: A frontend for several cd-rippers and mp3 encoders
 media-sound/jack-audio-connection-kit 0.121.3-r1 0.124.1-r1 0.125.0: A low-latency audio server
 media-sound/jack-keyboard 2.5: A virtual MIDI keyboard for JACK MIDI
 media-sound/jack-rack 1.4.7-r1 1.4.8_rc1: JACK Rack is an effects rack for the JACK low latency audio API
