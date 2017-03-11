@@ -1,0 +1,16 @@
+DEFINED_PHASES=compile install postinst prepare setup
+DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[xml] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] x11-libs/libX11 x11-libs/libXrandr virtual/pkgconfig
+DESCRIPTION=Application that rotates tablet pc's screen automatically, based on orientation
+EAPI=5
+HOMEPAGE=https://launchpad.net/magick-rotation
+IUSE=python_targets_python2_7
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[xml] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] x11-libs/libX11 x11-libs/libXrandr dev-python/pygobject:2[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] dev-python/pygtk:2[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] dev-python/py-notify[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] x11-apps/xinput
+REQUIRED_USE=python_targets_python2_7
+RESTRICT=test
+SLOT=0
+SRC_URI=https://launchpad.net/magick-rotation/trunk/1.6/+download/magick-rotation-1.6.2.tar.bz2
+_eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_prepare:- src_compile:- src_install:-
+_eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	python-single-r1	c3e54dd0dc1e70c6252f2551a55bf053	python-utils-r1	4f8aa7196c2c9a5630e66c2113ae46c3	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	udev	d91cac2c73b94629cad2daea66e0d182	user	e4b567c44272a719fabf53f0f885d3f7	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_md5_=7ce6fe1a189440d796620b2974066830
