@@ -8301,7 +8301,7 @@ dev-python/python-ddp 0.1.5: An event driven ddp client
 dev-python/python-debian 0.1.26 0.1.27 0.1.28: Python modules to work with Debian-related data formats
 dev-python/python-designateclient 2.0.0 2.3.0 2.6.0: Python bindings to the Designate API.
 dev-python/python-digest 1.7-r1: A Python library to aid in implementing HTTP Digest Authentication
-dev-python/python-discid 1.1.0 1.1.0-r1: Python bindings for libdiscid
+dev-python/python-discid 1.1.0 1.1.0-r1 1.1.1: Python bindings for libdiscid
 dev-python/python-distutils-extra 2.38 2.39: Gettext support, themed icons and scrollkeeper-based documentation in distutils
 dev-python/python-djvulibre 0.3.9 0.8: Set of Python bindings for the DjVuLibre library
 dev-python/python-docs 2.7.10 2.7.12 3.3.5-r1 3.4.3 3.5.2 3.6.0: HTML documentation for Python
