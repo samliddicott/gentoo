@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install prepare setup test unpack
+DEPEND=~dev-util/nvidia-cuda-toolkit-6.5.19 media-libs/freeglut examples? ( media-libs/freeimage media-libs/glew:0= virtual/mpi >=x11-drivers/nvidia-drivers-340.32[uvm] x86? ( <x11-drivers/nvidia-drivers-346.35[uvm] ) )
+DESCRIPTION=NVIDIA CUDA Software Development Kit
+EAPI=6
+HOMEPAGE=http://developer.nvidia.com/cuda
+IUSE=debug +doc +examples opencl +cuda
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+LICENSE=CUDPP
+RDEPEND=~dev-util/nvidia-cuda-toolkit-6.5.19 media-libs/freeglut examples? ( media-libs/freeimage media-libs/glew:0= virtual/mpi >=x11-drivers/nvidia-drivers-340.32[uvm] x86? ( <x11-drivers/nvidia-drivers-346.35[uvm] ) )
+RESTRICT=test
+SLOT=0
+SRC_URI=amd64? ( http://developer.download.nvidia.com/compute/cuda/6_5/rel/installers/cuda_6.5.19_linux_64.run ) x86? ( http://developer.download.nvidia.com/compute/cuda/6_5/rel/installers/cuda_6.5.19_linux_32.run )
+_eclass_exported_funcs=pkg_setup:- src_unpack:- src_prepare:- src_compile:- src_test:- src_install:-
+_eclasses_=cuda	626969678b9c5735753d8a380c6f295b	eutils	3c847a0129fed780bd709b98e426f89c	flag-o-matic	61cad4fb5d800b29d484b27cb033f59b	multilib	0236be304ee52e7f179ed2f337075515	portability	2b88d3ecc35035a3b8ab628b49cafb0e	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	unpacker	f40f7b4bd5aa88c2a4ba7b0d1e0ded70	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_md5_=34fa9ffa54efd3510fa1881871b432b0
