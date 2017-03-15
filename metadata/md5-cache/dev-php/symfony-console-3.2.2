@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare test
+DEPEND=>=dev-php/symfony-polyfill-mbstring-1.0 >=dev-php/symfony-debug-3.0 test? ( dev-lang/php:* dev-php/fedora-autoloader dev-php/phpunit >=dev-php/symfony-event-dispatcher-3.0 >=dev-php/symfony-filesystem-3.0 >=dev-php/symfony-process-3.0 >=dev-php/psr-log-1.0 )
+DESCRIPTION=Subtree split of the Symfony Console Component
+EAPI=6
+HOMEPAGE=https://github.com/symfony/console
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+SLOT=0
+SRC_URI=https://github.com/symfony/console/archive/v3.2.2.tar.gz -> symfony-console-3.2.2.tar.gz
+_eclass_exported_funcs=src_prepare:- src_test:- src_install:-
+_md5_=2393d9207dca2d2ec3b4ba647657f954

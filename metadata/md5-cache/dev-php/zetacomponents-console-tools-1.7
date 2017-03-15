@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare test
+DEPEND=test? ( dev-lang/php:* >=dev-php/zetacomponents-base-1.8 dev-php/phpunit dev-php/zetacomponents-unit-test )
+DESCRIPTION=A set of classes to do different actions with the console
+EAPI=6
+HOMEPAGE=https://github.com/zetacomponents/ConsoleTools
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=dev-lang/php:* >=dev-php/zetacomponents-base-1.8
+SLOT=0
+SRC_URI=https://github.com/zetacomponents/ConsoleTools/archive/1.7.tar.gz -> zetacomponents-console-tools-1.7.tar.gz
+_eclass_exported_funcs=src_prepare:- src_test:- src_install:-
+_md5_=581e81e6de5494f5dd6bd8250bab48e1

@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare test
+DEPEND=dev-lang/php:* dev-php/theseer-Autoload test? ( dev-php/phpunit )
+DESCRIPTION=Provides functionality to recursively process PHP variables
+EAPI=6
+HOMEPAGE=https://github.com/sebastianbergmann/recursion-context
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-lang/php:*
+SLOT=0
+SRC_URI=https://github.com/sebastianbergmann/recursion-context/archive/2.0.0.tar.gz -> sebastianbergmann-recursion-context-2.0.0.tar.gz
+_eclass_exported_funcs=src_prepare:- src_test:- src_install:-
+_md5_=bc5494815a9b845b08263d840fd75738

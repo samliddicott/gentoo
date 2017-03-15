@@ -1,0 +1,14 @@
+DEFINED_PHASES=install prepare test
+DEPEND=test? ( dev-lang/php:* dev-php/fedora-autoloader dev-php/phpunit >=dev-php/symfony-console-3.0 )
+DESCRIPTION=Symfony YAML Component
+EAPI=6
+HOMEPAGE=https://github.com/symfony/yaml
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/yaml/archive/v3.2.2.tar.gz -> symfony-yaml-3.2.2.tar.gz
+_eclass_exported_funcs=src_prepare:- src_test:- src_install:-
+_md5_=bf3125bd6808e246ac6608713f36a3e9

@@ -1,0 +1,14 @@
+DEFINED_PHASES=install prepare test
+DEPEND=>=dev-php/psr-cache-1.0 >=dev-php/psr-log-1.0 test? ( dev-lang/php:* dev-php/fedora-autoloader dev-php/phpunit )
+DESCRIPTION=Symfony Cache Component
+EAPI=6
+HOMEPAGE=https://github.com/symfony/cache
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/cache/archive/v3.1.10.tar.gz -> symfony-cache-3.1.10.tar.gz
+_eclass_exported_funcs=src_prepare:- src_test:- src_install:-
+_md5_=af6d394de859e063e32b21597ac9b98d

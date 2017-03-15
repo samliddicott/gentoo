@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare test
+DEPEND=test? ( dev-lang/php:* dev-php/fedora-autoloader dev-php/phpunit >=dev-php/symfony-dependency-injection-3.0 >=dev-php/symfony-expression-language-3.0 >=dev-php/symfony-config-3.0 >=dev-php/symfony-stopwatch-3.0 >=dev-php/psr-log-1.0 )
+DESCRIPTION=Symfony EventDispatcher Component
+EAPI=6
+HOMEPAGE=https://github.com/symfony/event-dispatcher
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+SLOT=0
+SRC_URI=https://github.com/symfony/event-dispatcher/archive/v3.2.2.tar.gz -> symfony-event-dispatcher-3.2.2.tar.gz
+_eclass_exported_funcs=src_prepare:- src_test:- src_install:-
+_md5_=cd13dc7cf4c5b665e241cd8957de8e13

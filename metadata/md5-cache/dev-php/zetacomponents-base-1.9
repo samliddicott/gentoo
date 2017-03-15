@@ -1,0 +1,14 @@
+DEFINED_PHASES=install prepare test
+DEPEND=test? ( dev-lang/php:* dev-php/phpunit dev-php/zetacomponents-unit-test )
+DESCRIPTION=The Base package provides the basic infrastructure that all packages rely on
+EAPI=6
+HOMEPAGE=https://github.com/zetacomponents/Base
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=dev-lang/php:*
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/zetacomponents/Base/archive/1.9.tar.gz -> zetacomponents-base-1.9.tar.gz
+_eclass_exported_funcs=src_prepare:- src_test:- src_install:-
+_md5_=6735932d45e9f738eead17c8b332a579

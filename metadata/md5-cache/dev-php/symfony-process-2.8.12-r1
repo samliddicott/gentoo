@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare test
+DEPEND=test? ( dev-lang/php:* dev-php/fedora-autoloader dev-php/phpunit )
+DESCRIPTION=Symfony Process Component
+EAPI=6
+HOMEPAGE=https://github.com/symfony/process
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+SLOT=0
+SRC_URI=https://github.com/symfony/process/archive/v2.8.12.tar.gz -> symfony-process-2.8.12.tar.gz
+_eclass_exported_funcs=src_prepare:- src_test:- src_install:-
+_md5_=afd08be324a9dbc0843f4066ace43210

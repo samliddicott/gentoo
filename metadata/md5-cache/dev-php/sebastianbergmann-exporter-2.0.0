@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare test
+DEPEND=test? ( dev-lang/php:* dev-php/fedora-autoloader >=dev-php/sebastianbergmann-recursion-context-2.0.0 dev-lang/php:* dev-php/phpunit )
+DESCRIPTION=Provides the functionality to export PHP variables for visualization
+EAPI=6
+HOMEPAGE=https://github.com/sebastianbergmann/exporter
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader >=dev-php/sebastianbergmann-recursion-context-2.0.0
+SLOT=0
+SRC_URI=https://github.com/sebastianbergmann/exporter/archive/2.0.0.tar.gz -> sebastianbergmann-exporter-2.0.0.tar.gz
+_eclass_exported_funcs=src_prepare:- src_test:- src_install:-
+_md5_=a41cd55ffd1377b2a124c79be176acf2

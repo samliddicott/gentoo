@@ -1,0 +1,14 @@
+DEFINED_PHASES=install prepare test
+DEPEND=test? ( dev-lang/php:* dev-php/fedora-autoloader >=dev-php/doctrine-instantiator-1.0.2 >=dev-php/phpunit-php-text-template-1.2 >=dev-php/sebastianbergmann-exporter-1.2 dev-php/phpunit )
+DESCRIPTION=Mock Object library for PHPUnit
+EAPI=6
+HOMEPAGE=https://github.com/sebastianbergmann/phpunit-mock-objects
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader >=dev-php/doctrine-instantiator-1.0.2 >=dev-php/phpunit-php-text-template-1.2 >=dev-php/sebastianbergmann-exporter-1.2
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/sebastianbergmann/phpunit-mock-objects/archive/3.4.3.tar.gz -> phpunit-mock-objects-3.4.3.tar.gz
+_eclass_exported_funcs=src_prepare:- src_test:- src_install:-
+_md5_=95d4d391e3d87ceb4b8ebeaedde8fae3

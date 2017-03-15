@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare test
+DEPEND=test? ( dev-lang/php:* dev-php/phpunit dev-php/xdebug )
+DESCRIPTION=PHP File Scanner
+EAPI=6
+HOMEPAGE=https://github.com/theseer/DirectoryScanner
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-lang/php:*
+SLOT=0
+SRC_URI=https://github.com/theseer/DirectoryScanner/archive/1.3.1.tar.gz -> theseer-DirectoryScanner-1.3.1.tar.gz
+_eclass_exported_funcs=src_prepare:- src_test:- src_install:-
+_md5_=0bc4ec4f8effcc86d8a9623299cb68b6

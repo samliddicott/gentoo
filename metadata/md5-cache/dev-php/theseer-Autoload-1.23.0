@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare test
+DEPEND=test? ( dev-lang/php:* dev-php/fedora-autoloader >=dev-php/theseer-DirectoryScanner-1.3.1 >=dev-php/zetacomponents-console-tools-1.7 dev-php/phpunit >=dev-php/PHP_CodeSniffer-1.5 dev-php/xdebug )
+DESCRIPTION=A lightweight php namespace aware autoload generator and phar archive builder
+EAPI=6
+HOMEPAGE=https://github.com/theseer/Autoload
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader >=dev-php/theseer-DirectoryScanner-1.3.1 >=dev-php/zetacomponents-console-tools-1.7
+SLOT=0
+SRC_URI=https://github.com/theseer/Autoload/archive/1.23.0.tar.gz -> theseer-Autoload-1.23.0.tar.gz
+_eclass_exported_funcs=src_prepare:- src_test:- src_install:-
+_md5_=543993a27c85497fa361d33250837f5a

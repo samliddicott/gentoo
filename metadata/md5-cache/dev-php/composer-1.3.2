@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare test
+DEPEND=test? ( dev-lang/php:*[curl] >=dev-php/ca-bundle-1.0 >=dev-php/cli-prompt-1.0 dev-php/fedora-autoloader >=dev-php/json-schema-4.0 >=dev-php/jsonlint-1.4 >=dev-php/phar-utils-1.0 >=dev-php/psr-log-1.0 >=dev-php/semver-1.0 >=dev-php/spdx-licenses-1.0 >=dev-php/symfony-console-3.0 >=dev-php/symfony-filesystem-3.0 >=dev-php/symfony-finder-3.0 >=dev-php/symfony-process-3.0 dev-php/phpunit >=dev-php/phpunit-mock-objects-3.0 )
+DESCRIPTION=Dependency Manager for PHP
+EAPI=6
+HOMEPAGE=https://github.com/composer/composer
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:*[curl] >=dev-php/ca-bundle-1.0 >=dev-php/cli-prompt-1.0 dev-php/fedora-autoloader >=dev-php/json-schema-4.0 >=dev-php/jsonlint-1.4 >=dev-php/phar-utils-1.0 >=dev-php/psr-log-1.0 >=dev-php/semver-1.0 >=dev-php/spdx-licenses-1.0 >=dev-php/symfony-console-3.0 >=dev-php/symfony-filesystem-3.0 >=dev-php/symfony-finder-3.0 >=dev-php/symfony-process-3.0
+SLOT=0
+SRC_URI=https://github.com/composer/composer/archive/1.3.2.tar.gz -> composer-1.3.2.tar.gz
+_eclass_exported_funcs=src_prepare:- src_test:- src_install:-
+_md5_=9d363b61205107354063a9d5d73a6a96
