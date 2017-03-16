@@ -225,14 +225,6 @@ dev-ada/charles
 # Masked for removal on 30 days. Bug #609754.
 x11-misc/bbappconf
 
-# Michał Górny <mgorny@gentoo.org> (20 Feb 2017)
-# The Gentoo packages are roughly 300 releases behind upstream, and are
-# unmaintained. They do not build anymore, #545148, #558570, #597312.
-# Also, the first ebuild blocks python.eclass removal, #599866,
-# and is one huge QA mystery. Removal in 30 days.
-net-misc/elliptics
-net-misc/elliptics-eblob
-
 # Andreas K. Hüttel <dilfridge@gentoo.org> (19 Feb 2017)
 # Dead upstream for >3 years. Closed source. Bundles outdated
 # libraries that certainly have known security issues (e.g.,
@@ -294,30 +286,6 @@ media-libs/FusionSound
 # Replaced by dev-libs/libp11.
 # Bug#609668. Removal in 30 days.
 dev-libs/engine_pkcs11
-
-# Michał Górny <mgorny@gentoo.org> (17 Feb 2017)
-# Live ebuilds only. Committed in 2012 with no maintenance afterwards.
-# One of the last packages to block distutils.eclass removal, #599838
-# and #599840. Furthermore, lio-utils is broken, #565824. Removal
-# in 30 days.
-sys-block/lio-utils
-sys-block/rtsadmin
-
-# Thomas Deutschmann <whissi@gentoo.org> (17 Feb 2017)
-# Unpatched security vulnerability per bug #576868
-# Removal in 30 days.
-www-apps/roundup
-
-# Michał Górny <mgorny@gentoo.org> (17 Feb 2017)
-# No longer works with current Twisted versions. Abandoned. Multiple
-# ebuild issues. Removal in 30 days. Bug #449716.
-net-nntp/hellanzb
-
-# Michał Górny <mgorny@gentoo.org> (17 Feb 2017)
-# Both reported not to work with current Amazon servers and abandoned
-# upstream. Removal in 30 days. Bug #542442.
-net-misc/clamz
-net-misc/pymazon
 
 # Michał Górny <mgorny@gentoo.org> (17 Feb 2017)
 # Reported to be broken. Last real upstream activity in 2011 with
