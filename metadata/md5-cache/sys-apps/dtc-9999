@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare unpack
+DEPEND=sys-devel/bison sys-devel/flex >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Open Firmware device tree compiler
+EAPI=6
+HOMEPAGE=https://devicetree.org/ https://git.kernel.org/cgit/utils/dtc/dtc.git/
+IUSE=static-libs
+LICENSE=GPL-2
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_install:-
+_eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	git-r3	08c5be5f8bdc203ed54d5ff5fef3c34d	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+_md5_=e09f219e031d761993798257e7867b4b
