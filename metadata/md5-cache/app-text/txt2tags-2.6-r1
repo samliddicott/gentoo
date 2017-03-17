@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install postinst postrm setup
+DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[tk?] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] tk? ( dev-lang/tk ) vim-syntax? ( || ( app-editors/vim app-editors/gvim ) ) emacs? ( virtual/emacs )
+DESCRIPTION=Generate marked up documents (HTML, etc.)from a plain text file with markup
+EAPI=5
+HOMEPAGE=http://txt2tags.org/
+IUSE=emacs tk vim-syntax python_targets_python2_7
+KEYWORDS=amd64 ppc ~ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris
+LICENSE=GPL-2
+RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[tk?] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] tk? ( dev-lang/tk ) vim-syntax? ( || ( app-editors/vim app-editors/gvim ) ) emacs? ( virtual/emacs )
+REQUIRED_USE=python_targets_python2_7
+SLOT=0
+SRC_URI=https://txt2tags.googlecode.com/files/txt2tags-2.6.tgz
+_eclass_exported_funcs=pkg_postrm:- pkg_postinst:- pkg_setup:python-single-r1 src_compile:- src_install:-
+_eclasses_=elisp-common	19ff54b35acd0bf2a14831a308a57753	eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	python-single-r1	c3e54dd0dc1e70c6252f2551a55bf053	python-utils-r1	4f8aa7196c2c9a5630e66c2113ae46c3	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+_md5_=9c14e00c2d8c1b4c95a0e08197372222
