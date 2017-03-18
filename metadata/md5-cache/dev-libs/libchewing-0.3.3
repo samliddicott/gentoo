@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare test
+DEPEND=virtual/pkgconfig test? ( sys-libs/ncurses[unicode] >=dev-libs/check-0.9.4 )
+DESCRIPTION=Library for Chinese Phonetic input method
+EAPI=3
+HOMEPAGE=http://chewing.csie.net/
+IUSE=debug test static-libs
+KEYWORDS=amd64 ppc ~ppc64 x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://chewing.csie.net/download/libchewing/libchewing-0.3.3.tar.bz2
+_eclass_exported_funcs=src_prepare:- src_configure:- src_test:- src_install:-
+_eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+_md5_=aef3f4115baae5718f42474923e3a223
