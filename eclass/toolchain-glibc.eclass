@@ -1121,7 +1121,9 @@ toolchain-glibc_do_src_install() {
 	# Newer versions get fancy with libm linkage to include vectorized support.
 	# While we don't really need a ldscript here, portage QA checks get upset.
 	if [[ -e ${ED}$(alt_usrlibdir)/libm-${PV}.a ]] ; then
-		dosym ../../$(get_libdir)/libm-${PV}.so $(alt_usrlibdir)/libm-${PV}.so
+		sed -i "s@\(libm-${PV}.a\)@${P}/\1@" "${ED}"$(alt_usrlibdir)/libm.a || die
+		dodir $(alt_usrlibdir)/${P}
+		mv "${ED}"$(alt_usrlibdir)/libm-${PV}.a "${ED}"$(alt_usrlibdir)/${P}/libm-${PV}.a || die
 	fi
 
 	# We'll take care of the cache ourselves
