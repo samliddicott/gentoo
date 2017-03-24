@@ -11140,7 +11140,7 @@ games-puzzle/atomix 3.18.0 3.18.0-r1 3.20.0 3.22.0: Build molecules, from simple
 games-puzzle/bastet 0.43: a simple, evil, ncurses-based Tetris(R) clone
 games-puzzle/biniax2 1.30: Logic game with arcade and tactics modes
 games-puzzle/braincurses 0.5b: An ncurses-based mastermind clone
-games-puzzle/brainparty 0.61: A puzzle-solving, brain-stretching game for all ages
+games-puzzle/brainparty 0.61 0.61-r1: A puzzle-solving, brain-stretching game for all ages
 games-puzzle/brainworkshop 4.8.4: Short-term-memory training N-Back game
 games-puzzle/bubble-chains 0.1.1: Arcade-puzzle game
 games-puzzle/color-lines 0.6: Color lines game written with SDL with bonus features
