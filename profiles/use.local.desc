@@ -2963,7 +2963,6 @@ games-board/pioneers:help - Enable gnome ingame help via scrollkeeper
 games-board/pysolfc:extra-cardsets - Install extra cardsets
 games-board/pysolfc:sound - Enable sound support using dev-python/pygame
 games-board/spider:athena - Enable athena widgets
-games-board/stockfish:armv7 - Build for armv7; enables PIE
 games-board/stockfish:general-32 - Generic unoptimized 32-bits build
 games-board/stockfish:general-64 - Generic unoptimized 64-bits build
 games-board/stockfish:optimize - Enable upstream -O3 optimizations (default enabled)
@@ -4178,7 +4177,6 @@ media-libs/sdl2-mixer:wav - support WAVE files
 media-libs/sge:image - enable sdl-image support
 media-libs/silgraphite:pango - Enables the pango-graphite pango module.
 media-libs/spandsp:fixed-point - Enable fixed point support
-media-libs/speex:armv5te - Enables optimizations for armv5te processors.
 media-libs/speex:utils - Enables speex commandline utilities (speexenc, speexdec).
 media-libs/speex:vbr - Enable VBR support.
 media-libs/svgalib:kernel-helper - Build the helper kernel module
