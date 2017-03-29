@@ -5333,7 +5333,7 @@ dev-ml/reactiveData 0.2.1 9999: Functional reactive programming with incremental
 dev-ml/res 4.0.7: Resizable Array and Buffer modules for O'Caml
 dev-ml/result 1.2: Compat result type
 dev-ml/sequence 0.9 0.10: Simple sequence (iterator) datatype and combinators
-dev-ml/sexplib 113.00.00 113.33.00: Library for automated conversion of OCaml-values to and from S-expressions
+dev-ml/sexplib 113.33.00: Library for automated conversion of OCaml-values to and from S-expressions
 dev-ml/stringext 1.4.3: Extra string functions for OCaml
 dev-ml/textutils 113.33.00 113.33.03: Text output utilities
 dev-ml/topkg 0.8.1 0.9.0: The transitory OCaml software packager
