@@ -5024,6 +5024,7 @@ dev-libs/qtkeychain 0.7.0: Qt API for storing passwords securely
 dev-libs/quantlib 1.6 1.7.1: A comprehensive software framework for quantitative finance
 dev-libs/quazip 0.7.2-r1: A simple C++ wrapper over Gilles Vollant's ZIP/UNZIP package
 dev-libs/radlib 2.12.0-r1: Rapid Application Development Library
+dev-libs/rapidjson 1.1.0 9999: A fast JSON parser/generator for C++ with both SAX/DOM style API
 dev-libs/rapidxml 1.13 1.13-r1: Fast XML parser
 dev-libs/rasqal 0.9.29 0.9.32: library that handles Resource Description Framework (RDF)
 dev-libs/re2 0.2016.05.01 0.2016.11.01-r1 0.2017.03.01: An efficent, principled regular expression library
