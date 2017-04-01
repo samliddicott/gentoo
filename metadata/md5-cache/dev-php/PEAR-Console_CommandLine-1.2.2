@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare test
+DEPEND=test? ( dev-lang/php:* dev-php/PEAR-PEAR )
+DESCRIPTION=A full-featured command-line options and arguments parser
+EAPI=6
+HOMEPAGE=http://pear.php.net/package/Console_CommandLine
+IUSE=examples test
+KEYWORDS=amd64 arm ~hppa ~ppc64 x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/PEAR-PEAR
+SLOT=0
+SRC_URI=http://download.pear.php.net/package/Console_CommandLine-1.2.2.tgz
+_eclass_exported_funcs=src_prepare:- src_test:- src_install:-
+_md5_=bfc991cb9071a2038893aa79518dffa3
