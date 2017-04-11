@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare
+DEPEND=pam? ( virtual/pam )
+DESCRIPTION=Modular Calendar Access Library
+EAPI=5
+HOMEPAGE=http://mcal.chek.com/
+IUSE=pam
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/libmcal/libmcal-0.7.tar.gz mirror://sourceforge/libmcal/mcaldrivers-0.9.tar.gz
+_eclass_exported_funcs=pkg_postinst:- src_prepare:- src_configure:- src_compile:- src_install:-
+_eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+_md5_=a21c48d20b14dc7d9fbd1cf9e047962f
