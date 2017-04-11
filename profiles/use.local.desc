@@ -2012,6 +2012,7 @@ dev-libs/efl:bmp - Enable WBMP image loader
 dev-libs/efl:drm - Enable DRM engine
 dev-libs/efl:eet - Enable Eet image loader
 dev-libs/efl:egl - Enable EGL rendering
+dev-libs/efl:elput - Enable internal generic input library
 dev-libs/efl:fribidi - Enable bidirectional text support
 dev-libs/efl:gles - Enable the OpenGL ES GL implementation
 dev-libs/efl:glib - Enable dev-libs/glib support
