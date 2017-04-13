@@ -4154,11 +4154,9 @@ dev-java/jcodings 1.0.4 1.0.5 1.0.11: Byte-based encoding support library for Ja
 dev-java/jcommander 1.48: Command line parsing framework for Java
 dev-java/jcommon 1.0.23: A collection of useful classes used by JFreeChart, JFreeReport and others
 dev-java/jcs 2.0: A distributed caching system for server-side Java applications
-dev-java/jdbc-informix 3.00.3: JDBC Type 4 Drivers for Informix
 dev-java/jdbc-jaybird 2.2.9: JDBC Type 2 and 4 drivers for Firebird SQL server
 dev-java/jdbc-mssqlserver 4.0.2206.100: JDBC driver for Microsoft SQL Server
 dev-java/jdbc-mysql 5.1.26: MySQL JDBC driver
-dev-java/jdbc-oracle-bin 9.2.0.8 10.1.0.5 10.2.0.3 10.2.0.4: JDBC 3.0 Drivers for Oracle
 dev-java/jdbc-postgresql 9.2_p1003 9.2_p1004 9.3_p1100 9.4_p1205 9.4_p1206: JDBC Driver for PostgreSQL
 dev-java/jdbc2-stdext 2.0-r3: A standard set of libs for Server-Side JDBC support
 dev-java/jdbm 0.12-r2: Jdbm aims to be for Java what GDBM is for Perl, Python, C, ...
@@ -4409,7 +4407,6 @@ dev-java/stax2-api 4.0.0 4.0.0-r1: Extended Stax (STandard Api for Xml procesing
 dev-java/stringtemplate 3.2.1-r1 4.0.8: A Java template engine
 dev-java/sun-dtdparser 1.0: Sun DTDParser
 dev-java/sun-httpserver-bin 2.0.1-r1: Sun sun.net.httpserver classes
-dev-java/sun-j2ee-deployment-bin 1.1-r2: J2EE Application Deployment Specification
 dev-java/sun-jacc-api 20070102: Java Authorization Contract for Containers
 dev-java/sun-jaf 1.1.1: Sun's JavaBeans Activation Framework (JAF)
 dev-java/sun-jai-bin 1.1.3 1.1.3-r1: JAI is a class library for managing images
@@ -15958,7 +15955,6 @@ sci-biology/kalign 2.03-r2: Global and progressive multiple sequence alignment
 sci-biology/lagan 2.0-r3: The LAGAN suite of tools for whole-genome multiple alignment of genomic DNA
 sci-biology/last 230 299: Genome-scale comparison of biological sequences
 sci-biology/mafft 7.050 7.215 7.305: Multiple sequence alignments using a variety of algorithms
-sci-biology/mammoth 1.0-r1: MAtching Molecular Models Obtained from THeory
 sci-biology/maq 0.7.1-r2: Mapping and Assembly with Qualities, mapping NGS reads to reference genomes
 sci-biology/maqview 0.2.5-r3: GUI for sci-biology/maq, a short read mapping assembler
 sci-biology/mcl 08.312 12.135 14.137: A Markov Cluster Algorithm implementation
@@ -16048,8 +16044,6 @@ sci-calculators/wcalc 2.5: A flexible command-line scientific calculator
 sci-chemistry/GromacsWrapper 0.3.1 0.3.2 0.5.1: Python framework for Gromacs
 sci-chemistry/ParmEd 2.7.3: Parameter/topology editor and molecular simulator
 sci-chemistry/PyMca 4.6.2-r1: X-ray Fluorescence Toolkit
-sci-chemistry/acpype 0.1.0: AnteChamber PYthon Parser interfacE
-sci-chemistry/ambertools 1.5-r1: A suite for carrying out complete molecular mechanics investigations
 sci-chemistry/apbs 1.4.1-r2: Evaluation of electrostatic properties of nanoscale biomolecular systems
 sci-chemistry/aqua 3.2-r2: Program suite in this distribution calculates restraint violations
 sci-chemistry/aria 2.3.2_p20130826: Automated NOE assignment and NMR structure calculation
@@ -16077,14 +16071,12 @@ sci-chemistry/eden 5.3-r2: A crystallographic real-space electron-density refine
 sci-chemistry/elem 1.0.3-r1 1.0.3-r2: periodic table of the elements
 sci-chemistry/freeon 1.0.8-r1 1.0.10: An experimental suite of programs for linear scaling quantum chemistry
 sci-chemistry/gabedit 2.4.6 2.4.7 2.4.8: GUI for computational chemistry packages
-sci-chemistry/gamess 20110811.1: A powerful quantum chemistry package
 sci-chemistry/gamessq 1.2: Simple job manager for GAMESS-US
 sci-chemistry/gelemental 1.2.0-r1: Periodic table viewer with detailed information on the chemical elements
 sci-chemistry/ghemical 2.99.2-r2 3.0.0: Chemical quantum mechanics and molecular mechanics
 sci-chemistry/gperiodic 2.0.10-r2 3.0.1: Periodic table application for Linux
 sci-chemistry/gromacs 4.6.9999 5.0.4 5.0.9999 5.1.3 5.1.9999 2016 2016.1 2016.2 2016.3 2016.9999 9999: The ultimate molecular dynamics simulation package
 sci-chemistry/gsim 21.3 21.3-r1: Visualisation and processing of experimental and simulated NMR spectra
-sci-chemistry/gtk-gamess 2.00: GUI for GAMESS, a General Atomic and Molecular Electronic Structure System
 sci-chemistry/hollow 1.2-r1: Production of surface images of proteins
 sci-chemistry/icm 3.7.2e 3.7.3b: MolSoft LCC ICM Pro
 sci-chemistry/jmol 12.0.45-r1 12.2.27-r1: Java molecular viever for 3-D chemical structures
@@ -16092,7 +16084,6 @@ sci-chemistry/ksdssp 040728 040728-r1: An open source implementation of sci-chem
 sci-chemistry/mars 1.2: Robust automatic backbone assignment of proteins
 sci-chemistry/massxpert 3.4.0: Software suite to predict/analyze mass spectrometric data on (bio)polymers
 sci-chemistry/mdanalysis 0.7.7: A python library to analyze and manipulate molecular dynamics trajectories
-sci-chemistry/mead 2.2.7 2.2.7-r1: Macroscopic Electrostatics with Atomic Detail
 sci-chemistry/mm-align 20120321: Protein Complex Structural Alignment
 sci-chemistry/molden 4.8-r2 5.0 5.5: Display molecular density from GAMESS-UK, GAMESS-US, GAUSSIAN and Mopac/Ampac
 sci-chemistry/moldy 2.16e-r2: Molecular dynamics simulations platform
