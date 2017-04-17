@@ -3121,7 +3121,7 @@ dev-embedded/scratchbox-devkit-qemu 0.10.0.0.10 0.11.50.0.5 0.12.50.0.3: A cross
 dev-embedded/scratchbox-devkit-svn 1.0: A cross-compilation toolkit for embedded Linux application development
 dev-embedded/scratchbox2 2.0-r1: A cross-compilation toolkit for embedded Linux application development
 dev-embedded/sdcc 2.5.0_p20060502 2.6.0 2.7.0 2.8.0 2.9.0 3.5.0 9999: Small device C compiler (for various microprocessors)
-dev-embedded/sgpp-lite-arm-eabi-bin 2010.09.51: Regular, validated releases of the GNU Toolchain for arm processors
+dev-embedded/sgpp-lite-arm-eabi-bin 2010.09.51 2014.05.28: Regular, validated releases of the GNU Toolchain for arm processors
 dev-embedded/sgpp-lite-arm-linux-bin 2010.09.50: Regular, validated releases of the GNU Toolchain for arm processors
 dev-embedded/sgpp-lite-arm-uclinux-bin 2010.09.58: Regular, validated releases of the GNU Toolchain for arm processors
 dev-embedded/smdk-dltool 0.20-r3 0.20-r4: Tool to communicate with Samsung SMDK boards
