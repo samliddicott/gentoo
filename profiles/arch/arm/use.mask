@@ -65,7 +65,6 @@ tracker
 xindy
 lyx
 lasi
-schroedinger
 hardened
 frei0r
 libvirt
@@ -89,7 +88,6 @@ ieee1394
 pm-utils
 darcs
 toolame
-ladspa
 ggi
 nut
 fits
