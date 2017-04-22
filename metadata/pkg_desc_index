@@ -7327,7 +7327,7 @@ dev-python/biplist 0.8 0.9 1.0.1: A binary plist parser/generator for Python
 dev-python/bitarray 0.8.1: efficient arrays of booleans -- C extension
 dev-python/bitstring 3.1.5: A pure Python module for creation and analysis of binary data
 dev-python/bjoern 1.3.2 1.4.2 1.4.3: A screamingly fast Python WSGI server written in C
-dev-python/blaze 0.7.1 0.8.0 0.8.2 0.9.1 0.10.0 0.10.1 0.10.2 0.11.2: Next generation Python numpy
+dev-python/blaze 0.10.2 0.11.2: Next generation Python numpy
 dev-python/bleach 1.4.3 1.5.0: an easy whitelist-based HTML-sanitizing tool
 dev-python/blessings 1.6 1.6-r1: A thin, practical wrapper around terminal coloring, styling, and positioning
 dev-python/blinker 1.3 1.4: Fast, simple object-to-object and broadcast signaling
@@ -7335,7 +7335,6 @@ dev-python/blockcanvas 4.0.3-r1: Enthought Tool Suite: Numerical modeling
 dev-python/blockdiag 1.5.3-r1: blockdiag generates block-diagram image from text
 dev-python/blosc 1.2.8 1.4.4 1.5.0: High performance compressor optimized for binary data
 dev-python/bluelet 0.2.0: Module for pure Python asynchronous I/O using coroutines
-dev-python/blz 0.6.2: Chunked, compressed, Python data container for memory and disk
 dev-python/bokeh 0.11.1 0.12.4: Statistical and interactive HTML plots for Python
 dev-python/boto 2.27.0 2.31.1 2.34.0 2.35.1 2.38.0 2.39.0 2.40.0 2.41.0 2.42.0: Amazon Web Services API
 dev-python/boto3 1.3.1 1.4.0 1.4.1: The AWS SDK for Python
