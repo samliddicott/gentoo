@@ -1967,6 +1967,7 @@ dev-libs/actor-framework:opencl - Compiles against the provided opencl implement
 dev-libs/actor-framework:riac - Runtime inspection and configuration
 dev-libs/actor-framework:static - Provides a static build
 dev-libs/actor-framework:test - Builds the provided unit tests
+dev-libs/actor-framework:tools - Provide caf-vec.cpp and caf-run.cpp
 dev-libs/antlr-c:debugger - Compiles debug info into the library
 dev-libs/appstream:apt - Enables Debians APT support
 dev-libs/appstream-glib:stemmer - Add word stemming via dev-libs/snowball-stemmer.
@@ -5085,14 +5086,14 @@ net-analyzer/barnyard2:gre - Enable GRE support
 net-analyzer/barnyard2:mpls - Enable support for mpls networks
 net-analyzer/bro:broccoli - Enable the Bro Client Communication Library
 net-analyzer/bro:broctl - An interactive shell for managing Bro installations
-net-analyzer/bro:broker - Bro's new Messaging Library (experimental)
+net-analyzer/bro:broker - Bro's new Messaging Library
 net-analyzer/bro:geoip - Enable support for Maxmind's GeoIP library
 net-analyzer/bro:ipv6 - Support for mobile IPv6
 net-analyzer/bro:jemalloc - Support for the Jemalloc allocator
 net-analyzer/bro:python - Enable Python bindings
 net-analyzer/bro:ruby - Enable Ruby bindings (deprecated)
 net-analyzer/bro:tcmalloc - Enable Google's Performance Analysis Tools
-net-analyzer/bro:tools - Small auxiliary tools for Bro
+net-analyzer/bro:tools - Small auxiliary tools for Bro (currently only bro-cut for log file mangling)
 net-analyzer/bwm-ng:csv - Enable csv output
 net-analyzer/bwm-ng:html - Enable html output
 net-analyzer/cacti:doc - install html documentation
