@@ -7079,7 +7079,7 @@ dev-php/agavi 1.0.8: PHP MVC application framework
 dev-php/awl 0.56: Andrew McMillan's Web Libraries
 dev-php/ca-bundle 1.0.3: Find the system CA bundle or fall back to the Mozilla one
 dev-php/cli-prompt 1.0.0: Allows you to prompt for user input on the command line
-dev-php/composer 1.3.1: Dependency Manager for PHP
+dev-php/composer 1.4.1: Dependency Manager for PHP
 dev-php/cphplib 0.51: Cute PHP Library (cphplib)
 dev-php/doctrine 1.2.5 2.4.6: An object relational mapper for PHP5
 dev-php/doctrine-instantiator 1.0.5: Utility to instantiate objects in PHP without invoking their constructors
@@ -7184,11 +7184,13 @@ dev-php/stringparser_bbcode 0.3.3-r1: A PHP class to parse BB codes
 dev-php/suhosin 0.9.38-r1: Suhosin is an advanced protection system for PHP installations
 dev-php/symfony-config 2.8.15-r1: Symfony Config Component
 dev-php/symfony-console 2.7.9-r1: Subtree split of the Symfony Console Component
+dev-php/symfony-debug 3.2.6: Symfony Debug Component
 dev-php/symfony-dependency-injection 2.8.15: Symfony DependencyInjection Component
 dev-php/symfony-event-dispatcher 2.1.0-r1: Symfony EventDispatcher Component
-dev-php/symfony-filesystem 2.7.20: Symfony Filesystem Component
-dev-php/symfony-finder 2.7.20: Symfony Finder Component
-dev-php/symfony-process 2.8.12: Symfony Process Component
+dev-php/symfony-filesystem 3.2.6: Symfony Filesystem Component
+dev-php/symfony-finder 3.2.6: Symfony Finder Component
+dev-php/symfony-polyfill-mbstring 1.3.0: Provides a partial, native PHP implementation for the Mbstring extension
+dev-php/symfony-process 3.2.6: Symfony Process Component
 dev-php/symfony-yaml 2.1.0: Symfony YAML Component
 dev-php/tcpdf 6.2.13-r1: TCPDF is a FLOSS PHP class for generating PDF documents
 dev-php/twig 1.31.0: PHP templating engine with syntax similar to Django
