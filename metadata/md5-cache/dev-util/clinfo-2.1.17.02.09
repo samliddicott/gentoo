@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Tool to print information about all available OpenCL platforms and devices
+EAPI=6
+HOMEPAGE=https://github.com/Oblomov/clinfo
+KEYWORDS=~amd64 ~x86
+LICENSE=CC0-1.0
+RDEPEND=virtual/opencl
+SLOT=0
+SRC_URI=https://github.com/Oblomov/clinfo/archive/2.1.17.02.09.tar.gz -> clinfo-2.1.17.02.09.tar.gz
+_eclass_exported_funcs=src_install:-
+_md5_=0d9cde3baf99d41d20c105788a581768
