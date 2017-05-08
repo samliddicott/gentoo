@@ -7419,7 +7419,7 @@ dev-python/configparser 3.3.0.2 3.5.0: Backport of Python-3 built-in configparse
 dev-python/configshell 1.6 9999: ConfigShell Community Edition for target_core_mod/ConfigFS
 dev-python/configshell-fb 1.1.21 1.1.22: A Python library for building configuration shells
 dev-python/constantly 15.1.0: Symbolic constants in Python
-dev-python/construct 2.5.2: A powerful declarative parser for binary data
+dev-python/construct 2.5.2 2.8.12: A powerful declarative parser for binary data
 dev-python/contextlib2 0.5.4: Backports and enhancements for the contextlib module
 dev-python/cookies 2.2.1: Friendlier RFC 6265-compliant cookie parser/renderer
 dev-python/corner 2.0.1: Make scatter matrix corner plots
