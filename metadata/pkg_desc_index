@@ -13590,7 +13590,7 @@ media-radio/xdx 2.4.2 2.4.3 2.5.0: a GTK+ TCP/IP DX-cluster and ON4KST chat clie
 media-radio/xlog 2.0.14 2.0.14-r1: An amateur radio logging program
 media-radio/xwxapt 2.4 2.7 2.9: GTK+ linux weather satellite APT image decoder software
 media-sound/SmarTagger 0.1-r2: Perl script for renaming and tagging mp3s
-media-sound/a2jmidid 8-r1: Daemon for exposing legacy ALSA sequencer applications in JACK MIDI system
+media-sound/a2jmidid 8-r2: Daemon for exposing legacy ALSA sequencer applications in JACK MIDI system
 media-sound/aacgain 1.9 1.9-r1: AACGain normalizes the volume of digital music files using the Replay Gain algorithm
 media-sound/aacplusenc 0.17.5: High-Efficiency AAC (AAC+) Encoder
 media-sound/abcde 2.5.4-r1 2.7 2.7.1 2.7.2 2.8.1: A command line CD encoder
