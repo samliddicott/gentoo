@@ -13247,7 +13247,7 @@ media-libs/zimg 2.5 2.5.1 9999: Scaling, colorspace conversion, and dithering li
 media-libs/zita-alsa-pcmi 0.2.0: Provides easy access to ALSA PCM devices
 media-libs/zita-convolver 2.0.0-r1 3.1.0: C++ library implementing a real-time convolution matrix
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
-media-plugins/alsa-plugins 1.0.29 1.0.29-r1 1.1.1: ALSA extra plugins
+media-plugins/alsa-plugins 1.0.29 1.0.29-r2 1.1.1-r1: ALSA extra plugins
 media-plugins/alsaequal 0.6-r2: a real-time adjustable equalizer plugin for ALSA
 media-plugins/amb-plugins 0.8.1 0.8.1-r1: AMB-plugins ladspa plugin package. Filters by Fons Adriaensen
 media-plugins/ams-lv2 1.1.0: A port of the AMS internal modules to LV2 plugins to create modular synthesizers
