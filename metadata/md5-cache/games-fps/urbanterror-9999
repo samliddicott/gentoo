@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm preinst pretend unpack
+DEPEND=client? ( media-libs/libsdl2[X,sound,joystick,opengl,video] mumble? ( media-sound/mumble ) openal? ( media-libs/openal ) opus? ( media-libs/opusfile ) vorbis? ( media-libs/libogg media-libs/libvorbis ) ) curl? ( net-misc/curl ) ~games-fps/urbanterror-data-4.3.2 sys-libs/zlib[minizip] virtual/jpeg:0 >=sys-apps/sed-4 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Hollywood tactical shooter based on the ioquake3 engine
+EAPI=6
+HOMEPAGE=http://urbanterror.info
+IUSE=+altgamma +client +curl debug mumble openal +opus server voip vorbis
+LICENSE=GPL-2
+RDEPEND=client? ( media-libs/libsdl2[X,sound,joystick,opengl,video] mumble? ( media-sound/mumble ) openal? ( media-libs/openal ) opus? ( media-libs/opusfile ) vorbis? ( media-libs/libogg media-libs/libvorbis ) ) curl? ( net-misc/curl ) ~games-fps/urbanterror-data-4.3.2 sys-libs/zlib[minizip] virtual/jpeg:0
+REQUIRED_USE=|| ( client server )
+SLOT=0
+_eclass_exported_funcs=pkg_pretend:- pkg_preinst:- pkg_postrm:- pkg_postinst:- src_unpack:git-r3 src_compile:- src_install:-
+_eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	flag-o-matic	61cad4fb5d800b29d484b27cb033f59b	git-r3	08c5be5f8bdc203ed54d5ff5fef3c34d	gnome2-utils	fe8e9099c6fc74a40946623c593c7236	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	xdg-utils	178a84136f416b8ea1a857717eacd21c
+_md5_=7cb119aead5eecc5349a436d9ddea943
