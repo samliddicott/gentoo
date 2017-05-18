@@ -441,7 +441,7 @@ app-benchmarks/tiobench 0.3.3-r2 0.4.2: Portable, robust, fully-threaded I/O ben
 app-benchmarks/volanomark 2.5.0.9: Java server benchmark utility
 app-benchmarks/wrk 3.1.2: A modern HTTP benchmarking tool
 app-cdr/acetoneiso 2.3: a feature-rich and complete software application to manage CD/DVD images
-app-cdr/b5i2iso 0.2: BlindWrite image to ISO image file converter
+app-cdr/b5i2iso 0.2 0.2-r1: Convert CD images from b5i (BlindWrite) to iso
 app-cdr/backlite 1.0.3-r1: backlite is a pure QT4 version of k9copy
 app-cdr/bashburn 3.1.0: A shell script for burning optical media
 app-cdr/bchunk 1.2.0-r1: Converts bin/cue CD-images to iso+wav/cdr
