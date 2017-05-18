@@ -445,7 +445,7 @@ app-cdr/b5i2iso 0.2: BlindWrite image to ISO image file converter
 app-cdr/backlite 1.0.3-r1: backlite is a pure QT4 version of k9copy
 app-cdr/bashburn 3.1.0: A shell script for burning optical media
 app-cdr/bchunk 1.2.0-r1: Converts bin/cue CD-images to iso+wav/cdr
-app-cdr/bin2iso 19b-r2: converts RAW format (.bin/.cue) files to ISO/WAV format
+app-cdr/bin2iso 19b-r3: Convert CD images from bin/cue to iso+wav
 app-cdr/brasero 3.12.1 3.12.1-r1: CD/DVD burning application for the GNOME desktop
 app-cdr/burn-cd 1.7.4 1.8.0-r1 1.8.1: Smart console frontend for the cdrkit/cdrtools & dvd+rw-tools
 app-cdr/burncdda 1.8.0: Console app for copying burning audio cds
