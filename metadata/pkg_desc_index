@@ -4878,7 +4878,7 @@ dev-libs/libmelf 0.4.0-r1: libmelf is a library interface for manipulating ELF o
 dev-libs/libmemcache 1.4.0_rc2-r1: C API for memcached
 dev-libs/libmemcached 0.50 1.0.14 1.0.17-r3 1.0.17-r4 1.0.18 1.0.18-r1 1.0.18-r2 1.0.18-r3: a C client library to the memcached server
 dev-libs/libmimedir 0.5.1: Library for manipulating MIME directory profiles (RFC2425)
-dev-libs/libmirage 3.0.3 3.0.4: CD and DVD image access library
+dev-libs/libmirage 3.0.3 3.0.4 3.0.4-r1: CD and DVD image access library
 dev-libs/libmix 2.05-r7: Programs Crypto/Network/Multipurpose Library
 dev-libs/libmodbus 3.1.2 3.1.4: Modbus library which supports RTU communication over a serial line or a TCP link
 dev-libs/libmoe 1.5.8-r3: Multi octet character encoding handling library
