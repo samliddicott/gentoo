@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install test
+DEPEND=app-arch/unzip
+DESCRIPTION=CD EDC/ECC code (un)stripper
+EAPI=6
+HOMEPAGE=https://web.archive.org/web/20091104002036/www.neillcorlett.com/ecm
+IUSE=test
+KEYWORDS=~amd64 ~x86 ~arm ~mips ~ppc ~ppc64 ~amd64-linux ~x86-linux ~x64-macos
+LICENSE=GPL-2+
+SLOT=0
+SRC_URI=https://web.archive.org/web/20091021035854/www.neillcorlett.com/downloads/ecm100.zip test? ( https://yegortimoshenko.s3.amazonaws.com/ecm-test.bin )
+_eclass_exported_funcs=src_compile:- src_test:- src_install:-
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_md5_=2b09ed78d18169f76ce567c58c6d7e2c
