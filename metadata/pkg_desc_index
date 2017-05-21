@@ -11498,7 +11498,7 @@ games-util/lutris 0.3.6.3: Gaming platform for GNU/Linux
 games-util/mcrcon 0.0.5 0.0.5-r1: Remote connection client for Minecraft servers
 games-util/nml 0.4.2-r1 0.4.4 0.4.4-r1: Compiler of NML files into grf/nfo files
 games-util/pogo-manager-bin 0.1.6 0.1.7: Pokemon Go manager
-games-util/pyfa 1.21.3 9999: Python Fitting Assistant - a ship fitting application for EVE Online
+games-util/pyfa 1.28.1 9999: Python Fitting Assistant - a ship fitting application for EVE Online
 games-util/qjoypad 4.1.0: Translate gamepad/joystick input into key strokes/mouse actions in X
 games-util/qstat 2.11: Server statics collector supporting many FPS games
 games-util/ucon64 2.0.0: The backup tool and wonderful emulator's Swiss Army knife program
