@@ -8087,7 +8087,7 @@ dev-python/pgmagick 0.6: Yet another boost.python based wrapper for GraphicsMagi
 dev-python/pgpdump 1.5: PGP packet parser library
 dev-python/phonenumbers 7.2.3 7.2.8: Python port of Google's libphonenumber
 dev-python/photutils 0.3 0.3.1: Python package for image astronomical photometry
-dev-python/pickleshare 0.7.3 0.7.4: A small 'shelve' like datastore with concurrency support
+dev-python/pickleshare 0.7.3 0.7.4-r1: A small 'shelve' like datastore with concurrency support
 dev-python/pid 2.1.1: Pidfile featuring stale detection and file-locking
 dev-python/piddle 1.0.15-r1: Cross-media, cross-platform 2D graphics package
 dev-python/pika 0.10.0: Pure-Python implementation of the AMQP
