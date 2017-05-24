@@ -4783,7 +4783,7 @@ dev-libs/libcdio-paranoia 0.90_p1-r1 0.93_p1 0.93_p1-r1 0.94_p1-r1: an advanced 
 dev-libs/libcec 3.1.0-r1 4.0.2: Library for communicating with the Pulse-Eight USB HDMI-CEC Adaptor
 dev-libs/libcgroup 0.41 0.41-r4: Tools and libraries to configure and manage kernel control groups
 dev-libs/libchewing 0.3.3 0.3.3-r1 0.4.0-r1: Library for Chinese Phonetic input method
-dev-libs/libclc 0.1.0_pre20150305 0.2.0_pre20151006 0.2.0_pre20160209 0.2.0_pre20160921 0.2.0_pre20170118: OpenCL C library
+dev-libs/libclc 0.2.0_pre20160209 0.2.0_pre20160921 0.2.0_pre20170118: OpenCL C library
 dev-libs/libcli 1.9.4-r1 1.9.7: Cisco-style (telnet) command-line interface library
 dev-libs/libclsync 0.4.1 0.4.2: Control and monitoring library for clsync
 dev-libs/libconfig 1.5: Libconfig is a simple library for manipulating structured configuration files
@@ -10377,7 +10377,7 @@ dev-util/idea-ultimate 2017.1.2.171.4249.39: A complete toolset for web, mobile 
 dev-util/idutils 4.2 4.5 4.6: Fast, high-capacity, identifier database tool
 dev-util/igprof 5.9.11: Ignominous Profiler for analysing application memory and performance characteristics
 dev-util/imediff2 1.1.2-r3: An interactive, user friendly 2-way merge tool in text mode
-dev-util/include-what-you-use 3.5 3.6 3.7-r1 3.8 3.9: Find unused include directives in C/C++ programs
+dev-util/include-what-you-use 3.9: Find unused include directives in C/C++ programs
 dev-util/indent 2.2.11-r1: Indent program source files
 dev-util/intel-ocl-sdk 2.0.31360 4.4.0.117-r1: Intel's implementation of the OpenCL standard
 dev-util/intltool 0.50.2-r1 0.51.0 0.51.0-r1: Internationalization Tool Collection
@@ -17578,7 +17578,7 @@ sys-devel/bison 1.875d 2.4.3 2.7.1 3.0.4-r1: A general-purpose (yacc-compatible)
 sys-devel/bmake 20160926 20160926-r1 20161126 20161126-r1 20161212 20170201 20170421: NetBSD's portable make
 sys-devel/boost-m4 0.4 0.4-r1 0.4_p20160328: Another set of autoconf macros for compiling against boost
 sys-devel/byfl 1.4-r1 1.5 9999: Compiler-based Application Analysis
-sys-devel/clang 3.4.2-r100 3.5.2-r100 3.6.2-r100 3.7.1-r100 3.8.1-r100 3.9.0-r100 3.9.1-r100 4.0.0-r2 9999: C language family frontend for LLVM
+sys-devel/clang 3.4.2-r100 3.5.2-r100 3.6.2-r100 3.7.1-r100 3.8.1-r100 3.9.1-r100 4.0.0-r2 9999: C language family frontend for LLVM
 sys-devel/clang-runtime 3.9.0 3.9.1 4.0.0 9999: Meta-ebuild for clang runtime libraries
 sys-devel/cons 2.2.0: Extensible perl-based build utility
 sys-devel/crossdev 20151026-r1 20160602 20160602-r1 99999999: Gentoo Cross-toolchain generator
@@ -17599,7 +17599,7 @@ sys-devel/icecream 0.9.7-r1 1.0.0-r1: icecc is a program for distributed compili
 sys-devel/kgcc64 3.4.6 4.1.2 4.2.4 4.3.5 4.4.5 4.4.6 4.5.3 4.5.4 4.6.4 4.7.3 4.7.4 4.8.3 4.8.5 4.9.4 5.4.0 6.3.0: 64bit kernel compiler
 sys-devel/libtool 2.4.6-r2 2.4.6-r3 2.4.6-r4 9999: A shared library tool for developers
 sys-devel/lld 4.0.0 9999: The LLVM linker (link editor)
-sys-devel/llvm 3.4.2-r100 3.5.2 3.6.2 3.7.1-r3 3.8.1 3.8.1-r2 3.9.0-r1 3.9.1 3.9.1-r1 4.0.0-r2 9999: Low Level Virtual Machine
+sys-devel/llvm 3.4.2-r100 3.5.2-r100 3.6.2-r100 3.7.1-r3 3.8.1-r2 3.9.1-r1 4.0.0-r2 9999: Low Level Virtual Machine
 sys-devel/llvmgold 4 5: LLVMgold plugin symlink for autoloading
 sys-devel/m4 1.4.17 1.4.18: GNU macro processor
 sys-devel/make 3.80-r4 3.81-r2 3.82-r4 4.0-r1 4.1-r1 4.2.1 4.2.1-r1: Standard tool to compile source trees
@@ -18443,7 +18443,7 @@ www-plugins/gecko-mediaplayer 1.0.8 1.0.9: A browser plugin that uses GNOME MPla
 www-plugins/gnash 0.8.10_p20160329-r1: GNU Flash movie player that supports many SWF v7,8,9 features
 www-plugins/google-talkplugin 5.41.0.0 5.41.3.0 9999: Video chat browser plug-in for Google Talk
 www-plugins/kpartsplugin 20120723-r2: Plugin using KDE's KParts technology to embed file viewers into non-KDE browsers
-www-plugins/lightspark 0.7.2_p20150318 0.7.2_p20160107 9999: High performance flash player
+www-plugins/lightspark 0.7.2_p20160107 9999: High performance flash player
 www-plugins/mozplugger 2.1.6: Streaming media plugin for Mozilla, based on netscape-plugger
 www-plugins/pdfjs 1.7.225: A PDF reader in JavaScript
 www-plugins/pipelight 0.2.8.2 9999: Wine-based wrapper for running Windows plugins on POSIX systems
