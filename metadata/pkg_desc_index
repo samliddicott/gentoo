@@ -17701,6 +17701,7 @@ sys-fs/clamfs 1.0.1-r2: A FUSE-based user-space file system with on-access anti-
 sys-fs/cloudfuse 1.0: A FUSE filesystem for Rackspace's Cloud Files
 sys-fs/copyfs 1.0.1: fuse-based filesystem for maintaining configuration files
 sys-fs/cramfs 1.1: Linux filesystem designed to be simple, small, and to compress things well
+sys-fs/cryfs 0.9.7 9999: Encrypted FUSE filesystem that conceals metadata
 sys-fs/cryptsetup 1.7.2 1.7.4 1.7.5: Tool to setup encrypted devices with dm-crypt
 sys-fs/ctmg 1.2: Simple wrapper around cryptsetup for encrypted containers
 sys-fs/davl 1.2.4-r1 1.2.4-r2: Visualizes the fragmentation status of ext2/3 filesystems
