@@ -13482,7 +13482,7 @@ media-plugins/vdr-clock 1.0.0-r1: VDR Plugin: Tea clock, clock
 media-plugins/vdr-console 0.6.0: vdr Plugin: Shows linux console on vdr's output device
 media-plugins/vdr-coverviewer 0.0.2: VDR plugin: coverviewer for vdr-music
 media-plugins/vdr-cpumon 0.0.6_p1: VDR Plugin: Show cpu-usage on OSD
-media-plugins/vdr-ddci2 1.0.4 9999: VDR plugin: DDCI2 - Digital Devices CI support
+media-plugins/vdr-ddci2 1.0.4 1.0.5 9999: VDR plugin: DDCI2 - Digital Devices CI support
 media-plugins/vdr-decruft 0.0.4-r1: VDR Plugin: Clean unwanted entries from channels.conf
 media-plugins/vdr-devstatus 0.4.1: VDR plugin: display the usa status of the available DVB devices
 media-plugins/vdr-dummydevice 1.0.3 2.0.0: VDR Plugin: dummy output device - for recording server without any output devices
