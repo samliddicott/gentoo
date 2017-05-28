@@ -7898,7 +7898,7 @@ dev-python/markdown 2.6.1 2.6.5 2.6.8: Python implementation of the markdown mar
 dev-python/markdown2 2.3.0: Python Markdown language reimplementation
 dev-python/markups 0.2.4-r1 1.0.1 2.0.0: A wrapper around various text markups
 dev-python/markupsafe 0.23: Implements a XML/HTML/XHTML Markup safe string for Python
-dev-python/matplotlib 1.4.3 1.5.3-r1 1.5.3-r2 9999: Pure python plotting library with matlab like syntax
+dev-python/matplotlib 1.4.3 1.5.3-r1 1.5.3-r2 2.0.2 9999: Pure python plotting library with matlab like syntax
 dev-python/matplotlib2tikz 0.6.7-r1: Convert matplotlib figures into TikZ/PGFPlots
 dev-python/maybe 0.3.0 0.4.0: See what a program does before deciding whether you really want it to happen
 dev-python/mccabe 0.2.1 0.6.1: flake8 plugin: McCabe complexity checker
@@ -8710,6 +8710,7 @@ dev-python/stripogram 1.5-r1: Strip-o-Gram HTML Conversion Library
 dev-python/structlog 16.1.0: Structured Logging for Python
 dev-python/stsci-distutils 0.3.7: Utilities used to package some of STScI's Python projects
 dev-python/stsci-sphinxext 1.2.1: Tools and templates to customize Sphinx for STScI projects
+dev-python/subprocess32 3.2.7: A backport of the subprocess module from Python 3.2/3.3 for use on 2.x
 dev-python/subunit 1.2.0-r1: A streaming protocol for test results
 dev-python/subvertpy 0.9.1: Alternative Python bindings for Subversion
 dev-python/suds 0.6-r1: Lightweight SOAP client (Jurko's fork) (py3 support) (active development)
