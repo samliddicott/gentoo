@@ -7716,6 +7716,7 @@ dev-python/ginga 2.6.1 2.6.2: Astronomical image toolkit for Python
 dev-python/git-python 1.0.2 2.0.6: Library used to interact with Git repositories
 dev-python/git-review 1.24 1.25.0: Tool to submit code to Gerrit
 dev-python/gitdb 0.6.4: GitDB is a pure-Python git object database
+dev-python/gitdb2 2.0.2: GitDB is a pure-Python git object database
 dev-python/github3 0.9.3: A wrapper for the GitHub API written in python
 dev-python/glance_store 0.13.1 0.18.0 0.20.0: A library for glance
 dev-python/globre 0.1.4: A glob matching library, providing an interface similar to the 're' module
