@@ -1806,7 +1806,7 @@ app-misc/gcstar 1.7.0: Manage your collections of movies, games, books, music an
 app-misc/geekcode 1.7.3-r1: Geek code generator
 app-misc/geneweb 6.07 6.08-r1: Genealogy software program with a Web interface
 app-misc/gentoo 0.20.6 0.20.7: Graphical file manager for Unix-like systems, using GTK+
-app-misc/geoclue 0.12.99 2.4.4: A geoinformation D-Bus service
+app-misc/geoclue 0.12.99 2.4.4 2.4.7: A geoinformation D-Bus service
 app-misc/getopt 1.1.6: getopt(1) replacement supporting GNU-style long options
 app-misc/glastree 1.04: glastree is a poor mans snapshot utility using hardlinks written in perl
 app-misc/glcdprocdriver 0.0.6: Glue library for the glcdlib LCDproc driver based on GraphLCD
