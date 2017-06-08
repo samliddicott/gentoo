@@ -1,0 +1,12 @@
+DEFINED_PHASES=-
+DESCRIPTION=Meta ebuild for LXQt, the Lightweight Desktop Environment
+EAPI=6
+HOMEPAGE=http://lxqt.org/
+IUSE=+about admin +filemanager +icons lightdm lximage minimal +oxygen +policykit powermanagement sddm ssh-askpass sudo
+KEYWORDS=~amd64 ~arm64 ~x86
+LICENSE=metapackage
+RDEPEND=>=dev-util/lxqt-build-tools-0.3.1 >=lxde-base/lxmenu-data-0.1.2 >=lxqt-base/lxqt-common-0.11.1 >=lxqt-base/lxqt-config-0.11.1 >=lxqt-base/lxqt-globalkeys-0.11.1 >=lxqt-base/lxqt-notificationd-0.11.1 >=lxqt-base/lxqt-panel-0.11.1 >=lxqt-base/lxqt-qtplugin-0.11.1 >=lxqt-base/lxqt-runner-0.11.1 >=lxqt-base/lxqt-session-0.11.1 virtual/ttf-fonts about? ( >=lxqt-base/lxqt-about-0.11.1 ) admin? ( >=lxqt-base/lxqt-admin-0.11.1 ) filemanager? ( >=x11-misc/pcmanfm-qt-0.11.1 ) icons? ( oxygen? ( kde-frameworks/oxygen-icons ) !oxygen? ( virtual/freedesktop-icon-theme ) ) lightdm? ( x11-misc/lightdm ) lximage? ( media-gfx/lximage-qt ) !minimal? ( x11-wm/openbox x11-misc/obconf-qt ) policykit? ( >=lxqt-base/lxqt-policykit-0.11.1 || ( sys-auth/consolekit[policykit(-)] sys-apps/systemd[policykit(-)] ) ) powermanagement? ( >=lxqt-base/lxqt-powermanagement-0.11.1 ) sddm? ( >=x11-misc/sddm-0.14.0 ) ssh-askpass? ( >=lxqt-base/lxqt-openssh-askpass-0.11.1 ) sudo? ( >=lxqt-base/lxqt-sudo-0.11.1 )
+REQUIRED_USE=oxygen? ( icons )
+SLOT=0
+_eclass_exported_funcs=-
+_md5_=0d04f9f3978bdcc03c361ae694321fe0
