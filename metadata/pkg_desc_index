@@ -8430,7 +8430,7 @@ dev-python/python-ceilometerclient 1.1.1 2.6.2: This is a client library for Cei
 dev-python/python-cinderclient 1.6.0 1.9.0 1.11.0: A client for the OpenStack Cinder API
 dev-python/python-cjson 1.1.0: Fast JSON encoder/decoder for Python
 dev-python/python-cluster 1.2.2: Allows grouping a list of arbitrary objects into related groups (clusters)
-dev-python/python-ctags 1.0.6 1.2.3: Exuberant Ctags indexing python bindings
+dev-python/python-ctags 1.2.3 1.2.4: Exuberant Ctags indexing python bindings
 dev-python/python-daap 0.7.1-r1: PyDaap is a DAAP client implemented in Python, based on PyTunes
 dev-python/python-daemon 1.6-r1 2.1.1: Library to implement a well-behaved Unix daemon process
 dev-python/python-dateutil 2.2 2.4.2-r1 2.6.0: Extensions to the standard Python datetime module
