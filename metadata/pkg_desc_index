@@ -1955,7 +1955,7 @@ app-misc/timestamp 1.1 1.1-r1: A text filtering pipe that marks each line with a
 app-misc/timew 1.0.0: Tracks your time from the command line, and generates reports
 app-misc/tkpasman 2.2b: A useful and reliable personal password manager, written in Tcl/Tk
 app-misc/tmate 2.2.0-r1 2.2.1: Instant terminal sharing
-app-misc/tmux 2.2 2.3-r1 2.4 2.5 9999: Terminal multiplexer
+app-misc/tmux 2.2 2.3-r1 2.4 2.5 2.5-r1 9999: Terminal multiplexer
 app-misc/tmux-mem-cpu-load 2.2.1-r1 9999: CPU, RAM memory, and load monitor for use with tmux
 app-misc/todo 2.10 2.10-r1: A CLI-based TODO list manager
 app-misc/toilet 0.3: The Other Implementations letters. Figlet replacement
