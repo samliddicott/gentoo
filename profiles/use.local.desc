@@ -5908,6 +5908,9 @@ net-libs/libssh:server - Build with SSH server support
 net-libs/libssh:sftp - Build with SFTP support
 net-libs/libssh:ssh1 - Build with SSH1 support
 net-libs/libssh2:gcrypt - Use dev-libs/libgcrypt instead of dev-libs/openssl
+net-libs/libtins:ack-tracker - TCP ACK tracking support
+net-libs/libtins:wifi - IEEE 802.11 support
+net-libs/libtins:wpa2 - WPA2 decryption support
 net-libs/libtorrent-rasterbar:dht - Enable DHT (distributed hash table) support
 net-libs/libtrace:numa - Use sys-process/numactl
 net-libs/libupnp:reuseaddr - Allow clean restarts by binding the socket with SO_REUSEADDR.
