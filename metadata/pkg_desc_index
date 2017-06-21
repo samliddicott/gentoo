@@ -17585,7 +17585,7 @@ sys-cluster/sanlock 3.4.0-r1: shared storage lock manager
 sys-cluster/singularity 2.2.1: Application containers for Linux
 sys-cluster/slurm 16.05.2: SLURM: A Highly Scalable Resource Manager
 sys-cluster/swift 2.10.1 2.10.2 2.13.0 2.13.1 2017.1.9999: A highly available, distributed, and eventually consistent object/blob store
-sys-cluster/teleport 2.2.0 9999: Modern SSH server for teams managing distributed infrastructure
+sys-cluster/teleport 2.2.0 2.2.1 9999: Modern SSH server for teams managing distributed infrastructure
 sys-cluster/torque 2.5.13-r1 4.1.7-r1 4.2.9-r5 4.2.10 6.0.3: Resource manager and queuing system based on OpenPBS
 sys-cluster/util-vserver 0.30.216_pre3120: Linux-VServer admin utilities
 sys-cluster/vzctl 4.9.4: OpenVZ ConTainers control utility
