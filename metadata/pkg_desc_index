@@ -18224,7 +18224,7 @@ virtual/perl-threads-shared 1.510.0-r1 1.560.0: Virtual for threads-shared
 virtual/perl-version 0.991.600-r1 0.991.700: Virtual for version
 virtual/perl6 0: Convenience virtual for perl6
 virtual/pkgconfig 0-r1: Virtual for the pkg-config implementation
-virtual/pmake 0: Virtual for BSD-like make
+virtual/pmake 1: Virtual for BSD-like make (to be used with get_bmake)
 virtual/podofo-build 0.9.6_pre20170508-r1: Virtual package for building against PoDoFo
 virtual/pypy 5.6.0 5.7.1 5.8.0: A virtual for PyPy Python implementation
 virtual/pypy3 5.5.0_alpha 5.7.1 5.8.0-r1: A virtual for PyPy3 Python implementation
