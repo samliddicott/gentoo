@@ -1451,7 +1451,7 @@ app-eselect/eselect-wxwidgets 20140423: Eselect module and wrappers for wxWidget
 app-eselect/eselect-xvmc 0.4: Manages XvMC implementations
 app-forensics/afflib 3.7.4 3.7.7 3.7.8: Library that implements the AFF image standard
 app-forensics/afl 2.35b 2.39b: american fuzzy lop - compile-time instrumentation fuzzer
-app-forensics/aide 0.14.2 0.16: AIDE (Advanced Intrusion Detection Environment) is a file integrity checker
+app-forensics/aide 0.16: AIDE (Advanced Intrusion Detection Environment) is a file integrity checker
 app-forensics/air 2.0.0-r1: A GUI front-end to dd/dc3dd
 app-forensics/autopsy 2.24-r1: A graphical interface to the digital forensic analysis tools in The Sleuth Kit
 app-forensics/chkrootkit 0.49 0.50 0.51: Tool to locally check for signs of a rootkit
