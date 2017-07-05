@@ -15398,7 +15398,7 @@ net-misc/nx 3.5.0.30 3.5.0.32: NX compression technology core libraries
 net-misc/nxplayer 5.0.63.3 5.1.7.6 5.1.24.1: Client for NoMachine remote servers
 net-misc/ocsync 0.90.4: A file synchronizer especially designed for you, the normal user
 net-misc/ofono 1.16 1.17 1.18 1.19 1.20: Open Source mobile telephony (GSM/UMTS) daemon
-net-misc/oidentd 2.0.8-r5: Another (RFC1413 compliant) ident daemon
+net-misc/oidentd 2.0.8-r5 2.0.8-r6: Another (RFC1413 compliant) ident daemon
 net-misc/olsrd 0.9.0.2 0.9.6 0.9.6.1: An implementation of the Optimized Link State Routing protocol
 net-misc/omniORB 4.1.4-r2 4.2.1_p2: A robust, high-performance CORBA 2 ORB
 net-misc/openntpd 6.0_p1: Lightweight NTP server ported from OpenBSD
