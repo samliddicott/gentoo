@@ -17576,7 +17576,7 @@ sys-cluster/resource-agents 3.9.6 4.0.1: Resources pack for Heartbeat / Pacemake
 sys-cluster/rgmanager 2.03.09 2.03.09-r1 3.1.5: Clustered resource group manager
 sys-cluster/rgmanager-agents 3.9.2: Resource Manager Agents
 sys-cluster/sanlock 3.4.0-r1: shared storage lock manager
-sys-cluster/singularity 2.2.1: Application containers for Linux
+sys-cluster/singularity 2.2.1 2.3.1: Application containers for Linux
 sys-cluster/slurm 16.05.2: SLURM: A Highly Scalable Resource Manager
 sys-cluster/swift 2.10.2 2.13.1 2017.1.9999: A highly available, distributed, and eventually consistent object/blob store
 sys-cluster/teleport 2.2.0 2.2.1 9999: Modern SSH server for teams managing distributed infrastructure
