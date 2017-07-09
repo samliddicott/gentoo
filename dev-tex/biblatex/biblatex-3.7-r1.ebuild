@@ -11,14 +11,14 @@ SRC_URI="mirror://sourceforge/${PN}/${P}.tds.tgz"
 
 LICENSE="LPPL-1.3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm"
 IUSE="+biber doc examples"
 
 DEPEND="dev-texlive/texlive-bibtexextra
 	dev-texlive/texlive-latexextra
 	|| ( dev-texlive/texlive-plaingeneric dev-texlive/texlive-genericextra )"
-RDEPEND="${DEPEND}
-	biber? ( ~dev-tex/biber-2.7 )"
+RDEPEND="${DEPEND}"
+PDEPEND="biber? ( ~dev-tex/biber-2.7 )"
 
 S="${WORKDIR}"
 TEXMF=/usr/share/texmf-site

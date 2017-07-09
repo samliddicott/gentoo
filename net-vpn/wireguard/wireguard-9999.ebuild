@@ -15,7 +15,7 @@ if [[ ${PV} == 9999 ]]; then
 else
 	SRC_URI="https://git.zx2c4.com/WireGuard/snapshot/WireGuard-${PV}.tar.xz"
 	S="${WORKDIR}/WireGuard-${PV}"
-	KEYWORDS="~amd64 ~x86 ~mips ~arm ~arm64"
+	KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
 fi
 
 LICENSE="GPL-2"
@@ -28,9 +28,8 @@ RDEPEND="${DEPEND}"
 MODULE_NAMES="wireguard(net:src)"
 BUILD_PARAMS="KERNELDIR=${KERNEL_DIR} V=1"
 BUILD_TARGETS="module"
-CONFIG_CHECK="NET INET NET_UDP_TUNNEL NF_CONNTRACK NETFILTER_XT_MATCH_HASHLIMIT CRYPTO_BLKCIPHER ~PADATA ~IP6_NF_IPTABLES"
+CONFIG_CHECK="NET INET NET_UDP_TUNNEL CRYPTO_BLKCIPHER ~PADATA"
 WARNING_PADATA="If you're running a multicore system you likely should enable CONFIG_PADATA for improved performance and parallel crypto."
-WARNING_IP6_NF_IPTABLES="If your kernel has CONFIG_IPV6, you need CONFIG_IP6_NF_IPTABLES; otherwise WireGuard will not insert."
 
 pkg_setup() {
 	if use module; then

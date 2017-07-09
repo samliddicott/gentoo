@@ -26,6 +26,7 @@ case ${PV} in
 	;;
 esac
 GCC_BOOTSTRAP_VER="4.7.3-r1"
+# patches live at https://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo/src/patchsets/glibc/
 PATCH_VER=""                                   # Gentoo patchset
 : ${NPTL_KERN_VER:="2.6.32"}                   # min kernel version nptl requires
 
@@ -135,10 +136,5 @@ src_prepare() {
 				-e '/^CFLAGS-backtrace.c/ iCPPFLAGS-chk_fail.c = -DSSP_SMASH_DUMPS_CORE' \
 				debug/Makefile || die
 		fi
-
-		# Build various bits with ssp-all
-		sed -i \
-			-e 's:-fstack-protector$:-fstack-protector-all:' \
-			*/Makefile || die
 	fi
 }

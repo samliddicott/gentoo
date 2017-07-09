@@ -25,7 +25,7 @@ if [[ ${PV} != 9999 ]]; then
 		SRC_URI="mirror://gnu/${PN}/${P}.tar.xz"
 		S=${WORKDIR}/${P%_*}
 	fi
-	KEYWORDS="~amd64 ~arm64 ~x86"
+	KEYWORDS="amd64 ~arm64 x86"
 else
 	inherit git-r3
 	EGIT_REPO_URI="git://git.sv.gnu.org/grub.git
@@ -35,6 +35,7 @@ fi
 PATCHES=(
 	"${FILESDIR}"/gfxpayload.patch
 	"${FILESDIR}"/grub-2.02_beta2-KERNEL_GLOBS.patch
+	"${FILESDIR}"/2.02_beta3-grub-mkconfig-btrfs-multidev.patch
 )
 
 DEJAVU=dejavu-sans-ttf-2.37
