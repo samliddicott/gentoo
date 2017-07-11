@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=media-libs/libsdl[joystick,video] media-libs/sdl-mixer media-libs/sdl-net !<games-fps/lsdldoom-1.5 virtual/opengl virtual/glu
+DESCRIPTION=Port of ID's doom to SDL and OpenGL
+EAPI=5
+HOMEPAGE=http://prboom.sourceforge.net/
+KEYWORDS=amd64 arm ~ppc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl[joystick,video] media-libs/sdl-mixer media-libs/sdl-net !<games-fps/lsdldoom-1.5 virtual/opengl virtual/glu games-misc/games-envd
+SLOT=0
+SRC_URI=mirror://sourceforge/prboom/prboom-2.5.0.tar.gz mirror://gentoo/prboom.png
+_eclass_exported_funcs=pkg_preinst:games pkg_postinst:- pkg_setup:games src_unpack:base src_prepare:- src_configure:- src_compile:games src_install:-
+_eclasses_=base	df2aa567b3f0595aae0d0923889f7631	eutils	3c847a0129fed780bd709b98e426f89c	games	2bb3ede665927a68ffdb7c41eec7efde	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	user	e4b567c44272a719fabf53f0f885d3f7
+_md5_=03d2ec2c19a5b12905cb0864a3a12da9
