@@ -18196,6 +18196,7 @@ virtual/ruby-ffi 3 4: Virtual ebuild for the Ruby ffi library
 virtual/ruby-minitest 1: Virtual ebuild for the Ruby minitest library
 virtual/ruby-ssl 8 9: Virtual ebuild for the Ruby OpenSSL bindings
 virtual/rubygems 10 11 12 13: Virtual ebuild for rubygems
+virtual/rust 1.15.1 1.16.0: Virtual for Rust language compiler
 virtual/service-manager 0: Virtual for various service managers
 virtual/shadow 0: Virtual for user account management utilities
 virtual/skkserv 0: Virtual for SKK server
