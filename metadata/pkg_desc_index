@@ -258,7 +258,7 @@ app-arch/defluff 0.3.2: deflate huffman optimizer
 app-arch/deltarpm 3.6: tools to create and apply deltarpms
 app-arch/dpkg 1.17.26 1.18.18 1.18.22 1.18.23 1.18.24: Package maintenance system for Debian
 app-arch/duff 0.5.2: Command-line utility for quickly finding duplicates in a given set of files
-app-arch/dump 0.4.44-r1 0.4.44-r2 0.4.45 0.4.46: Dump/restore ext2fs backup utilities
+app-arch/dump 0.4.46: Dump/restore ext2fs backup utilities
 app-arch/engrampa 1.12.0-r1 1.12.0-r2 1.14.1-r1 1.16.0-r2 1.18.1: Engrampa archive manager for MATE
 app-arch/fastjar 0.98-r2 0.98-r3: A jar program written in C
 app-arch/file-roller 3.22.3: Archive manager for GNOME
