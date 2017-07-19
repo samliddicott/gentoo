@@ -4250,7 +4250,6 @@ media-libs/phonon:zeitgeist - Add support for Zeitgeist event tracking system
 media-libs/phonon-gstreamer:network - Enable network streaming support via libsoup
 media-libs/portmidi:test-programs - Install various example programs
 media-libs/quvi:json - Enable support for JSON output
-media-libs/raptor:json - Enable support for JSON parsing
 media-libs/raspberrypi-userland-bin:hardfp - Use armv6 hardfp ABI
 media-libs/sdif:ftruncate - Enables usage of ftruncate v. truncate
 media-libs/sdl-image:webp - support loading WEBP images
@@ -4510,7 +4509,11 @@ media-sound/gogglesmm:opus - Enable support for opus codec
 media-sound/google-musicmanager:log - Enables advanced logging through dev-libs/log4cxx
 media-sound/herrie:http - Enable http streaming
 media-sound/herrie:xspf - Enable support for reading and saving XSPF playlists
-media-sound/hydrogen:archive - Use libarchive instead of libtar
+media-sound/hydrogen:archive - Add archive support
+media-sound/hydrogen:extra - Include media-libs/hydrogen-drumkits
+media-sound/hydrogen:jack-session - Add support for saving/loading JACK sessions
+media-sound/hydrogen:portmidi - Add portmidi support
+media-sound/hydrogen:rubberband - Add time-stretching/pitch shifting support
 media-sound/jack-audio-connection-kit:coreaudio - Build the CoreAudio driver on Mac OS X systems
 media-sound/jack-audio-connection-kit:cpudetection - Enables runtime cpudetection
 media-sound/jack-audio-connection-kit:pam - Add basic realtime configuration via sys-auth/realtime-base
