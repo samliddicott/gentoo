@@ -12509,7 +12509,7 @@ media-fonts/kanjistrokeorders 2.012 2.016: font to view stroke order diagrams fo
 media-fonts/khmer 5.0-r1: Fonts for the Khmer language of Cambodia
 media-fonts/kochi-substitute 20030809-r3: Kochi Japanese TrueType fonts with Wadalab Fonts
 media-fonts/konfont 0.1: Fontset for KON2
-media-fonts/koruri 20141224: Japanese TrueType font based on M+ outline fonts and Open Sans
+media-fonts/koruri 20161105: Japanese TrueType font based on M+ outline fonts and Open Sans
 media-fonts/lfpfonts-fix 0.83-r2: Linux Font Project fixed-width fonts
 media-fonts/lfpfonts-var 0.84: Linux Font Project variable-width fonts
 media-fonts/liberation-fonts 1.07.4 2.00.0-r1 2.00.1-r1 2.00.1-r2: A Helvetica/Times/Courier replacement TrueType font set, courtesy of Red Hat
