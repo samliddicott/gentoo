@@ -8807,7 +8807,7 @@ dev-python/terminado 0.5 0.6: Terminals served to term.js using Tornado websocke
 dev-python/terminaltables 3.1.0 9999: Generate simple tables in terminals from a nested list of strings
 dev-python/testfixtures 4.9.1: A collection of helpers and mock objects for unit tests and doc tests
 dev-python/testify 0.11.0: A more pythonic replacement for the unittest module and nose
-dev-python/testpath 0.2 0.3: Test utilities for code working with files and commands
+dev-python/testpath 0.2 0.3 0.3.1: Test utilities for code working with files and commands
 dev-python/testrepository 0.0.18-r1 0.0.20: A repository of test results
 dev-python/testresources 0.2.7-r2 1.0.0: A pyunit extension for managing expensive test resources
 dev-python/testscenarios 0.4-r5 0.5.0: A pyunit extension for dependency injection
