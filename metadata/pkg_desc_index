@@ -7622,7 +7622,7 @@ dev-python/empy 3.3-r1 3.3.2: A powerful and robust templating system for Python
 dev-python/enable 4.4.1 4.5.1: Enthought Tool Suite: Drawing and interaction packages
 dev-python/enaml 0.9.8: Enthought Tool Suite: framework for writing declarative interfaces
 dev-python/encore 0.5.1: Enthought Tool Suite: collection of core-level utility modules
-dev-python/entrypoints 0.2.1 0.2.2: Discover and load entry points from installed packages
+dev-python/entrypoints 0.2.1 0.2.2 0.2.3: Discover and load entry points from installed packages
 dev-python/enum34 1.1.6: Python 3.4 Enum backported
 dev-python/envisage 4.4.0: Enthought Tool Suite: Extensible application framework
 dev-python/envoy 0.0.3: Simple API for running external processes
