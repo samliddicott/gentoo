@@ -7729,7 +7729,7 @@ dev-python/gevent-websocket 0.9.3 0.9.5: Websocket handler for the gevent pywsgi
 dev-python/geventhttpclient 1.3.1: A high performance, concurrent HTTP client library for Python using gevent
 dev-python/ghp-import 0.4.1 0.4.1-r1: Copy your docs directly to the gh-pages branch
 dev-python/ginga 2.6.2 2.6.4: Astronomical image toolkit for Python
-dev-python/git-python 1.0.2 2.0.6: Library used to interact with Git repositories
+dev-python/git-python 1.0.2 2.0.6 2.1.5: Library used to interact with Git repositories
 dev-python/git-review 1.24 1.25.0: Tool to submit code to Gerrit
 dev-python/gitdb 0.6.4: GitDB is a pure-Python git object database
 dev-python/gitdb2 2.0.2: GitDB is a pure-Python git object database
