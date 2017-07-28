@@ -8027,7 +8027,7 @@ dev-python/natgrid 0.2.1-r2: Matplotlib toolkit for gridding irreguraly spaced d
 dev-python/natsort 4.0.4: Natural sorting for Python
 dev-python/nautilus-python 1.1-r2: Python bindings for the Nautilus file manager
 dev-python/nbconvert 4.1.0 4.2.0 4.3.0: Converting Jupyter Notebooks
-dev-python/nbdime 0.1.2 0.2.0: Diff and merge of Jupyter Notebooks
+dev-python/nbdime 0.1.2 0.2.0 0.3.0: Diff and merge of Jupyter Notebooks
 dev-python/nbformat 4.0.1 4.1.0 4.2.0 4.3.0: Reference implementation of the Jupyter Notebook format
 dev-python/nbsphinx 0.2.8 0.2.13 0.2.14: Jupyter Notebook Tools for Sphinx
 dev-python/ndg-httpsclient 0.4.0 0.4.2 0.4.2-r1: Provides enhanced HTTPS support for httplib and urllib2 using PyOpenSSL
