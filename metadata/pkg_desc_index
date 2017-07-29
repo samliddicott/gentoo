@@ -10168,7 +10168,7 @@ dev-tex/qtexengine 0.3: TeX support for Qt
 dev-tex/quotchap 0.9f: LaTeX package used to add quotes to chapters
 dev-tex/rail 1.2_p1: Offers syntax/railroad diagrams
 dev-tex/rcsinfo 1.9 1.11: A LaTeX module to acces RCS/CVS version info
-dev-tex/revtex 4 4.1_p2-r1: LaTeX2e macros for journals of the American Physical Society and the American Institute of Physics
+dev-tex/revtex 4 4.1_p2-r1: LaTeX2e macros to prepare manuscripts for the journals of the APS and AIP
 dev-tex/rubber 1.4: A LaTeX wrapper for automatically building documents
 dev-tex/serienbrief 0.2.5: Easy creation of form letters written in LaTeX
 dev-tex/sketch 0.3.7: Produces drawings of two- or three-dimensional solid objects and scenes for TeX
@@ -19552,7 +19552,7 @@ xfce-base/libxfce4ui 4.13.0 4.13.2 4.13.3: Unified widget and session management
 xfce-base/libxfce4util 4.12.1-r1 4.13.1: A basic utility library for the Xfce desktop environment
 xfce-base/libxfcegui4 4.10.0-r1: A compability library for unported Xfce 4.6 plugins (DEPRECATED)
 xfce-base/thunar 1.6.10-r1 1.6.12: File manager for the Xfce desktop environment
-xfce-base/xfce4-appfinder 4.12.0-r1: A tool to find and launch installed applications for the Xfce desktop environment
+xfce-base/xfce4-appfinder 4.12.0-r1: A tool to find and launch installed applications for the Xfce desktop
 xfce-base/xfce4-meta 4.12: The Xfce Desktop Environment (meta package)
 xfce-base/xfce4-panel 4.12.0-r1 4.12.1-r1 4.13.0: Panel for the Xfce desktop environment
 xfce-base/xfce4-session 4.12.1-r1 4.13.0: A session manager for the Xfce desktop environment
