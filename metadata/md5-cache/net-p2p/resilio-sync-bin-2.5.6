@@ -1,0 +1,15 @@
+DEFINED_PHASES=install postinst preinst setup unpack
+DEPEND=virtual/pkgconfig
+DESCRIPTION=Resilient, fast and scalable file synchronization tool
+EAPI=6
+HOMEPAGE=https://getsync.com/
+IUSE=pax_kernel
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=all-rights-reserved
+RDEPEND=kernel_linux? ( virtual/tmpfiles )
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=amd64? ( http://linux-packages.resilio.com/resilio-sync/deb/pool/non-free/r/resilio-sync/resilio-sync_2.5.6-1_amd64.deb ) arm? ( http://linux-packages.resilio.com/resilio-sync/deb/pool/non-free/r/resilio-sync/resilio-sync_2.5.6-1_armhf.deb ) x86? ( http://linux-packages.resilio.com/resilio-sync/deb/pool/non-free/r/resilio-sync/resilio-sync_2.5.6-1_i386.deb )
+_eclass_exported_funcs=pkg_preinst:- pkg_postinst:- pkg_setup:- src_unpack:unpacker src_install:-
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	pax-utils	4f95120230a315c8caaabeb2307b7eee	systemd	e12dd5e3cf1f359292cea2a70abeba5f	tmpfiles	1e504fdcf4f24aeded1ce42600307f76	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163	unpacker	f40f7b4bd5aa88c2a4ba7b0d1e0ded70	user	e4b567c44272a719fabf53f0f885d3f7
+_md5_=254b3d41958ca0d2c4e0efa005a6a572
