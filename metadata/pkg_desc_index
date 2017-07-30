@@ -8140,7 +8140,7 @@ dev-python/paver 1.2.4: Python-based software project scripting tool along the l
 dev-python/pbkdf2 1.3: Implementation of the password-based key derivation function, PBKDF2, specified in RSA PKCS#5 v2.0
 dev-python/pbr 0.8.2-r1 1.10.0-r1 3.1.1: Inject some useful and sensible default behaviors into setuptools
 dev-python/pcapy 0.11.1: Python pcap extension
-dev-python/pdfrw 0.2: PDF file reader/writer library
+dev-python/pdfrw 0.2 0.3: PDF file reader/writer library
 dev-python/pdoc 0.3.2: Simple program and library to auto generate API documentation for Python modules
 dev-python/peak-rules 0.5: Generic functions and business rules support systems
 dev-python/pecan 1.0.4 1.1.2: A WSGI object-dispatching web framework, lean, fast, with few dependencies.
