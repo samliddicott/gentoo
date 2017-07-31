@@ -2439,7 +2439,7 @@ app-text/sary 1.2.0-r1: Sary: suffix array library and tools
 app-text/scrollkeeper 9999-r1: Dummy scrollkeeper for testing rarian
 app-text/scrollkeeper-dtd 1.0: DTD from the Scrollkeeper package
 app-text/sdcv 0.5.0_beta2 0.5.0_beta2-r1: Console version of Stardict program
-app-text/searchmonkey 0.8.1 2.0.0: Powerful text searches using regular expressions
+app-text/searchmonkey 0.8.1 2.0.0 2.0.0-r1: Powerful text searches using regular expressions
 app-text/sgml-common 0.6.3-r5: Base ISO character entities and utilities for SGML
 app-text/sgmltools-lite 3.0.3-r14: Python interface to SGML software in a DocBook/OpenJade env
 app-text/sgrep 1.94a: Use structural criteria to grep and index text, SGML, XML and HTML and filter
