@@ -4811,7 +4811,7 @@ dev-libs/libcss 0.6.1: CSS parser and selection engine, written in C
 dev-libs/libcxml 0.15.1 0.15.4: small C++ library which makes it marginally neater to parse XML using libxml++
 dev-libs/libdaemon 0.14-r1 0.14-r2: Simple library for creating daemon processes in C
 dev-libs/libdbh 5.0.19: a small library to create and manage 64-bit disk based hash tables
-dev-libs/libdbusmenu 12.10.2-r2: Library to pass menu structure across DBus
+dev-libs/libdbusmenu 12.10.2-r2 16.04.0: Library to pass menu structure across DBus
 dev-libs/libdbusmenu-qt 0.9.3_pre20160218: A library providing Qt implementation of DBusMenu specification
 dev-libs/libdivecomputer 0.4.1 0.4.2 9999: Library for communication with dive computers from various manufacturers
 dev-libs/libdivsufsort 2.0.1 9999: Suffix-sorting library (for BWT)
@@ -10360,7 +10360,7 @@ dev-util/cutils 1.6-r4: C language utilities
 dev-util/cwdiff 0.2.8 0.3.0 0.3.1 0.4.0 9999: A script that wraps wdiff to support directories and colorize the output
 dev-util/cyclo 2.1.0: Computes cyclomatic complexity metrics on C source code.
 dev-util/d-feet 0.3.10 0.3.11 0.3.12: D-Feet is a powerful D-Bus debugger
-dev-util/dbus-test-runner 12.10.1: Run executables under a new DBus session for testing
+dev-util/dbus-test-runner 12.10.1 15.04.0_p100: Run executables under a new DBus session for testing
 dev-util/ddd 3.3.12-r3 3.3.12-r4: Graphical front-end for command-line debuggers
 dev-util/debhelper 9.20160814 10.6.2 10.6.4: Collection of programs that can be used to automate common tasks in debian/rules
 dev-util/debootstrap 1.0.87 1.0.88 1.0.89 1.0.90 1.0.91: Debian/Ubuntu bootstrap scripts
@@ -19621,6 +19621,7 @@ xfce-extra/xfce4-screenshooter 1.8.2 1.9.1: Xfce4 screenshooter application and 
 xfce-extra/xfce4-sensors-plugin 1.2.6 1.2.98: A panel plug-in for acpi, lm_sensors and hddtemp sensors
 xfce-extra/xfce4-smartbookmark-plugin 0.4.6 0.5.0: Smart bookmark plug-in for the Xfce desktop environment
 xfce-extra/xfce4-soundmenu-plugin 0.7.0: A panel plug-in to control MPRIS2 compatible players like Pragha
+xfce-extra/xfce4-statusnotifier-plugin 0.1.0: A panel area for fd.o Status Notifiers (systray replacement)
 xfce-extra/xfce4-systemload-plugin 1.1.2 1.2.1: System load plug-in for Xfce panel
 xfce-extra/xfce4-taskmanager 1.0.1 1.1.0 1.2.0: Easy to use task manager
 xfce-extra/xfce4-time-out-plugin 1.0.2: A panel plug-in to take periodical breaks from the computer
