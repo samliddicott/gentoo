@@ -17399,7 +17399,7 @@ sys-auth/ykpers 1.18.0: Library and tool for personalization of Yubico's YubiKey
 sys-auth/yubico-piv-tool 1.4.3: Command line tool for the YubiKey PIV application
 sys-auth/yubikey-personalization-gui 3.1.23 3.1.24: GUI for personalization of Yubico's YubiKey
 sys-block/aoetools 36 37: tools for ATA over Ethernet (AoE) network storage protocol
-sys-block/arcconf 1.2.20618 1.7.21229: Adaptec RAID Controller Command Line Utility
+sys-block/arcconf 1.2.20618 1.7.21229 2.04.22665: Adaptec RAID Controller Command Line Utility
 sys-block/blktrace 1.0.3 1.1.0 1.1.0-r1: btrace can show detailed info about what is happening on a block device io queue
 sys-block/blocks 0.1.4_pre131210-r1 9999: Conversion tools for block devices
 sys-block/buffer 1.19-r2: a tapedrive tool for speeding up reading from and writing to tape
