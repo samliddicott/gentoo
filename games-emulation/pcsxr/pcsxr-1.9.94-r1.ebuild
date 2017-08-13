@@ -13,7 +13,7 @@ SRC_URI="https://dev.gentoo.org/~mgorny/dist/${P}.zip"
 
 LICENSE="GPL-2 public-domain"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="alsa cdio ffmpeg nls openal opengl oss pulseaudio +sdl"
 
 # pcsxr supports both SDL1 and SDL2 but uses the newer version installed

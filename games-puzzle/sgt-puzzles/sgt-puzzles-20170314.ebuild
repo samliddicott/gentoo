@@ -10,12 +10,12 @@ if [[ ${PV} == "99999999" ]] ; then
 	EGIT_REPO_URI="git://git.tartarus.org/simon/puzzles.git"
 	GENTOO_ICONS="20160315"
 	SRC_URI="https://dev.gentoo.org/~np-hardass/distfiles/${PN}/${PN}-icons-${GENTOO_ICONS}.tar.xz"
-	KEYWORDS=""
+	KEYWORDS="~amd64 ~x86"
 else
 	MAGIC=eedea41
 	SRC_URI="https://www.chiark.greenend.org.uk/~sgtatham/puzzles/puzzles-${PV}.${MAGIC}.tar.gz"
 	S=${WORKDIR}/puzzles-${PV}.${MAGIC}
-	KEYWORDS="amd64 x86"
+	KEYWORDS="~amd64 ~x86"
 fi
 
 DESCRIPTION="Simon Tatham's Portable Puzzle Collection"

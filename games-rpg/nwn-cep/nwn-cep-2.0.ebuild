@@ -10,7 +10,7 @@ SRC_URI="http://vnfiles.ign.com/nwvault.ign.com/fms/files/hakpaks/7000/CEPv2_ful
 
 LICENSE="all-rights-reserved"
 SLOT="2"
-KEYWORDS="-* amd64 x86"
+KEYWORDS="-* ~amd64 ~x86"
 IUSE=""
 RESTRICT="mirror bindist"
 

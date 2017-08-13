@@ -11,7 +11,7 @@ SRC_URI="${HOMEPAGE}/${PN}/${PN}-v4-public.${PV}.tar.gz"
 
 LICENSE="nwmovies Artistic"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=">=games-rpg/nwn-data-1.29-r3[videos]"

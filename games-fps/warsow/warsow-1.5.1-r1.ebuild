@@ -21,7 +21,7 @@ SRC_URI="http://www.warsow.net/${ENGINE_P}.tar.gz
 # ZLIB: bundled angelscript
 LICENSE="GPL-2 ZLIB warsow"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="debug dedicated irc openal server"
 
 RDEPEND=">=dev-libs/libRocket-1.2.1_p20130110

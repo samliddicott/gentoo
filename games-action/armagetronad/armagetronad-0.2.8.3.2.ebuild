@@ -11,7 +11,7 @@ SRC_URI="https://launchpad.net/armagetronad/${PV:0:5}/${PV}/+download/armagetron
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="dedicated sound"
 
 RDEPEND="

@@ -21,7 +21,7 @@ EGIT_REPO_URI="https://github.com/ioquake/ioq3.git"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 # "smp" is omitted, because currently it does not work.
 IUSE="dedicated opengl teamarena +openal curl vorbis voice mumble"
 

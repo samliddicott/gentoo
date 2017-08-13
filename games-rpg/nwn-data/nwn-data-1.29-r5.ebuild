@@ -41,7 +41,7 @@ SRC_URI="${CLIENT_BASEURL}/${MY_PV}/nwclient${MY_PV}.tar.gz
 
 LICENSE="NWN-EULA"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="cdinstall hou nowin sou videos ${LANGUAGES}"
 RESTRICT="strip mirror"
 
