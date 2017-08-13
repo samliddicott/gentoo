@@ -13,7 +13,7 @@ SRC_URI="http://c.vnfiles.ign.com/nwvault.ign.com/fms/files/modules/1674/PR0_and
 
 LICENSE="freedist"
 SLOT="0"
-KEYWORDS="-* amd64 x86"
+KEYWORDS="-* ~amd64 ~x86"
 IUSE=""
 
 DEPEND="app-arch/unzip"

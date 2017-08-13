@@ -8,10 +8,10 @@ if [[ ${PV} == 9999* ]]; then
 	inherit autotools mercurial
 	EHG_REPO_URI="https://bitbucket.org/rude/${PN}"
 	SRC_URI=""
-	KEYWORDS=""
+	KEYWORDS="~amd64 ~x86"
 else
 	SRC_URI="https://www.bitbucket.org/rude/${PN}/downloads/${P}-linux-src.tar.gz"
-	KEYWORDS="amd64 ~arm x86"
+	KEYWORDS="~amd64 ~arm ~x86"
 fi
 
 DESCRIPTION="A framework for 2D games in Lua"

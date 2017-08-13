@@ -11,7 +11,7 @@ SRC_URI="http://c.vnfiles.ign.com/nwvault.ign.com/fms/files/hakpaks/6057/cepv152
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="-* amd64 x86"
+KEYWORDS="-* ~amd64 ~x86"
 IUSE=""
 RESTRICT="mirror bindist"
 

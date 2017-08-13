@@ -14,7 +14,7 @@ HOMEPAGE="http://kde-apps.org/content/show.php/Knights?content=122046"
 SRC_URI="http://dl.dropbox.com/u/2888238/Knights/${P}.tar.bz2"
 
 LICENSE="GPL-3"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 SLOT="4"
 IUSE="debug"
 

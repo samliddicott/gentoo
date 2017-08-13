@@ -16,7 +16,7 @@ SRC_URI="https://dev.gentoo.org/~calchan/distfiles/nwn-libs-1.tar.bz2
 
 LICENSE="NWN-EULA"
 SLOT="0"
-KEYWORDS="-* amd64 x86"
+KEYWORDS="-* ~amd64 ~x86"
 IUSE="sou hou"
 RESTRICT="mirror strip"
 

@@ -12,7 +12,7 @@ SRC_URI="https://dev.gentoo.org/~mgorny/dist/${P}.zip"
 
 LICENSE="GPL-2 public-domain"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 
 IUSE="alsa cdio ffmpeg libav nls openal opengl oss pulseaudio +sdl"
 REQUIRED_USE="?? ( alsa openal oss pulseaudio sdl )"
