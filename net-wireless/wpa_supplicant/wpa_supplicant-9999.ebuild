@@ -9,6 +9,7 @@ DESCRIPTION="IEEE 802.1X/WPA supplicant for secure wireless transfers"
 HOMEPAGE="https://hostap.epitest.fi/wpa_supplicant/"
 if [[ ${PV} == *9999* ]]; then
 	EGIT_REPO_URI="git://w1.fi/srv/git/hostap.git"
+#	EGIT_CLONE_TYPE="mirror"
 	EGIT_BRANCH="master"
 	inherit git-r3
 	KEYWORDS=""
