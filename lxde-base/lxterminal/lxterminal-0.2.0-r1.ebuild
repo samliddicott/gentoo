@@ -4,7 +4,7 @@
 EAPI=6
 
 DESCRIPTION="Lightweight vte-based tabbed terminal emulator for LXDE"
-HOMEPAGE="http://lxde.sf.net/"
+HOMEPAGE="https://wiki.lxde.org/en/LXTerminal"
 SRC_URI="mirror://sourceforge/lxde/${P}.tar.gz"
 
 LICENSE="GPL-2"
