@@ -15572,7 +15572,7 @@ net-nntp/newspost 2.1.1-r3: A usenet binary autoposter for unix
 net-nntp/nzbget 14.1 18.1 19.0 19.1: A command-line based binary newsgrabber supporting .nzb files
 net-nntp/pan 0.140 0.141: A newsreader for GNOME
 net-nntp/sabnzbd 2.1.0: Binary newsgrabber with web-interface
-net-nntp/slrn 1.0.2: A s-lang based newsreader
+net-nntp/slrn 1.0.2 1.0.3: A s-lang based newsreader
 net-nntp/slrnconf 0.8.4: slrnconf is a graphical configuration utility for the newsreader slrn
 net-nntp/sn 0.3.8: Hassle-free Usenet news system for small sites
 net-nntp/suck 4.3.2: Grab news from a remote NNTP server and feed them to another
