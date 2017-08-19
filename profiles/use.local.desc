@@ -1920,6 +1920,7 @@ dev-lang/php:xslt - Enable the XSL extension
 dev-lang/php:zip - Enable ZIP file support
 dev-lang/php:zip-encryption - Enable ZIP file encryption from dev-libs/libzip
 dev-lang/polyml:portable - Build the portable interpreter version of Poly/ML instead of native.
+dev-lang/python:pgo - Add support for profile-guided optimization for faster binaries. This option will double the compile time.
 dev-lang/python:threads - Enable threading support. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
 dev-lang/python:wide-unicode - Enable wide Unicode implementation which uses 4-byte Unicode characters. Switching of this USE flag changes ABI of Python and requires reinstallation of many Python modules. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
 dev-lang/python:wininst - Install Windows executables required to create an executable installer for MS Windows.
