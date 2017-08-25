@@ -5160,6 +5160,7 @@ dev-lua/lua-openssl 0.4.1-r1: OpenSSL binding for Lua
 dev-lua/lua-term 0.3: Terminal functions for Lua
 dev-lua/lua-zlib 0.3 1.1: Lua bindings to zlib
 dev-lua/lua_cliargs 2.5_p5 3.0_p1: A command-line argument parser.
+dev-lua/luacheck 0.20.0: A tool for linting and static analysis of Lua code
 dev-lua/luacov 0.8: LuaCov is a simple coverage analyzer for Lua scripts
 dev-lua/luacrypto 0.3.2-r1: Lua frontend to OpenSSL
 dev-lua/luadbi 0.5-r5: DBI module for Lua
@@ -5174,7 +5175,7 @@ dev-lua/luaposix 33.4.0: Bindings for POSIX APIs
 dev-lua/luarocks 2.0.7.1 2.0.8 2.0.12 2.2.0: A deployment and management system for Lua modules
 dev-lua/luasec 0.5.1 0.6: Lua binding for OpenSSL library to provide TLS/SSL communication
 dev-lua/luasocket 3.0_rc1-r3: Networking support library for the Lua language
-dev-lua/luassert 1.7.9: Lua Assertions Extension
+dev-lua/luassert 1.7.9 1.7.10: Lua Assertions Extension
 dev-lua/luasystem 0.2.0_p0: platform independent system calls for lua
 dev-lua/lutok 0.4-r1: Lightweight C++ API library for Lua
 dev-lua/luvit 0.7.0 0.8.2 9999: Takes node.js' architecture and dependencies and fits it in the Lua language
@@ -5182,7 +5183,7 @@ dev-lua/mediator_lua 1.1.2_p0: Event handling through channels
 dev-lua/messagepack 0.3.2: A pure Lua implementation of the MessagePack serialization format
 dev-lua/mpack 1.0.2 1.0.3 1.0.4: Lua bindings for libmpack
 dev-lua/penlight 1.3.2: Lua utility libraries loosely based on the Python standard libraries
-dev-lua/say 1.3_p1: Lua String Hashing/Indexing Library
+dev-lua/say 1.3_p1 1.3_p1-r1: Lua String Hashing/Indexing Library
 dev-lua/toluapp 1.0.93: A tool to integrate C/C++ code with Lua
 dev-ml/ANSITerminal 0.6.5 0.7: Module which offers basic control of ANSI compliant terminals
 dev-ml/OCaml-ImageMagick 0.34-r1: Provide the ImageMagick methods to OCaml
@@ -18379,6 +18380,7 @@ www-client/google-chrome-unstable 62.0.3192.0: The web browser from Google
 www-client/httrack 3.48.21-r1 3.48.21-r2 3.49.1 3.49.2-r1: HTTrack Website Copier, Open Source Offline Browser
 www-client/jd 2.8.5_p120826: gtk2 based 2ch browser written in C++
 www-client/links 2.14: A fast and lightweight web browser running in both graphics and text mode
+www-client/luakit 2017.08.10 9999: A fast, light, simple to use micro-browser using WebKit and Lua
 www-client/lynx 2.8.9_pre11 2.8.9_pre16: An excellent console-based web browser with ssl support
 www-client/midori 0.5.11-r2: A lightweight web browser based on WebKitGTK+
 www-client/netrik 1.16.1-r1: A text based web browser with no ssl support
