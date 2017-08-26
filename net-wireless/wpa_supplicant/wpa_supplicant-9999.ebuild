@@ -125,10 +125,10 @@ src_prepare() {
 	fi
 
 	# bug (320097)
-	eapply "${FILESDIR}/${P}-do-not-call-dbus-functions-with-NULL-path.patch"
+	eapply "${FILESDIR}/${PN}-2.6-do-not-call-dbus-functions-with-NULL-path.patch"
 
 	# bug (596332)
-	eapply "${FILESDIR}/${P}-libressl.patch"
+	eapply "${FILESDIR}/${PN}-2.6-libressl.patch"
 }
 
 src_configure() {
@@ -276,6 +276,15 @@ src_configure() {
 	# Access Point Mode
 	if use ap ; then
 		Kconfig_style_config AP
+	fi
+
+	# Enable essentials for AP/P2P
+	if use ap || use p2p ; then
+		# Enabling HT support (802.11n)
+		Kconfig_style_config IEEE80211N
+
+		# Enabling VHT support (802.11ac)
+		Kconfig_style_config IEEE80211AC
 	fi
 
 	# Enable mitigation against certain attacks against TKIP

@@ -277,6 +277,15 @@ src_configure() {
 		Kconfig_style_config AP
 	fi
 
+	# Enable essentials for AP/P2P
+	if use ap || use p2p ; then
+		# Enabling HT support (802.11n)
+		Kconfig_style_config IEEE80211N
+
+		# Enabling VHT support (802.11ac)
+		Kconfig_style_config IEEE80211AC
+	fi
+
 	# Enable mitigation against certain attacks against TKIP
 	Kconfig_style_config DELAYED_MIC_ERROR_REPORT
 
