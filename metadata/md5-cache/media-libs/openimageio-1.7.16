@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-libs/boost-1.62:= dev-libs/pugixml:= >=media-libs/ilmbase-2.2.0-r1:= media-libs/libpng:0= >=media-libs/libwebp-0.2.1:= >=media-libs/openexr-2.2.0-r2:= media-libs/tiff:0= sys-libs/zlib:= virtual/jpeg:0 colorio? ( >=media-libs/opencolorio-1.0.9:= ) ffmpeg? ( media-video/ffmpeg:= ) field3d? ( media-libs/Field3D ) gif? ( media-libs/giflib ) jpeg? ( virtual/jpeg:= ) opencv? ( >=media-libs/opencv-2.3:= ) opengl? ( virtual/glu virtual/opengl ) ptex? ( media-libs/ptex:= ) qt4? ( dev-qt/qtcore:4 dev-qt/qtgui:4 dev-qt/qtopengl:4 media-libs/glew:= ) raw? ( media-libs/libraw:= ) ssl? ( dev-libs/openssl:0= ) truetype? ( media-libs/freetype:2= ) doc? ( app-doc/doxygen[latex] ) sys-devel/make >=dev-util/cmake-3.7.2
+DESCRIPTION=A library for reading and writing images
+EAPI=6
+HOMEPAGE=https://sites.google.com/site/openimageio/ https://github.com/OpenImageIO
+IUSE=colorio doc ffmpeg field3d gif jpeg opencv opengl ptex qt4 raw ssl +truetype cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_ssse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_avx512f cpu_flags_x86_f16c
+KEYWORDS=~amd64 ~ppc64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-libs/boost-1.62:= dev-libs/pugixml:= >=media-libs/ilmbase-2.2.0-r1:= media-libs/libpng:0= >=media-libs/libwebp-0.2.1:= >=media-libs/openexr-2.2.0-r2:= media-libs/tiff:0= sys-libs/zlib:= virtual/jpeg:0 colorio? ( >=media-libs/opencolorio-1.0.9:= ) ffmpeg? ( media-video/ffmpeg:= ) field3d? ( media-libs/Field3D ) gif? ( media-libs/giflib ) jpeg? ( virtual/jpeg:= ) opencv? ( >=media-libs/opencv-2.3:= ) opengl? ( virtual/glu virtual/opengl ) ptex? ( media-libs/ptex:= ) qt4? ( dev-qt/qtcore:4 dev-qt/qtgui:4 dev-qt/qtopengl:4 media-libs/glew:= ) raw? ( media-libs/libraw:= ) ssl? ( dev-libs/openssl:0= ) truetype? ( media-libs/freetype:2= )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/OpenImageIO/oiio/archive/Release-1.7.16.tar.gz -> openimageio-1.7.16.tar.gz
+_eclass_exported_funcs=src_unpack:vcs-snapshot src_prepare:cmake-utils src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
+_eclasses_=cmake-utils	026933aff3889190eeb565b642cfe252	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	flag-o-matic	2274fcc1e7ef6affaff5bcd636275417	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	284a473719153462f3e974d86c8cb81c	ninja-utils	ebb2eaddc6331c4fa000b8eb8f6fe074	toolchain-funcs	185a06792159ca143528e7010368e8af	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_md5_=5cfe0dc96b19be9cf815c196137639e9

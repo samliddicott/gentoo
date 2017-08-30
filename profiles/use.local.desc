@@ -3907,6 +3907,7 @@ media-gfx/blender:openimageio - Enable OpenImageIO Support
 media-gfx/blender:opennl - Enable use of Open Numerical Library
 media-gfx/blender:opensubdiv - Add rendering support form OpenSubdiv from Dreamworks Animation through media-libs/opensubdiv.
 media-gfx/blender:openvdb - Add GPU preview rendering. Only works with nVidia cards.
+media-gfx/blender:osl - Add support for OpenShadingLanguage scripting.
 media-gfx/blender:player - Build the Blender Player. THis requires the Game engine.
 media-gfx/blender:redcode - This flag add support for RED CODE camera digital format (5K HD images *.r3d) - EXPERIMENTAL.
 media-gfx/blender:test - Build the provided unit tests.
@@ -4241,7 +4242,11 @@ media-libs/opencv:webp - Enable support for webp image format
 media-libs/openh264:plugin - Install the Gecko Media Plugin (GMP) for use with Mozilla packages
 media-libs/openh264:utils - Install the CLI encoder and decoder utilities
 media-libs/openimageio:colorio - Use media-libs/opencolorio
+media-libs/openimageio:cpu_flags_x86_avx512f - SIMD Optimization
+media-libs/openimageio:cpu_flags_x86_f16c - SIMD Optimization
+media-libs/openimageio:field3d - Use media-libs/Field3D
 media-libs/openimageio:opencv - Use media-libs/opencv
+media-libs/openimageio:ptex - Use media-libs/ptex
 media-libs/openimageio:tbb - Use dev-cpp/tbb
 media-libs/opensubdiv:cuda - Enable NVIDIA CUDA Toolkit support through dev-util/nvidia-cuda-toolkit.
 media-libs/opensubdiv:opencl - Enable OpenCL support through virtual/opencl.
@@ -4253,6 +4258,7 @@ media-libs/opus:custom-modes - Build with custom-modes.
 media-libs/opusfile:fixed-point - Enable fixed-point arithmetic operations
 media-libs/opusfile:float - Enable floating point arithmetic operations
 media-libs/opusfile:http - Enable http connections
+media-libs/osl:partio - Use media-libs/partio
 media-libs/phonon:designer - Install plugin for dev-qt/designer
 media-libs/phonon:vlc - Install VLC Phonon backend
 media-libs/phonon-gstreamer:network - Enable network streaming support via libsoup
