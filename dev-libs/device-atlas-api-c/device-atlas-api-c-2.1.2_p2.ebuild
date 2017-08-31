@@ -1,22 +1,22 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-inherit unpacker cmake-multilib
+inherit cmake-multilib
 
-MY_P="deviceatlas-enterprise-c-${PV}"
+MY_P="deviceatlas-enterprise-c-${PV/_p/_}"
 
 DESCRIPTION="API to detect devices based on the User-Agent HTTP header"
 HOMEPAGE="https://deviceatlas.com"
-SRC_URI="${MY_P}.zip"
+SRC_URI="${MY_P}.tgz"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~x86"
+KEYWORDS="amd64 ~arm ppc x86"
 IUSE="doc examples"
 
 RDEPEND="dev-libs/libpcre[${MULTILIB_USEDEP}]"
-DEPEND="app-arch/unzip
+DEPEND="
 	${RDEPEND}"
 
 RESTRICT="fetch mirror bindist"
@@ -24,13 +24,13 @@ RESTRICT="fetch mirror bindist"
 S="${WORKDIR}/${MY_P}"
 
 PATCHES=(
-	"${FILESDIR}/${PV}-cmake-install.patch"
+	"${FILESDIR}/${PV}-src-cmakelists.patch"
 )
 
 pkg_nofetch() {
 	eerror "Please go to https://deviceatlas.com/deviceatlas-haproxy-module"
 	eerror "And download DeviceAtlas C API"
-	eerror "Then place the file in ${DISTDIR}/${MY_P}.zip"
+	eerror "Then place the file in ${DISTDIR}/${MY_P}.tgz"
 }
 
 multilib_src_install_all() {
