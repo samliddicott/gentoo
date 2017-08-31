@@ -1,4 +1,4 @@
-DEFINED_PHASES=postinst
+DEFINED_PHASES=install postinst
 DESCRIPTION=udev startup scripts for openrc
 EAPI=6
 HOMEPAGE=https://www.gentoo.org
@@ -8,5 +8,5 @@ RDEPEND=>=virtual/udev-217 !<sys-apps/openrc-0.14
 RESTRICT=test
 SLOT=0
 SRC_URI=https://dev.gentoo.org/~williamh/dist/udev-init-scripts-32.tar.gz
-_eclass_exported_funcs=pkg_postinst:-
-_md5_=40e2da010348982e122bb140bc317fc4
+_eclass_exported_funcs=pkg_postinst:- src_install:-
+_md5_=6f6ae2ae53c29cd52318a3781c792b4b
