@@ -403,7 +403,7 @@ app-backup/snapper 0.2.8-r1 0.3.3 0.4.1 0.5.0 9999: Command-line program for btr
 app-backup/spideroak-bin 6.3.0-r1: Secure free online backup, storage, and sharing system
 app-backup/tarsnap 1.0.35 1.0.37: Online backups for the truly paranoid
 app-backup/tob 0.26-r2: A general driver for making and maintaining backups
-app-backup/tsm 7.1.0.0-r1 7.1.0.3 7.1.1.4 7.1.2.0 7.1.2.3 7.1.3.1 7.1.3.1-r1 7.1.3.2 7.1.4.4 7.1.4.4-r1: Tivoli Storage Manager (TSM) Backup/Archive (B/A) Client and API
+app-backup/tsm 7.1.4.4-r2: Tivoli Storage Manager (TSM) Backup/Archive (B/A) Client and API
 app-backup/untangle-https-backup 0.0.6: Back up Untangle configurations via the web admin UI
 app-backup/vzdump 1.2: A utility to make consistent snapshots of running OpenVZ containers
 app-backup/zbackup 1.4.4 9999: A versatile deduplicating backup tool
@@ -423,7 +423,6 @@ app-benchmarks/httperf 0.9.1_p20161228: A tool from HP for measuring web server 
 app-benchmarks/i7z 93_p20131012-r1: A better i7 (and now i3, i5) reporting tool for Linux
 app-benchmarks/ioping 0.9 1.0: Simple disk I/0 latency measuring tool
 app-benchmarks/iozone 3.397 3.408 3.430: Filesystem benchmarking program
-app-benchmarks/jmeter 2.0.1-r4 2.0.1-r5 2.0.1-r6: Load test and measure performance on HTTP/FTP services and databases
 app-benchmarks/libc-bench 20110206: Time and memory-efficiency tests of various C/POSIX standard library functions
 app-benchmarks/nbench 2.2.3-r1: Linux/Unix of release 2 of BYTE Magazine's BYTEmark benchmark
 app-benchmarks/os-autoinst 9999: automated testing of Operating Systems
@@ -2325,7 +2324,6 @@ app-text/jabref 2.10-r2 2.10-r4: Java GUI for managing BibTeX and other bibliogr
 app-text/jabref-bin 2.10 2.11 2.11.1 3.1 3.2 3.3 3.4 3.6 3.7 3.8 3.8.1 3.8.2: Java GUI for managing BibTeX and other bibliographies
 app-text/jadetex 3.13-r7: TeX macros used by Jade TeX output
 app-text/jist 1.5.1-r1: A ruby gem to publish a gist
-app-text/jmupdf 0.4.1-r1 9999: Java library for rendering PDF, XPS and CBZ (Comic Book) documents
 app-text/jo 1.1: JSON output from a shell
 app-text/jpdftweak 0.9-r1: Swiss Army Knife for PDF files
 app-text/kbibtex 0.6.2: BibTeX editor by KDE to edit bibliographies used with LaTeX
@@ -4083,7 +4081,7 @@ dev-java/gnu-regexp 1.1.4-r3: GNU regular expression package for Java
 dev-java/gradle-bin 3.3 3.4.1: A project automation and build tool with a Groovy based DSL
 dev-java/groovy 2.4.5: A multi-faceted language for the Java platform
 dev-java/gson 2.3.1 2.6.2 2.7: Java library to convert JSON to Java objects and vice-versa
-dev-java/guava 13.0.1 13.0.1-r3 14.0.1 18.0 20.0: A collection of Google's core Java libraries
+dev-java/guava 20.0: A collection of Google's core Java libraries
 dev-java/guice 4.1: A lightweight dependency injection framework for Java 5 and above
 dev-java/hamcrest-core 1.1-r1 1.3: Core library of matchers for building test expressions
 dev-java/hamcrest-generator 1.1 1.3-r1: Code generator for Hamcrest's library of matchers for building test expressions
@@ -4101,8 +4099,8 @@ dev-java/htmlparser-org 1.6: Java library used to parse HTML (from htmlparser.or
 dev-java/httpcomponents-client 4.5: A low level toolset of Java components focused on HTTP and associated protocols
 dev-java/httpcomponents-core 4.4.1-r1: A low level toolset of Java components focused on HTTP and associated protocols
 dev-java/ical4j 1.0.5: a Java library for handling iCalendar data streams
-dev-java/icedtea 3.5.1 7.2.6.11: A harness to build OpenJDK using Free Software build tools and dependencies
-dev-java/icedtea-bin 3.4.0 3.5.1 7.2.6.10 7.2.6.11: A Gentoo-made binary build of the IcedTea JDK
+dev-java/icedtea 3.5.1: A harness to build OpenJDK using Free Software build tools and dependencies
+dev-java/icedtea-bin 3.4.0 3.5.1: A Gentoo-made binary build of the IcedTea JDK
 dev-java/icedtea-sound 1.0.1: Plugins for javax.sound
 dev-java/icedtea-web 1.6.1-r1 1.6.2: FOSS Java browser plugin and Web Start implementation
 dev-java/icu4j 54.1.1 55.1 56.1: A set of Java libraries providing Unicode and Globalization support
@@ -4277,7 +4275,7 @@ dev-java/jutils 1.0.0-r1: Common utilities for the Java Game Technology Group
 dev-java/jvmstat 3.0: Monitoring APIs and tools for monitoring the performance of the JVM
 dev-java/jvyaml 0.2.1-r2: Java YAML parser and emitter
 dev-java/jvyamlb 0.2.5: JvYAMLb, YAML processor extracted from JRuby
-dev-java/jython 2.7.0 2.7.0-r2: An implementation of Python written in Java
+dev-java/jython 2.7.0-r2: An implementation of Python written in Java
 dev-java/jzlib 1.0.7-r2 1.1.1 1.1.3: JZlib is a re-implementation of zlib in pure Java
 dev-java/kryo 2.24.0: Fast, efficient Java serialization and cloning
 dev-java/kunststoff 2.0.2-r2: Kunststoff look'n'feel Java library
@@ -4320,26 +4318,26 @@ dev-java/nachocalendar 0.23-r1: Flexible Calendar component to the Java Platform
 dev-java/nailgun 0.7.1-r1: A client, protocol and server for running without incurring JVM startup overhead
 dev-java/nanoxml 2.2.3-r3: NanoXML is a small non-validating parser for Java
 dev-java/nekohtml 1.9.18-r1: A simple HTML scanner and tag balancer using standard XML interfaces
-dev-java/netbeans-apisupport 8.0.2 8.1 8.2: Netbeans API Support Cluster
-dev-java/netbeans-cnd 8.0.2 8.1 8.2: Netbeans CND Cluster
-dev-java/netbeans-dlight 8.0.2 8.1 8.2: Netbeans D-Light Cluster
-dev-java/netbeans-enterprise 8.0.2-r1 8.1-r1 8.2 8.2-r1: Netbeans Enterprise cluster
-dev-java/netbeans-ergonomics 8.0.2 8.1 8.2: Netbeans Ergonomics Cluster
-dev-java/netbeans-extide 8.0.2 8.1 8.2: Netbeans ExtIDE Cluster
-dev-java/netbeans-groovy 8.0.2 8.1 8.2: Netbeans Groovy Cluster
-dev-java/netbeans-harness 8.0.2 8.1 8.2: Netbeans Harness
-dev-java/netbeans-ide 8.0.2-r2 8.1-r2 8.2: Netbeans IDE Cluster
-dev-java/netbeans-java 8.0.2-r5 8.0.2-r6 8.1-r2 8.1-r3 8.2 8.2-r1: Netbeans Java Cluster
-dev-java/netbeans-javacard 8.0.2 8.1 8.2: Netbeans JavaCard Cluster
-dev-java/netbeans-javadoc 8.0.2 8.1 8.2: Netbeans JavaDocs
-dev-java/netbeans-javafx 8.0.2 8.1 8.2: Netbeans JavaFX Cluster
-dev-java/netbeans-mobility 8.0.2 8.1 8.2: Netbeans Mobility Cluster
-dev-java/netbeans-nb 8.0.2 8.1 8.2: Netbeans IDE Branding
-dev-java/netbeans-php 8.0.2 8.1 8.2: Netbeans PHP Cluster
-dev-java/netbeans-platform 8.0.2 8.1 8.2: Netbeans Platform
-dev-java/netbeans-profiler 8.0.2 8.1 8.2: Netbeans Profiler Cluster
-dev-java/netbeans-webcommon 8.0.2 8.1 8.2: Netbeans Web Services Cluster
-dev-java/netbeans-websvccommon 8.0.2 8.1 8.2: Netbeans Web Services Common Cluster
+dev-java/netbeans-apisupport 8.2: Netbeans API Support Cluster
+dev-java/netbeans-cnd 8.2: Netbeans CND Cluster
+dev-java/netbeans-dlight 8.2: Netbeans D-Light Cluster
+dev-java/netbeans-enterprise 8.2-r1: Netbeans Enterprise cluster
+dev-java/netbeans-ergonomics 8.2: Netbeans Ergonomics Cluster
+dev-java/netbeans-extide 8.2: Netbeans ExtIDE Cluster
+dev-java/netbeans-groovy 8.2: Netbeans Groovy Cluster
+dev-java/netbeans-harness 8.2: Netbeans Harness
+dev-java/netbeans-ide 8.2: Netbeans IDE Cluster
+dev-java/netbeans-java 8.2 8.2-r1: Netbeans Java Cluster
+dev-java/netbeans-javacard 8.2: Netbeans JavaCard Cluster
+dev-java/netbeans-javadoc 8.2: Netbeans JavaDocs
+dev-java/netbeans-javafx 8.2: Netbeans JavaFX Cluster
+dev-java/netbeans-mobility 8.2: Netbeans Mobility Cluster
+dev-java/netbeans-nb 8.2: Netbeans IDE Branding
+dev-java/netbeans-php 8.2: Netbeans PHP Cluster
+dev-java/netbeans-platform 8.2: Netbeans Platform
+dev-java/netbeans-profiler 8.2: Netbeans Profiler Cluster
+dev-java/netbeans-webcommon 8.2: Netbeans Web Services Cluster
+dev-java/netbeans-websvccommon 8.2: Netbeans Web Services Common Cluster
 dev-java/netty-buffer 4.0.21 4.0.36: Async event-driven framework for high performance network applications
 dev-java/netty-codec 4.0.36: Async event-driven framework for high performance network applications
 dev-java/netty-codec-http 4.0.36: Async event-driven framework for high performance network applications
@@ -4396,7 +4394,7 @@ dev-java/sax 2.2.1-r3 2.2.1-r4: SAX: Simple API for XML in Java
 dev-java/saxon 6.5.5-r2 9.2.0.6 9.2.0.6-r1: A XSLT and XQuery Processor
 dev-java/saxpath 1.0-r3: Java XPath API
 dev-java/sblim-cim-client 2.2.1 2.2.1-r1: A WBEM services client that includes an SLP client for CIM service discovery
-dev-java/sbt 0.13.8-r1 0.13.10_rc2 0.13.11 0.13.13: sbt is a build tool for Scala and Java projects that aims to do the basics well
+dev-java/sbt 0.13.11 0.13.13: sbt is a build tool for Scala and Java projects that aims to do the basics well
 dev-java/sbt-bin 0.12.4 0.13.6 0.13.7 0.13.8 0.13.9 0.13.15: sbt, a build tool for Scala
 dev-java/servletapi 2.2-r3 2.3-r3 2.4-r5: Servlet API 2.4 from jakarta.apache.org
 dev-java/shared-objects 1.4-r4: Core factory for maximal sharing of arbitrary objects
@@ -10493,7 +10491,7 @@ dev-util/monkeystudio 1.9.0.4-r2: A cross platform Qt 4 IDE
 dev-util/mpatch 0.8-r1: Patch-like tool for applying diffs which can resolve common causes of patch rejects
 dev-util/mutrace 0.2-r1: A mutex tracer/profiler
 dev-util/nemiver 0.9.6: A gtkmm front end to the GNU Debugger (gdb)
-dev-util/netbeans 8.0.2 8.1 8.2: Netbeans IDE
+dev-util/netbeans 8.2: Netbeans IDE
 dev-util/ninja 1.6.0 1.7.1 1.7.2 9999: A small build system similar to make
 dev-util/numdiff 5.9.0: File comparision, ignoring small numeric differences and formats
 dev-util/nvidia-cuda-sdk 6.5.19 7.5.18 8.0.44-r1 8.0.61: NVIDIA CUDA Software Development Kit
@@ -18060,9 +18058,9 @@ virtual/imagemagick-tools 0: Virtual for imagemagick command line tools
 virtual/imap-c-client 0 1 2: Virtual for IMAP c-client
 virtual/inetd 0: Virtual for the internet super-server daemon
 virtual/jack 0: Virtual for JACK Audio Connection Kit
-virtual/jdk 1.7.0-r2 1.8.0-r3: Virtual for Java Development Kit (JDK)
+virtual/jdk 1.8.0-r3: Virtual for Java Development Kit (JDK)
 virtual/jpeg 0-r2 62: A virtual for the libjpeg.so.62 ABI for binary-only programs
-virtual/jre 1.7.0-r2 1.8.0-r1: Virtual for Java Runtime Environment (JRE)
+virtual/jre 1.8.0-r1: Virtual for Java Runtime Environment (JRE)
 virtual/krb5 0 0-r1: Virtual for Kerberos V implementation
 virtual/lapack 3.0 3.1 3.6 3.7: Virtual for Linear Algebra Package FORTRAN 77 (LAPACK) implementation
 virtual/latex-base 1.0: Virtual for basic LaTeX binaries
