@@ -15662,6 +15662,7 @@ net-print/gutenprint 5.2.12: Ghostscript and cups printer drivers
 net-print/hplip 3.16.3 3.17.4 3.17.6 3.17.7: HP Linux Imaging and Printing - Print, scan, fax drivers and service tools
 net-print/hplip-plugin 3.16.3 3.17.4 3.17.6: Proprietary plugins and firmware for HPLIP
 net-print/ink 0.5.1 0.5.2: A command line utility to display the ink level of your printer
+net-print/kyocera-1x2x-mfp-driver 1.1203-r1: Printer descriptions (PPDs) and filters for Kyocera 1x2x MFP
 net-print/kyocera-mita-ppds 8.4: PPD description files for (some) Kyocera Mita Printers
 net-print/libgnomecups 0.2.3-r3 0.2.3-r5: GNOME cups library
 net-print/libinklevel 0.8.0-r1 0.9.0 0.9.1 0.9.2: A library to get the ink level of your printer
