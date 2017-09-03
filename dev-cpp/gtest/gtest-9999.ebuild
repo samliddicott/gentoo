@@ -20,7 +20,6 @@ DEPEND="test? ( ${PYTHON_DEPS} )"
 RDEPEND="!dev-cpp/gmock"
 
 PATCHES=(
-	"${FILESDIR}"/${P}-fix-py-tests.patch
 	"${FILESDIR}"/${P}-fix-gcc6-undefined-behavior.patch
 )
 
