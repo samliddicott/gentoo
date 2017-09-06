@@ -3,10 +3,9 @@ DEPEND=>=app-text/dictd-1.5.5
 DESCRIPTION=The Free On-line Dictionary of Computing for dict
 EAPI=0
 HOMEPAGE=http://www.dict.org/
-KEYWORDS=x86 ppc sparc amd64 ppc64
+KEYWORDS=amd64 ppc ppc64 ~sparc x86
 LICENSE=GPL-2
 RDEPEND=>=app-text/dictd-1.5.5
 SLOT=0
 SRC_URI=ftp://ftp.dict.org/pub/dict/pre/foldoc-20010313.tar.gz
-_eclass_exported_funcs=src_install:-
-_md5_=6610c5669d2157cc1f9306b7b02efe15
+_md5_=bac297f14403a08e6621229406ca5bc5

@@ -3,10 +3,9 @@ DEPEND=>=app-portage/elt-patches-20170422 !<sys-devel/gettext-0.18.1.1-r3 || ( >
 DESCRIPTION=Unicode library
 EAPI=3
 HOMEPAGE=https://www.gnome.org/
-KEYWORDS=alpha amd64 arm hppa ia64 ppc sparc x86
+KEYWORDS=alpha amd64 arm hppa ia64 ppc ~sparc x86
 LICENSE=GPL-2 LGPL-2
 SLOT=0
 SRC_URI=ftp://ftp.gnome.org/pub/GNOME/sources/libunicode/0.4/libunicode-0.4.gnome.tar.gz
-_eclass_exported_funcs=src_prepare:- src_install:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
-_md5_=639c69f962f1aae7b54137ce34ead51e
+_md5_=a0d559cd03c18b51de652ed8fd3419de
