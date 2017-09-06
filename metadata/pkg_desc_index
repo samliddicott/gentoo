@@ -12262,7 +12262,7 @@ kde-plasma/systemsettings 5.10.4 5.10.5: System settings utility
 kde-plasma/user-manager 5.10.4 5.10.5: Simple system settings module to manage the users of your system
 lxde-base/lxappearance 0.5.5 0.6.2 0.6.3: LXDE GTK+ theme switcher
 lxde-base/lxappearance-obconf 0.2.1 0.2.3: LXAppearance plugin for configuring OpenBox
-lxde-base/lxde-common 0.5.5-r3 0.99.1: LXDE Session default configuration files and nuoveXT2 iconset
+lxde-base/lxde-common 0.5.5-r3 0.99.1 0.99.2: LXDE Session default configuration files and nuoveXT2 iconset
 lxde-base/lxde-icon-theme 0.5.0 0.5.0-r1 0.5.1: nuoveXT2 iconset
 lxde-base/lxde-meta 0.5.5-r4 0.5.5-r5: Meta ebuild for LXDE, the Lightweight X11 Desktop Environment
 lxde-base/lxdm 0.4.1-r9 0.5.3 0.5.3-r1: LXDE Display Manager
