@@ -7899,6 +7899,7 @@ dev-python/kaa-display 0.1.0-r1: Python API providing Low level support for vari
 dev-python/kaa-imlib2 0.2.3-r2: Imlib2 wrapper for Python
 dev-python/kaa-metadata 0.7.7-r1: Powerful media metadata parser for media files in Python, successor of MMPython
 dev-python/kafka-python 1.1.1 1.2.0 1.2.1 1.3.3: Kafka protocol support in Python
+dev-python/kaptan 0.5.8: Configuration manager in your pocket
 dev-python/kazoo 2.2.1: A high-level Python library that makes it easier to use Apache Zookeeper
 dev-python/keepassx 0.1.0-r1: Python API and CLI for KeePassX
 dev-python/keyczar 0.715: Toolkit for safe and simple cryptography
@@ -7931,6 +7932,7 @@ dev-python/libnatpmp 20130911 20140401-r1 20150609: Python module for libnatpmp,
 dev-python/libpillowfight 0.2.1 0.2.2: Small library containing various image processing algorithms
 dev-python/librharris 0.1.14-r1: Python Internet Programming Library
 dev-python/librsvg-python 2.32.0-r1: Python bindings for the librsvg library
+dev-python/libtmux 0.7.1: Python api for tmux
 dev-python/libvirt-python 3.3.0 3.6.0 9999: libvirt Python bindings
 dev-python/libwnck-python 2.32.0-r1: Python bindings for the libwnck library
 dev-python/libzilla 1.3: Library for managing Bugzilla bug reports from the CLI
@@ -8857,6 +8859,7 @@ dev-python/tinycss2 0.5: A complete yet simple CSS parser for Python
 dev-python/tinydb 3.1.3: Tiny document-oriented database
 dev-python/tlslite 0.4.3-r2 0.4.9-r2: TLS Lite is a free python library that implements SSL 3.0 and TLS 1.0/1.1
 dev-python/tmdb3 0.6.17 0.7.2: TheMovieDB.org APIv3 interface
+dev-python/tmuxp 1.3.0: Tmux session manager built on libtmux
 dev-python/toolz 0.8.0 0.8.2: List processing tools and functional utilities
 dev-python/tooz 1.48.0 1.48.1 1.48.2 1.58.0: Library centralizing the most common distributed primitives
 dev-python/torment 3.0.1 3.0.2 3.0.3: A Study in Fixture Based Testing Frameworking
