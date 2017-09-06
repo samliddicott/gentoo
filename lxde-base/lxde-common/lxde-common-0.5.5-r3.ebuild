@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="4"
@@ -6,7 +6,7 @@ EAPI="4"
 inherit eutils autotools
 
 DESCRIPTION="LXDE Session default configuration files and nuoveXT2 iconset"
-HOMEPAGE="http://lxde.sf.net/"
+HOMEPAGE="https://wiki.lxde.org/en/LXDE_Common"
 SRC_URI="mirror://sourceforge/lxde/${P}.tar.gz"
 
 LICENSE="GPL-2"
