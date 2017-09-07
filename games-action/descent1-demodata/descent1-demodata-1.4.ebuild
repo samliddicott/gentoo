@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -8,7 +8,7 @@ MY_PV=${PV/./}
 DEMO="desc${MY_PV}sw.exe"
 
 DESCRIPTION="Demo data files for Descent 1"
-HOMEPAGE="http://en.wikipedia.org/wiki/Descent_%28computer_game%29"
+HOMEPAGE="https://en.wikipedia.org/wiki/Descent_%28computer_game%29"
 SRC_URI="http://icculus.org/d2x/data/${DEMO}
 	mirror://3dgamers/descent/${DEMO}
 	ftp://ftp.funet.fi/pub/msdos/games/interplay/${DEMO}"
