@@ -1,5 +1,6 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+
 EAPI=5
 inherit eutils versionator games
 
@@ -7,7 +8,7 @@ MY_PV=$(delete_all_version_separators)
 MY_PN="quake"
 
 DESCRIPTION="Demo data for Quake 1"
-HOMEPAGE="http://en.wikipedia.org/wiki/Quake_I"
+HOMEPAGE="https://en.wikipedia.org/wiki/Quake_I"
 SRC_URI="mirror://idsoftware/${MY_PN}/${MY_PN}${MY_PV}.zip"
 
 # See licinfo.txt
