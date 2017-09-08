@@ -1,0 +1,31 @@
+From 17975f4c7720fec119dff690e750c5e8402e3b1a Mon Sep 17 00:00:00 2001
+From: James Le Cuirot <chewi@aura-online.co.uk>
+Date: Fri, 8 Sep 2017 23:53:42 +0100
+Subject: [PATCH] Unpoison system because of glibc sysmacros.h change
+
+glibc 2.25 and above use an unquoted warning in sysmacros.h with
+the word "system" in it and this falls foul of Gluster's poison
+pragma. This currently affects Gentoo because it stopped
+implicitly including sysmacros.h via types.h ahead of time. It's
+pure luck that the current include order does not affect other
+distributions like Fedora.
+---
+ libglusterfs/src/compat.h | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/libglusterfs/src/compat.h b/libglusterfs/src/compat.h
+index 1d0ac27e83..a54fefd4b0 100644
+--- a/libglusterfs/src/compat.h
++++ b/libglusterfs/src/compat.h
+@@ -508,9 +508,9 @@ int gf_mkostemp (char *tmpl, int suffixlen, int flags);
+ 
+ #if defined(__GNUC__) && !defined(RELAX_POISONING)
+ /* Use run API, see run.h */
+-#include <stdlib.h> /* system(), mkostemp() */
++#include <stdlib.h> /* mkostemp() */
+ #include <stdio.h> /* popen() */
+-#pragma GCC poison system mkostemp popen
++#pragma GCC poison mkostemp popen
+ #endif
+ 
+ int gf_umount_lazy(char *xlname, char *path, int rmdir);
