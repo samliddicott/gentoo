@@ -6,14 +6,14 @@ EAPI=6
 inherit eutils qmake-utils systemd toolchain-funcs
 
 DESCRIPTION="IEEE 802.1X/WPA supplicant for secure wireless transfers"
-HOMEPAGE="https://hostap.epitest.fi/wpa_supplicant/"
+HOMEPAGE="https://w1.fi/wpa_supplicant/"
 if [[ ${PV} == *9999* ]]; then
 	EGIT_REPO_URI="git://w1.fi/srv/git/hostap.git"
 	EGIT_BRANCH="master"
 	inherit git-r3
 	KEYWORDS=""
 else
-	SRC_URI="https://hostap.epitest.fi/releases/${P}.tar.gz"
+	SRC_URI="https://w1.fi/releases/${P}.tar.gz"
 	KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd"
 fi
 
