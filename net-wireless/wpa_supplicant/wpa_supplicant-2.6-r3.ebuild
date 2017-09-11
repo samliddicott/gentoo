@@ -7,13 +7,20 @@ inherit eutils qmake-utils systemd toolchain-funcs
 
 DESCRIPTION="IEEE 802.1X/WPA supplicant for secure wireless transfers"
 HOMEPAGE="https://w1.fi/wpa_supplicant/"
-SRC_URI="https://w1.fi/releases/${P}.tar.gz"
-LICENSE="|| ( GPL-2 BSD )"
+if [[ ${PV} == *9999* ]]; then
+	EGIT_REPO_URI="git://w1.fi/srv/git/hostap.git"
+	EGIT_BRANCH="master"
+	inherit git-r3
+	KEYWORDS=""
+else
+	SRC_URI="https://w1.fi/releases/${P}.tar.gz"
+	KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd"
+fi
 
+LICENSE="|| ( GPL-2 BSD )"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~arm ~arm64 ~ia64 ~mips ~ppc ~ppc64 ~sparc x86 ~x86-fbsd"
 IUSE="ap dbus gnutls eap-sim fasteap +hs2-0 libressl p2p ps3 qt5 readline selinux smartcard ssl tdls uncommon-eap-types wimax wps kernel_linux kernel_FreeBSD"
-REQUIRED_USE="fasteap? ( !ssl ) smartcard? ( ssl )"
+REQUIRED_USE="smartcard? ( ssl )"
 
 CDEPEND="dbus? ( sys-apps/dbus )
 	kernel_linux? (
@@ -270,6 +277,15 @@ src_configure() {
 		Kconfig_style_config AP
 	fi
 
+	# Enable essentials for AP/P2P
+	if use ap || use p2p ; then
+		# Enabling HT support (802.11n)
+		Kconfig_style_config IEEE80211N
+
+		# Enabling VHT support (802.11ac)
+		Kconfig_style_config IEEE80211AC
+	fi
+
 	# Enable mitigation against certain attacks against TKIP
 	Kconfig_style_config DELAYED_MIC_ERROR_REPORT
 
@@ -310,9 +326,9 @@ src_install() {
 	# baselayout-1 compat
 	if has_version "<sys-apps/baselayout-2.0.0"; then
 		dodir /sbin
-		dosym /usr/sbin/wpa_supplicant /sbin/wpa_supplicant
+		dosym ../usr/sbin/wpa_supplicant /sbin/wpa_supplicant
 		dodir /bin
-		dosym /usr/bin/wpa_cli /bin/wpa_cli
+		dosym ../usr/bin/wpa_cli /bin/wpa_cli
 	fi
 
 	if has_version ">=sys-apps/openrc-0.5.0"; then
@@ -335,6 +351,7 @@ src_install() {
 		dobin wpa_gui-qt4/wpa_gui
 		doicon wpa_gui-qt4/icons/wpa_gui.svg
 		make_desktop_entry wpa_gui "WPA Supplicant Administration GUI" "wpa_gui" "Qt;Network;"
+		mv "${ED%/}"/usr/share/applications/wpa_gui{-wpa_supplicant,}.desktop || die
 	fi
 
 	use wimax && emake DESTDIR="${D}" -C ../src/eap_peer install
