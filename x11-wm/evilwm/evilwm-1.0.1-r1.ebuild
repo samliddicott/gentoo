@@ -1,7 +1,7 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=3
+EAPI=6
 inherit toolchain-funcs multilib
 
 DESCRIPTION="A minimalist, no frills window manager for X"
@@ -10,7 +10,7 @@ SRC_URI="http://www.6809.org.uk/evilwm/${P}.tar.gz"
 
 LICENSE="MIT 9wm"
 SLOT="0"
-KEYWORDS="alpha amd64 ppc sparc x86 ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~sparc64-solaris"
+KEYWORDS="~alpha ~amd64 ~ppc ~sparc ~x86 ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~sparc64-solaris"
 IUSE=""
 
 RDEPEND="x11-libs/libXext
@@ -21,6 +21,7 @@ DEPEND="${RDEPEND}
 	x11-proto/xproto"
 
 src_prepare() {
+	default
 	sed -i 's/^#define DEF_FONT.*/#define DEF_FONT "fixed"/' evilwm.h \
 		|| die "sed font failed"
 	sed -i -e '/^CFLAGS/s/ -Os/ /' \
@@ -28,18 +29,18 @@ src_prepare() {
 }
 
 src_compile() {
-	emake CC="$(tc-getCC)" prefix="\$(DESTDIR)/${EPREFIX}/usr" XROOT="${EPREFIX}/usr" LDPATH="-L${EPREFIX}/usr/$(get_libdir)" || die
+	emake CC="$(tc-getCC)" prefix="\$(DESTDIR)/${EPREFIX}/usr" XROOT="${EPREFIX}/usr" LDPATH="-L${EPREFIX}/usr/$(get_libdir)"
 }
 
 src_install () {
-	make DESTDIR="${D}" prefix="\$(DESTDIR)/${EPREFIX}/usr" install || die "make install failed"
+	emake DESTDIR="${D}" prefix="\$(DESTDIR)/${EPREFIX}/usr" install
 
-	dodoc ChangeLog README TODO || die "dodoc failed"
+	einstalldocs
 
-	echo -e "#!${EPREFIX}/bin/sh\nexec \"${EPREFIX}/usr/bin/${PN}\"" > "${T}/${PN}"
+	echo -e "#!${EPREFIX}/bin/sh\nexec \"${EPREFIX}/usr/bin/${PN}\"" > "${T}/${PN}" || die
 	exeinto /etc/X11/Sessions
-	doexe "${T}/${PN}" || die "/etc/X11/Sessions failed"
+	doexe "${T}/${PN}"
 
 	insinto /usr/share/xsessions
-	doins "${FILESDIR}/${PN}.desktop" || die "${PN}.desktop failed."
+	doins "${FILESDIR}/${PN}.desktop"
 }
