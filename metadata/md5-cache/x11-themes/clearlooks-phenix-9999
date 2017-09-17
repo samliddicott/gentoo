@@ -1,0 +1,10 @@
+DEFINED_PHASES=install postinst unpack
+DEPEND=>=dev-vcs/git-1.8.2.1
+DESCRIPTION=Clearlooks-Phenix is a GTK+ 3 port of Clearlooks, the default theme for GNOME 2
+EAPI=5
+HOMEPAGE=http://www.jpfleury.net/en/software/clearlooks-phenix.php
+LICENSE=GPL-3
+RDEPEND=x11-libs/gtk+:3 x11-themes/gtk-engines
+SLOT=live
+_eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
+_md5_=988f71ac5a6218b93e407afba3a5efa9
