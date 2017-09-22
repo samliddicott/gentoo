@@ -12786,7 +12786,7 @@ media-gfx/openexr_viewers 1.0.2 2.0.1 2.1.0 2.2.0: OpenEXR Viewers
 media-gfx/openmesh 4.1: A generic data structure to represent and manipulate polygonal meshes
 media-gfx/openscad 2015.03_p2-r1 2015.03_p2-r2 9999: The Programmers Solid 3D CAD Modeller
 media-gfx/opentoonz 1.1.2: An open-source full-featured 2D animation creation software
-media-gfx/openvdb 3.2.0 4.0.0: Libs for the efficient manipulation of volumetric data
+media-gfx/openvdb 3.2.0 4.0.0 4.0.2: Libs for the efficient manipulation of volumetric data
 media-gfx/optipng 0.7.6: Compress PNG files without affecting image quality
 media-gfx/panini 0.71.104: OpenGL-based panoramic image viewer
 media-gfx/pdf2svg 0.2.1 0.2.2: pdf2svg is based on poppler and cairo and can convert pdf to svg files
