@@ -1,7 +1,7 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
+EAPI="6"
 
 inherit eutils multilib pax-utils versionator toolchain-funcs
 
@@ -21,14 +21,15 @@ LICENSE="MIT"
 # this should probably be pkgmoved to 2.0 for sake of consistency.
 SLOT="2"
 KEYWORDS="amd64 arm ppc x86 ~amd64-linux ~x86-linux"
-IUSE="lua52compat"
+IUSE="lua52compat static-libs"
 
 S="${WORKDIR}/${MY_P}"
 
 src_prepare(){
 	if [[ -n ${HOTFIX} ]]; then
-		epatch "${DISTDIR}/${HOTFIX}"
+		eapply "${DISTDIR}/${HOTFIX}"
 	fi
+	eapply_user
 }
 
 _emake() {
@@ -42,6 +43,7 @@ _emake() {
 		DYNAMIC_CC="$(tc-getCC) -fPIC" \
 		TARGET_LD="$(tc-getCC)" \
 		TARGET_AR="$(tc-getAR) rcus" \
+		BUILDMODE="$(usex static-libs mixed dynamic)" \
 		TARGET_STRIP="true" \
 		INSTALL_LIB="${ED%/}/usr/$(get_libdir)" \
 		"$@"
