@@ -28,6 +28,9 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+# Marty E. Plummer <hanetzer@protonmail.com> (06 Oct 2017)
+# Masked for the sake of tinderbox testing per Soap
+=sys-libs/zlib-1.2.11-r2
 
 # Michał Górny <mgorny@gentoo.org> (05 Oct 2017)
 # (on behalf of QA)
