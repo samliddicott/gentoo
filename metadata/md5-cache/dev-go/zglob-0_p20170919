@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install test unpack
+DEPEND=>=dev-lang/go-1.8
+DESCRIPTION=Unix-optimized file globbing and directory walking for Go
+EAPI=6
+HOMEPAGE=https://github.com/mattn/go-zglob
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0/0_p20170919
+SRC_URI=https://github.com/mattn/go-zglob/archive/4ecb59231939b2e499b1f2fd8f075565977d2452.tar.gz -> zglob-0_p20170919.tar.gz
+_eclasses_=golang-base	51a1f13e065f1cff4507685d9cc268c7	golang-build	b66349c110e4ddd6203bbe8bf4ae05c1	golang-vcs-snapshot	913580335becddd3ebecefe852e47536
+_md5_=4cecf044a723cdb94a8ddaa5ebb9056f

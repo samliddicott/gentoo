@@ -3233,10 +3233,13 @@ dev-go/golint 0_pre20161114: a linter for Go
 dev-go/gom 0_pre20151110: Go Dependency management system similar to bundle for ruby
 dev-go/goptlib 0.5 0.6: Go Tor pluggable transports library
 dev-go/gox 0_pre20160725: A dead simple, no frills Go cross compile tool
+dev-go/qr 0_p20161121: Basic QR code library for Go
 dev-go/sanitized-anchor-name 0_pre20150822 0_pre20151027 9999: A Go function to provide sanitized anchor names
 dev-go/sarama 1.4.3 9999: Sarama is a Go library for Apache Kafka
 dev-go/siphash 1.0.0: Go implementation of SipHash-2.4
 dev-go/toml 0.2.0_p20160716 9999: TOML parser for Golang with reflection
+dev-go/twofactor 0_p20170917: Two-factor authentication library for Go
+dev-go/zglob 0_p20170919: Unix-optimized file globbing and directory walking for Go
 dev-haskell/abstract-deque 0.2.2 0.3: Abstract, parameterized interface to mutable Deques
 dev-haskell/abstract-deque-tests 0.3: A test-suite for any queue or double-ended queue satisfying an interface
 dev-haskell/abstract-par 0.3.3-r1: Type classes generalizing the functionality of the 'monad-par' library
@@ -18456,6 +18459,7 @@ www-misc/wsmake 0.6.4: Website Pre-processor
 www-misc/xxv 1.6.1-r1: WWW Admin for the VDR (Video Disk Recorder)
 www-misc/zoneminder 1.30.0 1.30.2 1.30.2-r1: Capture, analyse, record and monitor any cameras attached to your system
 www-plugins/adobe-flash 27.0.0.130-r1: Adobe Flash Player
+www-plugins/browserpass 2.0.2: WebExtension host binary for pass, a UNIX password manager.
 www-plugins/chrome-binary-plugins 61.0.3163.100 62.0.3202.38_beta 63.0.3223.8_alpha: Binary plugins from Google Chrome for use in Chromium
 www-plugins/freshplayerplugin 0.3.5-r2 0.3.5-r3 0.3.7: PPAPI-host NPAPI-plugin adapter for flashplayer in npapi based browsers
 www-plugins/gecko-mediaplayer 1.0.8 1.0.9: A browser plugin that uses GNOME MPlayer
