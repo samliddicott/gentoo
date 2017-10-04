@@ -1234,7 +1234,7 @@ app-emacs/rpm-spec-mode 0.15: Emacs mode to ease editing of RPM spec files
 app-emacs/ruby-mode 2.0.0_p247 2.2.2 2.3.0 2.4.1: Emacs major mode for editing Ruby code
 app-emacs/rudel 0.3_pre20110721-r1: Collaborative editing environment for GNU Emacs
 app-emacs/rust-mode 1_beta20150411: A major emacs mode for editing Rust source code
-app-emacs/s 1.11.0: The long lost Emacs string manipulation library
+app-emacs/s 1.11.0 1.12.0: The long lost Emacs string manipulation library
 app-emacs/scala-mode 2.10.3: Scala mode for Emacs
 app-emacs/scheme-complete 0.8.10 0.8.11: Scheme tab-completion and word-completion for Emacs
 app-emacs/scim-bridge-el 0.8.2: a SCIM-Bridge client for Emacs
