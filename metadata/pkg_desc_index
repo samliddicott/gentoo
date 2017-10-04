@@ -1157,7 +1157,7 @@ app-emacs/folding 2012.0226.1623 2013.0613.1821: A folding-editor-like Emacs min
 app-emacs/ghc-mod 5.4.0.0 5.5.0.0-r1 5.7.0.0: Happy Haskell Programming
 app-emacs/gnuplot-mode 0.7.0: Gnuplot mode for Emacs
 app-emacs/gnuserv 3.12.8-r2: Attach to an already running Emacs
-app-emacs/go-mode 1.4.0: An improved Go mode for emacs
+app-emacs/go-mode 1.4.0 1.5.0: An improved Go mode for emacs
 app-emacs/google-c-style 20091009-r1: Provides the google C/C++ coding style
 app-emacs/graphviz-dot-mode 0.3.7: Emacs mode for editing and previewing Graphviz dot graphs
 app-emacs/h4x0r 0.13-r1: Aid in writing like a script kiddie does
