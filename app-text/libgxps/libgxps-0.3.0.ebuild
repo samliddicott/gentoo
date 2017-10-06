@@ -3,14 +3,14 @@
 
 EAPI=6
 
-inherit gnome.org meson
+inherit gnome.org meson xdg-utils
 
 DESCRIPTION="Library for handling and rendering XPS documents"
 HOMEPAGE="https://wiki.gnome.org/Projects/libgxps"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~x86"
+KEYWORDS="alpha amd64 ~arm ~arm64 ia64 ppc ppc64 x86"
 IUSE="+introspection jpeg lcms tiff"
 
 RDEPEND="
@@ -45,5 +45,6 @@ src_configure() {
 		-Dwith-libtiff=$(usex tiff true false)
 	)
 
+	xdg_environment_reset
 	meson_src_configure
 }

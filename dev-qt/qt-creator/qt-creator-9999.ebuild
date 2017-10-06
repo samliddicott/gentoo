@@ -13,10 +13,7 @@ SLOT="0"
 
 if [[ ${PV} == *9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI=(
-		"git://code.qt.io/${PN}/${PN}.git"
-		"https://code.qt.io/git/${PN}/${PN}.git"
-	)
+	EGIT_REPO_URI="https://code.qt.io/${PN}/${PN}.git"
 else
 	MY_PV=${PV/_/-}
 	MY_P=${PN}-opensource-src-${MY_PV}
@@ -56,7 +53,7 @@ CDEPEND="
 	>=dev-qt/qtxml-${QT_PV}
 	clangcodemodel? ( >=sys-devel/clang-3.9:= )
 	designer? ( >=dev-qt/designer-${QT_PV} )
-	qbs? ( >=dev-util/qbs-1.8.1 )
+	qbs? ( >=dev-util/qbs-1.8.1-r1 )
 	systemd? ( sys-apps/systemd:= )
 	webengine? ( >=dev-qt/qtwebengine-${QT_PV}[widgets] )
 "
