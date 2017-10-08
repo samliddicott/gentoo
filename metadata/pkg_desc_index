@@ -10717,7 +10717,7 @@ dev-vcs/hub 2.2.9: Command-line wrapper for git that makes you better at GitHub
 dev-vcs/kdesvn 2.0.0: A frontend to the subversion vcs
 dev-vcs/mercurial 3.8.4 4.1.3 4.3 4.3.2 4.3.3 9999: Scalable distributed SCM
 dev-vcs/mercurial-server 1.2-r1 9999: Mercurial authentication and authorization tools
-dev-vcs/monotone 1.0-r4: Monotone Distributed Version Control System
+dev-vcs/monotone 1.0-r5: Monotone Distributed Version Control System
 dev-vcs/mr 1.20170129 1.99999999: Multiple Repository management tool
 dev-vcs/notify-webhook 0.1.0: Git post-receive web hook notifier in Python.
 dev-vcs/pwclient 20121105131501 20141110122616: command line utility for interacting with patchwork repos

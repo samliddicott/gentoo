@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare setup test
+DEPEND=sys-libs/zlib:0= >=dev-libs/libpcre-7.6 >=dev-libs/botan-1.8.0:0 >=dev-db/sqlite-3.3.8 >=dev-lang/lua-5.1:= net-dns/libidn >=dev-libs/boost-1.33.1 nls? ( >=sys-devel/gettext-0.11.5 ) doc? ( sys-apps/texinfo ) test? ( dev-tcltk/expect app-shells/bash-completion )
+DESCRIPTION=Monotone Distributed Version Control System
+EAPI=6
+HOMEPAGE=http://monotone.ca
+IUSE=doc ipv6 nls test
+KEYWORDS=amd64 ~ia64 x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/zlib:0= >=dev-libs/libpcre-7.6 >=dev-libs/botan-1.8.0:0 >=dev-db/sqlite-3.3.8 >=dev-lang/lua-5.1:= net-dns/libidn kernel_linux? ( virtual/tmpfiles )
+SLOT=1
+SRC_URI=http://monotone.ca/downloads/1.0/monotone-1.0.tar.bz2 http://dev.gentoo.org/~axs/distfiles/monotone-1.0-patches.tar.xz
+_eclasses_=bash-completion-r1	8e447753aaf658afa609fbf961d80ab7	elisp-common	23f47b2e1de7abf387105eddd1318738	multilib	97f470f374f2e94ccab04a2fb21d811e	tmpfiles	1e504fdcf4f24aeded1ce42600307f76	toolchain-funcs	185a06792159ca143528e7010368e8af	user	e4b567c44272a719fabf53f0f885d3f7
+_md5_=adf4ddbfa0e137eb3ad286b09655ba41
