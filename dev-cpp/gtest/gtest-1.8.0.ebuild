@@ -25,6 +25,7 @@ PATCHES=(
 	"${FILESDIR}"/${PN}-9999-fix-gcc6-undefined-behavior.patch
 	"${FILESDIR}"/${PN}-1.8.0-multilib-strict.patch
 	"${FILESDIR}"/${PN}-1.8.0-increase-clone-stack-size.patch
+	"${FILESDIR}"/${PN}-1.8.0-fix-odr-violation.patch
 )
 
 S="${WORKDIR}"/googletest-release-${PV}
@@ -47,7 +48,7 @@ multilib_src_configure() {
 		-Dgtest_build_tests=$(usex test)
 		-DPYTHON_EXECUTABLE="${PYTHON}"
 	)
-	cmake-utils_src_configure mycmakeargs
+	cmake-utils_src_configure
 }
 
 multilib_src_install_all() {
