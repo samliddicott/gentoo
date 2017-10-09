@@ -2022,6 +2022,7 @@ dev-libs/efl:fribidi - Enable bidirectional text support
 dev-libs/efl:gles - Enable the OpenGL ES GL implementation
 dev-libs/efl:glib - Enable dev-libs/glib support
 dev-libs/efl:harfbuzz - Enable complex text shaping and layout support
+dev-libs/efl:hyphen - Enable text hyphenation support
 dev-libs/efl:ibus - Enable Intelligent Input Bus
 dev-libs/efl:ico - Enable Ico image loader
 dev-libs/efl:oldlua - USE dev-lang/lua instead of dev-lang/luajit
@@ -2034,7 +2035,9 @@ dev-libs/efl:tga - Enable Tga image loader
 dev-libs/efl:tslib - Enable x11-libs/tslib for touchscreen events
 dev-libs/efl:unwind - Enable debug support via sys-libs/libunwind
 dev-libs/efl:valgrind - Enable usage of dev-util/valgrind in debug
+dev-libs/efl:vlc - Enable media-video/vlc support
 dev-libs/efl:webp - Enable WebP image loader
+dev-libs/efl:xcf - Enable XCF image loader
 dev-libs/efl:xim - Enable X Input Method
 dev-libs/elfutils:lzma - Support automatic decompression of LZMA-compressed files and kernel images
 dev-libs/elfutils:threads - Build the libraries with thread safe support
