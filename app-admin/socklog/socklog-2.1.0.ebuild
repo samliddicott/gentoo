@@ -1,7 +1,7 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="3"
+EAPI=6
 
 inherit eutils toolchain-funcs flag-o-matic
 
@@ -16,10 +16,12 @@ IUSE="static"
 
 RDEPEND=">=sys-process/runit-1.4.0"
 
+PATCHES=( "${FILESDIR}"/${PN}-2.1.0-headers.patch )
+
 S=${WORKDIR}/admin/${P}/src
 
 src_prepare() {
-	epatch "${FILESDIR}"/${PN}-2.1.0-headers.patch
+	default
 	use static && append-ldflags -static
 	echo "$(tc-getCC) ${CFLAGS} ${CPPFLAGS}" > conf-cc
 	echo "$(tc-getCC) ${CFLAGS} ${LDFLAGS}" > conf-ld
