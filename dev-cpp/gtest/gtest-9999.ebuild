@@ -14,7 +14,7 @@ EGIT_REPO_URI="https://github.com/google/googletest.git"
 
 LICENSE="BSD"
 SLOT="0"
-IUSE="examples test"
+IUSE="doc examples test"
 
 DEPEND="test? ( ${PYTHON_DEPS} )"
 RDEPEND="!dev-cpp/gmock"
@@ -47,6 +47,13 @@ multilib_src_configure() {
 
 multilib_src_install_all() {
 	einstalldocs
+
+	if use doc; then
+		docinto googletest
+		dodoc -r googletest/docs/*
+		docinto googlemock
+		dodoc -r googlemock/docs/*
+	fi
 
 	if use examples; then
 		docinto examples
