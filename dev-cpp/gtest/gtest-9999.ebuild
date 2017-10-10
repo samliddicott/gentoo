@@ -14,14 +14,15 @@ EGIT_REPO_URI="https://github.com/google/googletest.git"
 
 LICENSE="BSD"
 SLOT="0"
-IUSE="examples test"
+IUSE="doc examples test"
 
 DEPEND="test? ( ${PYTHON_DEPS} )"
 RDEPEND="!dev-cpp/gmock"
 
 PATCHES=(
-	"${FILESDIR}"/${P}-fix-py-tests.patch
-	"${FILESDIR}"/${P}-fix-gcc6-undefined-behavior.patch
+	"${FILESDIR}"/${PN}-9999-fix-gcc6-undefined-behavior.patch
+	"${FILESDIR}"/${PN}-1.8.0-increase-clone-stack-size.patch
+	"${FILESDIR}"/${PN}-1.8.0-fix-odr-violation.patch
 )
 
 pkg_setup() {
@@ -32,15 +33,9 @@ multilib_src_configure() {
 	local mycmakeargs=(
 		-DBUILD_GMOCK=ON
 		-DBUILD_GTEST=ON
-		-DINSTALL_GMOCK=ON
-		-DINSTALL_GTEST=ON
 		-Dgtest_build_samples=OFF
 		-Dgtest_disable_pthreads=OFF
-
-		# currently only static libs work
-		# due to numerous ODR violations
-		# https://github.com/google/googletest/issues/930
-		-DBUILD_SHARED_LIBS=OFF
+		-DBUILD_SHARED_LIBS=ON
 
 		# tests
 		-Dgmock_build_tests=$(usex test)
@@ -52,6 +47,13 @@ multilib_src_configure() {
 
 multilib_src_install_all() {
 	einstalldocs
+
+	if use doc; then
+		docinto googletest
+		dodoc -r googletest/docs/*
+		docinto googlemock
+		dodoc -r googlemock/docs/*
+	fi
 
 	if use examples; then
 		docinto examples
