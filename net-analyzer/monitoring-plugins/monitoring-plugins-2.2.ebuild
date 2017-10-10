@@ -51,6 +51,8 @@ RDEPEND="${DEPEND}
 # At least one test is interactive.
 RESTRICT="test"
 
+PATCHES=( "${FILESDIR}/${PN}-mariadb-include-fix.patch" )
+
 src_configure() {
 	append-flags -fno-strict-aliasing
 
