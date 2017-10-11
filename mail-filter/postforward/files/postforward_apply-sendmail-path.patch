@@ -1,0 +1,21 @@
+--- a/postforward-1.0.1/postforward.go	2017-09-04 11:47:10.000000000 -0400
++++ b/postforward-1.0.1/postforward.go	2017-10-10 14:13:00.190288645 -0400
+@@ -23,17 +23,17 @@
+ 	// really an error.  In sendmail, this means that a
+ 	// mailer (e.g.) could not create a connection, and
+ 	// the request should be reattempted later.
+ 	ExTempFail = 75
+ )
+ 
+ var srsAddr = flag.String("srs-addr", "localhost:10001", "TCP address for SRS lookups")
+ var rpHeader = flag.String("rp-header", "Return-Path", "header name containing the return-path (MAIL FROM) value")
+-var sendmailPath = flag.String("sendmail-path", "sendmail", "path to the sendmail binary")
++var sendmailPath = flag.String("sendmail-path", "@GENTOO_PORTAGE_EPREFIX@/usr/sbin/sendmail", "path to the sendmail binary")
+ var dryRun = flag.Bool("dry-run", false, "show what would be done, don't actually forward mail")
+ 
+ // lookupTCP performs a TCP table lookup for the specified key against the
+ // given address.
+ func lookupTCP(addr, key string) (string, error) {
+ 	c, err := textproto.Dial("tcp", addr)
+ 	if err != nil {
+ 		return "", err
