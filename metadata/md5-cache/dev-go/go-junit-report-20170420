@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install test unpack
+DEPEND=>=dev-lang/go-1.8
+DESCRIPTION=Converts go test output to an xml report
+EAPI=5
+HOMEPAGE=https://github.com/jstemmer/go-junit-report
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/jstemmer/go-junit-report/archive/dd4990585ef80cedeb52eaadb2ce8dd71f9bdc37.tar.gz -> go-junit-report-20170420.tar.gz
+_eclasses_=golang-base	51a1f13e065f1cff4507685d9cc268c7	golang-build	b66349c110e4ddd6203bbe8bf4ae05c1	golang-vcs-snapshot	913580335becddd3ebecefe852e47536
+_md5_=7517bbd6f7a5f81f3b011a8e587c25c4

@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install test unpack
+DEPEND=>=dev-lang/go-1.8
+DESCRIPTION=adds stacktrace support to errors in go
+EAPI=5
+HOMEPAGE=https://github.com/go-errors/errors
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/go-errors/errors/archive/8fa88b06e5974e97fbf9899a7f86a344bfd1f105.tar.gz -> errors-20161206.tar.gz
+_eclasses_=golang-base	51a1f13e065f1cff4507685d9cc268c7	golang-build	b66349c110e4ddd6203bbe8bf4ae05c1	golang-vcs-snapshot	913580335becddd3ebecefe852e47536
+_md5_=736b3ffea6d86c3c08029b2630350f57

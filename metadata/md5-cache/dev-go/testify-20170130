@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install test unpack
+DEPEND=>=dev-lang/go-1.8
+DESCRIPTION=go require package
+EAPI=5
+HOMEPAGE=https://github.com/stretchr/testify
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/stretchr/testify/archive/4d4bfba8f1d1027c4fdbe371823030df51419987.tar.gz -> testify-20170130.tar.gz
+_eclasses_=golang-base	51a1f13e065f1cff4507685d9cc268c7	golang-build	b66349c110e4ddd6203bbe8bf4ae05c1	golang-vcs-snapshot	913580335becddd3ebecefe852e47536
+_md5_=916e939f342c8eb7fdd3d8a111b30320
